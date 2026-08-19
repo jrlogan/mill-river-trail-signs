@@ -14,8 +14,8 @@
 # `sign_param` and the link arrives with the sign already filled in, so replying
 # is one box and a Send.
 feedback:
-  url: ""
-  sign_param: ""
+  url: "https://docs.google.com/forms/d/e/1FAIpQLSe7X9m2bXOm1vkLoDxQoeYA0rxBpqUDziuBawRtiG1O5zp9sQ/viewform"
+  sign_param: "entry.75460002"
   prompt:
     en: >-
       Know something about this place? A photograph, a family story, a
