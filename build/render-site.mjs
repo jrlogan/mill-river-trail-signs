@@ -25,20 +25,40 @@ const esc = (s = '') =>
 
 // The body copy only uses "## heading" and blank-line-separated paragraphs, so
 // a full Markdown dependency would be more machinery than the job needs.
-function md(src = '') {
-  return src
-    .trim()
-    .split(/\n\s*\n/)
-    .map((block) => {
-      const b = block.trim();
-      if (b.startsWith('## ')) {
-        const t = b.slice(3).trim();
-        const id = t.toLowerCase().replace(/[^\p{L}\p{N}]+/gu, '-').replace(/^-|-$/g, '');
-        return `<h2 id="${esc(id)}">${esc(t)}</h2>`;
-      }
-      return `<p>${esc(b.replace(/\s*\n\s*/g, ' '))}</p>`;
-    })
-    .join('\n');
+// Inline formatting. Escaping happens first, so this only ever sees safe text.
+const inline = (t) =>
+  esc(t)
+    .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+    .replace(/(^|[\s(])\*([^*]+)\*/g, '$1<em>$2</em>');
+
+// Renders the article, dropping one figure in ahead of each section heading
+// after the first. Pictures belong beside the passage they illustrate, not
+// stacked in a gallery at the bottom where nobody scrolls.
+function md(src = '', figures = []) {
+  const queue = [...figures];
+  let seenHeading = false;
+  const out = [];
+
+  for (const block of src.trim().split(/\n\s*\n/)) {
+    const b = block.trim();
+    if (b.startsWith('## ')) {
+      const t = b.slice(3).trim();
+      const id = t.toLowerCase().replace(/[^\p{L}\p{N}]+/gu, '-').replace(/^-|-$/g, '');
+      if (seenHeading && queue.length) out.push(queue.shift());
+      seenHeading = true;
+      out.push(`<h2 id="${esc(id)}">${esc(t)}</h2>`);
+      continue;
+    }
+    if (b.startsWith('> ')) {
+      out.push(`<blockquote><p>${inline(b.replace(/^>\s?/gm, '').replace(/\s*\n\s*/g, ' '))}</p></blockquote>`);
+      continue;
+    }
+    out.push(`<p>${inline(b.replace(/\s*\n\s*/g, ' '))}</p>`);
+  }
+
+  // Anything left over follows the article rather than being dropped.
+  out.push(...queue);
+  return out.join('\n');
 }
 
 const T = {
@@ -239,15 +259,25 @@ footer a { color: var(--blue); font-weight: 600; }
 function page({ lang, sign, otherHref }) {
   const t = T[lang];
   const w = sign.web;
-  const hero = w.gallery?.[0];
   const imgDir = `../images/${sign.id.replace(/^sign-(\d+).*/, 'sign-$1')}`;
   const webFile = (f) => f.replace(/\.[^.]+$/, '.jpg');
 
-  const gallery = (w.gallery || []).slice(1).map((g) => `
+  // The pictures printed on the sign come first — a reader on a phone can study
+  // them far more closely than they can the sign — then any web-only extras.
+  // Anything still awaiting artwork is skipped.
+  const seen = new Set();
+  const figures = [...(sign.sign.images || []), ...(w.gallery || [])]
+    .filter((im) => im.file && !/^TODO-/.test(im.file))
+    .filter((im) => (seen.has(im.file) ? false : seen.add(im.file)))
+    .map((im) => ({ file: webFile(im.file), caption: im.caption[lang] }));
+
+  const hero = figures.shift();
+
+  const figureHTML = (f) => `
       <figure>
-        <img src="${imgDir}/${encodeURIComponent(webFile(g.file))}" alt="${esc(g.caption[lang])}" loading="lazy">
-        <figcaption>${esc(g.caption[lang])}</figcaption>
-      </figure>`).join('');
+        <img src="${imgDir}/${encodeURIComponent(f.file)}" alt="${esc(f.caption)}" loading="lazy">
+        <figcaption>${esc(f.caption)}</figcaption>
+      </figure>`;
 
   const sources = (w.sources || []).map((s) =>
     `<li><a href="${esc(s.url)}" rel="noopener">${esc(s.title)}</a></li>`).join('\n        ');
@@ -265,7 +295,7 @@ function page({ lang, sign, otherHref }) {
 <meta property="og:title" content="${esc(sign.title[lang])}">
 <meta property="og:description" content="${esc(w.subtitle[lang])}">
 <meta property="og:locale" content="${lang === 'en' ? 'en_US' : 'es_US'}">
-${hero ? `<meta property="og:image" content="${imgDir}/${encodeURIComponent(webFile(hero.file))}">` : ''}
+${hero ? `<meta property="og:image" content="${imgDir}/${encodeURIComponent(hero.file)}">` : ''}
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="../style.css">
@@ -287,13 +317,11 @@ ${hero ? `<meta property="og:image" content="${imgDir}/${encodeURIComponent(webF
 <main>
   <div class="wrap">
     ${hero ? `<figure style="margin-top:0">
-      <img src="${imgDir}/${encodeURIComponent(webFile(hero.file))}" alt="${esc(hero.caption[lang])}">
-      <figcaption>${esc(hero.caption[lang])}</figcaption>
+      <img src="${imgDir}/${encodeURIComponent(hero.file)}" alt="${esc(hero.caption)}">
+      <figcaption>${esc(hero.caption)}</figcaption>
     </figure>` : ''}
 
-    ${md(w.body[lang])}
-
-    ${gallery}
+    ${md(w.body[lang], figures.map(figureHTML))}
 
     <div class="info">
       <h3>${esc(t.locationHead)}</h3>
@@ -512,8 +540,17 @@ for (const sign of signs) {
   const src = path.join(ROOT, 'assets', 'web', sub);
   const dst = path.join(OUT, 'images', sub);
   await fs.mkdir(dst, { recursive: true });
-  for (const g of sign.web.gallery || []) {
-    const f = g.file.replace(/\.[^.]+$/, '.jpg');
+  // Everything a page can reference: the sign's own pictures and any web-only
+  // extras. Artwork still to be sourced is skipped rather than warned about.
+  const referenced = [
+    ...(sign.sign.images || []).map((i) => i.file),
+    ...(sign.web.gallery || []).map((g) => g.file),
+  ]
+    .filter((f) => f && !/^TODO-/.test(f))
+    .map((f) => f.replace(/\.[^.]+$/, '.jpg'))
+    .filter((f, i, a) => a.indexOf(f) === i);
+
+  for (const f of referenced) {
     try {
       await fs.copyFile(path.join(src, f), path.join(dst, f));
     } catch {

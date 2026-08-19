@@ -30,7 +30,7 @@ const QUALITY = 82;
 
 const stat = async (p) => { try { return await fs.stat(p); } catch { return null; } };
 
-let made = 0, skipped = 0, missing = 0;
+let made = 0, skipped = 0, missing = 0, pending = 0;
 
 const dir = path.join(ROOT, 'content');
 for (const f of (await fs.readdir(dir)).filter((f) => f.endsWith('.yml') && !f.startsWith('_')).sort()) {
@@ -40,7 +40,15 @@ for (const f of (await fs.readdir(dir)).filter((f) => f.endsWith('.yml') && !f.s
   const dst = path.join(ROOT, 'assets', 'web', sub);
   await fs.mkdir(dst, { recursive: true });
 
-  for (const g of sign.web.gallery || []) {
+  // Both the pictures printed on the sign and any extra web-only ones. The
+  // sign's own images are the most relevant thing a page can show, and a reader
+  // on a phone can look at them far more closely than at the sign itself.
+  const wanted = [
+    ...(sign.sign.images || []).map((i) => i.file),
+    ...(sign.web.gallery || []).map((g) => g.file),
+  ].filter((f, i, a) => a.indexOf(f) === i);
+
+  for (const g of wanted.map((file) => ({ file }))) {
     const from = path.join(src, g.file);
     // Everything on the web is served as .jpg, whatever the master was.
     const to = path.join(dst, g.file.replace(/\.[^.]+$/, '.jpg'));
@@ -50,6 +58,8 @@ for (const f of (await fs.readdir(dir)).filter((f) => f.endsWith('.yml') && !f.s
 
     if (!a) {
       if (b) { skipped++; continue; }           // master gone, derivative already committed
+      // Artwork that has not been sourced yet is expected, not an error.
+      if (/^TODO-/.test(path.basename(g.file))) { pending++; continue; }
       console.warn(`  ⚠ ${sub}/${g.file}: no master and no web copy`);
       missing++;
       continue;
@@ -69,5 +79,6 @@ for (const f of (await fs.readdir(dir)).filter((f) => f.endsWith('.yml') && !f.s
   }
 }
 
-console.log(`\n${made} written, ${skipped} up to date${missing ? `, ${missing} missing` : ''}.`);
+console.log(`\n${made} written, ${skipped} up to date` +
+  `${pending ? `, ${pending} awaiting artwork` : ''}${missing ? `, ${missing} missing` : ''}.`);
 if (missing) process.exitCode = 1;
