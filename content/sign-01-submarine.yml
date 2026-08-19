@@ -1,0 +1,425 @@
+# ---------------------------------------------------------------------------
+# Mill River Trail — Sign 1: The Stolen Submarine
+#
+# This file is the single source of truth. The print artwork (36x24" PDF) and
+# the English + Spanish web pages are both generated from it. Edit here, run
+# `npm run all`, and both outputs update together so they can never drift.
+# ---------------------------------------------------------------------------
+
+id: sign-01-submarine
+number: 1
+status: proof            # draft | proof | approved | printed
+
+location:
+  name: Fenian Ram
+  place: Along the District, off Humphrey Street (visible from the Stack)
+  lat: 41.3152393
+  lon: -72.9065479
+
+# Printed on the sign under the QR codes. See docs/DECISIONS.md — these must be
+# live before the sign goes to the fabricator.
+urls:
+  en: signs.MillRiverTrail.com/submarine
+  es: signs.MillRiverTrail.com/submarino
+  en_full: https://signs.millrivertrail.com/submarine
+  es_full: https://signs.millrivertrail.com/submarino
+
+title:
+  en: Famous Stolen Submarine
+  es: Famoso Submarino Robado
+
+# ---------------------------------------------------------------------------
+# PRINT SIGN COPY
+# Kept tight to fit the designer's layout. Word counts are checked at build
+# time; the renderer warns if a block will overflow its box.
+# ---------------------------------------------------------------------------
+sign:
+
+  # Opening paragraph, top of each language column.
+  #
+  # CORRECTION vs. the 9/4/22 comp, which read:
+  #   "In 1875 Irishman John Philip Holland designed submarines for the US
+  #    Navy, launching Fenian Ram in 1875."
+  # Three problems: the Fenian Ram launched in 1881, not 1875 (1875 is when
+  # Holland began designing); it was funded by the Fenian Brotherhood, not the
+  # US Navy; and "was intended it to be" was ungrammatical.
+  lede:
+    en: >-
+      In 1875 Irishman John Philip Holland began designing submarines in New
+      Jersey. In 1881 he launched the Fenian Ram, built by Delamater Iron Works
+      in New York City and paid for by the Fenian Skirmishing Fund, an
+      organization working to free Ireland from British rule. Its 11-foot gun
+      fired torpedoes at underwater targets, and its backers meant it to be the
+      first of a fleet to fight the British navy.
+    es: >-
+      En 1875 el irlandés John Philip Holland comenzó a diseñar submarinos en
+      Nueva Jersey. En 1881 botó el Fenian Ram, construido por la Delamater Iron
+      Works de Nueva York y financiado por el Fenian Skirmishing Fund, una
+      organización que buscaba liberar a Irlanda del dominio británico. Su cañón
+      de 11 pies disparaba torpedos a objetivos submarinos, y sus financiadores
+      querían que fuera el primero de una flota para combatir a la armada
+      británica.
+
+  section:
+    # CORRECTION: the comp's Spanish heading read "Submarino del John Holland".
+    # "del" before a personal name is ungrammatical in Spanish.
+    heading:
+      en: John Holland's Submarine
+      es: El submarino de John Holland
+    body:
+      en: >-
+        The Fenian Ram was seized in November 1883 by its Fenian backers and
+        brought to New Haven, where they could not get it to run. It was towed
+        up the Mill River and hidden in a wood shed at James Reynolds' brass
+        mill, where it sat collecting dust for 33 years. In 1916 it was hauled
+        onto a wagon and driven through New Haven on its way to Madison Square
+        Garden in New York City. It is on display today at the Paterson Museum
+        in New Jersey.
+      # CORRECTIONS vs. the draft translation in Trail Sign #1 - Submarine.docx:
+      #   "el viejo carnero feniano"  -> the proper noun Fenian Ram had been
+      #      machine-translated into "carnero" (a male sheep). Kept as-is now.
+      #   "el fondo financiero de Holanda" -> Holland the surname had been
+      #      translated into Holanda, the country.
+      es: >-
+        El Fenian Ram fue confiscado en noviembre de 1883 por sus financiadores
+        fenianos y llevado a New Haven, donde no lograron hacerlo funcionar. Fue
+        remolcado río Mill arriba y escondido en un cobertizo de madera de la
+        fábrica de latón de James Reynolds, donde quedó acumulando polvo durante
+        33 años. En 1916 lo subieron a un vagón y lo trasladaron a través de New
+        Haven rumbo al Madison Square Garden de Nueva York. Hoy se exhibe en el
+        Museo Paterson, en Nueva Jersey.
+
+  # ---------------------------------------------------------------------------
+  # IMAGES. `file` is relative to assets/images/sign-01/.
+  # ---------------------------------------------------------------------------
+  images:
+    - key: holland_portrait
+      file: JohnPhilipHolland-AI-enhanced.jpg
+      slot: center_top
+      focus: 50% 18%          # keep his head in frame when the slot crops
+      caption:
+        en: >-
+          John Philip Holland (b. 1841) emigrated from Ireland to the United
+          States at 32 and eventually designed the first Navy submarine.
+        es: >-
+          John Philip Holland (n. 1841) emigró de Irlanda a Estados Unidos a los
+          32 años y con el tiempo diseñó el primer submarino de la Marina.
+
+    - key: paterson_museum
+      # NOTE: the comp used an interior shot of the sub on its teal cradle that
+      # was not in the handoff folder. Ask Design Monsters for the original, or
+      # keep this one. Both carry the same caption.
+      file: FenianRam(1980-06-14)SubmarineForceMuseum.jpg
+      slot: left_bottom
+      focus: 50% 50%
+      # RESTORED: this caption box read "Spanish version to come." on the comp.
+      caption:
+        en: >-
+          The submarine is on permanent display at the Paterson Museum in
+          Paterson, New Jersey.
+        es: >-
+          El submarino está en exhibición permanente en el Museo Paterson, en
+          Paterson, Nueva Jersey.
+
+    - key: transport_1916
+      file: Sub-Transport-enhanced.jpg
+      slot: center_bottom
+      # RESTORED: this caption box also read "Spanish version to come."
+      # CORRECTION: the draft translation rendered "Madison Square Garden" as
+      # "el jardín de Madison Square" — a literal translation of a proper noun.
+      caption:
+        en: >-
+          In 1916 it was driven through New Haven to be displayed at Madison
+          Square Garden, New York City.
+        es: >-
+          En 1916 lo trasladaron a través de New Haven para exhibirlo en el
+          Madison Square Garden de Nueva York.
+
+    - key: diagram
+      file: FenianRam-HollandJohn(1880)SubmarineForceMuseum.jpg
+      slot: right_bottom
+      caption:
+        en: Diagram showing internals of the submarine
+        es: Diagrama del interior del submarino
+
+  # ---------------------------------------------------------------------------
+  # SIDE PANEL — locator map, species, river fact
+  # ---------------------------------------------------------------------------
+  panel:
+    # The placeholder map art still has the logo and marker baked in.
+    # Set false once real per-location map artwork exists.
+    map: panel-map.svg
+
+    you_are_here:
+      en: You Are Here
+      es: Usted está aquí
+
+    species:
+      - file: noun-black-capped-chickadee-color.svg
+        label:
+          en: Black-capped Chickadee
+          es: Carbonero de capucha negra
+      - file: Sumac-color.svg
+        label:
+          en: Sumac
+          es: Zumaque
+      - file: noun-yellow-rumped-warber-color.svg
+        label:
+          en: Yellow-rumped Warbler
+          es: Reinita coronada
+
+    river_fact:
+      label:
+        en: River Fact
+        es: Hecho del Río
+      # CORRECTION: the draft left the bird names in English inside quotation
+      # marks ("chickadees, waxwings y warblers"). Replaced with their actual
+      # Spanish common names.
+      text:
+        en: >-
+          Sumac's red flower is used as a spice, as a dye, and in medicine.
+          Chickadees, waxwings, and warblers eat sumac berries in the late
+          winter.
+        es: >-
+          La flor roja del zumaque se usa como especia, como colorante y en la
+          medicina. Los carboneros, ampelis y reinitas comen sus frutos a
+          finales del invierno.
+
+  # ---------------------------------------------------------------------------
+  # DEDICATION + CREDITS (bottom bar)
+  # ---------------------------------------------------------------------------
+  dedication:
+    # CORRECTION: the comp read "Tom Halahan" in both languages, while the
+    # credit line on the same sign read "Susan B. Holahan". The correct spelling
+    # is HOLAHAN — Alder Tom Holahan, who championed the trail and died in 2007.
+    # The Community Foundation endowment is the "Tom Holahan Fund for the Mill
+    # River Trail".
+    #
+    # CORRECTION: the comp's Spanish read "En honor al blazer de trail Tom
+    # Halahan" — "trail blazer" word-for-word with the English left in place.
+    en: In honor of trail blazer Tom Holahan
+    es: En honor al pionero del sendero Tom Holahan
+
+  credits:
+    label:
+      en: Made Possible by
+      es: Hecho posible por
+    # VERIFY BEFORE PRINT: the comp reads "Doug Houslauden". New Haven's
+    # transportation director is Doug Hausladen — confirm the intended spelling
+    # with the donor list.
+    funders: >-
+      Mill River Watershed Association, Sustainable CT, Susan B. Holahan and
+      Family, City of New Haven, District New Haven, Bear's BBQ, Community
+      Foundation for Greater New Haven, Chatham Square Neighborhood Association,
+      Industrial Flow Solutions, Doug Hausladen, and other individual donors.
+    produced_label:
+      en: Produced by
+      es: Producido por
+    produced: >-
+      Colin M. Caplan, Design Monsters, Joe Kolodej, Nick McGhee, and J.R. Logan.
+
+  learn_more:
+    # CORRECTION: the comp read "Mas en Linea" without accents. Correct Spanish
+    # is "Más en línea".
+    en: Learn More
+    es: Más en línea
+
+# ---------------------------------------------------------------------------
+# WEB PAGE — the "learn more" destination behind the QR codes.
+# Body is Markdown. Headings become anchors.
+# ---------------------------------------------------------------------------
+web:
+  subtitle:
+    en: How a stolen Irish-American submarine spent 33 years in a shed on the Mill River
+    es: Cómo un submarino irlandés-estadounidense robado pasó 33 años en un cobertizo del río Mill
+
+  body:
+    en: |
+      In the late 19th century New Haven became an unlikely home for a
+      revolutionary submarine prototype — a story that ties the city's
+      industrial capacity to Irish-American political activism.
+
+      ## An Irish schoolteacher turned inventor
+
+      John Philip Holland was born in County Clare, Ireland, in 1841 and began
+      his working life as a schoolteacher. He emigrated to Boston in 1872, moved
+      to Paterson, New Jersey, and by 1875 was designing submarines. The US Navy
+      had already dismissed his plans as impractical — "a fantastic scheme of a
+      civilian landsman."
+
+      The Fenian Brotherhood, the American counterpart to the Irish Republican
+      Brotherhood, saw the possibilities the Navy did not. After Holland
+      successfully tested a 33-inch model at Coney Island, the Brotherhood's
+      Skirmishing Fund put up $4,000 for a full-sized boat, then $20,000 for a
+      second and much larger one.
+
+      ## The Fenian Ram
+
+      Launched in 1881 from the Delamater Iron Company in New York, Holland Boat
+      No. II was christened the "Fenian Ram" by a reporter at the New York Sun.
+      She was 31 feet long, six feet across, and weighed 19 tons. A three-man
+      crew ran her: a pilot working two upright levers like joysticks, an
+      engineer minding the valves and ballast, and a gunner operating an
+      eleven-foot pneumatic gun that ran through the center of the forward air
+      reservoir.
+
+      With the single exception of the periscope, which had not yet been
+      invented, the Fenian Ram contained all the principal engineering ideas of
+      the modern submarine. She dove in excess of 45 feet and successfully
+      test-fired dummy projectiles supplied by the designer of the Monitor.
+      Navigating blind, however, was perilous — in June 1882 she struck a
+      Weehawken ferryboat and sank. Nobody was hurt, and she was raised within
+      the week.
+
+      ## Stolen
+
+      In November 1883 a dispute over money erupted between Holland and the
+      Brotherhood. Fearing that pending lawsuits would tie up Fenian property, a
+      group of Fenians used a forged pass carrying Holland's own signature to
+      enter the dock, and towed the Ram and a 16-foot model out of New York
+      Harbor. The smaller boat sank in choppy water on the way. The Ram made it
+      to New Haven.
+
+      There the thieves discovered they had no idea how to operate her. Holland
+      refused to help. Attempts to run her in New Haven Harbor went so badly
+      that the harbor master declared the boat a menace to navigation and
+      forbade further trials.
+
+      ## Thirty-three years in a shed
+
+      Unable to use or sell the submarine, the Brotherhood had her hauled ashore
+      and put in a lumber shed on the Mill River, said to have been at 99 Mill
+      River Street — across the water from where you are standing. Her 15
+      horsepower Brayton oil engine was pulled out and set to work driving a
+      forge in James Reynolds' brass foundry. The empty steel shell sat there
+      gathering dust, the curiosity of the whole neighborhood, from 1883 until
+      1916.
+
+      ## Out of the shed
+
+      In 1916 the Fenian Ram was hauled onto a wagon and driven through the
+      streets of New Haven — photographs survive of her passing down Olive
+      Street — on her way to Madison Square Garden, where she was exhibited to
+      raise money for victims of the Easter Rising. She went next to the New
+      York State Marine School. In 1927 Edward Browne bought her and moved her
+      to Paterson, Holland's adopted home, where she remains on display at the
+      Paterson Museum.
+
+      Holland went on to win US Navy design competitions in 1888 and 1893. He
+      died in 1914. Within forty days of his death a single submarine off the
+      Dutch coast sank three British cruisers and killed more than 1,400 men.
+      The New York Times noted that "although he was interested in submarines,
+      Mr. Holland was opposed to war, and his idea of submarines was to
+      incapacitate warships and not to destroy them and kill the men on them."
+      In his 1907 sketches he had drawn a 40-passenger submarine with large
+      circular viewing ports, meant "for amusement at seaside resorts."
+
+    es: |
+      A finales del siglo XIX, New Haven se convirtió en el hogar improbable de
+      un prototipo de submarino revolucionario, una historia que une la
+      capacidad industrial de la ciudad con el activismo político
+      irlandés-estadounidense.
+
+      ## Un maestro irlandés convertido en inventor
+
+      John Philip Holland nació en el condado de Clare, Irlanda, en 1841 y
+      comenzó su vida laboral como maestro de escuela. Emigró a Boston en 1872,
+      se mudó a Paterson, Nueva Jersey, y para 1875 ya diseñaba submarinos. La
+      Marina de Estados Unidos ya había descartado sus planes por poco
+      prácticos: "el proyecto fantasioso de un civil de tierra firme".
+
+      La Hermandad Feniana, la contraparte estadounidense de la Hermandad
+      Republicana Irlandesa, vio las posibilidades que la Marina no vio. Después
+      de que Holland probara con éxito un modelo de 33 pulgadas en Coney Island,
+      el Skirmishing Fund de la Hermandad aportó 4.000 dólares para una
+      embarcación de tamaño completo y luego 20.000 para una segunda mucho más
+      grande.
+
+      ## El Fenian Ram
+
+      Botado en 1881 desde la Delamater Iron Company de Nueva York, el Holland
+      Boat No. II fue bautizado "Fenian Ram" por un periodista del New York Sun.
+      Medía 31 pies de largo y seis de ancho, y pesaba 19 toneladas. Lo operaba
+      una tripulación de tres: un piloto que manejaba dos palancas verticales
+      como si fueran mandos, un ingeniero que vigilaba las válvulas y el lastre,
+      y un artillero a cargo de un cañón neumático de once pies que atravesaba
+      el centro del depósito de aire delantero.
+
+      Con la única excepción del periscopio, que aún no se había inventado, el
+      Fenian Ram contenía todas las ideas de ingeniería principales del
+      submarino moderno. Se sumergió a más de 45 pies y disparó con éxito
+      proyectiles de prueba suministrados por el diseñador del Monitor. Navegar
+      a ciegas, sin embargo, era peligroso: en junio de 1882 chocó contra un
+      transbordador de Weehawken y se hundió. Nadie resultó herido y fue
+      reflotado en menos de una semana.
+
+      ## Robado
+
+      En noviembre de 1883 estalló una disputa por dinero entre Holland y la
+      Hermandad. Temiendo que los litigios pendientes inmovilizaran los bienes
+      fenianos, un grupo de fenianos usó un pase falsificado con la firma del
+      propio Holland para entrar al muelle y remolcó el Ram y un modelo de 16
+      pies fuera del puerto de Nueva York. La embarcación más pequeña se hundió
+      en el oleaje durante el trayecto. El Ram llegó a New Haven.
+
+      Allí los ladrones descubrieron que no tenían idea de cómo operarlo.
+      Holland se negó a ayudar. Los intentos de hacerlo funcionar en el puerto
+      de New Haven salieron tan mal que el capitán del puerto declaró la
+      embarcación un peligro para la navegación y prohibió más pruebas.
+
+      ## Treinta y tres años en un cobertizo
+
+      Incapaz de usar o vender el submarino, la Hermandad lo hizo sacar del agua
+      y lo guardó en un cobertizo de madera junto al río Mill, según se dice en
+      el número 99 de la calle Mill River, al otro lado del agua desde donde
+      usted está parado. Le quitaron el motor de petróleo Brayton de 15 caballos
+      de fuerza y lo pusieron a mover una fragua en la fundición de latón de
+      James Reynolds. El casco de acero vacío quedó allí juntando polvo, la
+      curiosidad de todo el vecindario, desde 1883 hasta 1916.
+
+      ## Fuera del cobertizo
+
+      En 1916 subieron el Fenian Ram a un vagón y lo pasearon por las calles de
+      New Haven — se conservan fotografías de su paso por Olive Street — rumbo
+      al Madison Square Garden, donde se exhibió para recaudar fondos para las
+      víctimas del Alzamiento de Pascua. De allí pasó a la New York State Marine
+      School. En 1927 Edward Browne lo compró y lo trasladó a Paterson, la
+      ciudad adoptiva de Holland, donde sigue expuesto en el Museo Paterson.
+
+      Holland ganó después concursos de diseño de la Marina estadounidense en
+      1888 y 1893. Murió en 1914. A los cuarenta días de su muerte, un solo
+      submarino frente a la costa holandesa hundió tres cruceros británicos y
+      mató a más de 1.400 hombres. El New York Times señaló que "aunque le
+      interesaban los submarinos, el señor Holland se oponía a la guerra, y su
+      idea de los submarinos era incapacitar los buques de guerra, no
+      destruirlos ni matar a los hombres a bordo". En sus bocetos de 1907 había
+      dibujado un submarino para 40 pasajeros con grandes portillas circulares
+      redondas, pensado "para el entretenimiento en balnearios".
+
+  gallery:
+    - file: MillRiver99(1915c)SubmarineForceMuseum.jpg
+      caption:
+        en: The submarine was hidden for 33 years in a wood shed on the Mill River.
+        es: El submarino estuvo oculto durante 33 años en un cobertizo de madera en el río Mill.
+    - file: olive-state(1916)FenianRam1.JPG
+      caption:
+        en: The Fenian Ram being towed down Olive Street, New Haven, 1916.
+        es: El Fenian Ram remolcado por Olive Street, New Haven, 1916.
+    - file: Sub-diagram-Upscalled.jpeg
+      caption:
+        en: Diagram showing internals of the submarine.
+        es: Diagrama del interior del submarino.
+    - file: FenianRam(1960c)SubmarineForceMuseum.jpg
+      caption:
+        en: The Fenian Ram on display at the Paterson Museum, circa 1960.
+        es: El Fenian Ram expuesto en el Museo Paterson, hacia 1960.
+
+  sources:
+    - title: Fenian Ram — Historic Naval Ships Association
+      url: https://archive.hnsa.org/ships/fenian.htm
+    - title: The Paterson Museum
+      url: https://www.patersonnj.gov/department/division.php?structureid=88
+    - title: John Philip Holland — Irish inventor of the submarine
+      url: https://www.irishcentral.com/roots/history/john-philip-holland-irish-inventor-submarine
+    - title: Fenian Ram photographs, Submarine Force Museum
+      url: https://www.ussnautilus.org/

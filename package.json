@@ -1,0 +1,22 @@
+{
+  "name": "mrt-signs",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Mill River Trail interpretive signage — bilingual content, print artwork, and web pages generated from one source.",
+  "scripts": {
+    "map": "node build/make-map.mjs",
+    "sign": "node build/render-sign.mjs",
+    "site": "node build/render-site.mjs",
+    "all": "node build/make-map.mjs && node build/render-sign.mjs && node build/render-site.mjs"
+  },
+  "dependencies": {
+    "jsqr": "^1.4.0",
+    "pngjs": "^7.0.0",
+    "puppeteer": "^23.0.0",
+    "jsqr": "^1.4.0",
+    "pngjs": "^7.0.0",
+    "qrcode": "^1.5.4",
+    "yaml": "^2.5.0"
+  }
+}
