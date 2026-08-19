@@ -20,6 +20,10 @@ import { COLOR } from './theme.mjs';
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const OUT = path.join(ROOT, 'dist', 'site');
 
+// Stamped once per build. A dated page tells a reader this is maintained; an
+// undated one could be from any year.
+const BUILT = new Date().toISOString().slice(0, 10);
+
 const esc = (s = '') =>
   String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
@@ -68,6 +72,7 @@ const T = {
     galleryHead: 'Images',
     sourcesHead: 'Sources and further reading',
     ackHead: 'Research and credits',
+    updatedLabel: 'This page last changed',
     signHead: 'The sign at this spot',
     signNote: 'The full sign, in English and Spanish. Zoom in to read it.',
     signDraft: 'This sign is still a draft. The hatched boxes are photographs that have not been sourced yet.',
@@ -94,6 +99,7 @@ const T = {
     galleryHead: 'Imágenes',
     sourcesHead: 'Fuentes y lecturas adicionales',
     ackHead: 'Investigación y créditos',
+    updatedLabel: 'Esta página cambió por última vez el',
     signHead: 'El letrero en este punto',
     signNote: 'El letrero completo, en inglés y español. Amplíe para leerlo.',
     signDraft: 'Este letrero es todavía un borrador. Los recuadros rayados son fotografías que aún no se han conseguido.',
@@ -229,6 +235,18 @@ figure.signart {
 }
 figure.signart img { width: 100%; height: auto; display: block; border-radius: 4px; }
 figure.signart a { display: block; }
+
+aside.feedback {
+  background: var(--card); border: 1px solid var(--rule); border-left: 5px solid var(--green);
+  border-radius: 0 8px 8px 0; padding: 1.1rem 1.25rem; margin: 2.4rem 0;
+}
+aside.feedback p { margin: 0 0 0.6rem; color: var(--fg); }
+aside.feedback p:last-child { margin: 0; }
+aside.feedback a.cta {
+  display: inline-block; background: var(--blue); color: #fff; text-decoration: none;
+  font-weight: 700; padding: 0.5rem 1.1rem; border-radius: 999px;
+}
+aside.feedback a.cta:hover { background: #1B6FA8; }
 .draft-note {
   font-size: 0.93rem; color: var(--muted); background: var(--card);
   border-left: 4px solid var(--gold); padding: 0.6rem 0.9rem; border-radius: 0 5px 5px 0;
@@ -330,6 +348,15 @@ ${hero ? `<meta property="og:image" content="${imgDir}/${encodeURIComponent(hero
             rel="noopener">${esc(t.mapLink)} →</a></p>
     </div>
 
+    ${sign.feedback?.url ? `<aside class="feedback">
+      <p>${esc(sign.feedback.prompt[lang])}</p>
+      <p><a class="cta" href="${esc(sign.feedback.url)}${
+        sign.feedback.sign_param
+          ? `?${esc(sign.feedback.sign_param)}=${encodeURIComponent(sign.title.en)}`
+          : ''
+      }" rel="noopener">${esc(sign.feedback.cta[lang])} →</a></p>
+    </aside>` : ''}
+
     <h2>${esc(t.signHead)}</h2>
     <p class="lede">${esc(t.signNote)}</p>
     ${sign.status === 'draft' ? `<p class="draft-note">${esc(t.signDraft)}</p>` : ''}
@@ -355,6 +382,7 @@ ${hero ? `<meta property="og:image" content="${imgDir}/${encodeURIComponent(hero
 
     ${w.acknowledgements ? `<h2>${esc(t.ackHead)}</h2>
     <p class="ack">${esc(w.acknowledgements[lang])}</p>` : ''}
+    <p class="ack">${esc(t.updatedLabel)} ${esc(BUILT)}.</p>
   </div>
 </main>
 

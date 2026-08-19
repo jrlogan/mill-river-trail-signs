@@ -6,6 +6,27 @@
 # "Doug Houslauden" survived onto a print-ready comp in the first place.
 # ---------------------------------------------------------------------------
 
+# Public feedback. Set `url` to a Google Form (or anything that accepts a link)
+# and every web page grows a "Know more about this?" invitation. Leave it blank
+# and the invitation does not appear — nothing breaks.
+#
+# If the form has a prefilled field for the sign, put its entry id in
+# `sign_param` and the link arrives with the sign already filled in, so replying
+# is one box and a Send.
+feedback:
+  url: ""
+  sign_param: ""
+  prompt:
+    en: >-
+      Know something about this place? A photograph, a family story, a
+      correction — the trail is still collecting them, and this page can change.
+    es: >-
+      ¿Sabe algo de este lugar? Una fotografía, una historia familiar, una
+      corrección: el sendero sigue recogiéndolas, y esta página puede cambiar.
+  cta:
+    en: Tell us
+    es: Cuéntenos
+
 sign:
   panel:
     map: panel-map.svg

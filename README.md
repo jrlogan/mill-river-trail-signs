@@ -8,6 +8,12 @@ and the printed sign and both web pages update together. They cannot drift apart
 which is how the 2022 comp ended up with two caption boxes reading
 "Spanish version to come."
 
+## Taking this over
+
+If you are inheriting this project, read **[HANDOVER.md](HANDOVER.md)** first.
+It covers the three things that must not be lost, the four things you will
+actually do, and how to transfer ownership.
+
 ## Quick start
 
 ```bash

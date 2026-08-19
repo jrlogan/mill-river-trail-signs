@@ -15,6 +15,7 @@
     "all": "node build/make-map.mjs && node build/make-overview-map.mjs && node build/make-web-images.mjs && node build/render-sign.mjs --proof && node build/make-sign-images.mjs && node build/render-site.mjs && node build/check-links.mjs"
   },
   "dependencies": {
+    "fast-xml-parser": "^5.11.0",
     "jsqr": "^1.4.0",
     "pngjs": "^7.0.0",
     "puppeteer": "^23.0.0",

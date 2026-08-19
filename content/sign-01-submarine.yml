@@ -9,6 +9,10 @@
 id: sign-01-submarine
 number: 1
 status: proof            # draft | proof | approved | printed
+# When a plate goes up, set status: printed and add the date, so a future
+# reader can tell which text is on the metal and which is only online.
+# printed: 2026-09-14
+
 
 location:
   name: Fenian Ram
@@ -290,6 +294,42 @@ web:
       gathering dust, the curiosity of the whole neighborhood, from 1883 until
       1916.
 
+      ## What the New Haven papers said at the time
+
+      The submarine was not a secret. It was a local curiosity, and the New
+      Haven Morning Journal and Courier mentioned it more than once while it sat
+      there.
+
+      In May 1885, amid rumours that it had been sold to a foreign navy, the
+      paper was dry about it: the Fenian ram "housed up near the Tin bridge, Mill
+      river, has not been bought for the Russian navy, nor for the Turkish or
+      English governments, but it is barely possible that it may have been
+      purchased by the Esquimaux. The old thing is all rusted up and is worth a
+      few dollars for old iron."
+
+      In February 1887 it turns up again, at the end of a story about a man who
+      built an oyster boat on top of East Rock and dragged it down on an ox-sled.
+      "Also only a short distance from Neck bridge," the paper adds, "lies the
+      mysterious Fenian ram, which excited much wonderment three or four years
+      ago, and so much awe among the small boys. The ram is of iron, about thirty
+      feet long, and lies high and dry in a shed in the back yard of a house
+      built by Captain L. O'Brien next to the city bath house."
+
+      Two things follow from that. The submarine's neighbour was the city bath
+      house — the subject of another sign on this trail. And the boy who stood
+      and stared at it in 1884 was doing roughly what you are doing now.
+
+      ## Where exactly?
+
+      The account usually given is that the Ram was stored at 99 Mill River
+      Street, across from the ground the District now occupies. The 1885 and 1887
+      newspaper items instead put it near the Tin bridge and a short distance
+      from Neck Bridge, which is the old State Street crossing further north.
+
+      These may not conflict — it sat there for thirty-three years and could have
+      been moved — but the contemporary reports are the better evidence for where
+      it was in the mid-1880s, and the project has not settled the question.
+
       ## Out of the shed
 
       In 1916 the Fenian Ram was hauled onto a wagon and driven through the
@@ -372,6 +412,43 @@ web:
       James Reynolds. El casco de acero vacío quedó allí juntando polvo, la
       curiosidad de todo el vecindario, desde 1883 hasta 1916.
 
+      ## Lo que decían los periódicos de New Haven
+
+      El submarino no era ningún secreto. Era una curiosidad local, y el Morning
+      Journal and Courier de New Haven lo mencionó más de una vez mientras estuvo
+      allí.
+
+      En mayo de 1885, entre rumores de que había sido vendido a una armada
+      extranjera, el periódico fue seco: el Fenian ram "guardado cerca del Tin
+      bridge, en el río Mill, no ha sido comprado por la armada rusa, ni por los
+      gobiernos turco o inglés, aunque es apenas posible que lo hayan adquirido
+      los esquimales. El viejo trasto está todo oxidado y vale unos pocos dólares
+      como chatarra".
+
+      En febrero de 1887 reaparece, al final de un reportaje sobre un hombre que
+      construyó una barca ostrera en lo alto de East Rock y la bajó en un trineo
+      de bueyes. "También, a poca distancia de Neck bridge", añade el periódico,
+      "yace el misterioso Fenian ram, que despertó mucho asombro hace tres o
+      cuatro años, y tanto sobrecogimiento entre los muchachos. El ram es de
+      hierro, mide unos treinta pies y está en seco en un cobertizo, en el patio
+      trasero de una casa construida por el capitán L. O'Brien, junto a la caseta
+      de baños municipal".
+
+      De ahí se siguen dos cosas. El vecino del submarino era la caseta de baños
+      municipal, que es el tema de otro letrero de este sendero. Y el muchacho
+      que se quedaba mirándolo en 1884 hacía más o menos lo mismo que usted ahora.
+
+      ## ¿Dónde exactamente?
+
+      La versión habitual dice que el Ram se guardó en el número 99 de la calle
+      Mill River, enfrente del terreno que hoy ocupa el District. Las noticias de
+      1885 y 1887 lo sitúan en cambio cerca del Tin bridge y a poca distancia de
+      Neck Bridge, el viejo cruce de State Street, más al norte.
+
+      Puede que no se contradigan — estuvo allí treinta y tres años y pudo
+      moverse — pero los relatos de la época son la mejor prueba de dónde estaba
+      a mediados de la década de 1880, y el proyecto no ha resuelto la cuestión.
+
       ## Fuera del cobertizo
 
       En 1916 subieron el Fenian Ram a un vagón y lo pasearon por las calles de
@@ -392,6 +469,29 @@ web:
       redondas, pensado "para el entretenimiento en balnearios".
 
   gallery:
+    - file: clipping-1887.jpg
+      caption:
+        en: >-
+          "An Oyster Craft." The New Haven Morning Journal and Courier, 22
+          February 1887. Mostly about a boat built on top of East Rock — but it
+          ends by placing the Fenian Ram "in a shed in the back yard of a house
+          built by Captain L. O'Brien next to the city bath house."
+        es: >-
+          "An Oyster Craft". Morning Journal and Courier de New Haven, 22 de
+          febrero de 1887. Trata sobre todo de una barca construida en lo alto de
+          East Rock, pero termina situando el Fenian Ram "en un cobertizo, en el
+          patio trasero de una casa construida por el capitán L. O'Brien, junto a
+          la caseta de baños municipal".
+    - file: clipping-1885.jpg
+      caption:
+        en: >-
+          The same paper, 7 May 1885, on rumours that the submarine had been
+          sold abroad: "The old thing is all rusted up and is worth a few dollars
+          for old iron."
+        es: >-
+          El mismo periódico, 7 de mayo de 1885, sobre los rumores de que el
+          submarino había sido vendido al extranjero: "El viejo trasto está todo
+          oxidado y vale unos pocos dólares como chatarra".
     - file: MillRiver99(1915c)SubmarineForceMuseum.jpg
       caption:
         en: The submarine was hidden for 33 years in a wood shed on the Mill River.
