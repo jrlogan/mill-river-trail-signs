@@ -129,6 +129,24 @@ sign:
     # No species boxes yet — see docs/DECISIONS.md. A river-herring illustration
     # would suit this sign, given the river fact below.
 
+    species:
+      - name: { en: American Bindweed, es: Correhuela mayor }
+        scientific: Calystegia sepium ssp. americana
+        status: native
+        file: species/american-bindweed-calystegia-sepium-ssp-americana.jpg
+      - name: { en: Common Toadflax, es: Linaria común }
+        scientific: Linaria vulgaris
+        status: introduced
+        file: species/common-toadflax-linaria-vulgaris.jpg
+      - name: { en: Burdock, es: Bardana }
+        scientific: Arctium
+        status: introduced
+        file: species/burdocks-genus-arctium.jpg
+      - name: { en: Poison Ivy, es: Hiedra venenosa }
+        scientific: Toxicodendron radicans
+        status: native
+        file: species/poison-ivy-toxicodendron-radicans.jpg
+
     river_fact:
       text:
         en: >-

@@ -103,18 +103,21 @@ sign:
 
   panel:
     species:
+      - name: { en: Poison Ivy, es: Hiedra venenosa }
+        scientific: Toxicodendron radicans
+        status: native
+        file: species/poison-ivy-toxicodendron-radicans.jpg
+      - name: { en: Burdock, es: Bardana }
+        scientific: Arctium
+        status: introduced
+        file: species/burdocks-genus-arctium.jpg
+      - name: { en: Thistles, es: Cardos }
+        scientific: Cirsium
+        status: introduced
+        file: species/thistles-genus-cirsium.jpg
       - name: { en: Peregrine Falcon, es: Halcón peregrino }
         scientific: Falco peregrinus
         status: native
-      - name: { en: Eastern Hemlock, es: Tsuga del Canadá }
-        scientific: Tsuga canadensis
-        status: native
-      - name: { en: Garlic Mustard, es: Aliaria }
-        scientific: Alliaria petiolata
-        status: invasive
-      - name: { en: Barberry, es: Agracejo japonés }
-        scientific: Berberis thunbergii
-        status: invasive
 
     river_fact:
       text:

@@ -64,18 +64,16 @@ sign:
 
   images:
     - key: The 1910 Plan
-      file: TODO-1910-plan.jpg
+      file: MillRiver-from-StateStreetBridge-1910plan.png
       slot: center_top
-      source_note: >-
-        A plate from the 1910 Report of the New Haven Civic Improvement
-        Committee (Gilbert and Olmsted). Full text on Google Books; public domain.
       caption:
         en: >-
-          The 1910 Gilbert and Olmsted plan, which asked the city to keep open
-          land along the river.
+          Plate 46 from the 1910 plan: "Mill River from State Street Bridge.
+          This view may be preserved and the marsh reclaimed as park land."
         es: >-
-          El plan de Gilbert y Olmsted de 1910, que pedía a la ciudad conservar
-          terreno abierto junto al río.
+          Lámina 46 del plan de 1910: "El río Mill desde el puente de State
+          Street. Esta vista puede conservarse y la marisma recuperarse como
+          parque".
 
     - key: The Rotival Plan
       file: TODO-rotival-plan.jpg
@@ -97,29 +95,30 @@ sign:
         es: La interestatal 91 se llevó diez acres de parque junto al río.
 
     - key: The District Plan
-      file: TODO-district-plan.jpg
+      file: ExchangeStreet-green-infrastructure.png
       slot: right_bottom
-      source_note: >-
-        A map or rendering from the 2013 Mill River District Plan, or the Mill
-        River Trail Framework Plan.
       caption:
-        en: The 2013 district plan turned the city back toward the water.
-        es: El plan del distrito de 2013 devolvió la mirada de la ciudad al agua.
+        en: >-
+          Proposed green infrastructure for the school grounds at Exchange
+          Street and the Mill River Trail — the current version of the argument.
+        es: >-
+          Infraestructura verde propuesta para el recinto escolar de Exchange
+          Street y el Mill River Trail: la versión actual del mismo argumento.
 
   panel:
     species:
-      - name: { en: American Sycamore, es: Sicomoro americano }
-        scientific: Platanus occidentalis
+      - name: { en: American Pokeweed, es: Hierba carmín }
+        scientific: Phytolacca americana
         status: native
-      - name: { en: Norway Maple, es: Arce real }
-        scientific: Acer platanoides
-        status: invasive
-      - name: { en: Red-winged Blackbird, es: Tordo sargento }
-        scientific: Agelaius phoeniceus
+        file: species/american-pokeweed-phytolacca-americana.jpg
+      - name: { en: Great Mullein, es: Gordolobo }
+        scientific: Verbascum thapsus
+        status: introduced
+        file: species/great-mullein-verbascum-thapsus.jpg
+      - name: { en: Black-eyed Susan, es: Rudbeckia }
+        scientific: Rudbeckia hirta
         status: native
-      - name: { en: Porcelain Berry, es: Ampelopsis }
-        scientific: Ampelopsis glandulosa
-        status: invasive
+        file: species/blackeyed-susan-rudbeckia-hirta.jpg
 
     river_fact:
       text:

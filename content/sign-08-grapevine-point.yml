@@ -105,18 +105,21 @@ sign:
 
   panel:
     species:
+      - name: { en: Common Peppergrass, es: Mastuerzo }
+        scientific: Lepidium densiflorum
+        status: native
+        file: species/common-peppergrass-lepidium-densiflorum.jpg
+      - name: { en: Indian Blanket, es: Manta india }
+        scientific: Gaillardia pulchella
+        status: introduced
+        file: species/indian-blanket-gaillardia-pulchella.jpg
       - name: { en: Great Egret, es: Garceta grande }
         scientific: Ardea alba
         status: native
-      - name: { en: Northern Red Oak, es: Roble rojo americano }
-        scientific: Quercus rubra
-        status: native
-      - name: { en: Oriental Bittersweet, es: Agridulce oriental }
-        scientific: Celastrus orbiculatus
+      - name: { en: Autumn Olive, es: Olivo de otoño }
+        scientific: Elaeagnus umbellata
         status: invasive
-      - name: { en: Mugwort, es: Artemisa }
-        scientific: Artemisia vulgaris
-        status: invasive
+        file: species/autumn-olive-elaeagnus-umbellata.jpg
 
     river_fact:
       text:

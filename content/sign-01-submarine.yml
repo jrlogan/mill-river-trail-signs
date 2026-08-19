@@ -106,10 +106,9 @@ sign:
           32 años y con el tiempo diseñó el primer submarino de la Marina.
 
     - key: paterson_museum
-      # NOTE: the comp used an interior shot of the sub on its teal cradle that
-      # was not in the handoff folder. Ask Design Monsters for the original, or
-      # keep this one. Both carry the same caption.
-      file: FenianRam(1980-06-14)SubmarineForceMuseum.jpg
+      # RESOLVED: the comp's interior shot of the sub on its teal cradle turned
+      # up in the walk-images folder.
+      file: FenianRam-Paterson-Museum-cradle.png
       slot: left_bottom
       focus: 50% 50%
       # RESTORED: this caption box read "Spanish version to come." on the comp.
@@ -121,19 +120,21 @@ sign:
           El submarino está en exhibición permanente en el Museo Paterson, en
           Paterson, Nueva Jersey.
 
-    - key: transport_1916
-      file: Sub-Transport-enhanced.jpg
+    # The single most relevant photograph on this sign: the Fenian Ram inside
+    # the shed on the Mill River, photographed by Simon Lake.
+    - key: in_the_shed
+      file: FenianRam-in-the-shed-NewHaven.png
       slot: center_bottom
       # RESTORED: this caption box also read "Spanish version to come."
       # CORRECTION: the draft translation rendered "Madison Square Garden" as
       # "el jardín de Madison Square" — a literal translation of a proper noun.
       caption:
         en: >-
-          In 1916 it was driven through New Haven to be displayed at Madison
-          Square Garden, New York City.
+          The Fenian Ram in the shed on the Mill River, photographed by the
+          submarine designer Simon Lake.
         es: >-
-          En 1916 lo trasladaron a través de New Haven para exhibirlo en el
-          Madison Square Garden de Nueva York.
+          El Fenian Ram en el cobertizo del río Mill, fotografiado por el
+          diseñador de submarinos Simon Lake.
 
     - key: diagram
       file: FenianRam-HollandJohn(1880)SubmarineForceMuseum.jpg
@@ -151,19 +152,20 @@ sign:
 
     # What someone standing here might actually notice, with whether it belongs.
     # Early drafts are educated guesses — swap them once the site is surveyed.
+    # Photographed along the trail. Names as recorded in the field.
     species:
-      - name: { en: Black-capped Chickadee, es: Carbonero de capucha negra }
-        scientific: Poecile atricapillus
-        status: native
-        file: noun-black-capped-chickadee-color.svg
       - name: { en: Staghorn Sumac, es: Zumaque de Virginia }
         scientific: Rhus typhina
         status: native
         file: Sumac-color.svg
-      - name: { en: Yellow-rumped Warbler, es: Reinita coronada }
-        scientific: Setophaga coronata
+      - name: { en: American Pokeweed, es: Hierba carmín }
+        scientific: Phytolacca americana
         status: native
-        file: noun-yellow-rumped-warber-color.svg
+        file: species/american-pokeweed-phytolacca-americana.jpg
+      - name: { en: Great Mullein, es: Gordolobo }
+        scientific: Verbascum thapsus
+        status: introduced
+        file: species/great-mullein-verbascum-thapsus.jpg
 
     river_fact:
       # CORRECTION: the draft left the bird names in English inside quotation

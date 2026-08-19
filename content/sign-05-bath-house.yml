@@ -73,34 +73,29 @@ sign:
 
   images:
     - key: The Bath House
-      file: TODO-bath-house.jpg
+      file: SwimmingBath-interior-engraving.png
       slot: center_top
-      source_note: >-
-        A New Haven river bath house, or a comparable municipal bath of the
-        1880s-1900s. New Haven Museum; Library of Congress.
       caption:
-        en: A municipal bath house at the water's edge.
-        es: Una caseta de baños municipal a la orilla del agua.
+        en: The interior of a public swimming bath, packed to the rails.
+        es: El interior de un baño público de natación, lleno hasta las barandas.
 
     - key: Map of the Site
-      file: TODO-bath-house-map.jpg
+      file: BathHouse-site-map-MillRiverSt.png
       slot: left_bottom
-      source_note: >-
-        An 1888 or 1911 insurance/atlas map showing the bath house on the Mill
-        River. Library of Congress, g3784nm collection.
       caption:
-        en: The bath house on a period map of the Mill River.
-        es: La caseta de baños en un mapa de época del río Mill.
+        en: >-
+          The bath house on a period map, at the corner of Mill River Street and
+          Beach Street.
+        es: >-
+          La caseta de baños en un mapa de época, en la esquina de Mill River
+          Street y Beach Street.
 
     - key: Swimming the River
-      file: TODO-river-swimming.jpg
+      file: PublicBath-crowded-photo.png
       slot: center_bottom
-      source_note: >-
-        Children or crowds swimming in an American urban river, 1890s-1920s.
-        Library of Congress is full of these and they are public domain.
       caption:
-        en: The river was the swimming pool, whatever was in it.
-        es: El río era la piscina, con lo que llevara dentro.
+        en: A municipal bath in use. They were free, and they were crowded.
+        es: Un baño municipal en uso. Eran gratuitos, y estaban llenos.
 
     - key: Newspaper Notice
       file: TODO-bath-house-clipping.jpg
@@ -116,18 +111,18 @@ sign:
     # Early-draft guesses at what a visitor would actually notice on this bank.
     # Swap once someone walks the site.
     species:
-      - name: { en: Eastern Cottonwood, es: Álamo de Virginia }
-        scientific: Populus deltoides
+      - name: { en: Common Purslane, es: Verdolaga }
+        scientific: Portulaca oleracea
+        status: introduced
+        file: species/common-purslane-portulaca-oleracea.jpg
+      - name: { en: Poison Ivy, es: Hiedra venenosa }
+        scientific: Toxicodendron radicans
         status: native
-      - name: { en: Japanese Knotweed, es: Hierba nudosa japonesa }
-        scientific: Reynoutria japonica
-        status: invasive
-      - name: { en: Mallard, es: Ánade real }
-        scientific: Anas platyrhynchos
-        status: native
-      - name: { en: Tree of Heaven, es: Ailanto }
-        scientific: Ailanthus altissima
-        status: invasive
+        file: species/poison-ivy-toxicodendron-radicans.jpg
+      - name: { en: Thistles, es: Cardos }
+        scientific: Cirsium
+        status: introduced
+        file: species/thistles-genus-cirsium.jpg
 
     river_fact:
       text:

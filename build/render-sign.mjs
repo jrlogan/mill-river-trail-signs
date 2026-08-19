@@ -49,6 +49,13 @@ async function renderSign(file) {
       missingArt++;
     }
   }
+  for (const sp of sign.sign.panel.species || []) {
+    if (!sp.file) { sp.missing = true; continue; }
+    const rel = sp.file.startsWith('species/') ? sp.file : path.join(subdir, sp.file);
+    try { await fs.access(path.join(ROOT, 'assets', 'images', rel)); }
+    catch { sp.missing = true; }
+  }
+
   if (missingArt) {
     console.log(`  ◻ ${missingArt} image(s) not sourced yet — drawn as placeholders`);
     if (sign.status !== 'draft') {

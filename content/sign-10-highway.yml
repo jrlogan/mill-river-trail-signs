@@ -81,10 +81,8 @@ sign:
         es: Los vecinos se organizaron y la conexión se detuvo.
 
     - key: Building I-91
-      file: TODO-i91-construction-2.jpg
+      file: Highway-construction-aerial.jpg
       slot: center_bottom
-      source_note: >-
-        Interstate 91 under construction beside the Mill River, 1960s.
       caption:
         en: Interstate 91 was built, and took ten acres of the park.
         es: La interestatal 91 sí se construyó, y se llevó diez acres del parque.
@@ -101,18 +99,18 @@ sign:
 
   panel:
     species:
-      - name: { en: Eastern Cottonwood, es: Álamo de Virginia }
-        scientific: Populus deltoides
+      - name: { en: American Bindweed, es: Correhuela mayor }
+        scientific: Calystegia sepium ssp. americana
         status: native
-      - name: { en: Japanese Knotweed, es: Hierba nudosa japonesa }
-        scientific: Reynoutria japonica
+        file: species/american-bindweed-calystegia-sepium-ssp-americana.jpg
+      - name: { en: Common Toadflax, es: Linaria común }
+        scientific: Linaria vulgaris
+        status: introduced
+        file: species/common-toadflax-linaria-vulgaris.jpg
+      - name: { en: Rugosa Rose, es: Rosa rugosa }
+        scientific: Rosa rugosa
         status: invasive
-      - name: { en: Belted Kingfisher, es: Martín pescador norteño }
-        scientific: Megaceryle alcyon
-        status: native
-      - name: { en: Multiflora Rose, es: Rosa multiflora }
-        scientific: Rosa multiflora
-        status: invasive
+        file: species/rugosa-rose-rosa-rugosa.jpg
 
     river_fact:
       text:

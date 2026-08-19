@@ -1,0 +1,362 @@
+# ---------------------------------------------------------------------------
+# Sign 13: William Lanson — DRAFT FOR REVIEW
+#
+# Not in the original KMZ. Added because the research notes explicitly ask
+# "what stories are we systematically overlooking because of culture and
+# records?" — and then answer their own question with Lanson, in his own words,
+# describing this river. The walk-images folder has the pictures for it.
+#
+# LOCATION: trail-side south of Grand Avenue, sighted across the filled ground
+# toward where Greene Street once ran down to the river and the Liberian Hotel
+# stood. CONFIRM ON THE GROUND — the sightline is the whole point of the sign,
+# and it needs someone standing there to check that it works.
+# ---------------------------------------------------------------------------
+
+id: sign-13-william-lanson
+number: 13
+status: draft
+
+location:
+  name: William Lanson / New Liberia
+  place: The Mill River Trail south of Grand Avenue, looking across to New Liberia
+  lat: 41.3078
+  lon: -72.9069
+
+urls:
+  en: signs.MillRiverTrail.com/lanson
+  es: signs.MillRiverTrail.com/rey-lanson
+  en_full: https://signs.millrivertrail.com/lanson
+  es_full: https://signs.millrivertrail.com/rey-lanson
+
+title:
+  en: King Lanson's River
+  es: El Río del Rey Lanson
+
+sign:
+  lede:
+    en: >-
+      The river in front of you used to be much wider. Both banks were marsh,
+      and the ground you are standing on is fill. Look across and a little
+      south: over there, at the end of Greene Street, was a neighbourhood its
+      residents called New Liberia, and in it stood the Liberian Hotel — a
+      boarding house for people of colour, opened in 1830 by the man who built
+      the longest wharf in the United States.
+    es: >-
+      El río que tiene delante era mucho más ancho. Ambas orillas eran marisma, y
+      el suelo que usted pisa es relleno. Mire enfrente y un poco al sur: allí,
+      al final de Greene Street, había un barrio que sus vecinos llamaban New
+      Liberia, y en él estaba el Liberian Hotel, una casa de huéspedes para
+      personas de color abierta en 1830 por el hombre que construyó el muelle más
+      largo de Estados Unidos.
+
+  section:
+    heading:
+      en: What He Built, and What It Cost Him
+      es: Lo que construyó, y lo que le costó
+    # REVIEW: the quotation on the web page is from Lanson's own 1845 statement
+    # and should be checked against the printed source before this goes to print.
+    body:
+      en: >-
+        New Haven harbour was too shallow for loaded ships. William Lanson
+        quarried stone at East Rock and floated it down this river on scows
+        carrying twenty-five tons, and with it he pushed Long Wharf out to deep
+        water — 3,480 feet by 1812, the longest in the country. He built Steamboat
+        Wharf, Basin Wharf and the Tomlinson Bridge, and turned an old
+        slaughterhouse into the Liberian Hotel. In 1831 it was raided: the white
+        patrons were arrested, and the Black residents, one account says, "were
+        allowed to run." Prosecutions followed for years. Lanson lost his
+        property and spent some 450 days in jail, insisting he was innocent.
+      es: >-
+        El puerto de New Haven era demasiado poco profundo para los barcos
+        cargados. William Lanson extraía piedra en East Rock y la bajaba por este
+        río en chalanas de veinticinco toneladas, y con ella empujó Long Wharf
+        hasta aguas hondas: 3.480 pies en 1812, el más largo del país. Construyó
+        Steamboat Wharf, Basin Wharf y el puente Tomlinson, y convirtió un
+        antiguo matadero en el Liberian Hotel. En 1831 hubo una redada: los
+        clientes blancos fueron detenidos y a los residentes negros, según un
+        relato, "se les dejó huir". Siguieron años de procesos. Lanson perdió sus
+        propiedades y pasó unos 450 días en la cárcel, insistiendo en que era
+        inocente.
+
+  images:
+    - key: William Lanson
+      file: WilliamLanson-statue.jpg
+      slot: center_top
+      caption:
+        en: >-
+          The statue of William Lanson on the Farmington Canal Trail, unveiled
+          in 2020.
+        es: >-
+          La estatua de William Lanson en el Farmington Canal Trail, inaugurada
+          en 2020.
+
+    - key: New Haven 1840
+      file: NewHaven-1840-map.jpg
+      slot: left_bottom
+      caption:
+        en: >-
+          New Haven about 1840, with Long Wharf reaching out into the harbour.
+        es: >-
+          New Haven hacia 1840, con Long Wharf adentrándose en el puerto.
+
+    - key: Early Black New Haven
+      file: EarlyNegroNewHaven-reference-map.jpg
+      slot: center_bottom
+      caption:
+        en: >-
+          Early Black New Haven, 1830-1860. New Liberia sat between Olive Street
+          and the Mill River, next to the Irish district called Slineyville.
+        es: >-
+          El New Haven negro temprano, 1830-1860. New Liberia estaba entre Olive
+          Street y el río Mill, junto al barrio irlandés llamado Slineyville.
+
+    - key: The Quarry
+      file: TODO-east-rock-quarry-2.jpg
+      slot: right_bottom
+      source_note: >-
+        The Liberian Hotel or New Liberia itself, if any view survives —
+        otherwise the East Rock quarries, or a stone scow on the river. New
+        Haven Museum; Connecticut State Library; New Haven city directories.
+      caption:
+        en: >-
+          The Liberian Hotel stood at the end of Greene Street, in the corner of
+          New Township nearest this river.
+        es: >-
+          El Liberian Hotel estaba al final de Greene Street, en el rincón de New
+          Township más cercano a este río.
+
+  panel:
+    species:
+      - name: { en: American Pokeweed, es: Hierba carmín }
+        scientific: Phytolacca americana
+        status: native
+        file: species/american-pokeweed-phytolacca-americana.jpg
+      - name: { en: Common Evening-Primrose, es: Onagra }
+        scientific: Oenothera biennis
+        status: native
+        file: species/common-eveningprimrose-oenothera-biennis.jpg
+      - name: { en: Autumn Olive, es: Olivo de otoño }
+        scientific: Elaeagnus umbellata
+        status: invasive
+        file: species/autumn-olive-elaeagnus-umbellata.jpg
+
+    river_fact:
+      text:
+        en: >-
+          A loaded scow could only go up on the flood tide and come down on the
+          ebb. Lanson's working day was set by the moon, not the clock — and he
+          ran the river at night, alone, on a job reckoned to need three men.
+        es: >-
+          Una chalana cargada solo podía subir con la marea entrante y bajar con
+          la saliente. La jornada de Lanson la fijaba la luna, no el reloj, y
+          remontaba el río de noche, solo, en un trabajo que se daba por hecho
+          que requería tres hombres.
+
+web:
+  subtitle:
+    en: The Black engineer who built the longest wharf in America, the neighbourhood he made on the far bank, and what the city did to both
+    es: El ingeniero negro que construyó el muelle más largo de América, el barrio que levantó en la otra orilla, y lo que la ciudad hizo con ambos
+
+  body:
+    en: |
+      Stand on this bank and try to widen the river in your head. Before the
+      filling, both sides were marsh and open water, and the far bank was a good
+      way further off than it looks now. The solid ground over there, and much of
+      the ground under you, is made land.
+
+      On the far side, in the corner of the old New Township nearest this river,
+      was a neighbourhood its own residents named New Liberia.
+
+      ## The names of this ground
+
+      The area between Olive Street and the Mill River — taking in Chapel,
+      Academy, East, Franklin, Greene and Grand — was New Township, added to New
+      Haven in 1784. Inside it, people named their own smaller places. There was
+      **New Guinea**, east of Wooster Square, where William Lanson held land
+      before selling it. There was **New Liberia**, at the end of Greene Street,
+      which he built. Next to it was **Slineyville**, the Irish district. North,
+      at Grand Avenue and East Street running down to the water, was
+      **Barnesville**, named for the innkeeper Eli Barnes.
+
+      Only Barnesville and Fair Haven made it onto maps that lasted. The others
+      were named by the people who lived in them, and left the record when those
+      people were pushed out of it.
+
+      ## Twenty-five tons at a time
+
+      New Haven harbour is shallow. A loaded ship could not reach the town and
+      had to anchor offshore and be unloaded by lighters — slow, expensive, and a
+      permanent drag on the port. The wharf had to be pushed out to deep water,
+      and the ordinary method of driving wooden piles would not hold in the soft
+      harbour floor.
+
+      Lanson's answer was stone. He quarried at East Rock and moved it down this
+      river on flat-bottomed scows carrying about twenty-five tons a load. He
+      described the work himself:
+
+      > "The tide in this river rises about six feet, and it is considered very
+      > dangerous going under the bridge. A scow must go up on the flood tide and
+      > come down on the ebb tide, and it was always considered to want three men
+      > to manage a scow, and get one load, in the day time. But I have performed
+      > the same thing myself, many a time, alone, at the night tide … and got my
+      > load, the darkest night that had ever been."
+
+      Read that with the tide in mind. A loaded scow moves one direction per
+      tide. He was riding the flood up and the ebb down, in the dark, alone, on a
+      job that was reckoned to need three men and daylight — and getting four
+      extra loads a week out of the arrangement.
+
+      By 1812 Long Wharf reached 3,480 feet into the harbour: the longest wharf
+      in the United States. He went on to build Steamboat Wharf, Basin Wharf and
+      the Tomlinson Bridge, and to help develop Wooster Square.
+
+      ## The Liberian Hotel
+
+      In July 1830 Lanson opened what he advertised as a boarding house for
+      people of colour, in a then-isolated corner of northeastern New Township.
+      He had converted Ebenezer Peck's old slaughterhouse — a building put up for
+      processing beef cattle for export — into lodgings, and he furnished them
+      well; the furniture alone was reckoned at a thousand dollars. He called it
+      the Liberian Hotel.
+
+      Around it he turned old barns into housing for Black and Irish families.
+      That was New Liberia. He also ran a livery stable, a clothing store and a
+      rooming house down at Long Wharf. At his height he held something like
+      $40,000 in property, and people called him King Lanson — admiringly by some
+      and mockingly by others.
+
+      ## What happened to it
+
+      In 1831 the hotel was raided. By one account the white patrons present were
+      arrested while the Black residents "were allowed to run" — which tells you
+      what the raid was actually for.
+
+      That set the pattern. Municipal authorities pursued Lanson for years,
+      looking for a connection to illegal activity. In the mid-1840s he was held
+      under a newly passed law on adultery, on a $500 bond. Across roughly six
+      years he was imprisoned repeatedly, something on the order of 450 days in
+      total, and he maintained his innocence throughout. In 1845 a pamphlet was
+      printed in New Haven carrying his own statement about the trial — the
+      source of the passage above, and one of very few first-person accounts of
+      this river by anyone who worked it.
+
+      He had defenders, including Yale's president Timothy Dwight and US Senator
+      James Hillhouse. It did not save the property. Lanson lost it, fell into
+      poverty, and died in 1851.
+
+      ## What is left
+
+      New Liberia is gone — filled over, built on, and renamed. The Liberian
+      Hotel is gone. What is not gone is the harbour edge: the stone Lanson
+      quarried at East Rock and floated down this water is still out there,
+      holding up Long Wharf.
+
+      A statue of him was raised on the Farmington Canal Trail in 2020, a hundred
+      and sixty-nine years after he died.
+
+    es: |
+      Párese en esta orilla e intente ensanchar el río mentalmente. Antes del
+      relleno, ambos lados eran marisma y agua abierta, y la orilla de enfrente
+      quedaba bastante más lejos de lo que parece ahora. El suelo firme de allí, y
+      buena parte del que usted pisa, es tierra ganada.
+
+      En la otra orilla, en el rincón del antiguo New Township más cercano a este
+      río, había un barrio al que sus propios vecinos llamaron New Liberia.
+
+      ## Los nombres de este suelo
+
+      La zona entre Olive Street y el río Mill — que abarcaba Chapel, Academy,
+      East, Franklin, Greene y Grand — era New Township, incorporada a New Haven
+      en 1784. Dentro de ella, la gente nombraba sus propios lugares. Estaba
+      **New Guinea**, al este de Wooster Square, donde William Lanson tuvo tierras
+      antes de venderlas. Estaba **New Liberia**, al final de Greene Street, que
+      él construyó. Al lado estaba **Slineyville**, el barrio irlandés. Al norte,
+      en Grand Avenue con East Street bajando hacia el agua, estaba
+      **Barnesville**, por el posadero Eli Barnes.
+
+      Solo Barnesville y Fair Haven llegaron a mapas que perduraron. Los demás
+      los nombró la gente que vivía en ellos, y salieron del registro cuando esa
+      gente fue expulsada de él.
+
+      ## Veinticinco toneladas por viaje
+
+      El puerto de New Haven es poco profundo. Un barco cargado no podía llegar a
+      la ciudad: fondeaba mar adentro y se descargaba con gabarras, lo que era
+      lento, caro y un lastre permanente para el puerto. Había que empujar el
+      muelle hasta aguas hondas, y el método habitual de clavar pilotes de madera
+      no aguantaba en el fondo blando del puerto.
+
+      La respuesta de Lanson fue la piedra. Extraía en East Rock y la bajaba por
+      este río en chalanas de fondo plano que cargaban unas veinticinco toneladas.
+      Él mismo describió el trabajo:
+
+      > "La marea en este río sube unos seis pies, y se considera muy peligroso
+      > pasar bajo el puente. Una chalana debe subir con la marea entrante y bajar
+      > con la saliente, y siempre se consideró que hacían falta tres hombres para
+      > manejarla y traer una carga, de día. Pero yo he hecho lo mismo, muchas
+      > veces, solo, con la marea de la noche … y he traído mi carga, en la noche
+      > más oscura que jamás hubo."
+
+      Léalo pensando en la marea. Una chalana cargada se mueve en una sola
+      dirección por marea. Él subía con la entrante y bajaba con la saliente, a
+      oscuras, solo, en un trabajo que se daba por hecho que requería tres
+      hombres y luz de día, y así sacaba cuatro cargas más por semana.
+
+      Para 1812 Long Wharf se adentraba 3.480 pies en el puerto: el muelle más
+      largo de Estados Unidos. Después construyó Steamboat Wharf, Basin Wharf y
+      el puente Tomlinson, y ayudó a desarrollar Wooster Square.
+
+      ## El Liberian Hotel
+
+      En julio de 1830 Lanson abrió lo que anunció como una casa de huéspedes para
+      personas de color, en un rincón entonces aislado del noreste de New
+      Township. Había convertido el viejo matadero de Ebenezer Peck — un edificio
+      levantado para faenar ganado vacuno de exportación — en alojamiento, y lo
+      amuebló bien: solo el mobiliario se tasó en mil dólares. Lo llamó el
+      Liberian Hotel.
+
+      A su alrededor transformó viejos graneros en viviendas para familias negras
+      e irlandesas. Eso era New Liberia. También llevaba unas caballerizas, una
+      tienda de ropa y una pensión en Long Wharf. En su mejor momento tenía unos
+      40.000 dólares en propiedades, y la gente lo llamaba el Rey Lanson: unos con
+      admiración y otros con burla.
+
+      ## Lo que le pasó
+
+      En 1831 el hotel sufrió una redada. Según un relato, los clientes blancos
+      presentes fueron detenidos mientras que a los residentes negros "se les dejó
+      huir", lo que dice bastante sobre para qué era realmente la redada.
+
+      Eso marcó la pauta. Las autoridades municipales persiguieron a Lanson
+      durante años, buscando alguna relación con actividades ilegales. A mediados
+      de la década de 1840 fue retenido bajo una ley recién aprobada sobre
+      adulterio, con una fianza de 500 dólares. A lo largo de unos seis años fue
+      encarcelado repetidamente, del orden de 450 días en total, y mantuvo siempre
+      su inocencia. En 1845 se imprimió en New Haven un panfleto con su propia
+      declaración sobre el juicio: la fuente del pasaje anterior, y uno de los
+      poquísimos relatos en primera persona de este río escritos por alguien que
+      trabajó en él.
+
+      Tuvo defensores, entre ellos el presidente de Yale, Timothy Dwight, y el
+      senador James Hillhouse. No bastó para salvar sus propiedades. Lanson las
+      perdió, cayó en la pobreza y murió en 1851.
+
+      ## Lo que queda
+
+      New Liberia ya no existe: rellenada, edificada y rebautizada. El Liberian
+      Hotel tampoco. Lo que sí queda es el borde del puerto: la piedra que Lanson
+      extrajo en East Rock y bajó por estas aguas sigue ahí fuera, sosteniendo
+      Long Wharf.
+
+      En 2020 se levantó una estatua suya en el Farmington Canal Trail, ciento
+      sesenta y nueve años después de su muerte.
+
+  gallery: []
+
+  sources:
+    - title: William Lanson revealed — New Haven Independent
+      url: https://www.newhavenindependent.org/index.php/archives/entry/willian_lanson_revealed/
+    - title: Amistad, Race and New Haven — Yale-New Haven Teachers Institute
+      url: https://teachersinstitute.yale.edu/curriculum/units/files/97.04.04.pdf
+    - title: Mill River Trail Framework Plan
+      url: https://issuu.com/millrivertrail/docs/mrt_frameworkplan

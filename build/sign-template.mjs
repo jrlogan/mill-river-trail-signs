@@ -197,7 +197,9 @@ body {
   padding: 0.09in 0.09in 0.07in; text-align: center; overflow: hidden;
   display: flex; flex-direction: column; align-items: center;
 }
-.species-item img { width: 100%; height: 0.96in; object-fit: contain; display: block; }
+.species-item img { width: 100%; height: 0.96in; display: block; }
+.species-item img.sp-art   { object-fit: contain; }
+.species-item img.sp-photo { object-fit: cover; border: 0.8pt solid #C9CEC7; }
 .species-art-todo {
   width: 100%; height: 0.96in; display: flex; align-items: center; justify-content: center;
   background: repeating-linear-gradient(45deg, ${COLOR.cream}, ${COLOR.cream} 7pt, #EFEBD2 7pt, #EFEBD2 14pt);
@@ -293,7 +295,12 @@ body {
 
 export function signHTML(sign, { qrEn, qrEs, diagramAspect = null, assetBase = '../../assets' }) {
   const s = sign.sign;
-  const img = (f) => `${assetBase}/images/${sign.id.replace(/^sign-(\d+).*/, 'sign-$1')}/${encodeURIComponent(f)}`;
+  const img = (f) =>
+    // A path starting "species/" lives in the shared folder, because the same
+    // plant turns up on more than one sign.
+    f.startsWith('species/')
+      ? `${assetBase}/images/species/${encodeURIComponent(f.slice(8))}`
+      : `${assetBase}/images/${sign.id.replace(/^sign-(\d+).*/, 'sign-$1')}/${encodeURIComponent(f)}`;
   const pick = (o, l) => (o ? o[l] : '');
 
   const headerW =
@@ -321,9 +328,10 @@ export function signHTML(sign, { qrEn, qrEs, diagramAspect = null, assetBase = '
   const speciesHTML = speciesList
     .map((sp, i) => {
       const st = STATUS[sp.status] || null;
+      // Line art gets letterboxed; a photograph should fill its box.
       const art = sp.missing || !sp.file
         ? `<div class="species-art-todo">Illustration<br>to source</div>`
-        : `<img src="${img(sp.file)}" alt="">`;
+        : `<img class="${/\.svg$/i.test(sp.file) ? 'sp-art' : 'sp-photo'}" src="${img(sp.file)}" alt="">`;
       return `
       <div class="abs species-item" style="${box({
         x: GRID.xPanel + P.species.x,

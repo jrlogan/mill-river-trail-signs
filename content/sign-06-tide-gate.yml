@@ -103,15 +103,16 @@ sign:
 
   panel:
     species:
-      - name: { en: Alewife, es: Alosa }
-        scientific: Alosa pseudoharengus
+      - name: { en: Flatsedges, es: Juncias }
+        scientific: Cyperus
         status: native
-      - name: { en: Mummichog, es: Fundulo }
-        scientific: Fundulus heteroclitus
-        status: native
+        file: species/flatsedges-genus-cyperus.jpg
       - name: { en: Common Reed, es: Carrizo }
         scientific: Phragmites australis
         status: invasive
+      - name: { en: Alewife, es: Alosa }
+        scientific: Alosa pseudoharengus
+        status: native
       - name: { en: Osprey, es: Águila pescadora }
         scientific: Pandion haliaetus
         status: native

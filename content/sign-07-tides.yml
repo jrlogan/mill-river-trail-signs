@@ -98,17 +98,19 @@ sign:
 
   panel:
     species:
-      - name: { en: Salt Marsh Cordgrass, es: Espartina }
-        scientific: Spartina alterniflora
+      - name: { en: Carolina Sea Lavender, es: Lavanda de mar }
+        scientific: Limonium carolinianum
         status: native
-      - name: { en: Ribbed Mussel, es: Mejillón de marisma }
-        scientific: Geukensia demissa
+        file: species/carolina-sea-lavender-limonium-carolinianum.jpg
+      - name: { en: Northern Seaside Goldenrod, es: Vara de oro marítima }
+        scientific: Solidago sempervirens
         status: native
+        file: species/northern-seaside-goldenrod-solidago-sempervirens.jpg
       - name: { en: Atlantic Marsh Fiddler Crab, es: Cangrejo violinista }
         scientific: Minuca pugnax
         status: native
-      - name: { en: Mute Swan, es: Cisne vulgar }
-        scientific: Cygnus olor
+      - name: { en: Common Reed, es: Carrizo }
+        scientific: Phragmites australis
         status: invasive
 
     river_fact:

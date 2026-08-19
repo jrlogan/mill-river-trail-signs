@@ -59,14 +59,15 @@ sign:
 
   images:
     - key: The Oyster Fleet
-      file: TODO-oyster-fleet-2.jpg
+      file: OysterGroundMap-1928.png
       slot: center_top
-      source_note: >-
-        Fair Haven oyster fleet or oystermen at work, 19th century. New Haven
-        Museum; Library of Congress.
       caption:
-        en: The Fair Haven oyster fleet, second in the country only to Baltimore.
-        es: La flota ostrera de Fair Haven, segunda del país solo tras Baltimore.
+        en: >-
+          The 1928 oyster ground map of the Mill and Quinnipiac rivers, showing
+          the beds this town was built on.
+        es: >-
+          El mapa de bancos ostreros de 1928 de los ríos Mill y Quinnipiac, con
+          los criaderos sobre los que se construyó este pueblo.
 
     - key: A Sharpie
       file: TODO-sharpie.jpg
@@ -109,6 +110,10 @@ sign:
 
   panel:
     species:
+      - name: { en: Northern Seaside Goldenrod, es: Vara de oro marítima }
+        scientific: Solidago sempervirens
+        status: native
+        file: species/northern-seaside-goldenrod-solidago-sempervirens.jpg
       - name: { en: Eastern Oyster, es: Ostra americana }
         scientific: Crassostrea virginica
         status: native
@@ -118,9 +123,6 @@ sign:
       - name: { en: Asian Shore Crab, es: Cangrejo costero asiático }
         scientific: Hemigrapsus sanguineus
         status: invasive
-      - name: { en: Double-crested Cormorant, es: Cormorán orejudo }
-        scientific: Nannopterum auritum
-        status: native
 
     river_fact:
       text:

@@ -99,15 +99,15 @@ sign:
           la isla Ball, hacia 1915. Cortesía de Joseph Taylor.
 
     - key: industry_1910
-      file: MillRiver-Grand(1910c)NewHavenMuseum2.jpg
+      file: UnitedIlluminating-at-night.png
       slot: center_bottom
       caption:
         en: >-
-          Factories crowding the filled riverbank near Grand Avenue, about 1910.
-          Courtesy of the New Haven Museum.
+          The United Illuminating Company's plant lit up on Ball Island. English
+          Station generated power here from 1929 until 1992.
         es: >-
-          Fábricas apiñadas sobre la ribera rellenada cerca de Grand Avenue,
-          hacia 1910. Cortesía del Museo de New Haven.
+          La central de la United Illuminating Company iluminada en la isla Ball.
+          English Station generó electricidad aquí desde 1929 hasta 1992.
 
     - key: kickapoo_ad
       file: grand525(1888)CityDirectory.jpg
@@ -127,6 +127,23 @@ sign:
     # wants salt marsh cordgrass, ribbed mussel, fiddler crab, great egret.
     # Omitting them gives the locator map the full panel until that art exists.
     # species: []
+
+    species:
+      - name: { en: Northern Seaside Goldenrod, es: Vara de oro marítima }
+        scientific: Solidago sempervirens
+        status: native
+        file: species/northern-seaside-goldenrod-solidago-sempervirens.jpg
+      - name: { en: Carolina Sea Lavender, es: Lavanda de mar }
+        scientific: Limonium carolinianum
+        status: native
+        file: species/carolina-sea-lavender-limonium-carolinianum.jpg
+      - name: { en: Common Reed, es: Carrizo }
+        scientific: Phragmites australis
+        status: invasive
+      - name: { en: Rugosa Rose, es: Rosa rugosa }
+        scientific: Rosa rugosa
+        status: invasive
+        file: species/rugosa-rose-rosa-rugosa.jpg
 
     river_fact:
       # Ties the filled ground under the reader's feet to something they can act

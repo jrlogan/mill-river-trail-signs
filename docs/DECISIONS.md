@@ -166,65 +166,110 @@ performers were employed and lived in the neighbourhood.
 
 Worth a read by someone from the project before this goes to print.
 
-## The artwork gap for signs 4-12
+## Artwork: what the walk-images folder closed
 
-**One usable historic image exists in the whole handoff for the remaining nine
-signs** — `2171px-1893_New_Haven_east - from railway.jpg`. Everything else in
-`assets/images/` belongs to signs 1-3. This is now the single biggest thing
-standing between the research notes and finished signs.
+The `Mill River Trail Images for Walks` folder supplied **54 images**, and it
+changed the picture substantially. Images still to source dropped from 36 to 26,
+and four signs went to zero placeholders.
 
-The build handles it rather than hiding it. An image with no file is drawn as a
-labelled placeholder carrying its own sourcing brief, so a sign can be reviewed
-for copy and layout before its art exists, and the build refuses to let a sign
-leave `status: draft` while any placeholder remains:
+### What it resolved
 
-```
-▸ sign-04-whitney — The Dam That Fought Fires  [draft]
-  ◻ 4 image(s) not sourced yet — drawn as placeholders
-```
+- **Sign 1.** Two better images than anything previously available: the Fenian
+  Ram *inside the shed on the Mill River*, photographed by Simon Lake — the most
+  relevant photograph in the whole project — and the sub on its teal cradle at
+  the Paterson Museum, which is the shot the 2022 comp used and which was
+  missing from the handoff. That open question is closed.
+- **Sign 2.** English Station lit up at night, and again in colour today.
+- **Sign 4.** All four slots: the Whitney Arms Company engraving with East Rock
+  behind it, a plan of the armory village, a painting of Lake Whitney, and a
+  Lewis Osterweis trade card.
+- **Sign 5.** Three of four: a swimming-bath interior engraving, a crowded
+  municipal bath, and a period map with the bath house at Mill River Street and
+  Beach Street. Exactly the material you thought might exist.
+- **Sign 9.** Plate 46 from the 1910 plan — *"Mill River from State Street
+  Bridge. This view may be preserved and the marsh reclaimed as park land"* —
+  which is the 1910 argument in one caption.
+- **Sign 10.** An aerial of the highway construction.
+- **Sign 12.** The 1928 oyster ground map of the Mill and Quinnipiac.
 
-### Shot list: sign 4, Eli Whitney
+### The species panels are now photographs
 
-Each brief also prints inside its placeholder on the proof.
+The `nature/` folder holds **17 species photographed along the trail**, already
+named with common and scientific names. Those have replaced the guesses. Each is
+classified native, invasive or introduced and distributed across the signs by
+habitat, so the boxes now show real local observations rather than plausible
+ones. Poison ivy appears on two signs, which is useful information for a walker.
 
-| Slot | What is needed | Likely source |
-|---|---|---|
-| Hero | The stone armory building, 19th century | Eli Whitney Museum; Connecticut History; New Haven Museum |
-| Lower left | The masonry dam, ideally during the 1860s raising | New Haven Museum; Regional Water Authority archive |
-| Wide | Lake Whitney looking north — historic preferred, modern acceptable | Regional Water Authority; a new photograph would do |
-| Diagram | A musket lock, or a plate of armory machinery | Eli Whitney Museum; Smithsonian or Springfield Armory public domain |
+This also removes the Noun Project licence question for most panels — these are
+the project's own photographs.
 
-Two things to settle when sourcing, for every sign from here on:
+## Sign 13: William Lanson
 
-- **Permission scope.** The museums supplied the signs 1-3 images for this
-  project. Ask explicitly for print reproduction on a public sign *and* web use,
-  so it does not have to be renegotiated later.
-- **Public domain first.** Anything published before 1930 is public domain in
-  the US. The Library of Congress, Smithsonian and Internet Archive hold a great
-  deal of relevant material and cost nothing to clear.
+Not in the original KMZ. Added because the research notes ask *"what stories are
+we systematically overlooking because of culture and records?"* and then answer
+themselves with Lanson, in his own words, describing this river.
+
+Sited on the trail south of Grand Avenue, sighted across the filled ground
+toward the end of Greene Street. **Confirm this on the ground** — the sightline
+is the whole point of the sign.
+
+Research beyond the notes established:
+
+- The Liberian Hotel was Ebenezer Peck's converted slaughterhouse, at the end of
+  **Greene Street**, opened July 1830 as a boarding house for people of colour,
+  furnished to about $1,000.
+- The neighbourhood was **New Liberia**, inside **New Township** — the ground
+  between Olive Street and the Mill River. Next to it was **Slineyville**, the
+  Irish district. Lanson had earlier held **New Guinea**, east of Wooster Square.
+  **Barnesville** was the Grand Avenue and East Street corner. Of these, only
+  Barnesville and Fair Haven stayed on maps.
+- **In 1831 the hotel was raided.** By one account the white patrons were
+  arrested and the Black residents "were allowed to run."
+- Prosecutions ran for years. In the mid-1840s Lanson was held under a newly
+  passed adultery law on a $500 bond, and across roughly six years was
+  imprisoned about 450 days in total. He maintained his innocence. He lost the
+  property, fell into poverty, and died in 1851.
+
+The quoted passage about working the scows at night comes from the 1845 pamphlet
+carrying his own statement. **Check it against the printed source before print.**
+
+## Images still to source: 26
+
+Every one carries a written brief in its sign's YAML that prints inside the
+placeholder on the proof. The ones most worth chasing:
+
+- **Sign 11: the boat on top of East Rock.** Still the best single image on the
+  trail if it exists.
+- **Sign 8: the 29th Connecticut.** The most consequential story in the series.
+- **Sign 13: New Liberia or the Liberian Hotel.** If any view survives, it would
+  be significant well beyond this trail.
+- **Signs 6 and 7** are largely natural history — river herring, a fishway, a
+  fiddler crab, an egret, low tide. NOAA and USFWS hold public domain images,
+  and several could simply be photographed on a good low tide.
 
 ## Sign inventory
 
-All twelve locations from `Mill River Signage Plan.kmz` now have content. Signs
-1-3 are complete. Signs 4-12 are drafted in both languages with layout, locator
-maps, species panels and live web pages — waiting only on pictures.
+Thirteen signs. All twelve KMZ locations plus William Lanson. Signs 1-4 have
+complete artwork; the rest are drafted in both languages with layout, locator
+maps, species panels and live web pages.
 
 | # | Sign | Title | EN | ES | Images | Print | Web |
 |---|---|---|---|---|---|---|---|
 | 1 | Fenian Ram | Famous Stolen Submarine | ✅ | ✅ | ✅ | **proof** | ✅ |
 | 2 | Ball Island | Marsh, Mud and Meadow | ✅ | ✅ | ✅ | draft | ✅ |
 | 3 | Railway Bridge | Three Bridges North | ✅ | ✅ | ✅ | draft | ✅ |
-| 4 | Lake Whitney | The Dam That Fought Fires | ✅ | ✅ | ⬜ 4 | draft | ✅ |
-| 5 | Bath House | Where the City Bathed | ✅ | ✅ | ⬜ 4 | draft | ✅ |
+| 4 | Lake Whitney | The Dam That Fought Fires | ✅ | ✅ | ✅ | draft | ✅ |
+| 5 | Bath House | Where the City Bathed | ✅ | ✅ | ⬜ 1 | draft | ✅ |
 | 6 | Tide Gate | The Gate in the River | ✅ | ✅ | ⬜ 4 | draft | ✅ |
 | 7 | Tides | Twice a Day, the Sea | ✅ | ✅ | ⬜ 4 | draft | ✅ |
 | 8 | Criscuolo Park | Camp at Grapevine Point | ✅ | ✅ | ⬜ 4 | draft | ✅ |
-| 9 | Planning | A Century of Plans | ✅ | ✅ | ⬜ 4 | draft | ✅ |
-| 10 | I-91 / East Rock | The Highway That Wasn't | ✅ | ✅ | ⬜ 4 | draft | ✅ |
+| 9 | Planning | A Century of Plans | ✅ | ✅ | ⬜ 2 | draft | ✅ |
+| 10 | I-91 / East Rock | The Highway That Wasn't | ✅ | ✅ | ⬜ 3 | draft | ✅ |
 | 11 | East Rock Park | A Boat on the Rock | ✅ | ✅ | ⬜ 4 | draft | ✅ |
-| 12 | Dragon Point | Dragon Point | ✅ | ✅ | ⬜ 4 | draft | ✅ |
+| 12 | Dragon Point | Dragon Point | ✅ | ✅ | ⬜ 3 | draft | ✅ |
+| 13 | William Lanson | King Lanson's River | ✅ | ✅ | ⬜ 1 | draft | ✅ |
 
-**36 images to source.** Every one carries a written brief in its sign's YAML,
+**26 images to source.** Every one carries a written brief in its sign's YAML,
 which also prints inside the placeholder on the proof. A great many of them are
 public domain — anything published before 1930 — and the Library of Congress,
 NOAA, USFWS and the Smithsonian cover a surprising share of what is needed.

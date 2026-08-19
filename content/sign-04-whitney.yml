@@ -78,59 +78,62 @@ sign:
   # ---------------------------------------------------------------------------
   images:
     - key: Whitney Armory
-      file: TODO-whitney-armory.jpg
+      file: WhitneyArmsCompany-engraving.jpg
       slot: center_top
-      source_note: >-
-        The stone armory building, 19th century. Eli Whitney Museum, or
-        Connecticut History / New Haven Museum.
       caption:
         en: >-
-          Eli Whitney's armory on the Mill River. Courtesy of the Eli Whitney
-          Museum.
+          The Whitney Arms Company on the Mill River, with East Rock behind
+          it.
         es: >-
-          La armería de Eli Whitney en el río Mill. Cortesía del Museo Eli
-          Whitney.
+          La Whitney Arms Company en el río Mill, con East Rock al fondo.
 
     - key: The Dam
-      file: TODO-whitney-dam.jpg
+      file: WhitneyArmory-village-plan.png
       slot: left_bottom
-      source_note: >-
-        The masonry dam, ideally 19th century or during the 1860s raising.
-        New Haven Museum or the Regional Water Authority archive.
       caption:
         en: >-
-          The dam that created Lake Whitney, raised to twenty-seven feet in 1860.
+          A plan of the armory village on the Mill River, with the boarding
+          house where Whitney's workers lived.
         es: >-
-          La presa que formó el lago Whitney, elevada a veintisiete pies en 1860.
+          Plano del poblado de la armería en el río Mill, con la casa de
+          huéspedes donde vivían los trabajadores de Whitney.
 
     - key: Lake Whitney
-      file: TODO-lake-whitney.jpg
+      file: LakeWhitney-painting.png
       slot: center_bottom
-      source_note: >-
-        The reservoir, looking north. Historic preferred; a good modern
-        photograph would also work here.
       caption:
         en: >-
-          Lake Whitney supplied New Haven's drinking water from 1860 until 1991.
+          Lake Whitney, the reservoir the dam created. It supplied New Haven's
+          drinking water from 1860 until 1991.
         es: >-
-          El lago Whitney abasteció de agua potable a New Haven desde 1860 hasta
-          1991.
+          El lago Whitney, el embalse que formó la presa. Abasteció de agua
+          potable a New Haven desde 1860 hasta 1991.
 
     - key: Interchangeable Parts
-      file: TODO-musket-lock.jpg
+      file: LakeWhitney-trade-card.png
       slot: right_bottom
-      source_note: >-
-        A musket lock, or a plate of armory machinery. Eli Whitney Museum, or
-        Smithsonian / Springfield Armory public domain collections.
       caption:
         en: >-
-          A musket lock. Whitney's parts were made to a pattern so that any one
-          would fit.
+          A New Haven trade card for Lake Whitney, by Lewis Osterweis & Sons.
         es: >-
-          Una llave de mosquete. Whitney hacía las piezas según un patrón para
-          que cualquiera encajara.
+          Tarjeta comercial de New Haven del lago Whitney, de Lewis Osterweis &
+          Sons.
 
   panel:
+
+    species:
+      - name: { en: Black-eyed Susan, es: Rudbeckia }
+        scientific: Rudbeckia hirta
+        status: native
+        file: species/blackeyed-susan-rudbeckia-hirta.jpg
+      - name: { en: Common Evening-Primrose, es: Onagra }
+        scientific: Oenothera biennis
+        status: native
+        file: species/common-eveningprimrose-oenothera-biennis.jpg
+      - name: { en: Autumn Olive, es: Olivo de otoño }
+        scientific: Elaeagnus umbellata
+        status: invasive
+        file: species/autumn-olive-elaeagnus-umbellata.jpg
 
     river_fact:
       text:
