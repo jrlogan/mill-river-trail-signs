@@ -234,7 +234,7 @@ body {
 `;
 }
 
-export function signHTML(sign, { qrEn, qrEs, assetBase = '../../assets' }) {
+export function signHTML(sign, { qrEn, qrEs, diagramAspect = null, assetBase = '../../assets' }) {
   const s = sign.sign;
   const img = (f) => `${assetBase}/images/${sign.id.replace(/^sign-(\d+).*/, 'sign-$1')}/${encodeURIComponent(f)}`;
   const pick = (o, l) => (o ? o[l] : '');
@@ -333,8 +333,16 @@ export function signHTML(sign, { qrEn, qrEs, assetBase = '../../assets' }) {
   <img class="abs photo" src="${img(wide.file)}"
        style="${box({ x: L.strip.wide.x, y: L.strip.y, w: L.strip.wide.w, h: L.strip.h })}" alt="">
 
-  <img class="abs photo photo-contain" src="${img(diagram.file)}"
-       style="${box({ x: L.strip.diagram.x, y: L.strip.y, w: L.strip.diagram.w, h: L.strip.h - 1.05 })}" alt="">
+  ${(() => {
+    // Never taller than the slot, but shrink to the drawing's own shape so a
+    // wide elevation does not float in a column of white — then centre what is
+    // left between the top of the strip and the caption.
+    const avail = L.strip.h - 1.05;
+    const h = Math.min(avail, diagramAspect ? L.strip.diagram.w / diagramAspect : avail);
+    const y = L.strip.y + (avail - h) / 2;
+    return `<img class="abs photo photo-contain" src="${img(diagram.file)}"
+       style="${box({ x: L.strip.diagram.x, y, w: L.strip.diagram.w, h })}" alt="">`;
+  })()}
   <div class="abs diagram-caption" style="${box({
     x: L.strip.diagram.x, y: L.strip.y + L.strip.h - 1.0, w: L.strip.diagram.w, h: 1.0,
   })}">

@@ -141,16 +141,18 @@ no chase required.
 set. It is placed in the smaller bottom-left slot at 5.26 in wide, which works
 out to about 228 dpi. Fine where it sits; do not promote it to the hero slot.
 
-### Marsh species artwork for sign 2
+### Species artwork for signs 2 and 3
 
 Sign 2 has no species boxes. The chickadee, sumac and warbler drawn for the
 submarine sign are upland species and would be wrong beside a marsh sign, so the
 locator map takes the full panel instead — the template treats species as
 optional.
 
-A marsh sign wants **salt marsh cordgrass, ribbed mussel, fiddler crab, great
-egret**. Four illustrations in the same style would finish the panel. Note the
-Noun Project licence question above before commissioning or sourcing more.
+Sign 3 has none either. A marsh sign wants **salt marsh cordgrass, ribbed
+mussel, fiddler crab, great egret**; sign 3's river fact is about the spring
+run, so a **river herring** would suit it. Illustrations in the same style would
+finish both panels. Note the Noun Project licence question above before
+commissioning or sourcing more.
 
 ### Kickapoo Indian Medicine Company — how it is described
 

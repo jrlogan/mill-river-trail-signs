@@ -1,0 +1,365 @@
+# ---------------------------------------------------------------------------
+# Mill River Trail — Sign 3: Rail, Industry and the Bridges
+#
+# Single source of truth. See README.md for the build.
+# ---------------------------------------------------------------------------
+
+id: sign-03-bridges
+number: 3
+status: draft            # draft | proof | approved | printed
+
+location:
+  name: Railway Bridge
+  place: The Mill River below the railroad bridge, looking north
+  lat: 41.3124395
+  lon: -72.9072597
+
+urls:
+  en: signs.MillRiverTrail.com/bridges
+  es: signs.MillRiverTrail.com/puentes
+  en_full: https://signs.millrivertrail.com/bridges
+  es_full: https://signs.millrivertrail.com/puentes
+
+# What a reader standing here can actually see, which is the test a sign title
+# has to pass.
+title:
+  en: Three Bridges North
+  es: Tres Puentes al Norte
+
+sign:
+
+  lede:
+    en: >-
+      The land you are standing on was once marshland, mud and meadow, raised
+      above the tide line with fill. The Mill River is a tidal stream, draining
+      from the uplands of Cheshire south into Long Island Sound. The clay, silt
+      and sand around you were once the floor of a shallow sea. Since English
+      Puritans settled here in 1638, bridging this river has been how the city
+      holds itself together.
+    # The draft translation ended with a line of DeepL advertising sitting in
+    # the body text. Rewritten.
+    es: >-
+      La tierra que pisa fue en su día marisma, lodo y pradera, elevada sobre la
+      línea de marea con relleno. El río Mill es una corriente de marea que baja
+      desde las tierras altas de Cheshire hacia el sur, hasta el estrecho de Long
+      Island. La arcilla, el limo y la arena que le rodean fueron el fondo de un
+      mar poco profundo. Desde que los puritanos ingleses se asentaron aquí en
+      1638, tender puentes sobre este río ha sido la forma de mantener unida la
+      ciudad.
+
+  section:
+    heading:
+      en: Bridging the Mill River
+      es: Cruzar el río Mill
+    body:
+      en: >-
+        The first crossing, Neck Bridge, went up in 1641 along what is now State
+        Street. Look north from here and you will see three more. Farthest is the
+        Humphrey Street Bridge, built in 1952 to replace a 1909 crossing that
+        linked State Street to Fair Haven. The middle bridge carries trains, and
+        has since 1839, when the New Haven and Hartford Railroad — the city's
+        first rail line — laid red sandstone across the river here; its two
+        concrete arches went up in 1906-07. Nearest is an abandoned line, part of
+        the New Haven, New London and Stonington Railroad of 1852, which ran east
+        through Fair Haven and along the shore.
+      es: >-
+        El primer cruce, el Neck Bridge, se levantó en 1641 en lo que hoy es
+        State Street. Mire hacia el norte y verá tres más. El más lejano es el
+        puente de Humphrey Street, construido en 1952 para sustituir un cruce de
+        1909 que unía State Street con Fair Haven. El puente del medio lleva
+        trenes, y lo hace desde 1839, cuando el ferrocarril de New Haven y
+        Hartford — la primera línea de la ciudad — tendió piedra arenisca roja
+        sobre el río; sus dos arcos de hormigón se levantaron en 1906-07. El más
+        cercano es una línea abandonada del ferrocarril de New Haven, New London
+        y Stonington, de 1852, que iba al este por Fair Haven y la costa.
+
+  images:
+    - key: district_1955
+      file: hamilton-stjohn(1955c)NHRed.jpg
+      slot: center_top
+      focus: 50% 45%
+      caption:
+        en: >-
+          The Hamilton and St John Street district about 1955, when the Mill
+          River still ran a working industrial city. Courtesy of the New Haven
+          Museum.
+        es: >-
+          El barrio de las calles Hamilton y St John hacia 1955, cuando el río
+          Mill todavía movía una ciudad industrial en activo. Cortesía del Museo
+          de New Haven.
+
+    - key: bridge_plate
+      file: RailroadBridge(1908)EngineeringRecord.jpg
+      slot: left_bottom
+      focus: 50% 50%
+      caption:
+        en: >-
+          Construction drawings for the concrete arches that replaced the
+          sandstone bridge. Engineering and Building Record, November 1908.
+          Courtesy of Colin M. Caplan.
+        es: >-
+          Planos de construcción de los arcos de hormigón que sustituyeron al
+          puente de arenisca. Engineering and Building Record, noviembre de 1908.
+          Cortesía de Colin M. Caplan.
+
+    - key: riverfront_1910
+      file: MillRiver-Grand(1910c)NewHavenMuseum1.jpg
+      slot: center_bottom
+      caption:
+        en: >-
+          Smokestacks along the Mill River near Grand Avenue, about 1910.
+          Courtesy of the New Haven Museum.
+        es: >-
+          Chimeneas a lo largo del río Mill cerca de Grand Avenue, hacia 1910.
+          Cortesía del Museo de New Haven.
+
+    - key: arch_elevation
+      file: RailroadBridge(1908)EngineeringRecord-b.jpg
+      slot: right_bottom
+      caption:
+        en: >-
+          Elevation of the 1906-07 arch. Engineering and Building Record,
+          November 1908. Courtesy of Colin M. Caplan.
+        es: >-
+          Alzado del arco de 1906-07. Engineering and Building Record, noviembre
+          de 1908. Cortesía de Colin M. Caplan.
+
+  panel:
+    map: panel-map.svg
+
+    you_are_here:
+      en: You Are Here
+      es: Usted está aquí
+
+    # No species boxes yet — see docs/DECISIONS.md. A river-herring illustration
+    # would suit this sign, given the river fact below.
+
+    river_fact:
+      label:
+        en: River Fact
+        es: Hecho del Río
+      text:
+        en: >-
+          The Mill River is tidal from the harbour up to the tide gate. River
+          herring still run up it each spring to spawn, as they did before the
+          first bridge was built.
+        es: >-
+          El río Mill es de marea desde el puerto hasta la compuerta. Los
+          arenques de río todavía lo remontan cada primavera para desovar, como
+          lo hacían antes de que se construyera el primer puente.
+
+  dedication:
+    en: In honor of trail blazer Tom Holahan
+    es: En honor al pionero del sendero Tom Holahan
+
+  credits:
+    label:
+      en: Made Possible by
+      es: Hecho posible por
+    funders: >-
+      Mill River Watershed Association, Sustainable CT, Susan B. Holahan and
+      Family, City of New Haven, District New Haven, Bear's BBQ, Community
+      Foundation for Greater New Haven, Chatham Square Neighborhood Association,
+      Industrial Flow Solutions, Doug Hausladen, and other individual donors.
+    produced_label:
+      en: Produced by
+      es: Producido por
+    produced: >-
+      Colin M. Caplan, Design Monsters, Joe Kolodej, Nick McGhee, and J.R. Logan.
+
+  learn_more:
+    en: Learn More
+    es: Más en línea
+
+web:
+  subtitle:
+    en: The rail line that made the Mill River an industrial river, and the bridges that are still standing over it
+    es: La línea férrea que convirtió el río Mill en un río industrial, y los puentes que siguen cruzándolo
+
+  body:
+    en: |
+      A river is an obstacle before it is anything else. For two centuries the
+      history of the Mill River in New Haven is mostly the history of getting
+      across it — and then, once the railroad arrived, of what got built along it
+      because the crossing was there.
+
+      ## A tidal stream
+
+      The Mill River rises in the uplands of Cheshire and runs about seventeen
+      miles south through Hamden and New Haven into Long Island Sound. The lower
+      river, the stretch you are standing on, is tidal: salt water pushes up it
+      twice a day as far as the tide gate.
+
+      The ground here is clay, silt and sand — the floor of a shallow sea that
+      sat between glacial periods. It is soft, it floods, and before it was
+      filled it was marsh. None of that made it good to build on. All of it made
+      it cheap.
+
+      ## Neck Bridge, 1641
+
+      English Puritans settled New Haven in 1638. Three years later they built
+      the first bridge over the Mill River, called Neck Bridge, along what is now
+      State Street. For most of two centuries that was the crossing — anyone
+      going to Fair Haven went up to State Street and over.
+
+      In 1819 Eli Barnes helped pay for a bridge at Grand Avenue, privately,
+      cutting the trip short. The city spent the next hundred years rebuilding
+      both.
+
+      ## The railroad, 1839
+
+      The New Haven and Hartford Railroad opened in 1839, the city's first rail
+      line, and carried its track over the Mill River on a bridge of red
+      sandstone. That single decision did more to shape this riverbank than any
+      other.
+
+      Before the railroad, industry on the Mill River meant water power: a
+      gristmill, a carriage factory, a mill making wheels and axles, a paper
+      mill, and from 1798 Eli Whitney's armory upstream. Those works had to sit
+      where the current was. After the railroad, a factory only needed to sit
+      where the freight was — and a site with a rail line on one side and a
+      navigable tidal river on the other, minutes from a dense supply of labour,
+      was as good as land got.
+
+      So the marshes were filled and the riverbank was taken. By the early 1900s
+      the lower Mill River was lined with works making rubber boots, clocks, auto
+      parts, cardboard, steam boilers, brass and wire.
+
+      The sandstone bridge was replaced in 1906-07 by the two concrete arches
+      standing today. The Engineering and Building Record published the drawings
+      in November 1908.
+
+      ## Three bridges, and one that stopped
+
+      Looking north from here you can see the sequence. The nearest bridge
+      carried the New Haven, New London and Stonington Railroad, begun in 1852,
+      east through Fair Haven and along the Connecticut shoreline; that line is
+      abandoned now. The middle bridge is the 1906-07 arch, still carrying
+      trains. The farthest is the Humphrey Street Bridge, built in 1952 to
+      replace a 1909 crossing between State Street and Fair Haven.
+
+      ## What it cost
+
+      This was before the Clean Water Act, and the river was treated as part of
+      the plant. Owners put into it whatever they wanted to be rid of. The
+      discharge ran downstream into the oyster beds that ringed the industrial
+      area, and the oystermen and the factories fought over it for decades — an
+      argument the factories won.
+
+      By 1970 the Mill River tested at four times the legal limit for swimming,
+      and there was serious talk of paving it over.
+
+      The industry left instead. The river has been recovering since, and river
+      herring still run up it each spring to spawn, the way they did before Neck
+      Bridge.
+
+    es: |
+      Un río es un obstáculo antes que cualquier otra cosa. Durante dos siglos,
+      la historia del río Mill en New Haven es sobre todo la historia de cómo
+      cruzarlo, y después, una vez llegó el ferrocarril, de lo que se construyó a
+      su orilla porque el cruce ya existía.
+
+      ## Una corriente de marea
+
+      El río Mill nace en las tierras altas de Cheshire y corre unas diecisiete
+      millas hacia el sur, por Hamden y New Haven, hasta el estrecho de Long
+      Island. El tramo bajo, donde usted está, es de marea: el agua salada sube
+      dos veces al día hasta la compuerta.
+
+      El terreno aquí es arcilla, limo y arena: el fondo de un mar poco profundo
+      que existió entre periodos glaciares. Es blando, se inunda y, antes de
+      rellenarse, era marisma. Nada de eso lo hacía bueno para construir. Todo
+      eso lo hacía barato.
+
+      ## Neck Bridge, 1641
+
+      Los puritanos ingleses fundaron New Haven en 1638. Tres años después
+      construyeron el primer puente sobre el río Mill, llamado Neck Bridge, en lo
+      que hoy es State Street. Durante casi dos siglos ese fue el cruce: quien
+      iba a Fair Haven subía hasta State Street y pasaba por allí.
+
+      En 1819 Eli Barnes ayudó a pagar, de forma privada, un puente en Grand
+      Avenue, y acortó el trayecto. La ciudad pasó el siglo siguiente
+      reconstruyendo ambos.
+
+      ## El ferrocarril, 1839
+
+      El ferrocarril de New Haven y Hartford se abrió en 1839, la primera línea
+      de la ciudad, y cruzó el río Mill sobre un puente de piedra arenisca roja.
+      Esa sola decisión moldeó esta ribera más que ninguna otra.
+
+      Antes del ferrocarril, la industria del río Mill era fuerza hidráulica: un
+      molino de grano, una fábrica de carruajes, un taller de ruedas y ejes, un
+      molino de papel y, desde 1798, la armería de Eli Whitney río arriba. Esas
+      fábricas tenían que estar donde estaba la corriente. Después del
+      ferrocarril, a una fábrica le bastaba con estar donde estaba la carga, y un
+      solar con una vía a un lado y un río de marea navegable al otro, a minutos
+      de una densa reserva de mano de obra, era lo mejor que podía ofrecer el
+      suelo.
+
+      Así que se rellenaron las marismas y se ocupó la ribera. A principios del
+      siglo XX el bajo Mill River estaba flanqueado de fábricas de botas de
+      goma, relojes, piezas de automóvil, cartón, calderas de vapor, latón y
+      alambre.
+
+      El puente de arenisca fue sustituido en 1906-07 por los dos arcos de
+      hormigón que siguen en pie. El Engineering and Building Record publicó los
+      planos en noviembre de 1908.
+
+      ## Tres puentes, y uno que se detuvo
+
+      Mirando al norte desde aquí se ve la secuencia. El puente más cercano
+      llevaba el ferrocarril de New Haven, New London y Stonington, iniciado en
+      1852, hacia el este por Fair Haven y la costa de Connecticut; esa línea
+      está hoy abandonada. El del medio es el arco de 1906-07, que sigue llevando
+      trenes. El más lejano es el puente de Humphrey Street, construido en 1952
+      para sustituir un cruce de 1909 entre State Street y Fair Haven.
+
+      ## Lo que costó
+
+      Esto ocurrió antes de la Ley de Agua Limpia, y el río se trataba como parte
+      de la fábrica. Los dueños echaban en él lo que querían quitarse de encima.
+      El vertido bajaba hasta los bancos de ostras que rodeaban la zona
+      industrial, y ostricultores y fábricas pelearon por ello durante décadas:
+      una discusión que ganaron las fábricas.
+
+      En 1970 el río Mill superaba en cuatro veces el límite legal para poder
+      nadar, y se llegó a hablar en serio de cubrirlo con pavimento.
+
+      Se marchó la industria en su lugar. El río lleva recuperándose desde
+      entonces, y los arenques de río todavía lo remontan cada primavera para
+      desovar, como lo hacían antes del Neck Bridge.
+
+  gallery:
+    - file: hamilton-stjohn(1955c)NHRed.jpg
+      caption:
+        en: The Hamilton and St John Street district about 1955. Courtesy of the New Haven Museum.
+        es: El barrio de las calles Hamilton y St John hacia 1955. Cortesía del Museo de New Haven.
+    - file: MillRiver-Grand(1910c)NewHavenMuseum1.jpg
+      caption:
+        en: Smokestacks along the Mill River near Grand Avenue, about 1910. Courtesy of the New Haven Museum.
+        es: Chimeneas a lo largo del río Mill cerca de Grand Avenue, hacia 1910. Cortesía del Museo de New Haven.
+    - file: RailroadBridge(1908)EngineeringRecord-b.jpg
+      caption:
+        en: >-
+          Elevation of the concrete arch built in 1906-07 to replace the 1839
+          sandstone bridge. Engineering and Building Record, November 1908.
+          Courtesy of Colin M. Caplan.
+        es: >-
+          Alzado del arco de hormigón construido en 1906-07 para sustituir el
+          puente de arenisca de 1839. Engineering and Building Record, noviembre
+          de 1908. Cortesía de Colin M. Caplan.
+    - file: RailroadBridge(1908)EngineeringRecord.jpg
+      caption:
+        en: Construction drawings for the same bridge. Courtesy of Colin M. Caplan.
+        es: Planos de construcción del mismo puente. Cortesía de Colin M. Caplan.
+
+  sources:
+    - title: Engineering and Building Record, Volume 58 (November 1908)
+      url: https://www.google.com/books/edition/_/NUHnAAAAMAAJ
+    - title: New Haven's industrial history — Yale-New Haven Teachers Institute
+      url: https://teachersinstitute.yale.edu/curriculum/units/1979/3/79.03.02.x.html
+    - title: Mill River Watershed Based Plan — Save the Sound
+      url: https://www.savethesound.org/wp-content/uploads/2018/08/Draft_MillRiver_WBP_-20180817_Compressed2.pdf
+    - title: Mill River Trail Framework Plan
+      url: https://issuu.com/millrivertrail/docs/mrt_frameworkplan

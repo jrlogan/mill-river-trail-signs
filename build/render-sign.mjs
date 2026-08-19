@@ -14,6 +14,7 @@ import { fileURLToPath, pathToFileURL } from 'node:url';
 import YAML from 'yaml';
 import QRCode from 'qrcode';
 import puppeteer from 'puppeteer';
+import sharp from 'sharp';
 import jsQR from 'jsqr';
 import { PNG } from 'pngjs';
 import { signHTML } from './sign-template.mjs';
@@ -36,7 +37,22 @@ async function renderSign(file) {
   const qrEn = await QRCode.toDataURL(sign.urls.en_full, qrOpts);
   const qrEs = await QRCode.toDataURL(sign.urls.es_full, qrOpts);
 
-  const html = signHTML(sign, { qrEn, qrEs });
+  // Technical drawings vary wildly in shape — an arch elevation can be 4:1
+  // where a plan sheet is 3:2. Measure it so the slot can size itself instead
+  // of stranding the drawing in a tall white box.
+  const diagram = sign.sign.images.find((i) => i.slot === 'right_bottom');
+  let diagramAspect = null;
+  if (diagram) {
+    const sub = sign.id.replace(/^sign-(\d+).*/, 'sign-$1');
+    try {
+      const m = await sharp(path.join(ROOT, 'assets', 'images', sub, diagram.file)).metadata();
+      diagramAspect = m.width / m.height;
+    } catch {
+      console.warn(`  ⚠ could not measure ${diagram.file}; using the default slot height`);
+    }
+  }
+
+  const html = signHTML(sign, { qrEn, qrEs, diagramAspect });
   await fs.mkdir(OUT, { recursive: true });
   const htmlPath = path.join(OUT, `${sign.id}.html`);
   await fs.writeFile(htmlPath, html);
