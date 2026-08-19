@@ -20,6 +20,19 @@ import { COLOR } from './theme.mjs';
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const OUT = path.join(ROOT, 'dist', 'site');
 
+// The foot of every page: the project line, then the resources a successor
+// would need. Built once from _shared.yml so all page types agree.
+function footer(lang, t, project) {
+  const links = (project?.links || [])
+    .filter((l) => l.url)
+    .map((l) => `<a href="${esc(l.url)}" rel="noopener">${esc(l.label[lang])}</a>`)
+    .join(' · ');
+  return `<footer><div class="wrap">
+  <p>${esc(t.footer)} <a href="https://www.millrivertrail.com/">millrivertrail.com</a></p>
+  ${links ? `<p class="project-links">${project.note ? esc(project.note[lang]) + ' ' : ''}${links}</p>` : ''}
+</div></footer>`;
+}
+
 // Stamped once per build. A dated page tells a reader this is maintained; an
 // undated one could be from any year.
 const BUILT = new Date().toISOString().slice(0, 10);
@@ -260,6 +273,8 @@ footer {
   color: var(--muted); font-size: 0.94rem;
 }
 footer a { color: var(--blue); font-weight: 600; }
+.project-links { font-size: 0.9rem; margin-top: 0.5rem; }
+.project-links a { margin: 0 0.15rem; }
 
 .signlist { list-style: none; padding: 0; margin: 2rem 0 0; display: grid; gap: 1rem; }
 .signlist a {
@@ -276,6 +291,7 @@ footer a { color: var(--blue); font-weight: 600; }
 
 function page({ lang, sign, otherHref }) {
   const t = T[lang];
+  const footerHTML = footer(lang, t, sign.project);
   const w = sign.web;
   const imgDir = `../images/${sign.id.replace(/^sign-(\d+).*/, 'sign-$1')}`;
   const webFile = (f) => f.replace(/\.[^.]+$/, '.jpg');
@@ -386,17 +402,14 @@ ${hero ? `<meta property="og:image" content="${imgDir}/${encodeURIComponent(hero
   </div>
 </main>
 
-<footer>
-  <div class="wrap">
-    <p>${esc(t.footer)} <a href="https://www.millrivertrail.com/">millrivertrail.com</a></p>
-  </div>
-</footer>
+${footerHTML}
 
 </body></html>`;
 }
 
 function indexPage(lang, signs) {
   const t = T[lang];
+  const footerHTML = footer(lang, t, signs[0]?.project);
   const items = signs.map((s) => {
     const slug = lang === 'en' ? s.urls.en.split('/').pop() : s.urls.es.split('/').pop();
     return `<li><a href="${slug}/">
@@ -434,12 +447,13 @@ function indexPage(lang, signs) {
       ${items}
   </ul>
 </div></main>
-<footer><div class="wrap"><p>${esc(t.footer)}</p></div></footer>
+${footerHTML}
 </body></html>`;
 }
 
 function existingPage(lang, data, signs, otherHref) {
   const t = T[lang];
+  const footerHTML = footer(lang, t, signs[0]?.project);
   const bySlug = Object.fromEntries(signs.map((s) => [s.id, s]));
 
   const groups = data.groups.map((g) => {
@@ -511,7 +525,7 @@ function existingPage(lang, data, signs, otherHref) {
     ? `${count} signs catalogued from photographs taken along the trail in April 2021. Positions come from the camera. If one has gone, or a new one has appeared, it should be corrected here.`
     : `${count} letreros catalogados a partir de fotografías tomadas a lo largo del sendero en abril de 2021. Las posiciones proceden de la cámara. Si alguno ha desaparecido, o ha aparecido uno nuevo, debería corregirse aquí.`)}</p>
 </div></main>
-<footer><div class="wrap"><p>${esc(t.footer)}</p></div></footer>
+${footerHTML}
 </body></html>`;
 }
 

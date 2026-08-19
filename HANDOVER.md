@@ -116,6 +116,20 @@ Do this before it is urgent.
 4. Run `npm run check:live`. If all the QR codes resolve, the transfer worked.
 5. Hand over the Drive archive and the domain registrar login at the same time.
 
+## Setting up public feedback
+
+1. Make a Google Form. Keep the story and the contact details in **separate
+   questions** — that matters for step 3.
+2. Put its URL in `content/_shared.yml` under `feedback: url:`. Push. Every page
+   grows the invitation.
+3. If you publish the responses sheet, **publish only the story columns.** Never
+   publish the column holding names, emails or phone numbers. People writing in
+   about their grandfather did not agree to have their address on the internet.
+
+If the form has a prefilled field for which sign someone is writing about, put
+that field's entry id in `sign_param` and the link will arrive with the sign
+already filled in.
+
 ## If you are stuck
 
 `README.md` explains the build. `docs/DECISIONS.md` explains why the content is

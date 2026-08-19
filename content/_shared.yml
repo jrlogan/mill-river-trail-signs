@@ -27,6 +27,21 @@ feedback:
     en: Tell us
     es: Cuéntenos
 
+# A small line at the foot of every page, so somebody who wants to take this on
+# can find everything without knowing who to ask. A link with a blank url is
+# simply left out.
+project:
+  note:
+    en: This project is open — anyone can pick it up.
+    es: "Este proyecto es abierto: cualquiera puede continuarlo."
+  links:
+    - label: { en: Source and content, es: Código y contenido }
+      url: https://github.com/jrlogan/mill-river-trail-signs
+    - label: { en: Image archive, es: Archivo de imágenes }
+      url: ""
+    - label: { en: How to take it on, es: Cómo hacerse cargo }
+      url: https://github.com/jrlogan/mill-river-trail-signs/blob/main/HANDOVER.md
+
 sign:
   panel:
     map: panel-map.svg
