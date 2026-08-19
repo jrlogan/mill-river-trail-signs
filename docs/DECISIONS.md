@@ -166,6 +166,43 @@ performers were employed and lived in the neighbourhood.
 
 Worth a read by someone from the project before this goes to print.
 
+## The artwork gap for signs 4-12
+
+**One usable historic image exists in the whole handoff for the remaining nine
+signs** — `2171px-1893_New_Haven_east - from railway.jpg`. Everything else in
+`assets/images/` belongs to signs 1-3. This is now the single biggest thing
+standing between the research notes and finished signs.
+
+The build handles it rather than hiding it. An image with no file is drawn as a
+labelled placeholder carrying its own sourcing brief, so a sign can be reviewed
+for copy and layout before its art exists, and the build refuses to let a sign
+leave `status: draft` while any placeholder remains:
+
+```
+▸ sign-04-whitney — The Dam That Fought Fires  [draft]
+  ◻ 4 image(s) not sourced yet — drawn as placeholders
+```
+
+### Shot list: sign 4, Eli Whitney
+
+Each brief also prints inside its placeholder on the proof.
+
+| Slot | What is needed | Likely source |
+|---|---|---|
+| Hero | The stone armory building, 19th century | Eli Whitney Museum; Connecticut History; New Haven Museum |
+| Lower left | The masonry dam, ideally during the 1860s raising | New Haven Museum; Regional Water Authority archive |
+| Wide | Lake Whitney looking north — historic preferred, modern acceptable | Regional Water Authority; a new photograph would do |
+| Diagram | A musket lock, or a plate of armory machinery | Eli Whitney Museum; Smithsonian or Springfield Armory public domain |
+
+Two things to settle when sourcing, for every sign from here on:
+
+- **Permission scope.** The museums supplied the signs 1-3 images for this
+  project. Ask explicitly for print reproduction on a public sign *and* web use,
+  so it does not have to be renegotiated later.
+- **Public domain first.** Anything published before 1930 is public domain in
+  the US. The Library of Congress, Smithsonian and Internet Archive hold a great
+  deal of relevant material and cost nothing to clear.
+
 ## Sign inventory
 
 Twelve locations are planned in `Mill River Signage Plan.kmz`.
@@ -175,7 +212,7 @@ Twelve locations are planned in `Mill River Signage Plan.kmz`.
 | 1 | Submarine (Fenian Ram) | done | done | done | **built** | **built** |
 | 2 | Ball Island & Marshes | done | needs edit | done | — | not written |
 | 3 | Rail & Industry | done | needs edit | done | — | not written |
-| 4 | River Industry | — | — | — | — | — |
+| 4 | Eli Whitney / Lake Whitney | **done** | **done** | **needs sourcing** | draft | **built** |
 | 5 | Bath Houses | — | — | — | — | — |
 | 6–12 | Tide Gate, English Station, Chapel St / Criscuolo, Tides & Urban Oasis, Planning History, Highway-over-River, Historic Spring, Dragon Point | research notes only | — | — | — | — |
 

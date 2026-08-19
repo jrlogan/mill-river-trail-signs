@@ -1,0 +1,349 @@
+# ---------------------------------------------------------------------------
+# Mill River Trail — Sign 4: Eli Whitney's Dam and Lake Whitney
+#
+# CONTENT COMPLETE, ARTWORK PENDING. The four images below have no files yet;
+# the build draws them as placeholders and refuses to let `status` leave
+# "draft" until they exist. See docs/DECISIONS.md for the shot list.
+# ---------------------------------------------------------------------------
+
+id: sign-04-whitney
+number: 4
+status: draft
+
+location:
+  name: Eli Whitney Museum / Lake Whitney
+  place: Below the Whitney dam, at the Eli Whitney Museum
+  lat: 41.3358209
+  lon: -72.9104594
+
+urls:
+  en: signs.MillRiverTrail.com/whitney
+  es: signs.MillRiverTrail.com/presa
+  en_full: https://signs.millrivertrail.com/whitney
+  es_full: https://signs.millrivertrail.com/presa
+
+# The dam is the thing in front of the reader, and the reason for it is the
+# surprise: not the factory, but the fires.
+title:
+  en: The Dam That Fought Fires
+  es: La Presa Contra Incendios
+
+sign:
+
+  lede:
+    en: >-
+      A gristmill stood on this spot from 1642, grinding the colony's corn. In
+      1798 Eli Whitney bought it and built an armory here to make muskets for the
+      United States Army. What he worked out on this riverbank — machining parts
+      to a pattern, so any part would fit any gun — became the method that made
+      mass production possible. The river turned the machines.
+    es: >-
+      Desde 1642 hubo aquí un molino que molía el maíz de la colonia. En 1798 Eli
+      Whitney lo compró y levantó una armería para fabricar mosquetes para el
+      Ejército de Estados Unidos. Lo que ideó en esta ribera — mecanizar piezas
+      según un patrón, de modo que cualquier pieza sirviera para cualquier fusil
+      — se convirtió en el método que hizo posible la producción en serie. El río
+      movía las máquinas.
+
+  section:
+    heading:
+      en: Why the Dam Got Taller
+      es: Por qué creció la presa
+    body:
+      en: >-
+        By the mid-1800s New Haven was burning. Houses stood close together and
+        were lit and heated by oil lamps and open fires, so blazes ran through
+        whole blocks. Water for fighting them came from the Mill River and the
+        Farmington Canal — and when the canal became a railway, the city needed
+        another source. Eli Whitney Jr. led the founding of the New Haven Water
+        Company and raised his father's dam, which also gave his mills more
+        power. The wooden dam became masonry and grew from about six feet to
+        twenty-seven in 1860, thirty-one in 1866, and higher again in 1916. The
+        lake behind it supplied the city's water until 1991.
+      es: >-
+        A mediados del siglo XIX New Haven ardía. Las casas estaban pegadas unas
+        a otras y se alumbraban y calentaban con lámparas de aceite y fuegos
+        abiertos, así que los incendios arrasaban manzanas enteras. El agua para
+        apagarlos venía del río Mill y del canal de Farmington; cuando el canal
+        se convirtió en ferrocarril, la ciudad necesitó otra fuente. Eli Whitney
+        hijo impulsó la fundación de la New Haven Water Company y elevó la presa
+        de su padre, lo que además dio más fuerza a sus fábricas. La presa de
+        madera pasó a ser de mampostería y creció de unos seis pies a veintisiete
+        en 1860, treinta y uno en 1866, y más aún en 1916. El lago que formó
+        abasteció de agua a la ciudad hasta 1991.
+
+  # ---------------------------------------------------------------------------
+  # ARTWORK NOT YET SOURCED. `source_note` is the brief for whoever chases it;
+  # it prints inside the placeholder on the draft proof.
+  # ---------------------------------------------------------------------------
+  images:
+    - key: Whitney Armory
+      file: TODO-whitney-armory.jpg
+      slot: center_top
+      source_note: >-
+        The stone armory building, 19th century. Eli Whitney Museum, or
+        Connecticut History / New Haven Museum.
+      caption:
+        en: >-
+          Eli Whitney's armory on the Mill River. Courtesy of the Eli Whitney
+          Museum.
+        es: >-
+          La armería de Eli Whitney en el río Mill. Cortesía del Museo Eli
+          Whitney.
+
+    - key: The Dam
+      file: TODO-whitney-dam.jpg
+      slot: left_bottom
+      source_note: >-
+        The masonry dam, ideally 19th century or during the 1860s raising.
+        New Haven Museum or the Regional Water Authority archive.
+      caption:
+        en: >-
+          The dam that created Lake Whitney, raised to twenty-seven feet in 1860.
+        es: >-
+          La presa que formó el lago Whitney, elevada a veintisiete pies en 1860.
+
+    - key: Lake Whitney
+      file: TODO-lake-whitney.jpg
+      slot: center_bottom
+      source_note: >-
+        The reservoir, looking north. Historic preferred; a good modern
+        photograph would also work here.
+      caption:
+        en: >-
+          Lake Whitney supplied New Haven's drinking water from 1860 until 1991.
+        es: >-
+          El lago Whitney abasteció de agua potable a New Haven desde 1860 hasta
+          1991.
+
+    - key: Interchangeable Parts
+      file: TODO-musket-lock.jpg
+      slot: right_bottom
+      source_note: >-
+        A musket lock, or a plate of armory machinery. Eli Whitney Museum, or
+        Smithsonian / Springfield Armory public domain collections.
+      caption:
+        en: >-
+          A musket lock. Whitney's parts were made to a pattern so that any one
+          would fit.
+        es: >-
+          Una llave de mosquete. Whitney hacía las piezas según un patrón para
+          que cualquiera encajara.
+
+  panel:
+    map: panel-map.svg
+
+    you_are_here:
+      en: You Are Here
+      es: Usted está aquí
+
+    river_fact:
+      label:
+        en: River Fact
+        es: Hecho del Río
+      text:
+        en: >-
+          The dam still blocks the river. Fish that once ran the whole length of
+          the Mill River to spawn now stop here, at the foot of the wall that
+          made the lake.
+        es: >-
+          La presa sigue cortando el río. Los peces que antes remontaban el Mill
+          entero para desovar ahora se detienen aquí, al pie del muro que formó
+          el lago.
+
+  dedication:
+    en: In honor of trail blazer Tom Holahan
+    es: En honor al pionero del sendero Tom Holahan
+
+  credits:
+    label:
+      en: Made Possible by
+      es: Hecho posible por
+    funders: >-
+      Mill River Watershed Association, Sustainable CT, Susan B. Holahan and
+      Family, City of New Haven, District New Haven, Bear's BBQ, Community
+      Foundation for Greater New Haven, Chatham Square Neighborhood Association,
+      Industrial Flow Solutions, Doug Hausladen, and other individual donors.
+    produced_label:
+      en: Produced by
+      es: Producido por
+    produced: >-
+      Colin M. Caplan, Design Monsters, Joe Kolodej, Nick McGhee, and J.R. Logan.
+
+  learn_more:
+    en: Learn More
+    es: Más en línea
+
+web:
+  subtitle:
+    en: How a corn mill became an armory, and why New Haven's fires ended up raising the dam
+    es: Cómo un molino de maíz se convirtió en armería, y por qué los incendios de New Haven acabaron elevando la presa
+
+  body:
+    en: |
+      Everything about the Mill River starts here. The river takes its name from
+      the mills built on its banks to use the current, and the first of them —
+      Christopher Todd's gristmill, grinding corn for the colony — stood on this
+      spot from 1642. By 1780 there were eight mills on the river. Farmers rented
+      time at them to grind their grain.
+
+      ## 1798
+
+      In 1798 Eli Whitney bought Todd's mill and the ground around it, and built
+      an armory.
+
+      Whitney is remembered for the cotton gin, which he patented in 1794 and
+      made almost nothing from, because it was too easy to copy. The armory was
+      the second act. He took a contract to supply muskets to the United States
+      Army — a large order, on a short deadline, with no workforce of trained
+      gunsmiths to draw on.
+
+      His answer was to change what a worker had to be able to do. Instead of one
+      craftsman filing a whole gun to fit itself, machines guided by jigs and
+      patterns would cut each part close enough to a standard that any part would
+      fit any gun. The skill moved out of the hand and into the machine.
+
+      Whitney did not invent the idea, and historians have spent a long time
+      arguing about how completely his own muskets achieved it. But the method
+      that came out of this riverbank — interchangeable parts, machine tools,
+      division of labour — is the one that made American mass production
+      possible. The water turned the machinery.
+
+      ## The fires
+
+      By the middle of the 19th century New Haven had a serious fire problem.
+      The population was growing, houses stood close together, and light and heat
+      came from oil lamps and open flames. Fires started often and ran through
+      whole blocks.
+
+      The water to fight them came from the Mill River and from the Farmington
+      Canal. When the canal was drained and converted into a railway, that second
+      source disappeared, and the city was left short.
+
+      Eli Whitney Jr. — the inventor's son, running the family works upstream in
+      Whitneyville — led the effort to found the New Haven Water Company and to
+      dam the river properly. He had his own reason as well: a higher dam meant
+      more head, and more head meant more power for his mills.
+
+      ## The dam
+
+      The original dam was wooden. Whitney and his son rebuilt it in masonry and
+      raised it repeatedly: from roughly six feet to about twenty-seven in 1860,
+      to thirty-one in 1866, and by another nineteen inches in 1916, which is
+      close to its height today.
+
+      The reservoir it created was named Lake Whitney, and for about a hundred
+      and thirty years it was a major part of the public water supply for New
+      Haven County. It served in that role until 1991. The upper Mill River is
+      still strictly regulated because of it — industry was removed from the
+      river above the reservoir, and the water quality upstream has stayed good.
+
+      ## What a dam costs
+
+      A dam is a wall across a migration route. River herring — alewives and
+      blueback herring — spend their lives at sea and return to fresh water each
+      spring to spawn, and before 1860 they could run the length of the Mill
+      River. After 1860 they could run as far as this wall.
+
+      That is the trade the city made, and it is one the region has been slowly
+      revisiting: fish passage, fishways and dam removals across Connecticut have
+      been reopening rivers to the spring run.
+
+      ## The site today
+
+      The armory site is now the Eli Whitney Museum, and the barn, the dam and
+      the water works are the most legible industrial landscape on the river.
+      Downstream from here the Mill River becomes something else entirely —
+      tidal, filled, bridged, and built over — but this is where it began.
+
+    es: |
+      Todo lo del río Mill empieza aquí. El río debe su nombre a los molinos
+      construidos en sus orillas para aprovechar la corriente, y el primero de
+      ellos — el molino de grano de Christopher Todd, que molía el maíz de la
+      colonia — estuvo en este punto desde 1642. Hacia 1780 había ocho molinos en
+      el río. Los agricultores alquilaban tiempo en ellos para moler su grano.
+
+      ## 1798
+
+      En 1798 Eli Whitney compró el molino de Todd y el terreno de alrededor, y
+      construyó una armería.
+
+      A Whitney se le recuerda por la desmotadora de algodón, que patentó en 1794
+      y de la que apenas sacó dinero, porque era demasiado fácil de copiar. La
+      armería fue el segundo acto. Aceptó un contrato para suministrar mosquetes
+      al Ejército de Estados Unidos: un pedido grande, con poco plazo y sin una
+      plantilla de armeros formados a la que recurrir.
+
+      Su respuesta fue cambiar lo que un trabajador tenía que saber hacer. En
+      lugar de que un artesano limara un fusil entero para que encajara consigo
+      mismo, unas máquinas guiadas por plantillas y patrones cortarían cada pieza
+      lo bastante cerca de una norma como para que cualquier pieza sirviera en
+      cualquier fusil. La destreza pasó de la mano a la máquina.
+
+      Whitney no inventó la idea, y los historiadores llevan mucho tiempo
+      discutiendo hasta qué punto sus propios mosquetes la lograron. Pero el
+      método que salió de esta ribera — piezas intercambiables, máquinas
+      herramienta, división del trabajo — es el que hizo posible la producción en
+      serie estadounidense. El agua movía la maquinaria.
+
+      ## Los incendios
+
+      A mediados del siglo XIX New Haven tenía un grave problema de incendios. La
+      población crecía, las casas estaban pegadas unas a otras, y la luz y el
+      calor venían de lámparas de aceite y fuegos abiertos. Los incendios
+      empezaban a menudo y arrasaban manzanas enteras.
+
+      El agua para apagarlos venía del río Mill y del canal de Farmington. Cuando
+      el canal se vació y se convirtió en ferrocarril, esa segunda fuente
+      desapareció y la ciudad se quedó corta.
+
+      Eli Whitney hijo — el hijo del inventor, que dirigía las fábricas
+      familiares río arriba, en Whitneyville — impulsó la fundación de la New
+      Haven Water Company y la construcción de una presa en condiciones. También
+      tenía su propio motivo: una presa más alta daba más salto, y más salto daba
+      más fuerza a sus fábricas.
+
+      ## La presa
+
+      La presa original era de madera. Whitney y su hijo la reconstruyeron en
+      mampostería y la elevaron varias veces: de unos seis pies a unos
+      veintisiete en 1860, a treinta y uno en 1866, y diecinueve pulgadas más en
+      1916, cerca de su altura actual.
+
+      El embalse que formó se llamó lago Whitney, y durante unos ciento treinta
+      años fue una parte importante del abastecimiento público de agua del
+      condado de New Haven. Cumplió esa función hasta 1991. El alto Mill River
+      sigue estando muy regulado por ello: se retiró la industria del río por
+      encima del embalse, y la calidad del agua aguas arriba se ha mantenido
+      buena.
+
+      ## Lo que cuesta una presa
+
+      Una presa es un muro atravesado en una ruta migratoria. Los arenques de río
+      — alosas y arenques de lomo azul — pasan la vida en el mar y vuelven al
+      agua dulce cada primavera para desovar, y antes de 1860 podían remontar el
+      río Mill entero. Después de 1860 podían llegar hasta este muro.
+
+      Ese es el trato que hizo la ciudad, y es uno que la región lleva tiempo
+      revisando poco a poco: pasos para peces, escalas y demoliciones de presas
+      por todo Connecticut han ido reabriendo ríos a la subida de primavera.
+
+      ## El lugar hoy
+
+      El solar de la armería es hoy el Museo Eli Whitney, y el granero, la presa
+      y las obras hidráulicas forman el paisaje industrial más legible del río.
+      Aguas abajo el Mill River se convierte en otra cosa — de marea, rellenado,
+      cruzado por puentes y edificado encima — pero aquí es donde empezó.
+
+  # Gallery images share the shot list above; add files and list them here.
+  gallery: []
+
+  sources:
+    - title: Eli Whitney Museum — the historic site
+      url: https://www.eliwhitney.org/7/museum/historic-site
+    - title: Eli Whitney Museum — arms production
+      url: https://www.eliwhitney.org/7/museum/eli-whitney/arms-production
+    - title: The Whitney Armory helps progress in Hamden — Connecticut History
+      url: https://connecticuthistory.org/the-whitney-armory-helps-progress-in-hamden/
+    - title: Mill River Watershed Based Plan — Save the Sound
+      url: https://www.savethesound.org/wp-content/uploads/2018/08/Draft_MillRiver_WBP_-20180817_Compressed2.pdf

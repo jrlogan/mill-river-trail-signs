@@ -18,6 +18,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import YAML from 'yaml';
 import { COLOR, GRID } from './theme.mjs';
+import { LAYOUT } from './sign-template.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const CACHE = path.join(ROOT, '.cache', 'osm');
@@ -27,8 +28,9 @@ const args = process.argv.slice(2);
 const filter = args.find((a) => !a.startsWith('--'));
 const force = args.includes('--force');
 
-// Panel slot, in inches — must match LAYOUT.panel.map in sign-template.mjs.
-const PANEL = { w: GRID.panel, h: 17.58 };
+// Panel slot, in inches. Taken from the sign template so the map is always cut
+// to the shape of the hole it goes into.
+const PANEL = { w: GRID.panel, h: LAYOUT.panel.map.h };
 const ASPECT = PANEL.w / PANEL.h;
 
 // How much ground the panel covers, north to south, in degrees of latitude.
@@ -85,16 +87,31 @@ async function fetchOSM(id, bbox) {
     try { return JSON.parse(await fs.readFile(file, 'utf8')); } catch {}
   }
   process.stdout.write(`  … querying Overpass for ${id} `);
-  const res = await fetch(OVERPASS, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/x-www-form-urlencoded',
-      'User-Agent': 'mill-river-trail-signage/1.0 (interpretive signage build)',
-    },
-    body: new URLSearchParams({ data: query(bbox) }),
-  });
-  if (!res.ok) throw new Error(`Overpass ${res.status} ${res.statusText}`);
-  const json = await res.json();
+
+  // Overpass is a shared public service and rate-limits or times out under
+  // load. Twelve signs is twelve chances to hit that, so back off and retry
+  // rather than failing the build on someone else's busy minute.
+  let json;
+  for (let attempt = 1; ; attempt++) {
+    try {
+      const res = await fetch(OVERPASS, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded',
+          'User-Agent': 'mill-river-trail-signage/1.0 (interpretive signage build)',
+        },
+        body: new URLSearchParams({ data: query(bbox) }),
+      });
+      if (!res.ok) throw new Error(`Overpass ${res.status} ${res.statusText}`);
+      json = await res.json();
+      break;
+    } catch (e) {
+      if (attempt >= 4) throw e;
+      const wait = attempt * 5000;
+      process.stdout.write(`\n    ${e.message}; retrying in ${wait / 1000}s `);
+      await new Promise((r) => setTimeout(r, wait));
+    }
+  }
   await fs.writeFile(file, JSON.stringify(json));
   console.log(`(${json.elements.length} features)`);
   return json;
@@ -185,11 +202,21 @@ function buildSVG(sign, data, bbox) {
   // The sign lays the logo and the species boxes over the top of the map, so
   // those areas are dead space — a label placed there is a label nobody reads.
   // Fractions of the panel, matching LAYOUT.panel in sign-template.mjs.
+  // Derived from the sign template rather than restated, so moving a box in the
+  // layout moves the exclusion with it. Padded a little on each side.
+  const P = LAYOUT.panel;
+  const pad = 0.02;
+  const rect = (x, y, w, h) => ({
+    x0: x / PANEL.w - pad, y0: y / PANEL.h - pad,
+    x1: (x + w) / PANEL.w + pad, y1: (y + h) / PANEL.h + pad,
+  });
+  const speciesCount = sign.sign.panel.species?.length ?? 0;
   const RESERVED = [
-    { x0: 0.60, y0: 0.00, x1: 1.00, y1: 0.19 },   // Mill River Trail roundel
+    rect(P.logo.x, P.logo.y, P.logo.w, P.logo.h),
     // Only reserved when the sign actually shows species boxes.
-    ...(sign.sign.panel.species?.length
-      ? [{ x0: 0.58, y0: 0.55, x1: 1.00, y1: 0.94 }]
+    ...(speciesCount
+      ? [rect(P.species.x, P.species.y, P.species.w,
+              speciesCount * P.species.itemH + (speciesCount - 1) * P.species.gap)]
       : []),
   ];
   // Test the whole run of the label, not just its anchor — a centred string
@@ -198,6 +225,13 @@ function buildSVG(sign, data, bbox) {
     RESERVED.some((r) =>
       q.x + halfW > r.x0 * size.w && q.x - halfW < r.x1 * size.w &&
       q.y > r.y0 * size.h && q.y < r.y1 * size.h);
+
+  // The marker carries two lines of type above it. A street label that clears
+  // the marker itself can still land straight on "You Are Here".
+  const markerBlock = { x0: me.x - 190, y0: me.y - 165, x1: me.x + 190, y1: me.y + 45 };
+  const hitsMarker = (q, halfW) =>
+    q.x + halfW > markerBlock.x0 && q.x - halfW < markerBlock.x1 &&
+    q.y > markerBlock.y0 && q.y < markerBlock.y1;
 
   const inView = (q) => q.x > 70 && q.x < size.w - 70 && q.y > 90 && q.y < size.h - 90;
 
@@ -216,8 +250,9 @@ function buildSVG(sign, data, bbox) {
     if (l.len < 140) continue;
     const mid = l.pts[Math.floor(l.pts.length / 2)];
     const a = l.pts[0], b = l.pts.at(-1);
-    if (Math.hypot(mid.x - me.x, mid.y - me.y) < 125) continue;         // keep clear of the marker
-    if (reserved(mid, l.name.length * (l.kind === 'waterLine' ? 24 : 20) * 0.29)) continue;
+    const halfW = l.name.length * (l.kind === 'waterLine' ? 24 : 20) * 0.29;
+    if (hitsMarker(mid, halfW)) continue;      // keep clear of the marker and its label
+    if (reserved(mid, halfW)) continue;        // keep clear of overlaid panel art
     if (placed.some((q) => Math.hypot(q.x - mid.x, q.y - mid.y) < 210)) continue;
     placed.push(mid);
 

@@ -37,15 +37,35 @@ async function renderSign(file) {
   const qrEn = await QRCode.toDataURL(sign.urls.en_full, qrOpts);
   const qrEs = await QRCode.toDataURL(sign.urls.es_full, qrOpts);
 
+  // Signs 4-12 are being drafted before their artwork is sourced. Mark any
+  // image that has no file yet so the template can show the layout with an
+  // obvious gap, instead of a silently broken image.
+  const subdir = sign.id.replace(/^sign-(\d+).*/, 'sign-$1');
+  let missingArt = 0;
+  for (const im of sign.sign.images) {
+    try {
+      await fs.access(path.join(ROOT, 'assets', 'images', subdir, im.file));
+    } catch {
+      im.missing = true;
+      missingArt++;
+    }
+  }
+  if (missingArt) {
+    console.log(`  ◻ ${missingArt} image(s) not sourced yet — drawn as placeholders`);
+    if (sign.status !== 'draft') {
+      console.error(`  ✗ status is "${sign.status}" but artwork is incomplete; keep it at "draft"`);
+      process.exitCode = 1;
+    }
+  }
+
   // Technical drawings vary wildly in shape — an arch elevation can be 4:1
   // where a plan sheet is 3:2. Measure it so the slot can size itself instead
   // of stranding the drawing in a tall white box.
   const diagram = sign.sign.images.find((i) => i.slot === 'right_bottom');
   let diagramAspect = null;
-  if (diagram) {
-    const sub = sign.id.replace(/^sign-(\d+).*/, 'sign-$1');
+  if (diagram && !diagram.missing) {
     try {
-      const m = await sharp(path.join(ROOT, 'assets', 'images', sub, diagram.file)).metadata();
+      const m = await sharp(path.join(ROOT, 'assets', 'images', subdir, diagram.file)).metadata();
       diagramAspect = m.width / m.height;
     } catch {
       console.warn(`  ⚠ could not measure ${diagram.file}; using the default slot height`);

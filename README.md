@@ -125,6 +125,21 @@ corner of each map has to stay there.**
 To reframe a map, change `SPAN_LAT` at the top of `make-map.mjs` — it is how much
 ground the panel covers north to south, in degrees of latitude.
 
+## Drafting a sign before its artwork exists
+
+Signs can be written and laid out before their images are sourced. Point an
+image at a file that does not exist yet and give it a `source_note`:
+
+```yaml
+- key: Whitney Armory
+  file: TODO-whitney-armory.jpg
+  slot: center_top
+  source_note: The stone armory building, 19th century. Eli Whitney Museum.
+```
+
+The build draws a labelled placeholder carrying that brief, reports it, and
+refuses to let the sign leave `status: draft` until the file appears.
+
 ## Adding a sign
 
 1. Copy `content/sign-01-submarine.yml` to `content/sign-02-ball-island.yml`.

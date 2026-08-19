@@ -25,10 +25,13 @@ export const LAYOUT = {
   },
 
   panel: {
-    logo:    { x: 5.85, y: 0.12, w: 3.00, h: 3.00 },   // relative to panel
-    map:     { x: 0.00, y: 0.00, w: 9.02, h: 17.58 },
-    species: { x: 6.30, y: 11.00, w: 2.52, itemH: 2.05, gap: 0.26 },
-    fact:    { x: 0.22, y: 17.58, w: 8.58, h: 2.70 },
+    // The panel runs the full height of the content area (23.016in). The map
+    // fills everything above the river-fact box, which sits at the bottom —
+    // otherwise the corner below it is dead light blue.
+    logo:    { x: 5.85, y: 0.12,  w: 3.00, h: 3.00 },   // relative to panel
+    map:     { x: 0.00, y: 0.00,  w: 9.02, h: 19.95 },
+    species: { x: 6.30, y: 11.60, w: 2.52, itemH: 2.05, gap: 0.26 },
+    fact:    { x: 0.22, y: 20.17, w: 8.58, h: 2.70 },
   },
 
   // Text columns stop here so body copy can never run under the photo strip.
@@ -45,6 +48,15 @@ const dropCap = (text) => {
   const t = String(text).trim();
   return `<span class="dropcap">${esc(t[0])}</span>${esc(t.slice(1))}`;
 };
+
+// Drawn in place of art that has not been sourced yet, so a draft sign can be
+// reviewed for copy and layout without pretending the picture exists.
+const placeholder = (im, geom, label) => `
+  <div class="abs art-todo" style="${box(geom)}">
+    <div class="art-todo-tag">Image to source</div>
+    <div class="art-todo-key">${esc(im.key || label)}</div>
+    <div class="art-todo-note">${esc(im.source_note || '')}</div>
+  </div>`;
 
 const box = ({ x, y, w, h }, extra = '') =>
   `left:${x}in; top:${y}in; width:${w}in;${h != null ? ` height:${h}in;` : ''} ${extra}`;
@@ -123,6 +135,21 @@ body {
   letter-spacing: -0.4pt;
   margin-bottom: 0.20in;
 }
+
+/* ---- placeholder for unsourced art -------------------------------------- */
+.art-todo {
+  background: repeating-linear-gradient(45deg, ${COLOR.cream}, ${COLOR.cream} 14pt,
+              #EFEBD2 14pt, #EFEBD2 28pt);
+  border: 3pt dashed ${COLOR.blue};
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  text-align: center; padding: 0.3in; gap: 0.09in; overflow: hidden;
+}
+.art-todo-tag {
+  font-family: '${FONT.display}', sans-serif; font-weight: 800; font-size: 15pt;
+  letter-spacing: 1.6pt; text-transform: uppercase; color: ${COLOR.blue};
+}
+.art-todo-key  { font-family: '${FONT.display}', sans-serif; font-weight: 700; font-size: 22pt; color: ${COLOR.ink}; }
+.art-todo-note { font-size: 13pt; line-height: 16pt; color: ${COLOR.inkSoft}; max-width: 90%; }
 
 /* ---- images ------------------------------------------------------------- */
 .photo { object-fit: cover; width: 100%; height: 100%; display: block; }
@@ -309,16 +336,18 @@ export function signHTML(sign, { qrEn, qrEs, diagramAspect = null, assetBase = '
   </div></div>
 
   <!-- HERO IMAGE + CAPTIONS -->
-  <img class="abs photo" src="${img(hero.file)}"
-       style="${box(L.hero)}${hero.focus ? ` object-position:${hero.focus};` : ''}" alt="">
+  ${hero.missing ? placeholder(hero, L.hero, 'hero') : `<img class="abs photo" src="${img(hero.file)}"
+       style="${box(L.hero)}${hero.focus ? ` object-position:${hero.focus};` : ''}" alt="">`}
   <div class="abs" style="${box(L.heroCaption)}">
     <p class="caption">${esc(pick(hero.caption, 'en'))}</p>
     <p class="caption caption-es">${esc(pick(hero.caption, 'es'))}</p>
   </div>
 
   <!-- BOTTOM IMAGE STRIP -->
-  <img class="abs photo" src="${img(museum.file)}"
-       style="${box({ x: L.strip.museum.x, y: L.strip.y, w: L.strip.museum.w, h: L.strip.h })}${museum.focus ? ` object-position:${museum.focus};` : ''}" alt="">
+  ${museum.missing
+    ? placeholder(museum, { x: L.strip.museum.x, y: L.strip.y, w: L.strip.museum.w, h: L.strip.h }, 'left')
+    : `<img class="abs photo" src="${img(museum.file)}"
+       style="${box({ x: L.strip.museum.x, y: L.strip.y, w: L.strip.museum.w, h: L.strip.h })}${museum.focus ? ` object-position:${museum.focus};` : ''}" alt="">`}
   <div class="abs capbox capbox-blue"
        style="${box({ x: L.strip.blueBox.x, y: L.strip.y, w: L.strip.blueBox.w, h: L.strip.h })}">
     <p>${esc(pick(museum.caption, 'en'))}</p>
@@ -330,8 +359,10 @@ export function signHTML(sign, { qrEn, qrEs, diagramAspect = null, assetBase = '
     <p>${esc(pick(wide.caption, 'en'))}</p>
     <p>${esc(pick(wide.caption, 'es'))}</p>
   </div>
-  <img class="abs photo" src="${img(wide.file)}"
-       style="${box({ x: L.strip.wide.x, y: L.strip.y, w: L.strip.wide.w, h: L.strip.h })}" alt="">
+  ${wide.missing
+    ? placeholder(wide, { x: L.strip.wide.x, y: L.strip.y, w: L.strip.wide.w, h: L.strip.h }, 'wide')
+    : `<img class="abs photo" src="${img(wide.file)}"
+       style="${box({ x: L.strip.wide.x, y: L.strip.y, w: L.strip.wide.w, h: L.strip.h })}" alt="">`}
 
   ${(() => {
     // Never taller than the slot, but shrink to the drawing's own shape so a
@@ -340,8 +371,11 @@ export function signHTML(sign, { qrEn, qrEs, diagramAspect = null, assetBase = '
     const avail = L.strip.h - 1.05;
     const h = Math.min(avail, diagramAspect ? L.strip.diagram.w / diagramAspect : avail);
     const y = L.strip.y + (avail - h) / 2;
-    return `<img class="abs photo photo-contain" src="${img(diagram.file)}"
-       style="${box({ x: L.strip.diagram.x, y, w: L.strip.diagram.w, h })}" alt="">`;
+    const geom = { x: L.strip.diagram.x, y, w: L.strip.diagram.w, h };
+    return diagram.missing
+      ? placeholder(diagram, geom, 'diagram')
+      : `<img class="abs photo photo-contain" src="${img(diagram.file)}"
+       style="${box(geom)}" alt="">`;
   })()}
   <div class="abs diagram-caption" style="${box({
     x: L.strip.diagram.x, y: L.strip.y + L.strip.h - 1.0, w: L.strip.diagram.w, h: 1.0,
