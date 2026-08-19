@@ -314,6 +314,96 @@ raising with the committee before the series is considered complete.
 - **The trolley turntable near the District**, the cardboard plant at 370 James,
   the Lake Whitney ice house, the linseed oil mill, and the thirteen mills north.
 
+
+## Signage already on the trail
+
+39 photographs from 1 and 15 April 2021, **34 of them carrying GPS**, so the
+positions are the camera's rather than an estimate. 18 signs are catalogued in
+`content/_existing-signs.yml` and published at `/on-the-trail` and
+`/en-el-sendero`, each linking to its coordinates and to the new sign that
+carries the story further.
+
+### It answered a question in the notes
+
+The notes ask about *"the quarry scows that took the stone from here to
+Trinity."* **The Barn sign at the Eli Whitney Museum answers it.** While Whitney
+was quarrying the stone for the barn's foundation, he supplied Ithiel Town with
+the stone for Trinity Church on the Green — Town being the architect who
+patented the truss used on the covered bridge here. That belongs on sign 4.
+
+The Coal Shed sign adds the mechanism: charcoal for the armory forges came *up*
+the Mill River on a flat-bottomed scow and was carried up the hill. Scow traffic
+on this river is now attested from two directions — Whitney's charcoal coming
+up, Lanson's stone going down.
+
+The Dam sign gives detail worth folding into sign 4: the public wells had become
+untenable as the city doubled in size, the factories had made fire constant, and
+eighteen miles of pipe carried Lake Whitney into New Haven.
+
+### It also flagged a duplication risk
+
+There are already three good natural history signs on this river — **The Salt
+Marsh Wall** at Criscuolo, **Mill River Watershed** in East Rock Park, and
+**Songbirds: Neotropical Migrants**. The new species panels deliberately pick
+different plants, and no more bird illustrations should be commissioned without
+looking at the Songbirds sign first.
+
+### And it strengthens sign 8
+
+The 29th Connecticut monument at Criscuolo carries a narrative worth quoting:
+after the Colored Ladies of New Haven presented the regiment its flag, it
+marched aboard the transport *Warrior* on 19 March 1864 and sailed for
+Annapolis.
+
+## New story leads, checked
+
+### Bigelow Boiler — real, and a Mill River story
+
+Hobart B. Bigelow took over a division of the Wilcox foundry in 1860 and in
+**1869 moved his steam engine and boiler works east of the Mill River to River
+Street** — onto the abandoned oyster fields of Fair Haven's first industrial
+boom. It became one of the largest steam boiler makers in the United States.
+Bigelow was mayor of New Haven from 1879 and then the 50th governor of
+Connecticut; he died in 1891. Manufacturing ended in the mid-1980s after about
+150 years, and most of the complex has now been demolished — the eastern 1884
+block survived as of 2023.
+
+That is a sign in itself, and it connects the industrial story to the oyster one.
+
+### The oyster stories — partly confirmed
+
+- **Watch houses are real.** By the mid-18th century small huts were put up on
+  the shoreline so men could guard the beds at night, backed by Oyster Laws that
+  banned raking from May to August on a penalty of twenty shillings a bushel.
+  **The "on stilts" detail is not confirmed** in what I could find.
+- **The burning is not confirmed.** What is documented is the 1924-25 typhoid
+  epidemic: about 1,500 sickened and roughly 150 dead across Chicago, New York
+  and Washington, traced to raw oysters, which produced the National Shellfish
+  Sanitation Program. The oysters in that outbreak were traced to **West
+  Sayville, Long Island**, not New Haven. The collapse of the Connecticut
+  industry is real and the typhoid scare is part of it, but a government burning
+  of New Haven oyster houses needs a source before it goes on a sign.
+
+### The Fair Haven steamboat — not yet found
+
+Connecticut's steamboat era ran roughly 1820 to 1940, and sidewheel steamers
+worked the New York-New Haven route. Fair Haven grew around a ferry crossing at
+what is now the Grand Avenue bridge. But nothing specific about a paddlewheel
+steamer at the end of Fair Haven surfaced. Needs a name or a date to chase.
+
+### The tide gate deserves more than it has
+
+Sign 6 covers it, but the freshwater tidal reach between the gate and the
+Whitney dam is genuinely unusual and the sign only glances at it. Worth
+expanding, along with the gate's construction date — "appeared around 1930" is
+the best the notes do, and that is not good enough for print.
+
+### Lake Whitney recreation and the East Rock retaining ponds
+
+Not covered anywhere yet. The notes list Lake Whitney recreational use and the
+ice house among things to learn more about. This is a good candidate for a
+future sign.
+
 ## Sign inventory
 
 Thirteen signs. All twelve KMZ locations plus William Lanson. Signs 1-4 have

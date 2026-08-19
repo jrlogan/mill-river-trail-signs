@@ -51,6 +51,9 @@ const T = {
     locationHead: 'Where this sign stands',
     mapLink: 'Open in maps',
     backHome: 'All Mill River Trail signs',
+    existingTitle: 'Already on the Trail',
+    existingLink: 'Signs already on the trail',
+    extendsLabel: 'This project adds to it at',
     footer: 'Mill River Trail — a community project in New Haven, Connecticut.',
     indexTitle: 'Mill River Trail — Historic Signs',
     indexLead:
@@ -67,6 +70,9 @@ const T = {
     locationHead: 'Dónde está este letrero',
     mapLink: 'Abrir en mapas',
     backHome: 'Todos los letreros del Mill River Trail',
+    existingTitle: 'Ya en el Sendero',
+    existingLink: 'Letreros que ya están en el sendero',
+    extendsLabel: 'Este proyecto lo amplía en',
     footer: 'Mill River Trail — un proyecto comunitario en New Haven, Connecticut.',
     indexTitle: 'Mill River Trail — Letreros Históricos',
     indexLead:
@@ -149,6 +155,19 @@ ul.sources { list-style: none; padding: 0; margin: 0.5rem 0 0; }
 ul.sources li { padding: 0.5rem 0; border-bottom: 1px solid var(--rule); }
 ul.sources a { color: var(--blue); text-decoration: none; font-weight: 600; }
 ul.sources a:hover { text-decoration: underline; }
+
+.group { margin-bottom: 2.5rem; }
+.group h2 { border-top-color: var(--green); }
+ul.existing-list { list-style: none; padding: 0; margin: 1rem 0 0; display: grid; gap: 0.9rem; }
+li.existing {
+  background: var(--card); border: 1px solid var(--rule); border-left: 5px solid var(--green);
+  border-radius: 0 7px 7px 0; padding: 0.9rem 1.1rem;
+}
+li.existing h3 { margin: 0 0 0.3rem; font-size: 1.08rem; font-weight: 800; }
+li.existing p { margin: 0 0 0.45rem; font-size: 0.98rem; color: var(--muted); }
+li.existing .meta { font-size: 0.88rem; margin: 0; }
+li.existing .meta a { color: var(--blue); font-weight: 700; text-decoration: none; }
+li.existing .meta a:hover { text-decoration: underline; }
 .sources-note { font-size: 0.95rem; color: var(--muted); margin: 0.2rem 0 0.6rem; }
 .ack { font-size: 0.95rem; color: var(--muted); line-height: 1.6; }
 
@@ -290,6 +309,7 @@ function indexPage(lang, signs) {
     <p class="subtitle">${esc(t.indexLead)}</p>
     <nav class="langbar">
       <a href="${lang === 'en' ? 'index.es.html' : 'index.html'}">${esc(t.otherLabel)}</a>
+      <a href="${lang === 'en' ? 'on-the-trail/' : 'en-el-sendero/'}">${esc(t.existingLink)}</a>
       <a href="https://www.millrivertrail.com/">millrivertrail.com</a>
     </nav>
   </div>
@@ -298,6 +318,68 @@ function indexPage(lang, signs) {
   <ul class="signlist">
       ${items}
   </ul>
+</div></main>
+<footer><div class="wrap"><p>${esc(t.footer)}</p></div></footer>
+</body></html>`;
+}
+
+function existingPage(lang, data, signs, otherHref) {
+  const t = T[lang];
+  const bySlug = Object.fromEntries(signs.map((s) => [s.id, s]));
+
+  const groups = data.groups.map((g) => {
+    const rows = g.signs.map((sn) => {
+      const target = sn.extends ? bySlug[sn.extends] : null;
+      const slug = target
+        ? (lang === 'en' ? target.urls.en : target.urls.es).split('/').pop()
+        : null;
+      return `
+        <li class="existing">
+          <h3>${esc(sn.title)}</h3>
+          ${sn.note ? `<p>${esc(sn.note)}</p>` : ''}
+          <p class="meta">
+            <a href="https://www.google.com/maps/search/?api=1&amp;query=${sn.lat},${sn.lon}"
+               rel="noopener">${sn.lat.toFixed(5)}, ${sn.lon.toFixed(5)}</a>
+            ${target ? ` · ${esc(t.extendsLabel)}
+               <a href="../${slug}/">${esc(target.title[lang])}</a>` : ''}
+          </p>
+        </li>`;
+    }).join('');
+    return `
+      <section class="group">
+        <h2>${esc(g.name[lang])}</h2>
+        ${g.note ? `<p class="lede">${esc(g.note[lang])}</p>` : ''}
+        <ul class="existing-list">${rows}</ul>
+      </section>`;
+  }).join('');
+
+  const count = data.groups.reduce((a, g) => a + g.signs.length, 0);
+
+  return `<!doctype html>
+<html lang="${lang}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>${esc(data.title[lang])} — Mill River Trail</title>
+<meta name="description" content="${esc(data.intro[lang])}">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <p class="kicker">Mill River Trail</p>
+  <h1>${esc(data.title[lang])}</h1>
+  <p class="subtitle">${esc(data.intro[lang])}</p>
+  <nav class="langbar">
+    <a href="${otherHref}">${esc(t.otherLabel)}</a>
+    <a href="../">${esc(t.backHome)}</a>
+  </nav>
+</div></header>
+<main><div class="wrap">
+  ${groups}
+  <p class="ack">${esc(lang === 'en'
+    ? `${count} signs catalogued from photographs taken along the trail in April 2021. Positions come from the camera. If one has gone, or a new one has appeared, it should be corrected here.`
+    : `${count} letreros catalogados a partir de fotografías tomadas a lo largo del sendero en abril de 2021. Las posiciones proceden de la cámara. Si alguno ha desaparecido, o ha aparecido uno nuevo, debería corregirse aquí.`)}</p>
 </div></main>
 <footer><div class="wrap"><p>${esc(t.footer)}</p></div></footer>
 </body></html>`;
@@ -346,6 +428,24 @@ for (const sign of signs) {
   }
 }
 
+// Inventory of signage already standing on the trail.
+{
+  const raw = await fs.readFile(path.join(dir, '_existing-signs.yml'), 'utf8').catch(() => null);
+  if (raw) {
+    const YAMLmod = await import('yaml');
+    const data = YAMLmod.default.parse(raw);
+    for (const [lang, slug, other] of [
+      ['en', 'on-the-trail', '../en-el-sendero/'],
+      ['es', 'en-el-sendero', '../on-the-trail/'],
+    ]) {
+      const d = path.join(OUT, slug);
+      await fs.mkdir(d, { recursive: true });
+      await fs.writeFile(path.join(d, 'index.html'), existingPage(lang, data, signs, other));
+      console.log(`  ✓ /${slug}/               (${lang})`);
+    }
+  }
+}
+
 await fs.writeFile(path.join(OUT, 'index.html'), indexPage('en', signs));
 await fs.writeFile(path.join(OUT, 'index.es.html'), indexPage('es', signs));
 console.log(`  ✓ /  and  /index.es.html`);
@@ -383,7 +483,7 @@ await fs.writeFile(path.join(OUT, '404.html'),
 await fs.writeFile(path.join(OUT, 'robots.txt'),
   `User-agent: *\nAllow: /\nSitemap: https://${host}/sitemap.xml\n`);
 
-const urls = ['/', ...signs.flatMap((s) => [
+const urls = ['/', '/on-the-trail/', '/en-el-sendero/', ...signs.flatMap((s) => [
   `/${s.urls.en.split('/').pop()}/`,
   `/${s.urls.es.split('/').pop()}/`,
 ])];
