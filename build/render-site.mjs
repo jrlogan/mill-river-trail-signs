@@ -48,6 +48,9 @@ const T = {
     galleryHead: 'Images',
     sourcesHead: 'Sources and further reading',
     ackHead: 'Research and credits',
+    signHead: 'The sign at this spot',
+    signNote: 'The full sign, in English and Spanish. Zoom in to read it.',
+    signDraft: 'This sign is still a draft. The hatched boxes are photographs that have not been sourced yet.',
     locationHead: 'Where this sign stands',
     mapLink: 'Open in maps',
     backHome: 'All Mill River Trail signs',
@@ -71,6 +74,9 @@ const T = {
     galleryHead: 'Imágenes',
     sourcesHead: 'Fuentes y lecturas adicionales',
     ackHead: 'Investigación y créditos',
+    signHead: 'El letrero en este punto',
+    signNote: 'El letrero completo, en inglés y español. Amplíe para leerlo.',
+    signDraft: 'Este letrero es todavía un borrador. Los recuadros rayados son fotografías que aún no se han conseguido.',
     locationHead: 'Dónde está este letrero',
     mapLink: 'Abrir en mapas',
     backHome: 'Todos los letreros del Mill River Trail',
@@ -196,6 +202,18 @@ figure.overview {
   border-radius: 8px; padding: 10px;
 }
 figure.overview img { width: 100%; height: auto; display: block; border-radius: 4px; }
+
+figure.signart {
+  margin: 1rem 0 2rem; background: var(--card); border: 1px solid var(--rule);
+  border-radius: 8px; padding: 10px;
+}
+figure.signart img { width: 100%; height: auto; display: block; border-radius: 4px; }
+figure.signart a { display: block; }
+.draft-note {
+  font-size: 0.93rem; color: var(--muted); background: var(--card);
+  border-left: 4px solid var(--gold); padding: 0.6rem 0.9rem; border-radius: 0 5px 5px 0;
+  margin: 0 0 0.9rem;
+}
 .sources-note { font-size: 0.95rem; color: var(--muted); margin: 0.2rem 0 0.6rem; }
 .ack { font-size: 0.95rem; color: var(--muted); line-height: 1.6; }
 
@@ -283,6 +301,19 @@ ${hero ? `<meta property="og:image" content="${imgDir}/${encodeURIComponent(webF
       <p><a href="https://www.google.com/maps/search/?api=1&amp;query=${sign.location.lat},${sign.location.lon}"
             rel="noopener">${esc(t.mapLink)} →</a></p>
     </div>
+
+    <h2>${esc(t.signHead)}</h2>
+    <p class="lede">${esc(t.signNote)}</p>
+    ${sign.status === 'draft' ? `<p class="draft-note">${esc(t.signDraft)}</p>` : ''}
+    <figure class="signart">
+      <a href="../signs/${esc(sign.id)}.jpg">
+        <img src="../signs/${esc(sign.id)}.jpg"
+             alt="${esc(lang === 'en'
+               ? `The full ${sign.title.en} sign, with English and Spanish columns, photographs and a locator map`
+               : `El letrero completo ${sign.title.es}, con columnas en inglés y español, fotografías y un mapa de localización`)}"
+             loading="lazy">
+      </a>
+    </figure>
 
     ${sources ? `<h2>${esc(t.sourcesHead)}</h2>
     <p class="sources-note">${esc(
@@ -447,6 +478,13 @@ await fs.copyFile(
   path.join(ROOT, 'assets', 'images', 'overview-map.svg'),
   path.join(OUT, 'images', 'overview-map.svg')
 ).catch(() => console.warn('  ⚠ no overview map — run: node build/make-overview-map.mjs'));
+await fs.mkdir(path.join(OUT, 'signs'), { recursive: true });
+for (const f of await fs.readdir(path.join(ROOT, 'assets', 'web', 'signs')).catch(() => [])) {
+  await fs.copyFile(
+    path.join(ROOT, 'assets', 'web', 'signs', f),
+    path.join(OUT, 'signs', f)
+  );
+}
 for (const f of await fs.readdir(path.join(ROOT, 'assets', 'web', 'existing')).catch(() => [])) {
   await fs.copyFile(
     path.join(ROOT, 'assets', 'web', 'existing', f),
