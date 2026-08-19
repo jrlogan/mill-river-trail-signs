@@ -28,7 +28,25 @@ Output:
 |---|---|
 | `dist/print/sign-01-submarine.pdf` | Press-ready artwork, true 36 × 24 in, vector text |
 | `dist/print/sign-01-submarine-proof.png` | 100 dpi proof for review by email |
-| `dist/site/` | Static site for `signs.millrivertrail.com` — drop on Netlify / GitHub Pages / Cloudflare Pages |
+| `dist/site/` | Static site, deployed to `signs.millrivertrail.com` by GitHub Actions on every push to `main` |
+
+## Images: two resolutions
+
+The historic photographs exist at two sizes, and only one of them is in this
+repository.
+
+| | Where | In git? |
+|---|---|---|
+| Print masters | `assets/images/sign-NN/` | **No** — archival scans, see [NOTICE.md](NOTICE.md) |
+| Web copies | `assets/web/sign-NN/` | Yes — 1600 px, ~100 KB each |
+
+`node build/make-web-images.mjs` derives the second from the first. Run it after
+adding images for a new sign, then commit `assets/web/`.
+
+This means **the site builds from a fresh clone, the print PDFs do not.** For
+those you need the masters from the project's Drive folder. That is deliberate:
+the museums supplied high-resolution scans for this signage project, not for
+open redistribution.
 
 ## What the build checks for you
 
@@ -40,7 +58,12 @@ failure modes that actually bite:
   just enough to fit, then tells you it did. If it still cannot fit, the build
   exits non-zero rather than shipping clipped text.
 - **QR targets.** After rendering, the build scans the QR codes back out of the
-  finished artwork and checks each one resolves to the URL printed beside it.
+  finished artwork and checks each one encodes the URL printed beside it.
+- **Live destinations.** `build/check-links.mjs` then proves every printed URL
+  points at a page that actually got built, on the domain the site deploys to.
+  It runs in CI before publishing, and fails the deploy on any mismatch — this
+  is the check that would have caught `millrivertrail.com/submarine` being
+  printed on a comp while returning a 404.
 
 Both appear in the build log:
 
@@ -95,16 +118,19 @@ ground the panel covers north to south, in degrees of latitude.
 1. Copy `content/sign-01-submarine.yml` to `content/sign-02-ball-island.yml`.
 2. Fill in the text, captions, image filenames, slug, and coordinates.
 3. Put its images in `assets/images/sign-02/`.
-4. `npm run all` — the locator map draws itself from the coordinates.
+4. `npm run all` — the locator map draws itself from the coordinates, the web
+   images are derived, both outputs build, and the links are checked.
+5. Commit `assets/web/sign-NN/`; pushing to `main` deploys the pages.
 
 ## Layout of the repo
 
 ```
 content/     one YAML per sign — the single source of truth
-assets/      fonts and images
-build/       theme, template, and the two renderers
-docs/        open decisions and the corrections log
+assets/      fonts, icons, print masters (ignored), web images (committed)
+build/       theme, template, renderers, map generator, link checker
+docs/        decisions and the corrections log
 dist/        generated output (not committed)
+.github/     builds and deploys the site on push to main
 ```
 
 ## Source material

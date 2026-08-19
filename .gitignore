@@ -1,6 +1,23 @@
 node_modules/
 dist/
 work/
+.cache/
+
+# Original handoff from the designer and researcher — 200 MB of source material.
 extracted/
 *.zip
 *:Zone.Identifier
+
+# Print-resolution archival masters. These are scans supplied for this signage
+# project by the museums and collections credited in NOTICE.md, and are not
+# redistributed here. The web-resolution copies the site serves live in
+# assets/web/ and ARE committed, so the site builds from a fresh clone.
+#
+# To rebuild the print PDFs you need the masters locally; they are in the
+# project's Google Drive handoff folder.
+assets/images/sign-*/*.jpg
+assets/images/sign-*/*.jpeg
+assets/images/sign-*/*.JPG
+assets/images/sign-*/*.JPEG
+assets/images/sign-*/*.tif
+assets/images/sign-*/*.tiff

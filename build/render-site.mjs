@@ -172,10 +172,11 @@ function page({ lang, sign, otherHref }) {
   const w = sign.web;
   const hero = w.gallery?.[0];
   const imgDir = `../images/${sign.id.replace(/^sign-(\d+).*/, 'sign-$1')}`;
+  const webFile = (f) => f.replace(/\.[^.]+$/, '.jpg');
 
   const gallery = (w.gallery || []).slice(1).map((g) => `
       <figure>
-        <img src="${imgDir}/${encodeURIComponent(g.file)}" alt="${esc(g.caption[lang])}" loading="lazy">
+        <img src="${imgDir}/${encodeURIComponent(webFile(g.file))}" alt="${esc(g.caption[lang])}" loading="lazy">
         <figcaption>${esc(g.caption[lang])}</figcaption>
       </figure>`).join('');
 
@@ -195,7 +196,7 @@ function page({ lang, sign, otherHref }) {
 <meta property="og:title" content="${esc(sign.title[lang])}">
 <meta property="og:description" content="${esc(w.subtitle[lang])}">
 <meta property="og:locale" content="${lang === 'en' ? 'en_US' : 'es_US'}">
-${hero ? `<meta property="og:image" content="${imgDir}/${encodeURIComponent(hero.file)}">` : ''}
+${hero ? `<meta property="og:image" content="${imgDir}/${encodeURIComponent(webFile(hero.file))}">` : ''}
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="../style.css">
@@ -217,7 +218,7 @@ ${hero ? `<meta property="og:image" content="${imgDir}/${encodeURIComponent(hero
 <main>
   <div class="wrap">
     ${hero ? `<figure style="margin-top:0">
-      <img src="${imgDir}/${encodeURIComponent(hero.file)}" alt="${esc(hero.caption[lang])}">
+      <img src="${imgDir}/${encodeURIComponent(webFile(hero.file))}" alt="${esc(hero.caption[lang])}">
       <figcaption>${esc(hero.caption[lang])}</figcaption>
     </figure>` : ''}
 
@@ -317,16 +318,18 @@ for (const sign of signs) {
     console.log(`  ✓ /${slug}/                 (${lang})`);
   }
 
-  // Copy only the images the web pages actually reference.
+  // Web-resolution derivatives only — see build/make-web-images.mjs. The print
+  // masters are not in the repository and are not needed to build the site.
   const sub = sign.id.replace(/^sign-(\d+).*/, 'sign-$1');
-  const src = path.join(ROOT, 'assets', 'images', sub);
+  const src = path.join(ROOT, 'assets', 'web', sub);
   const dst = path.join(OUT, 'images', sub);
   await fs.mkdir(dst, { recursive: true });
   for (const g of sign.web.gallery || []) {
+    const f = g.file.replace(/\.[^.]+$/, '.jpg');
     try {
-      await fs.copyFile(path.join(src, g.file), path.join(dst, g.file));
+      await fs.copyFile(path.join(src, f), path.join(dst, f));
     } catch {
-      console.warn(`  ⚠ missing web image: ${sub}/${g.file}`);
+      console.warn(`  ⚠ missing web image: assets/web/${sub}/${f} — run: node build/make-web-images.mjs`);
     }
   }
 }

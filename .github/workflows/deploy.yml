@@ -33,7 +33,8 @@ jobs:
           node-version: 22
           cache: npm
 
-      - run: npm ci
+      # sharp is only needed to regenerate web images, which are committed.
+      - run: npm ci --omit=dev
 
       - name: Build the site
         run: node build/render-site.mjs
