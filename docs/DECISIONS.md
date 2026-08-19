@@ -205,17 +205,50 @@ Two things to settle when sourcing, for every sign from here on:
 
 ## Sign inventory
 
-Twelve locations are planned in `Mill River Signage Plan.kmz`.
+All twelve locations from `Mill River Signage Plan.kmz` now have content. Signs
+1-3 are complete. Signs 4-12 are drafted in both languages with layout, locator
+maps, species panels and live web pages — waiting only on pictures.
 
-| # | Sign | English | Spanish | Images | Layout | Web page |
-|---|---|---|---|---|---|---|
-| 1 | Submarine (Fenian Ram) | done | done | done | **built** | **built** |
-| 2 | Ball Island & Marshes | done | needs edit | done | — | not written |
-| 3 | Rail & Industry | done | needs edit | done | — | not written |
-| 4 | Eli Whitney / Lake Whitney | **done** | **done** | **needs sourcing** | draft | **built** |
-| 5 | Bath Houses | — | — | — | — | — |
-| 6–12 | Tide Gate, English Station, Chapel St / Criscuolo, Tides & Urban Oasis, Planning History, Highway-over-River, Historic Spring, Dragon Point | research notes only | — | — | — | — |
+| # | Sign | Title | EN | ES | Images | Print | Web |
+|---|---|---|---|---|---|---|---|
+| 1 | Fenian Ram | Famous Stolen Submarine | ✅ | ✅ | ✅ | **proof** | ✅ |
+| 2 | Ball Island | Marsh, Mud and Meadow | ✅ | ✅ | ✅ | draft | ✅ |
+| 3 | Railway Bridge | Three Bridges North | ✅ | ✅ | ✅ | draft | ✅ |
+| 4 | Lake Whitney | The Dam That Fought Fires | ✅ | ✅ | ⬜ 4 | draft | ✅ |
+| 5 | Bath House | Where the City Bathed | ✅ | ✅ | ⬜ 4 | draft | ✅ |
+| 6 | Tide Gate | The Gate in the River | ✅ | ✅ | ⬜ 4 | draft | ✅ |
+| 7 | Tides | Twice a Day, the Sea | ✅ | ✅ | ⬜ 4 | draft | ✅ |
+| 8 | Criscuolo Park | Camp at Grapevine Point | ✅ | ✅ | ⬜ 4 | draft | ✅ |
+| 9 | Planning | A Century of Plans | ✅ | ✅ | ⬜ 4 | draft | ✅ |
+| 10 | I-91 / East Rock | The Highway That Wasn't | ✅ | ✅ | ⬜ 4 | draft | ✅ |
+| 11 | East Rock Park | A Boat on the Rock | ✅ | ✅ | ⬜ 4 | draft | ✅ |
+| 12 | Dragon Point | Dragon Point | ✅ | ✅ | ⬜ 4 | draft | ✅ |
 
-Signs 4–12 have sourced raw material in
-`Mill River Historic And Natural Story Points for Signage Rough Notes.docx`
-(38,000 words, with citations) — enough to draft from without new archival work.
+**36 images to source.** Every one carries a written brief in its sign's YAML,
+which also prints inside the placeholder on the proof. A great many of them are
+public domain — anything published before 1930 — and the Library of Congress,
+NOAA, USFWS and the Smithsonian cover a surprising share of what is needed.
+
+### The ones most worth chasing
+
+- **Sign 11: the boat on East Rock.** A showman built a full-size wooden boat on
+  the summit and charged admission. If a photograph or engraving exists, it is
+  the best single image on the trail.
+- **Sign 8: the 29th Connecticut.** The regiment trained on the ground that is
+  now Criscuolo Park. This is the most consequential story in the series and
+  deserves the strongest picture available.
+- **Sign 5: the bath house.** You mentioned there may be a map, a bath house
+  view and a newspaper clipping. Nothing bath-related is in the handoff folder,
+  so those would fill three of the four slots on that sign directly.
+
+### Notes for review before print
+
+- **Sign 5** is written at the level the sources support. The national public
+  bath movement and the absence of plumbing in New Haven tenements are well
+  documented; the specific opening date, operator and exact site of the Mill
+  River bath house still need confirming from the 1880-81 newspaper coverage.
+- **Sign 8** should be read carefully by the project for tone and local detail.
+- **Species picks across signs 2-12 are educated guesses.** They are chosen to
+  be plausible for each location and to mix natives with invasives, since
+  knowing which is which is the useful part. Walk the sites and swap them.
+

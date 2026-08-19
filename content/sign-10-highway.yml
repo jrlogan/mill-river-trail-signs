@@ -1,0 +1,239 @@
+# Sign 10: The Highway That Wasn't — DRAFT FOR REVIEW, artwork pending.
+id: sign-10-highway
+number: 10
+status: draft
+
+location:
+  name: Highway over River Plan / Fresh Water Tidal
+  place: The Mill River below East Rock, where I-91 crosses
+  lat: 41.323312
+  lon: -72.9057947
+
+urls:
+  en: signs.MillRiverTrail.com/highway
+  es: signs.MillRiverTrail.com/autopista
+  en_full: https://signs.millrivertrail.com/highway
+  es_full: https://signs.millrivertrail.com/autopista
+
+title:
+  en: The Highway That Wasn't
+  es: La Autopista que No Fue
+
+sign:
+  lede:
+    en: >-
+      There was supposed to be a road here. From 1942 into the 1960s, New Haven
+      and the state planned an arterial connector running along the Mill River
+      and cutting through East Rock Park. By 1960 the route was broadly agreed.
+      It was never built, because the people who used the park organised and
+      stopped it.
+    es: >-
+      Aquí iba a haber una carretera. Desde 1942 hasta los años sesenta, New
+      Haven y el estado planearon una vía de conexión que discurriría junto al
+      río Mill y atravesaría el parque de East Rock. Hacia 1960 el trazado estaba
+      acordado a grandes rasgos. Nunca se construyó, porque quienes usaban el
+      parque se organizaron y lo impidieron.
+
+  section:
+    heading:
+      en: Save Our Park
+      es: Salvemos Nuestro Parque
+    body:
+      en: >-
+        The East Rock Connector became a flashpoint. City officials and the state
+        highway department called it an integral part of the highway system.
+        Residents and park groups called it a waste of good parkland and formed a
+        Save Our Park Committee. They won: the connector was never built. They
+        did not win everything — Interstate 91 went through anyway and took about
+        ten acres of the park. This is one of the few places in New Haven where
+        you can stand in something that exists because people refused to let it
+        be paved.
+      es: >-
+        El East Rock Connector se convirtió en un punto de conflicto. Los cargos
+        municipales y el departamento estatal de carreteras lo llamaban parte
+        integral del sistema viario. Los vecinos y los grupos de parques lo
+        llamaban un desperdicio de buen terreno de parque y formaron el comité
+        Save Our Park. Ganaron: la conexión nunca se construyó. No ganaron del
+        todo: la interestatal 91 se hizo igualmente y se llevó unos diez acres
+        del parque. Este es uno de los pocos lugares de New Haven donde uno puede
+        estar dentro de algo que existe porque la gente se negó a que lo
+        asfaltaran.
+
+  images:
+    - key: The Proposed Route
+      file: TODO-connector-map.jpg
+      slot: center_top
+      source_note: >-
+        A map or plan of the proposed East Rock Connector, 1950s-60s. New Haven
+        Museum; Connecticut State Library; state highway department records.
+      caption:
+        en: The connector as proposed, running the river and cutting the park.
+        es: La conexión tal como se propuso, siguiendo el río y cortando el parque.
+
+    - key: Save Our Park
+      file: TODO-save-our-park.jpg
+      slot: left_bottom
+      source_note: >-
+        The campaign against the connector — a meeting, a petition, a newspaper
+        page. New Haven Museum; New Haven Register archive.
+      caption:
+        en: Residents organised and the connector was stopped.
+        es: Los vecinos se organizaron y la conexión se detuvo.
+
+    - key: Building I-91
+      file: TODO-i91-construction-2.jpg
+      slot: center_bottom
+      source_note: >-
+        Interstate 91 under construction beside the Mill River, 1960s.
+      caption:
+        en: Interstate 91 was built, and took ten acres of the park.
+        es: La interestatal 91 sí se construyó, y se llevó diez acres del parque.
+
+    - key: The Park Today
+      file: TODO-rice-field.jpg
+      slot: right_bottom
+      source_note: >-
+        Rice Field or the riverside meadows of East Rock Park. A new photograph
+        would serve.
+      caption:
+        en: The land the connector would have crossed.
+        es: El terreno que habría atravesado la conexión.
+
+  panel:
+    species:
+      - name: { en: Eastern Cottonwood, es: Álamo de Virginia }
+        scientific: Populus deltoides
+        status: native
+      - name: { en: Japanese Knotweed, es: Hierba nudosa japonesa }
+        scientific: Reynoutria japonica
+        status: invasive
+      - name: { en: Belted Kingfisher, es: Martín pescador norteño }
+        scientific: Megaceryle alcyon
+        status: native
+      - name: { en: Multiflora Rose, es: Rosa multiflora }
+        scientific: Rosa multiflora
+        status: invasive
+
+    river_fact:
+      text:
+        en: >-
+          Above the tide gate the Mill River is fresh water. This is the stretch
+          the highway would have followed, and it is the quietest water on the
+          trail.
+        es: >-
+          Por encima de la compuerta el río Mill es de agua dulce. Este es el
+          tramo que habría seguido la autopista, y es el agua más tranquila del
+          sendero.
+
+web:
+  subtitle:
+    en: New Haven planned a highway along this river for twenty years, and the neighbours stopped it
+    es: New Haven planeó durante veinte años una autopista junto a este río, y los vecinos la detuvieron
+
+  body:
+    en: |
+      Most of what happened to the Mill River happened to it. Marshes were
+      filled, banks were walled, factories were built and the water was used as a
+      drain, and at no point does the record show much of an argument about it.
+
+      This stretch is the exception. Here, something was proposed, fought over,
+      and not built.
+
+      ## The proposal
+
+      In 1942 New Haven's planners first considered running an arterial road over
+      the Mill River and through East Rock Park. The idea was reconsidered
+      intermittently into the 1950s. By 1959 and 1960, the city, the state and
+      the highway engineers were broadly in agreement about the purpose and the
+      route.
+
+      From a 1950s traffic-engineering point of view it was obvious. A river
+      valley is a natural corridor: flat, continuous, already partly cleared, and
+      running in the direction traffic wanted to go. Park land was cheap because
+      the city already owned it.
+
+      ## The fight
+
+      Within a few years the East Rock Connector had become a flashpoint. The
+      state highway department described it as an integral part of the state
+      highway system. City officials largely agreed.
+
+      Residents did not. Park groups and neighbours called it a waste of good
+      parkland and organised a Save Our Park Committee to stop it.
+
+      They did stop it. The connector was never built.
+
+      ## What it cost anyway
+
+      Interstate 91 was built, along the eastern edge, and it took roughly ten
+      acres of East Rock Park with it. The park you can walk in today is what
+      survived the compromise, not what was defended.
+
+      ## Why this matters on a trail sign
+
+      Almost every other sign on this trail describes something the city did to
+      the river without much public argument. This one describes the moment the
+      argument was had, in public, and the public won part of it.
+
+      The trail you are standing on exists because that stayed true: people who
+      use a place turn out to be the ones who defend it.
+
+    es: |
+      Casi todo lo que le pasó al río Mill le fue hecho. Se rellenaron marismas,
+      se amurallaron orillas, se construyeron fábricas y se usó el agua como
+      desagüe, y en ningún momento consta que hubiera mucha discusión al
+      respecto.
+
+      Este tramo es la excepción. Aquí algo se propuso, se peleó y no se
+      construyó.
+
+      ## La propuesta
+
+      En 1942 los planificadores de New Haven consideraron por primera vez llevar
+      una vía arterial sobre el río Mill y a través del parque de East Rock. La
+      idea se retomó de forma intermitente hasta los años cincuenta. Hacia 1959 y
+      1960, la ciudad, el estado y los ingenieros de carreteras coincidían a
+      grandes rasgos en el propósito y el trazado.
+
+      Desde la ingeniería de tráfico de los años cincuenta era evidente. Un valle
+      fluvial es un corredor natural: llano, continuo, ya parcialmente despejado
+      y en la dirección que el tráfico quería seguir. El suelo del parque salía
+      barato porque la ciudad ya era su dueña.
+
+      ## La pelea
+
+      En pocos años el East Rock Connector se convirtió en un punto de conflicto.
+      El departamento estatal de carreteras lo describía como parte integral del
+      sistema viario estatal. Los cargos municipales estaban en general de
+      acuerdo.
+
+      Los vecinos no. Los grupos de parques y los residentes lo llamaron un
+      desperdicio de buen terreno de parque y organizaron el comité Save Our Park
+      para detenerlo.
+
+      Y lo detuvieron. La conexión nunca se construyó.
+
+      ## Lo que costó de todos modos
+
+      La interestatal 91 sí se construyó, por el borde este, y se llevó unos diez
+      acres del parque de East Rock. El parque por el que se puede caminar hoy es
+      lo que sobrevivió al acuerdo, no lo que se defendió.
+
+      ## Por qué esto está en un letrero
+
+      Casi todos los demás letreros de este sendero describen algo que la ciudad
+      le hizo al río sin mucha discusión pública. Este describe el momento en que
+      sí hubo discusión, en público, y el público ganó una parte.
+
+      El sendero en el que usted está existe porque eso siguió siendo cierto: los
+      que usan un lugar acaban siendo los que lo defienden.
+
+  gallery: []
+
+  sources:
+    - title: The East Rock Connector — kurumi.com Connecticut roads
+      url: https://www.kurumi.com/roads/ct/eastrock.html
+    - title: Report of the New Haven Civic Improvement Committee, 1910
+      url: https://www.google.com/books/edition/_/NUHnAAAAMAAJ
+    - title: Mill River Trail Framework Plan
+      url: https://issuu.com/millrivertrail/docs/mrt_frameworkplan

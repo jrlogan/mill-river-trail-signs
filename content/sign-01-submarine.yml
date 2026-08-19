@@ -148,30 +148,24 @@ sign:
   panel:
     # The placeholder map art still has the logo and marker baked in.
     # Set false once real per-location map artwork exists.
-    map: panel-map.svg
 
-    you_are_here:
-      en: You Are Here
-      es: Usted está aquí
-
+    # What someone standing here might actually notice, with whether it belongs.
+    # Early drafts are educated guesses — swap them once the site is surveyed.
     species:
-      - file: noun-black-capped-chickadee-color.svg
-        label:
-          en: Black-capped Chickadee
-          es: Carbonero de capucha negra
-      - file: Sumac-color.svg
-        label:
-          en: Sumac
-          es: Zumaque
-      - file: noun-yellow-rumped-warber-color.svg
-        label:
-          en: Yellow-rumped Warbler
-          es: Reinita coronada
+      - name: { en: Black-capped Chickadee, es: Carbonero de capucha negra }
+        scientific: Poecile atricapillus
+        status: native
+        file: noun-black-capped-chickadee-color.svg
+      - name: { en: Staghorn Sumac, es: Zumaque de Virginia }
+        scientific: Rhus typhina
+        status: native
+        file: Sumac-color.svg
+      - name: { en: Yellow-rumped Warbler, es: Reinita coronada }
+        scientific: Setophaga coronata
+        status: native
+        file: noun-yellow-rumped-warber-color.svg
 
     river_fact:
-      label:
-        en: River Fact
-        es: Hecho del Río
       # CORRECTION: the draft left the bird names in English inside quotation
       # marks ("chickadees, waxwings y warblers"). Replaced with their actual
       # Spanish common names.

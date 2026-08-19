@@ -14,7 +14,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import YAML from 'yaml';
+import { loadSign, signFiles } from './load-signs.mjs';
 import { COLOR } from './theme.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -298,8 +298,8 @@ await fs.mkdir(OUT, { recursive: true });
 
 const dir = path.join(ROOT, 'content');
 const signs = [];
-for (const f of (await fs.readdir(dir)).filter((f) => f.endsWith('.yml')).sort()) {
-  signs.push(YAML.parse(await fs.readFile(path.join(dir, f), 'utf8')));
+for (const f of (await fs.readdir(dir)).filter((f) => f.endsWith('.yml') && !f.startsWith('_')).sort()) {
+  signs.push(await loadSign(path.join(dir, f)));
 }
 
 await fs.writeFile(path.join(OUT, 'style.css'), css());

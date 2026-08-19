@@ -14,7 +14,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import YAML from 'yaml';
+import { loadSign, signFiles } from './load-signs.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const SITE = path.join(ROOT, 'dist', 'site');
@@ -28,10 +28,10 @@ const cname = (await fs.readFile(path.join(SITE, 'CNAME'), 'utf8').catch(() => '
 if (!cname) problems.push('dist/site/CNAME is missing — Pages will not serve the custom domain.');
 
 const dir = path.join(ROOT, 'content');
-const files = (await fs.readdir(dir)).filter((f) => f.endsWith('.yml')).sort();
+const files = (await fs.readdir(dir)).filter((f) => f.endsWith('.yml') && !f.startsWith('_')).sort();
 
 for (const f of files) {
-  const sign = YAML.parse(await fs.readFile(path.join(dir, f), 'utf8'));
+  const sign = await loadSign(path.join(dir, f));
 
   for (const lang of ['en', 'es']) {
     const full = sign.urls[`${lang}_full`];

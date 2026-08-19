@@ -131,16 +131,8 @@ sign:
           que cualquiera encajara.
 
   panel:
-    map: panel-map.svg
-
-    you_are_here:
-      en: You Are Here
-      es: Usted está aquí
 
     river_fact:
-      label:
-        en: River Fact
-        es: Hecho del Río
       text:
         en: >-
           The dam still blocks the river. Fish that once ran the whole length of
@@ -151,28 +143,6 @@ sign:
           entero para desovar ahora se detienen aquí, al pie del muro que formó
           el lago.
 
-  dedication:
-    en: In honor of trail blazer Tom Holahan
-    es: En honor al pionero del sendero Tom Holahan
-
-  credits:
-    label:
-      en: Made Possible by
-      es: Hecho posible por
-    funders: >-
-      Mill River Watershed Association, Sustainable CT, Susan B. Holahan and
-      Family, City of New Haven, District New Haven, Bear's BBQ, Community
-      Foundation for Greater New Haven, Chatham Square Neighborhood Association,
-      Industrial Flow Solutions, Doug Hausladen, and other individual donors.
-    produced_label:
-      en: Produced by
-      es: Producido por
-    produced: >-
-      Colin M. Caplan, Design Monsters, Joe Kolodej, Nick McGhee, and J.R. Logan.
-
-  learn_more:
-    en: Learn More
-    es: Más en línea
 
 web:
   subtitle:

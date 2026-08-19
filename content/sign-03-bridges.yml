@@ -125,19 +125,11 @@ sign:
           de 1908. Cortesía de Colin M. Caplan.
 
   panel:
-    map: panel-map.svg
-
-    you_are_here:
-      en: You Are Here
-      es: Usted está aquí
 
     # No species boxes yet — see docs/DECISIONS.md. A river-herring illustration
     # would suit this sign, given the river fact below.
 
     river_fact:
-      label:
-        en: River Fact
-        es: Hecho del Río
       text:
         en: >-
           The Mill River is tidal from the harbour up to the tide gate. River
@@ -148,28 +140,6 @@ sign:
           arenques de río todavía lo remontan cada primavera para desovar, como
           lo hacían antes de que se construyera el primer puente.
 
-  dedication:
-    en: In honor of trail blazer Tom Holahan
-    es: En honor al pionero del sendero Tom Holahan
-
-  credits:
-    label:
-      en: Made Possible by
-      es: Hecho posible por
-    funders: >-
-      Mill River Watershed Association, Sustainable CT, Susan B. Holahan and
-      Family, City of New Haven, District New Haven, Bear's BBQ, Community
-      Foundation for Greater New Haven, Chatham Square Neighborhood Association,
-      Industrial Flow Solutions, Doug Hausladen, and other individual donors.
-    produced_label:
-      en: Produced by
-      es: Producido por
-    produced: >-
-      Colin M. Caplan, Design Monsters, Joe Kolodej, Nick McGhee, and J.R. Logan.
-
-  learn_more:
-    en: Learn More
-    es: Más en línea
 
 web:
   subtitle:

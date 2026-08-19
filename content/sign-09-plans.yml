@@ -1,0 +1,264 @@
+# Sign 9: A Century of Plans for This River — DRAFT FOR REVIEW, artwork pending.
+id: sign-09-plans
+number: 9
+status: draft
+
+location:
+  name: History of Planning and Development
+  place: The Mill River District, near Chapel Street
+  lat: 41.3067653
+  lon: -72.9040273
+
+urls:
+  en: signs.MillRiverTrail.com/plans
+  es: signs.MillRiverTrail.com/planes
+  en_full: https://signs.millrivertrail.com/plans
+  es_full: https://signs.millrivertrail.com/planes
+
+title:
+  en: A Century of Plans
+  es: Un Siglo de Planes
+
+sign:
+  lede:
+    en: >-
+      New Haven has been planning this river for more than a hundred years. In
+      1910 Cass Gilbert and Frederick Law Olmsted delivered the city's first
+      modern plan and told it to leave a green buffer along the Mill River rather
+      than wall the water in. The city built the walls. Almost every plan since
+      has been an attempt to undo something the last one allowed.
+    es: >-
+      New Haven lleva más de cien años planificando este río. En 1910 Cass
+      Gilbert y Frederick Law Olmsted entregaron el primer plan moderno de la
+      ciudad y le dijeron que dejara una franja verde a lo largo del río Mill en
+      lugar de encerrar el agua entre muros. La ciudad construyó los muros. Casi
+      todos los planes posteriores han intentado deshacer algo que permitió el
+      anterior.
+
+  section:
+    heading:
+      en: What Each Plan Wanted
+      es: Qué quería cada plan
+    body:
+      en: >-
+        The 1910 report asked for an inner circuit of parks and parkways linked
+        by paths that never crossed a highway, and warned that pollution was
+        already bad at low tide. In 1942 Maurice Rotival's plan reimagined the
+        city around the motor car, and by the 1950s an arterial road along the
+        Mill River and through East Rock was on the table. Residents formed a
+        Save Our Park Committee and stopped it, though Interstate 91 still took
+        ten acres. The 1987 Mill River Municipal Development Plan and the 2013
+        Mill River District Plan both turned back toward the water. This trail is
+        the current answer.
+      es: >-
+        El informe de 1910 pedía un circuito interior de parques y avenidas
+        unidos por senderos que nunca cruzaran una carretera, y advertía de que
+        la contaminación ya era grave con la marea baja. En 1942 el plan de
+        Maurice Rotival reimaginó la ciudad en torno al automóvil, y hacia 1950
+        se planteó una vía arterial junto al río Mill y a través de East Rock.
+        Los vecinos formaron un comité, Save Our Park, y lo detuvieron, aunque la
+        interestatal 91 se llevó igualmente diez acres. El Plan Municipal de
+        Desarrollo del Mill River de 1987 y el Plan del Distrito Mill River de
+        2013 volvieron a mirar hacia el agua. Este sendero es la respuesta
+        actual.
+
+  images:
+    - key: The 1910 Plan
+      file: TODO-1910-plan.jpg
+      slot: center_top
+      source_note: >-
+        A plate from the 1910 Report of the New Haven Civic Improvement
+        Committee (Gilbert and Olmsted). Full text on Google Books; public domain.
+      caption:
+        en: >-
+          The 1910 Gilbert and Olmsted plan, which asked the city to keep open
+          land along the river.
+        es: >-
+          El plan de Gilbert y Olmsted de 1910, que pedía a la ciudad conservar
+          terreno abierto junto al río.
+
+    - key: The Rotival Plan
+      file: TODO-rotival-plan.jpg
+      slot: left_bottom
+      source_note: >-
+        Maurice Rotival's 1942 plan for New Haven. New Haven Museum; Yale.
+      caption:
+        en: Rotival's 1942 plan rebuilt the city around the car.
+        es: El plan de Rotival de 1942 rehízo la ciudad en torno al coche.
+
+    - key: Building I-91
+      file: TODO-i91-construction.jpg
+      slot: center_bottom
+      source_note: >-
+        Interstate 91 under construction along the Mill River, 1960s. New Haven
+        Museum; Connecticut State Library.
+      caption:
+        en: Interstate 91 took ten acres of park along the river.
+        es: La interestatal 91 se llevó diez acres de parque junto al río.
+
+    - key: The District Plan
+      file: TODO-district-plan.jpg
+      slot: right_bottom
+      source_note: >-
+        A map or rendering from the 2013 Mill River District Plan, or the Mill
+        River Trail Framework Plan.
+      caption:
+        en: The 2013 district plan turned the city back toward the water.
+        es: El plan del distrito de 2013 devolvió la mirada de la ciudad al agua.
+
+  panel:
+    species:
+      - name: { en: American Sycamore, es: Sicomoro americano }
+        scientific: Platanus occidentalis
+        status: native
+      - name: { en: Norway Maple, es: Arce real }
+        scientific: Acer platanoides
+        status: invasive
+      - name: { en: Red-winged Blackbird, es: Tordo sargento }
+        scientific: Agelaius phoeniceus
+        status: native
+      - name: { en: Porcelain Berry, es: Ampelopsis }
+        scientific: Ampelopsis glandulosa
+        status: invasive
+
+    river_fact:
+      text:
+        en: >-
+          The 1910 plan warned that the river already smelled at low tide. It
+          took until the 1970s for anyone to be required to stop putting waste
+          in it.
+        es: >-
+          El plan de 1910 ya advertía de que el río olía mal con la marea baja.
+          Hubo que esperar a los años setenta para que se obligara a alguien a
+          dejar de verter en él.
+
+web:
+  subtitle:
+    en: Six plans in a hundred years, and the one thing every one of them agreed about
+    es: Seis planes en cien años, y lo único en lo que todos coincidieron
+
+  body:
+    en: |
+      There is a particular kind of document that New Haven has produced roughly
+      every twenty-five years since 1910: the plan for the Mill River. Reading
+      them in order is a good way to understand how the city has thought about
+      water, industry and its own future — and how consistently it has known what
+      it ought to do.
+
+      ## 1910: Gilbert and Olmsted
+
+      Cass Gilbert and Frederick Law Olmsted prepared the city's first modern
+      plan, presented to the Civic Improvement Committee in 1910. It proposed an
+      inner circuit of parks, parkways and reservations linked by paths that
+      would never have to cross a highway.
+
+      On the Mill River specifically it asked for a buffer of open land along the
+      water, instead of the artificial vertical walls the city was already
+      starting to build to control the river's course. It warned that the buffer
+      would also hold back the coming density of double-decker housing. And it
+      noted, in 1910, that pollution was already a problem at low tide.
+
+      The city built the walls.
+
+      ## 1942: Rotival
+
+      Maurice E. H. Rotival prepared a new comprehensive plan in 1942, and it
+      belonged to a different century of thinking: the city reorganised around
+      the automobile, with arterial roads cut through where they were needed.
+
+      ## The road that wasn't built
+
+      In 1942 city planners first floated an arterial road running over the Mill
+      River and through East Rock. It was reconsidered on and off into the 1950s.
+      By 1959 and 1960 the parties involved broadly agreed on the route.
+
+      Then it became a fight. Residents and park groups called it a waste of good
+      parkland; the state highway department called it an integral part of the
+      system. A Save Our Park Committee formed and the East Rock Connector was
+      stopped. Interstate 91 still went through and took about ten acres.
+
+      ## 1987 and 2013
+
+      The Mill River Municipal Development Plan of 1987 and the Mill River
+      District Plan of 2013 both start from the opposite premise to Rotival's:
+      that the river is an asset rather than an obstacle, that industrial land
+      near water is worth reclaiming rather than expanding, and that people
+      should be able to get to the water's edge.
+
+      ## The thing they all agreed about
+
+      Every one of these plans, across a century of otherwise incompatible
+      assumptions, says some version of the same sentence: people should be able
+      to walk along this river.
+
+      It took until now to build it.
+
+    es: |
+      Hay un tipo de documento que New Haven ha producido más o menos cada
+      veinticinco años desde 1910: el plan para el río Mill. Leerlos en orden es
+      una buena forma de entender cómo ha pensado la ciudad sobre el agua, la
+      industria y su propio futuro, y con qué constancia ha sabido lo que debía
+      hacer.
+
+      ## 1910: Gilbert y Olmsted
+
+      Cass Gilbert y Frederick Law Olmsted prepararon el primer plan moderno de
+      la ciudad, presentado al Comité de Mejora Cívica en 1910. Proponía un
+      circuito interior de parques, avenidas y reservas unidos por senderos que
+      nunca tuvieran que cruzar una carretera.
+
+      Sobre el río Mill en concreto pedía una franja de terreno abierto junto al
+      agua, en lugar de los muros verticales artificiales que la ciudad ya
+      empezaba a construir para controlar el curso del río. Advertía de que esa
+      franja también contendría la densidad que venía, con sus casas de dos
+      pisos. Y señalaba, en 1910, que la contaminación ya era un problema con la
+      marea baja.
+
+      La ciudad construyó los muros.
+
+      ## 1942: Rotival
+
+      Maurice E. H. Rotival preparó un nuevo plan general en 1942, y pertenecía a
+      otro siglo de pensamiento: la ciudad reorganizada en torno al automóvil,
+      con vías arteriales abiertas donde hicieran falta.
+
+      ## La carretera que no se construyó
+
+      En 1942 los planificadores municipales plantearon por primera vez una vía
+      arterial sobre el río Mill y a través de East Rock. Se retomó de forma
+      intermitente hasta los años cincuenta. Hacia 1959 y 1960 las partes
+      implicadas coincidían a grandes rasgos en el trazado.
+
+      Entonces se convirtió en una pelea. Vecinos y grupos de parques lo llamaron
+      un desperdicio de buen terreno de parque; el departamento estatal de
+      carreteras lo llamó parte integral del sistema. Se formó un comité, Save
+      Our Park, y el East Rock Connector se detuvo. La interestatal 91 se
+      construyó igualmente y se llevó unos diez acres.
+
+      ## 1987 y 2013
+
+      El Plan Municipal de Desarrollo del Mill River de 1987 y el Plan del
+      Distrito Mill River de 2013 parten de la premisa contraria a la de Rotival:
+      que el río es un activo y no un obstáculo, que el suelo industrial junto al
+      agua merece recuperarse en vez de ampliarse, y que la gente debería poder
+      llegar a la orilla.
+
+      ## Aquello en lo que todos coincidieron
+
+      Todos estos planes, a lo largo de un siglo de supuestos por lo demás
+      incompatibles, dicen alguna versión de la misma frase: la gente debería
+      poder caminar junto a este río.
+
+      Se ha tardado hasta ahora en construirlo.
+
+  gallery: []
+
+  sources:
+    - title: Report of the New Haven Civic Improvement Committee, 1910
+      url: https://www.google.com/books/edition/_/NUHnAAAAMAAJ
+    - title: Mill River District Plan, 2013
+      url: https://docs.google.com/file/d/0BzUrwcfp8hjRblBiNElKQXBIRDA/edit
+    - title: Mill River Trail Framework Plan
+      url: https://issuu.com/millrivertrail/docs/mrt_frameworkplan
+    - title: The East Rock Connector — kurumi.com Connecticut roads
+      url: https://www.kurumi.com/roads/ct/eastrock.html

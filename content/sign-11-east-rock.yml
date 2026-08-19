@@ -1,0 +1,248 @@
+# Sign 11: East Rock — DRAFT FOR REVIEW, artwork pending.
+id: sign-11-east-rock
+number: 11
+status: draft
+
+location:
+  name: Historic Spring / Historic Uses of the Park
+  place: East Rock Park, along the Mill River below the rock
+  lat: 41.3264002
+  lon: -72.9097858
+
+urls:
+  en: signs.MillRiverTrail.com/east-rock
+  es: signs.MillRiverTrail.com/la-roca
+  en_full: https://signs.millrivertrail.com/east-rock
+  es_full: https://signs.millrivertrail.com/la-roca
+
+title:
+  en: A Boat on the Rock
+  es: Un Barco sobre la Roca
+
+sign:
+  lede:
+    en: >-
+      East Rock is a 365-foot wall of basalt, the edge of a lava sheet that
+      cooled underground and was later exposed by ice. For most of the 1800s it
+      was not a park. It was cut up into private parcels, quarried for stone, and
+      for a while it carried a large wooden boat that a showman had built on the
+      summit and called Noah's Ark, charging admission to see it.
+    es: >-
+      East Rock es un muro de basalto de 365 pies, el borde de una capa de lava
+      que se enfrió bajo tierra y que el hielo dejó luego al descubierto. Durante
+      casi todo el siglo XIX no fue un parque. Estaba dividido en parcelas
+      privadas, se explotaba como cantera y, durante un tiempo, sostuvo un gran
+      barco de madera que un empresario construyó en la cima y llamó el Arca de
+      Noé, cobrando entrada por verlo.
+
+  section:
+    heading:
+      en: Making It a Park
+      es: Convertirlo en parque
+    body:
+      en: >-
+        The city began buying up parcels and in 1880 created a parks commission
+        to manage the land. The park grew to about 427 acres across New Haven and
+        Hamden. Its principal designer was Donald Grant Mitchell, a New Havener
+        who also laid out Edgewood Park; the Olmsted Brothers firm designed the
+        portion along the Mill River, including Rice Field. The Soldiers and
+        Sailors Monument went up on the summit in 1887. Every part of that took
+        deliberate public effort — a rock nobody protects becomes a quarry.
+      es: >-
+        La ciudad empezó a comprar parcelas y en 1880 creó una comisión de
+        parques para gestionar el terreno. El parque creció hasta unos 427 acres
+        entre New Haven y Hamden. Su diseñador principal fue Donald Grant
+        Mitchell, natural de New Haven, que también trazó Edgewood Park; la firma
+        Olmsted Brothers diseñó la parte junto al río Mill, incluido Rice Field.
+        El Monumento a los Soldados y Marineros se levantó en la cima en 1887.
+        Todo eso exigió un esfuerzo público deliberado: una roca que nadie
+        protege acaba siendo una cantera.
+
+  images:
+    - key: Noah's Ark
+      file: TODO-noahs-ark.jpg
+      slot: center_top
+      source_note: >-
+        The boat built on the summit of East Rock, 19th century. New Haven
+        Museum; Connecticut State Library. This is the picture worth chasing.
+      caption:
+        en: The boat a showman built on the summit and charged admission to see.
+        es: El barco que un empresario construyó en la cima y por el que cobraba entrada.
+
+    - key: The Quarry
+      file: TODO-east-rock-quarry.jpg
+      slot: left_bottom
+      source_note: >-
+        Quarrying on East Rock before the park. New Haven Museum.
+      caption:
+        en: Before the park, the rock was quarried for stone.
+        es: Antes del parque, la roca se explotaba como cantera.
+
+    - key: Rice Field
+      file: TODO-rice-field-2.jpg
+      slot: center_bottom
+      source_note: >-
+        Rice Field or the Olmsted Brothers' riverside plan for East Rock Park.
+      caption:
+        en: >-
+          The Olmsted Brothers designed the riverside part of the park,
+          including Rice Field.
+        es: >-
+          Los Olmsted Brothers diseñaron la parte del parque junto al río,
+          incluido Rice Field.
+
+    - key: The Monument
+      file: TODO-soldiers-sailors.jpg
+      slot: right_bottom
+      source_note: >-
+        The Soldiers and Sailors Monument, 1887 or shortly after. Public domain
+        views are common.
+      caption:
+        en: The Soldiers and Sailors Monument, built on the summit in 1887.
+        es: El Monumento a los Soldados y Marineros, levantado en la cima en 1887.
+
+  panel:
+    species:
+      - name: { en: Peregrine Falcon, es: Halcón peregrino }
+        scientific: Falco peregrinus
+        status: native
+      - name: { en: Eastern Hemlock, es: Tsuga del Canadá }
+        scientific: Tsuga canadensis
+        status: native
+      - name: { en: Garlic Mustard, es: Aliaria }
+        scientific: Alliaria petiolata
+        status: invasive
+      - name: { en: Barberry, es: Agracejo japonés }
+        scientific: Berberis thunbergii
+        status: invasive
+
+    river_fact:
+      text:
+        en: >-
+          The cliff is trap rock — basalt from lava that cooled underground about
+          200 million years ago, when this continent was pulling away from
+          Africa. The river has been cutting past it ever since.
+        es: >-
+          El acantilado es roca trapeana: basalto de lava que se enfrió bajo
+          tierra hace unos 200 millones de años, cuando este continente se
+          separaba de África. El río lleva desde entonces excavando a su pie.
+
+web:
+  subtitle:
+    en: A quarry, a tourist attraction and a 427-acre park, in that order
+    es: Una cantera, una atracción turística y un parque de 427 acres, en ese orden
+
+  body:
+    en: |
+      East Rock is the most obvious thing in New Haven and the easiest to take
+      for granted. It is a 365-foot cliff of basalt — trap rock — formed when a
+      sheet of lava cooled underground roughly 200 million years ago, as the
+      continent was pulling away from Africa. Glaciers later stripped the softer
+      material off its face.
+
+      What is less obvious is that it was very nearly not a park.
+
+      ## Private ground
+
+      Through the middle of the 1800s the land that is now East Rock Park was
+      divided among several private owners, and they used it the way you would
+      expect people to use a large exposed mass of good building stone: they
+      quarried it.
+
+      One owner had a different idea. A local showman built a large boat on top
+      of the rock, called it Noah's Ark, and charged people to come up and look
+      at it — a piece of nineteenth-century roadside attraction logic, two
+      centuries before anyone called it that.
+
+      ## Making a park
+
+      The city started buying parcels, and in 1880 created a parks commission to
+      manage what it had assembled. Ultimately the park reached about 427 acres
+      across New Haven and Hamden.
+
+      Its principal designer was Donald Grant Mitchell, a New Haven writer and
+      landscape designer who also laid out Edgewood Park. The Olmsted Brothers
+      firm — the successor practice to Frederick Law Olmsted — designed the
+      portion of the park along the Mill River, including Rice Field.
+
+      In 1887 the Soldiers and Sailors Monument was built on the summit, and the
+      rock acquired the silhouette it has now.
+
+      ## And nearly lost again
+
+      In the 1960s the state proposed running a highway connector along the Mill
+      River and through the park. Residents formed a Save Our Park Committee and
+      stopped it, though Interstate 91 still took about ten acres.
+
+      A park is not a natural feature. It is a decision that has to keep being
+      made.
+
+      ## What is here now
+
+      Peregrine falcons nest on the trap rock cliffs of the Connecticut ridges,
+      and the updraughts off the face make this good raptor country. In the
+      woods, watch for garlic mustard and Japanese barberry — both introduced,
+      both aggressive, and both changing what can grow underneath.
+
+    es: |
+      East Rock es lo más evidente de New Haven y lo más fácil de dar por
+      sentado. Es un acantilado de basalto de 365 pies — roca trapeana — formado
+      cuando una capa de lava se enfrió bajo tierra hace unos 200 millones de
+      años, mientras el continente se separaba de África. Los glaciares
+      arrancaron después el material más blando de su cara.
+
+      Lo que resulta menos evidente es que estuvo a punto de no ser un parque.
+
+      ## Terreno privado
+
+      A mediados del siglo XIX el terreno que hoy es el parque de East Rock
+      estaba repartido entre varios propietarios privados, que lo usaban como
+      cabía esperar que se usara una gran masa expuesta de buena piedra de
+      construcción: como cantera.
+
+      Un propietario tuvo otra idea. Un empresario local construyó un gran barco
+      en lo alto de la roca, lo llamó el Arca de Noé y cobraba por subir a verlo:
+      lógica de atracción de carretera decimonónica, dos siglos antes de que
+      nadie la llamara así.
+
+      ## Hacer un parque
+
+      La ciudad empezó a comprar parcelas y en 1880 creó una comisión de parques
+      para gestionar lo reunido. El parque llegó a unos 427 acres entre New Haven
+      y Hamden.
+
+      Su diseñador principal fue Donald Grant Mitchell, escritor y paisajista de
+      New Haven que también trazó Edgewood Park. La firma Olmsted Brothers — la
+      sucesora del despacho de Frederick Law Olmsted — diseñó la parte del parque
+      junto al río Mill, incluido Rice Field.
+
+      En 1887 se levantó en la cima el Monumento a los Soldados y Marineros, y la
+      roca adquirió la silueta que tiene hoy.
+
+      ## Y casi se pierde otra vez
+
+      En los años sesenta el estado propuso llevar una conexión de autopista
+      junto al río Mill y a través del parque. Los vecinos formaron el comité
+      Save Our Park y lo detuvieron, aunque la interestatal 91 se llevó igualmente
+      unos diez acres.
+
+      Un parque no es un accidente natural. Es una decisión que hay que seguir
+      tomando.
+
+      ## Qué hay ahora
+
+      Los halcones peregrinos anidan en los acantilados de roca trapeana de las
+      crestas de Connecticut, y las corrientes ascendentes de la pared hacen de
+      esto buen territorio de rapaces. En el bosque, fíjese en la aliaria y el
+      agracejo japonés: ambos introducidos, ambos agresivos y ambos cambiando lo
+      que puede crecer debajo.
+
+  gallery: []
+
+  sources:
+    - title: New Haven's Sentinels — the history of East Rock and West Rock
+      url: https://www.amazon.com/New-Havens-Sentinels-Driftless-Connecticut/dp/0819573744
+    - title: The East Rock Connector — kurumi.com Connecticut roads
+      url: https://www.kurumi.com/roads/ct/eastrock.html
+    - title: Report of the New Haven Civic Improvement Committee, 1910
+      url: https://www.google.com/books/edition/_/NUHnAAAAMAAJ

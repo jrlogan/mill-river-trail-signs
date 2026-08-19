@@ -1,0 +1,270 @@
+# Sign 12: Dragon Point — DRAFT FOR REVIEW, artwork pending.
+id: sign-12-dragon-point
+number: 12
+status: draft
+
+location:
+  name: Dragon Point
+  place: Fair Haven, at the Quinnipiac River
+  lat: 41.3018644
+  lon: -72.8961997
+
+urls:
+  en: signs.MillRiverTrail.com/dragon-point
+  es: signs.MillRiverTrail.com/punta-dragon
+  en_full: https://signs.millrivertrail.com/dragon-point
+  es_full: https://signs.millrivertrail.com/punta-dragon
+
+title:
+  en: Dragon Point
+  es: La Punta del Dragón
+
+sign:
+  lede:
+    en: >-
+      The earliest English names for this place were Dragon Point, Dragon River
+      and Dragon Town. There were no dragons. There were harbour seals, hauled
+      out on the banks in numbers, and the sailors who first came up this water
+      named the place for them.
+    es: >-
+      Los primeros nombres ingleses de este lugar fueron Dragon Point, Dragon
+      River y Dragon Town. No había dragones. Había focas comunes, tumbadas en
+      las orillas en gran número, y los marineros que remontaron por primera vez
+      estas aguas le pusieron nombre al sitio por ellas.
+
+  section:
+    heading:
+      en: Clamtown
+      es: El pueblo de las almejas
+    body:
+      en: >-
+        Part of the New Haven Colony, the farmers here formed a separate village
+        in 1679, and the settlement separated from New Haven again in 1837 with
+        about a thousand people. Almost all of them worked oysters — building
+        sharpies, making kegs, cultivating and harvesting the beds, or buying and
+        selling. By the mid-1800s New Haven's oyster trade was second only to
+        Baltimore's in volume, and Fair Haven had earned the nickname Clamtown.
+        A sea captain who came here in 1747 thought it beautiful enough to call
+        it Fayre Haven, and the name stuck.
+      es: >-
+        Parte de la Colonia de New Haven, los agricultores de aquí formaron una
+        aldea aparte en 1679, y el asentamiento volvió a separarse de New Haven
+        en 1837 con unas mil personas. Casi todas trabajaban en la ostra:
+        construyendo sharpies, haciendo barriles, cultivando y recogiendo los
+        bancos, o comprando y vendiendo. A mediados del siglo XIX el comercio
+        ostrero de New Haven solo era superado en volumen por el de Baltimore, y
+        Fair Haven se había ganado el apodo de Clamtown. Un capitán de barco que
+        llegó aquí en 1747 lo encontró tan bello que lo llamó Fayre Haven, y el
+        nombre se quedó.
+
+  images:
+    - key: The Oyster Fleet
+      file: TODO-oyster-fleet-2.jpg
+      slot: center_top
+      source_note: >-
+        Fair Haven oyster fleet or oystermen at work, 19th century. New Haven
+        Museum; Library of Congress.
+      caption:
+        en: The Fair Haven oyster fleet, second in the country only to Baltimore.
+        es: La flota ostrera de Fair Haven, segunda del país solo tras Baltimore.
+
+    - key: A Sharpie
+      file: TODO-sharpie.jpg
+      slot: left_bottom
+      source_note: >-
+        A New Haven sharpie — the flat-bottomed oyster boat developed here.
+        Mystic Seaport; New Haven Museum.
+      caption:
+        en: The sharpie, the flat-bottomed oyster boat developed on this water.
+        es: El sharpie, la barca ostrera de fondo plano desarrollada en estas aguas.
+
+    - key: Harbour Seals
+      file: TODO-harbour-seal.jpg
+      slot: center_bottom
+      source_note: >-
+        Harbour seals hauled out. NOAA and USFWS hold public domain images, and
+        seals are back in Long Island Sound in winter.
+      caption:
+        en: >-
+          Harbour seals gave the place its first English name, and they are back
+          in the Sound each winter.
+        es: >-
+          Las focas comunes dieron a este lugar su primer nombre inglés, y
+          vuelven al estrecho cada invierno.
+
+    - key: Fair Haven
+      file: TODO-fair-haven.jpg
+      slot: right_bottom
+      source_note: >-
+        Fair Haven village or the First Church on Grand Avenue with its full
+        237-foot spire, before the 1877 storm.
+      caption:
+        en: >-
+          The First Church spire on Grand Avenue was a landmark for returning
+          sailors until a storm took a hundred feet off it in 1877.
+        es: >-
+          La aguja de la First Church en Grand Avenue fue una referencia para los
+          marineros que volvían, hasta que una tormenta le quitó cien pies en
+          1877.
+
+  panel:
+    species:
+      - name: { en: Eastern Oyster, es: Ostra americana }
+        scientific: Crassostrea virginica
+        status: native
+      - name: { en: Harbour Seal, es: Foca común }
+        scientific: Phoca vitulina
+        status: native
+      - name: { en: Asian Shore Crab, es: Cangrejo costero asiático }
+        scientific: Hemigrapsus sanguineus
+        status: invasive
+      - name: { en: Double-crested Cormorant, es: Cormorán orejudo }
+        scientific: Nannopterum auritum
+        status: native
+
+    river_fact:
+      text:
+        en: >-
+          An adult oyster filters up to fifty gallons of water a day. The beds
+          that made this town rich were also cleaning the harbour, which is part
+          of why losing them mattered so much.
+        es: >-
+          Una ostra adulta filtra hasta cincuenta galones de agua al día. Los
+          bancos que enriquecieron a este pueblo también limpiaban el puerto, y
+          por eso perderlos importó tanto.
+
+web:
+  subtitle:
+    en: Seals, sharpies and the oyster town at the mouth of two rivers
+    es: Focas, sharpies y el pueblo ostrero en la desembocadura de dos ríos
+
+  body:
+    en: |
+      The first English names for this stretch of water were Dragon Point, Dragon
+      River and Dragon Town. The usual explanation is the right one: harbour
+      seals hauled out along these banks in numbers when the first European
+      sailors came up the river, and "dragon" was near enough.
+
+      Seals are back in Long Island Sound in winter now. They were gone for a
+      long time.
+
+      ## A separate place
+
+      Fair Haven sits about two miles from the New Haven Green, and it has spent
+      much of its history being deliberately separate from it. The farmers here
+      formed their own village in 1679 while still part of the New Haven Colony.
+      A wooden bridge across the Quinnipiac in the late 1700s connected the two
+      banks. The area between State Street and the Mill River became part of New
+      Haven in 1784 and was called New Township. Fair Haven separated again in
+      1837, with a population of about a thousand.
+
+      A sea captain who visited in 1747 was struck enough by the place to call it
+      Fayre Haven, and the name replaced the dragons.
+
+      ## Clamtown
+
+      What Fair Haven had was oysters, and nearly everyone in it worked them in
+      one way or another: building boats, making kegs, cultivating and harvesting
+      the beds, buying and selling the catch. By the middle of the 19th century
+      New Haven's oyster trade was second only to Baltimore's by volume, and the
+      nickname for the village was Clamtown.
+
+      The boat they developed for the work was the sharpie: long, narrow,
+      flat-bottomed, shallow enough to work the beds and fast enough to get the
+      catch home. It is one of the few American small-craft designs to come out
+      of a specific fishery in a specific place, and it came out of this one.
+
+      Bigger vessels worked from here too, trading to the West Indies and
+      bringing back sugar, molasses and fruit. The First Church on Grand Avenue
+      had forty-eight ship captains in its congregation, and its 237-foot spire
+      was the landmark returning sailors looked for, until a storm took a hundred
+      feet off it in 1877.
+
+      ## The collapse
+
+      The oyster industry fell apart in the early 20th century. Overfishing did
+      part of it; pollution did the rest. The beds sat downstream of an
+      industrial river that had been treated as a drain for decades, and the
+      oystermen fought the factories over the water for years without winning.
+
+      An adult oyster filters up to fifty gallons of water a day. The beds were
+      not only a business, they were the harbour's filtration system, and losing
+      them made the water worse in a way that made it harder to bring them back.
+
+      ## Now
+
+      Oystering on the Quinnipiac has been rebuilding, on cleaner water. The
+      seals are back each winter. Watch also for the Asian shore crab, a small
+      aggressive newcomer that arrived in ships' ballast and is now the most
+      common crab on many Long Island Sound shorelines.
+
+    es: |
+      Los primeros nombres ingleses de este tramo de agua fueron Dragon Point,
+      Dragon River y Dragon Town. La explicación habitual es la correcta: había
+      focas comunes tumbadas en estas orillas en gran número cuando los primeros
+      marineros europeos remontaron el río, y "dragón" les pareció bastante
+      aproximado.
+
+      Las focas han vuelto al estrecho de Long Island en invierno. Estuvieron
+      ausentes mucho tiempo.
+
+      ## Un lugar aparte
+
+      Fair Haven está a unas dos millas del Green de New Haven, y ha pasado buena
+      parte de su historia siendo deliberadamente distinto. Los agricultores de
+      aquí formaron su propia aldea en 1679 siendo aún parte de la Colonia de New
+      Haven. Un puente de madera sobre el Quinnipiac a finales del siglo XVIII
+      unió las dos orillas. La zona entre State Street y el río Mill pasó a ser
+      parte de New Haven en 1784 y se llamó New Township. Fair Haven volvió a
+      separarse en 1837, con unos mil habitantes.
+
+      Un capitán de barco que la visitó en 1747 quedó tan impresionado que la
+      llamó Fayre Haven, y el nombre sustituyó a los dragones.
+
+      ## Clamtown
+
+      Lo que Fair Haven tenía eran ostras, y casi todo el mundo trabajaba en
+      ellas de un modo u otro: construyendo barcas, haciendo barriles, cultivando
+      y recogiendo los bancos, comprando y vendiendo la captura. A mediados del
+      siglo XIX el comercio ostrero de New Haven solo era superado en volumen por
+      el de Baltimore, y el apodo de la aldea era Clamtown.
+
+      La barca que desarrollaron para el oficio fue el sharpie: larga, estrecha,
+      de fondo plano, con poco calado para trabajar los bancos y rápida para
+      llevar la captura a casa. Es uno de los pocos diseños de embarcación
+      pequeña estadounidenses surgidos de una pesquería concreta en un lugar
+      concreto, y salió de este.
+
+      También operaban desde aquí barcos mayores, que comerciaban con las Indias
+      Occidentales y traían azúcar, melaza y fruta. La First Church de Grand
+      Avenue tenía cuarenta y ocho capitanes de barco en su congregación, y su
+      aguja de 237 pies era la referencia que buscaban los marineros al volver,
+      hasta que una tormenta le quitó cien pies en 1877.
+
+      ## El derrumbe
+
+      La industria ostrera se vino abajo a principios del siglo XX. La sobrepesca
+      hizo una parte; la contaminación, el resto. Los bancos estaban aguas abajo
+      de un río industrial tratado como desagüe durante décadas, y los
+      ostricultores pelearon durante años con las fábricas por el agua sin ganar.
+
+      Una ostra adulta filtra hasta cincuenta galones de agua al día. Los bancos
+      no eran solo un negocio: eran el sistema de filtración del puerto, y
+      perderlos empeoró el agua de una forma que hizo más difícil recuperarlos.
+
+      ## Ahora
+
+      La ostricultura en el Quinnipiac se está recuperando, con agua más limpia.
+      Las focas vuelven cada invierno. Fíjese también en el cangrejo costero
+      asiático, un recién llegado pequeño y agresivo que llegó en el lastre de
+      los barcos y es hoy el cangrejo más común en muchas orillas del estrecho.
+
+  gallery: []
+
+  sources:
+    - title: Fair Haven and the oyster trade — Yale-New Haven Teachers Institute
+      url: https://teachersinstitute.yale.edu/pubs/A5/gorman.html
+    - title: Connecticut Historical Collections on Dragon Point
+      url: https://www.google.com/books/edition/Connecticut_Historical_Collections/zQwWAAAAYAAJ
+    - title: The Bed in Which They Lie — what happened to the oysters
+      url: https://teachersinstitute.yale.edu/curriculum/units/1984/6/84.06.10.x.html

@@ -1,0 +1,240 @@
+# Sign 8: Camp at Grapevine Point — DRAFT FOR REVIEW, artwork pending.
+id: sign-08-grapevine-point
+number: 8
+status: draft
+
+location:
+  name: Chapel Street Bridge / Criscuolo Park
+  place: Criscuolo Park, where the Mill River meets the Quinnipiac
+  lat: 41.3033165
+  lon: -72.9048564
+
+urls:
+  en: signs.MillRiverTrail.com/grapevine-point
+  es: signs.MillRiverTrail.com/punta-grapevine
+  en_full: https://signs.millrivertrail.com/grapevine-point
+  es_full: https://signs.millrivertrail.com/punta-grapevine
+
+title:
+  en: Camp at Grapevine Point
+  es: Campamento en Grapevine Point
+
+sign:
+  lede:
+    en: >-
+      This park was once called Grapevine Point, a spit of land where the Mill
+      River runs into the Quinnipiac. In 1862 the Army pitched a training camp
+      on it. Two years later it was where Connecticut's Black regiments formed —
+      men who had been refused enlistment for three years, drilling on this
+      ground before shipping south.
+    es: >-
+      Este parque se llamaba antes Grapevine Point, una lengua de tierra donde el
+      río Mill desemboca en el Quinnipiac. En 1862 el Ejército instaló aquí un
+      campamento de instrucción. Dos años después fue donde se formaron los
+      regimientos negros de Connecticut: hombres a quienes se les había negado el
+      alistamiento durante tres años, entrenando en este suelo antes de embarcar
+      hacia el sur.
+
+  section:
+    heading:
+      en: The 29th Connecticut
+      es: El 29.º de Connecticut
+    # REVIEW with the project: this is the most consequential story on the trail
+    # and deserves a careful read for tone and for local detail.
+    body:
+      en: >-
+        The Union refused Black volunteers until 1863. When Connecticut finally
+        authorised a regiment, the 29th Connecticut Volunteer Infantry (Colored)
+        filled quickly, and a second, the 30th, began forming behind it. They
+        trained here and mustered in March 1864. The 29th fought through the
+        Virginia campaigns and was among the first Union units to enter Richmond
+        when it fell. They came home to a state that had made them wait, and
+        their monument stands in this park.
+      es: >-
+        La Unión rechazó a los voluntarios negros hasta 1863. Cuando Connecticut
+        autorizó por fin un regimiento, el 29.º de Infantería de Voluntarios de
+        Connecticut (de Color) se completó enseguida, y detrás empezó a formarse
+        un segundo, el 30.º. Se entrenaron aquí y entraron en servicio en marzo
+        de 1864. El 29.º combatió en las campañas de Virginia y estuvo entre las
+        primeras unidades de la Unión en entrar en Richmond cuando cayó.
+        Volvieron a un estado que los había hecho esperar, y su monumento está en
+        este parque.
+
+  images:
+    - key: The 29th Connecticut
+      file: TODO-29th-connecticut.jpg
+      slot: center_top
+      source_note: >-
+        The 29th Connecticut Volunteer Infantry (Colored) in camp or on parade,
+        1864. Library of Congress; Connecticut State Library; New Haven Museum.
+      caption:
+        en: >-
+          Men of the 29th Connecticut Volunteer Infantry (Colored), mustered in
+          March 1864.
+        es: >-
+          Hombres del 29.º de Infantería de Voluntarios de Connecticut (de
+          Color), en servicio desde marzo de 1864.
+
+    - key: The Monument
+      file: TODO-29th-monument.jpg
+      slot: left_bottom
+      source_note: >-
+        The 29th Regiment monument in Criscuolo Park. A new photograph would do.
+      caption:
+        en: The regiment's monument stands here in Criscuolo Park.
+        es: El monumento al regimiento está aquí, en el parque Criscuolo.
+
+    - key: Grapevine Point
+      file: TODO-grapevine-point-map.jpg
+      slot: center_bottom
+      source_note: >-
+        A period map or view showing Grapevine Point before the park. Library of
+        Congress g3784nm collection; New Haven Museum.
+      caption:
+        en: Grapevine Point, where the two rivers meet.
+        es: Grapevine Point, donde se juntan los dos ríos.
+
+    - key: Oystering
+      file: TODO-oyster-fleet.jpg
+      slot: right_bottom
+      source_note: >-
+        New Haven or Fair Haven oyster fleet, 19th century. New Haven Museum.
+      caption:
+        en: The oyster fleet worked the water off this point.
+        es: La flota ostrera trabajaba las aguas frente a esta punta.
+
+  panel:
+    species:
+      - name: { en: Great Egret, es: Garceta grande }
+        scientific: Ardea alba
+        status: native
+      - name: { en: Northern Red Oak, es: Roble rojo americano }
+        scientific: Quercus rubra
+        status: native
+      - name: { en: Oriental Bittersweet, es: Agridulce oriental }
+        scientific: Celastrus orbiculatus
+        status: invasive
+      - name: { en: Mugwort, es: Artemisa }
+        scientific: Artemisia vulgaris
+        status: invasive
+
+    river_fact:
+      text:
+        en: >-
+          Two rivers meet off this point. The Mill and the Quinnipiac empty into
+          the same harbour, and the oyster beds that made Fair Haven rich lay in
+          the brackish water where they mixed.
+        es: >-
+          Frente a esta punta se juntan dos ríos. El Mill y el Quinnipiac
+          desembocan en el mismo puerto, y los bancos de ostras que
+          enriquecieron a Fair Haven estaban en el agua salobre donde se
+          mezclaban.
+
+web:
+  subtitle:
+    en: A training camp, two Black regiments, and the ground they drilled on before Virginia
+    es: Un campamento de instrucción, dos regimientos negros, y el suelo donde entrenaron antes de Virginia
+
+  body:
+    en: |
+      Criscuolo Park sits on a point of land where the Mill River runs into the
+      Quinnipiac. Before it was a park it was called Grapevine Point, and before
+      that it was marsh and oyster ground at the edge of Fair Haven.
+
+      ## The camps
+
+      New Haven raised troops fast in 1861 and had nowhere to put them. Temporary
+      Civil War camps went up around the city — Camp Hamilton and Camp English
+      among them — and in 1862 a camp was established here at Grapevine Point.
+
+      ## Three years of refusal
+
+      For the first two years of the war the Union would not take Black
+      volunteers. Men who tried to enlist in Connecticut in 1861 and 1862 were
+      turned away. The policy changed in 1863, after the Emancipation
+      Proclamation and after the Army had run short of men.
+
+      Connecticut authorised the 29th Connecticut Volunteer Infantry (Colored)
+      in 1863. It filled so quickly that a second regiment, the 30th, began
+      forming behind it. They trained on this ground and mustered into federal
+      service in March 1864.
+
+      ## What they did
+
+      The 29th went to Virginia and fought through the campaigns around
+      Petersburg and Richmond. When Richmond fell in April 1865, the regiment was
+      among the first Union troops into the city. It was later sent to Texas, and
+      was mustered out in the autumn of 1865.
+
+      They came back to a state that had made them wait three years to serve,
+      and to a country that would spend the following century failing to keep the
+      bargain. The monument to the regiment stands in this park.
+
+      ## The point since
+
+      The rivers here fed New Haven's oyster industry, which by the middle of the
+      19th century was second only to Baltimore's in volume, and which Fair Haven
+      was built on. Pollution and overfishing collapsed it in the early 20th
+      century; oystering on the Quinnipiac has been rebuilding since.
+
+      The park is named for Nicholas Criscuolo, and it is now one of the few
+      places on the lower Mill River where you can stand at the water's edge on
+      open ground and see what the whole system does — two rivers, one harbour,
+      and the tide moving through both.
+
+    es: |
+      El parque Criscuolo está en una punta de tierra donde el río Mill
+      desemboca en el Quinnipiac. Antes de ser parque se llamaba Grapevine Point,
+      y antes de eso era marisma y criadero de ostras al borde de Fair Haven.
+
+      ## Los campamentos
+
+      New Haven reclutó tropas deprisa en 1861 y no tenía dónde alojarlas. Se
+      levantaron campamentos temporales por la ciudad — Camp Hamilton y Camp
+      English entre ellos — y en 1862 se estableció uno aquí, en Grapevine Point.
+
+      ## Tres años de rechazo
+
+      Durante los dos primeros años de la guerra la Unión no aceptó voluntarios
+      negros. A los hombres que intentaron alistarse en Connecticut en 1861 y
+      1862 se les rechazó. La política cambió en 1863, tras la Proclamación de
+      Emancipación y cuando al Ejército empezaron a faltarle hombres.
+
+      Connecticut autorizó en 1863 el 29.º de Infantería de Voluntarios de
+      Connecticut (de Color). Se completó tan rápido que detrás empezó a formarse
+      un segundo regimiento, el 30.º. Se entrenaron en este terreno y entraron en
+      servicio federal en marzo de 1864.
+
+      ## Lo que hicieron
+
+      El 29.º fue a Virginia y combatió en las campañas de Petersburg y Richmond.
+      Cuando Richmond cayó en abril de 1865, el regimiento estuvo entre las
+      primeras tropas de la Unión en entrar en la ciudad. Después fue enviado a
+      Texas y se licenció en el otoño de 1865.
+
+      Volvieron a un estado que los había hecho esperar tres años para servir, y
+      a un país que pasaría el siglo siguiente sin cumplir el trato. El monumento
+      al regimiento está en este parque.
+
+      ## La punta desde entonces
+
+      Los ríos de aquí alimentaron la industria ostrera de New Haven, que a
+      mediados del siglo XIX solo era superada en volumen por la de Baltimore, y
+      sobre la que se construyó Fair Haven. La contaminación y la sobrepesca la
+      hundieron a principios del siglo XX; la ostricultura en el Quinnipiac lleva
+      tiempo recuperándose.
+
+      El parque lleva el nombre de Nicholas Criscuolo, y hoy es uno de los pocos
+      lugares del bajo Mill River donde uno puede plantarse a la orilla en
+      terreno abierto y ver lo que hace el sistema entero: dos ríos, un puerto y
+      la marea moviéndose por los dos.
+
+  gallery: []
+
+  sources:
+    - title: 29th Connecticut Infantry Regiment (Colored) — Wikipedia
+      url: https://en.wikipedia.org/wiki/29th_Connecticut_Infantry_Regiment_(Colored)
+    - title: Connecticut Civil War camps — North American Forts
+      url: https://www.northamericanforts.com/East/ct.html
+    - title: Fair Haven and the oyster trade — Yale-New Haven Teachers Institute
+      url: https://teachersinstitute.yale.edu/pubs/A5/gorman.html

@@ -30,7 +30,9 @@ export const LAYOUT = {
     // otherwise the corner below it is dead light blue.
     logo:    { x: 5.85, y: 0.12,  w: 3.00, h: 3.00 },   // relative to panel
     map:     { x: 0.00, y: 0.00,  w: 9.02, h: 19.95 },
-    species: { x: 6.30, y: 11.60, w: 2.52, itemH: 2.05, gap: 0.26 },
+    // Anchored to `bottom` and grown upward, so three species and four both
+    // sit correctly above the river-fact box.
+    species: { x: 6.30, w: 2.52, itemH: 2.16, gap: 0.24, bottom: 19.80 },
     fact:    { x: 0.22, y: 20.17, w: 8.58, h: 2.70 },
   },
 
@@ -39,6 +41,10 @@ export const LAYOUT = {
   // padding-top, 0.14 = breathing room above the photos.
   colTextH: 15.92 - 5.519 - 0.42 - 0.14,
 };
+
+// Top edge of the species stack, given how many boxes there are.
+export const speciesTop = (P, n) =>
+  P.species.bottom - (n * P.species.itemH + Math.max(0, n - 1) * P.species.gap);
 
 const esc = (s = '') =>
   String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
@@ -186,16 +192,40 @@ body {
 /* ---- side panel --------------------------------------------------------- */
 .panel { background: ${COLOR.blueLight}; }
 .panel-map { object-fit: fill; }   /* crop is cut to the exact slot aspect */
-.species-item { background: ${COLOR.white}; border: 1.6pt solid ${COLOR.black}; padding: 0.10in; }
-.species-item img { width: 100%; height: 1.02in; object-fit: contain; display: block; }
-.species-label {
-  font-size: ${TYPE.panelLabel.size}pt;
-  line-height: ${TYPE.panelLabel.leading}pt;
-  font-weight: ${TYPE.panelLabel.weight};
-  text-align: center; margin-top: 0.05in;
+.species-item {
+  background: ${COLOR.white}; border: 1.6pt solid ${COLOR.black};
+  padding: 0.09in 0.09in 0.07in; text-align: center; overflow: hidden;
+  display: flex; flex-direction: column; align-items: center;
 }
-.species-label .es { display: block; font-style: italic; font-weight: 400;
-                     font-size: ${TYPE.panelLabel.size * 0.86}pt; color: ${COLOR.inkSoft}; }
+.species-item img { width: 100%; height: 0.96in; object-fit: contain; display: block; }
+.species-art-todo {
+  width: 100%; height: 0.96in; display: flex; align-items: center; justify-content: center;
+  background: repeating-linear-gradient(45deg, ${COLOR.cream}, ${COLOR.cream} 7pt, #EFEBD2 7pt, #EFEBD2 14pt);
+  border: 1.6pt dashed ${COLOR.blue};
+  font-family: '${FONT.display}', sans-serif; font-weight: 700; font-size: 9pt;
+  line-height: 11pt; color: ${COLOR.blue}; text-transform: uppercase; letter-spacing: 0.5pt;
+}
+.species-name {
+  font-size: ${TYPE.panelLabel.size}pt; line-height: ${TYPE.panelLabel.leading}pt;
+  font-weight: 700; margin-top: 0.05in;
+}
+.species-name-es {
+  font-size: ${TYPE.panelLabel.size * 0.88}pt; line-height: ${TYPE.panelLabel.leading * 0.88}pt;
+  font-style: italic; color: ${COLOR.inkSoft};
+}
+.species-sci {
+  font-size: ${TYPE.panelLabel.size * 0.78}pt; line-height: ${TYPE.panelLabel.leading * 0.8}pt;
+  font-style: italic; color: ${COLOR.inkSoft}; margin-top: 0.01in;
+}
+.species-badge {
+  margin-top: auto; align-self: center;
+  font-family: '${FONT.display}', sans-serif; font-weight: 800;
+  font-size: 8pt; line-height: 10pt; letter-spacing: 0.4pt; text-transform: uppercase;
+  padding: 2.5pt 6pt; border-radius: 2pt; color: ${COLOR.white}; white-space: nowrap;
+}
+.species-badge.native     { background: #5E7A34; }
+.species-badge.invasive   { background: #B4451B; }
+.species-badge.introduced { background: ${COLOR.inkSoft}; }
 
 .factbox {
   background: ${COLOR.cream};
@@ -280,18 +310,33 @@ export function signHTML(sign, { qrEn, qrEs, diagramAspect = null, assetBase = '
 
   // Species boxes are optional. Without them the map keeps the full panel and
   // the locator can breathe — better than reusing the wrong sign's wildlife.
-  const speciesHTML = (s.panel.species || [])
-    .map(
-      (sp, i) => `
+  const speciesList = s.panel.species || [];
+  const sTop = speciesTop(P, speciesList.length);
+  const STATUS = {
+    native:     { en: 'Native',     es: 'Nativa',      cls: 'native' },
+    invasive:   { en: 'Invasive',   es: 'Invasora',    cls: 'invasive' },
+    introduced: { en: 'Introduced', es: 'Introducida', cls: 'introduced' },
+  };
+
+  const speciesHTML = speciesList
+    .map((sp, i) => {
+      const st = STATUS[sp.status] || null;
+      const art = sp.missing || !sp.file
+        ? `<div class="species-art-todo">Illustration<br>to source</div>`
+        : `<img src="${img(sp.file)}" alt="">`;
+      return `
       <div class="abs species-item" style="${box({
         x: GRID.xPanel + P.species.x,
-        y: P.species.y + i * (P.species.itemH + P.species.gap),
-        w: P.species.w,
+        y: BAND.top + sTop + i * (P.species.itemH + P.species.gap),
+        w: P.species.w, h: P.species.itemH,
       })}">
-        <img src="${img(sp.file)}" alt="">
-        <div class="species-label">${esc(sp.label.en)}<span class="es">${esc(sp.label.es)}</span></div>
-      </div>`
-    )
+        ${art}
+        <div class="species-name">${esc(sp.name.en)}</div>
+        <div class="species-name-es">${esc(sp.name.es)}</div>
+        ${sp.scientific ? `<div class="species-sci">${esc(sp.scientific)}</div>` : ''}
+        ${st ? `<div class="species-badge ${st.cls}">${esc(st.en)} · ${esc(st.es)}</div>` : ''}
+      </div>`;
+    })
     .join('');
 
   return `<!doctype html>

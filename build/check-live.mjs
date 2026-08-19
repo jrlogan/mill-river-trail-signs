@@ -18,7 +18,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
-import YAML from 'yaml';
+import { loadSign } from './load-signs.mjs';
 import puppeteer from 'puppeteer';
 import jsQR from 'jsqr';
 import { PNG } from 'pngjs';
@@ -32,12 +32,12 @@ const browser = await puppeteer.launch({ args: ['--no-sandbox'] });
 try {
   const dir = path.join(ROOT, 'content');
   const files = (await fs.readdir(dir))
-    .filter((f) => f.endsWith('.yml'))
+    .filter((f) => f.endsWith('.yml') && !f.startsWith('_'))
     .filter((f) => !filter || f.includes(filter))
     .sort();
 
   for (const f of files) {
-    const sign = YAML.parse(await fs.readFile(path.join(dir, f), 'utf8'));
+    const sign = await loadSign(path.join(dir, f));
     const artwork = path.join(ROOT, 'dist', 'print', `${sign.id}.html`);
 
     try { await fs.access(artwork); }

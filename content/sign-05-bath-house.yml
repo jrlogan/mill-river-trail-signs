@@ -1,0 +1,242 @@
+# ---------------------------------------------------------------------------
+# Sign 5: The Mill River Bath House
+#
+# DRAFT FOR REVIEW. Artwork not sourced. Some specifics below are written at the
+# level the sources support; see the REVIEW notes before anything goes to print.
+# ---------------------------------------------------------------------------
+
+id: sign-05-bath-house
+number: 5
+status: draft
+
+location:
+  name: Mill River Bath House
+  place: The Mill River bank below Humphrey Street
+  lat: 41.3143299
+  lon: -72.9068511
+
+urls:
+  en: signs.MillRiverTrail.com/bath-house
+  es: signs.MillRiverTrail.com/banos
+  en_full: https://signs.millrivertrail.com/bath-house
+  es_full: https://signs.millrivertrail.com/banos
+
+title:
+  en: Where the City Bathed
+  es: Donde la Ciudad se Bañaba
+
+sign:
+  lede:
+    en: >-
+      For most of the 19th century a bath was a luxury. New Haven's tenements
+      were built without plumbing, and families who wanted to wash carried water
+      or went to the river. So the river is where the city swam — boys off the
+      banks all summer, in water that was also carrying the discharge of every
+      mill upstream.
+    es: >-
+      Durante casi todo el siglo XIX bañarse era un lujo. Las viviendas obreras
+      de New Haven se construyeron sin cañerías, y las familias que querían
+      lavarse acarreaban agua o iban al río. Así que la ciudad se bañaba en el
+      río: los muchachos se tiraban desde la orilla todo el verano, en un agua
+      que además arrastraba los vertidos de todas las fábricas de aguas arriba.
+
+  section:
+    heading:
+      en: A Public Bath on the River
+      es: Un baño público en el río
+    # REVIEW: the national bath movement and the absence of plumbing in New
+    # Haven tenements are well documented. The specific opening date, operator
+    # and exact site of the Mill River bath house still need confirming from the
+    # 1880-81 New Haven newspaper coverage in the research notes.
+    body:
+      en: >-
+        By the 1880s cities across the country were opening free public baths,
+        arguing that washing was a matter of public health rather than private
+        virtue, and that a city which gave its people nowhere to wash could not
+        then blame them for disease. New Haven's newspapers carried the argument
+        through 1880 and 1881, and bath houses were built at the water's edge —
+        simple wooden structures with changing rooms, floats and an attendant.
+        They were free, they were crowded, and they were segregated by sex and
+        by hour. They also put the city in the strange position of encouraging
+        people to bathe in a river it was steadily poisoning.
+      es: >-
+        Hacia 1880 ciudades de todo el país abrían baños públicos gratuitos, con
+        el argumento de que lavarse era una cuestión de salud pública y no de
+        virtud privada, y de que una ciudad que no daba a su gente dónde lavarse
+        no podía luego culparla de la enfermedad. Los periódicos de New Haven
+        recogieron la discusión en 1880 y 1881, y se construyeron casetas de
+        baño a la orilla del agua: estructuras sencillas de madera con
+        vestuarios, plataformas y un encargado. Eran gratuitas, estaban llenas y
+        se separaban por sexo y por horario. También dejaron a la ciudad en la
+        rara posición de animar a la gente a bañarse en un río que ella misma
+        envenenaba.
+
+  images:
+    - key: The Bath House
+      file: TODO-bath-house.jpg
+      slot: center_top
+      source_note: >-
+        A New Haven river bath house, or a comparable municipal bath of the
+        1880s-1900s. New Haven Museum; Library of Congress.
+      caption:
+        en: A municipal bath house at the water's edge.
+        es: Una caseta de baños municipal a la orilla del agua.
+
+    - key: Map of the Site
+      file: TODO-bath-house-map.jpg
+      slot: left_bottom
+      source_note: >-
+        An 1888 or 1911 insurance/atlas map showing the bath house on the Mill
+        River. Library of Congress, g3784nm collection.
+      caption:
+        en: The bath house on a period map of the Mill River.
+        es: La caseta de baños en un mapa de época del río Mill.
+
+    - key: Swimming the River
+      file: TODO-river-swimming.jpg
+      slot: center_bottom
+      source_note: >-
+        Children or crowds swimming in an American urban river, 1890s-1920s.
+        Library of Congress is full of these and they are public domain.
+      caption:
+        en: The river was the swimming pool, whatever was in it.
+        es: El río era la piscina, con lo que llevara dentro.
+
+    - key: Newspaper Notice
+      file: TODO-bath-house-clipping.jpg
+      slot: right_bottom
+      source_note: >-
+        A New Haven newspaper notice about the bath house, 1880-81. Chronicling
+        America, Library of Congress — links are in the research notes.
+      caption:
+        en: New Haven newspapers argued over public baths through 1880 and 1881.
+        es: Los periódicos de New Haven discutieron sobre los baños públicos en 1880 y 1881.
+
+  panel:
+    # Early-draft guesses at what a visitor would actually notice on this bank.
+    # Swap once someone walks the site.
+    species:
+      - name: { en: Eastern Cottonwood, es: Álamo de Virginia }
+        scientific: Populus deltoides
+        status: native
+      - name: { en: Japanese Knotweed, es: Hierba nudosa japonesa }
+        scientific: Reynoutria japonica
+        status: invasive
+      - name: { en: Mallard, es: Ánade real }
+        scientific: Anas platyrhynchos
+        status: native
+      - name: { en: Tree of Heaven, es: Ailanto }
+        scientific: Ailanthus altissima
+        status: invasive
+
+    river_fact:
+      text:
+        en: >-
+          Nobody should swim here after rain. Runoff carries road grit, lawn
+          chemicals and overflow into the river, and bacteria counts spike for
+          days afterwards.
+        es: >-
+          Nadie debería nadar aquí después de la lluvia. La escorrentía arrastra
+          al río la suciedad de las calles, los químicos de los jardines y los
+          desbordes, y los niveles de bacterias se disparan durante días.
+
+web:
+  subtitle:
+    en: Before plumbing reached the tenements, washing was a public question — and the river was the answer
+    es: Antes de que las cañerías llegaran a las viviendas obreras, lavarse era una cuestión pública, y el río era la respuesta
+
+  body:
+    en: |
+      It is easy to forget how recently a bath became a private thing. In the New
+      Haven of the 1880s, a tenement flat had no tub, no hot water and often no
+      water at all above the ground floor. Washing meant a basin, a kettle and a
+      good deal of carrying — or it meant the river.
+
+      ## The bathing city
+
+      Through the summer the Mill River filled with people. Boys swam off the
+      banks and the bridge abutments; families came down in the evening when the
+      factories had stopped. This was normal in every American industrial city,
+      and so was the fact that the water they were swimming in also carried the
+      discharge of every works upstream.
+
+      ## A public health argument
+
+      Beginning in the 1880s, reformers across the country made a new case: that
+      cleanliness was not a moral failing of the poor but a service a city owed
+      its residents, and that a city which provided nowhere to wash had no
+      standing to blame its people for the diseases that followed. New York,
+      Boston, Chicago and Philadelphia built free public baths on this argument.
+
+      New Haven had the same debate, and its newspapers ran it through 1880 and
+      1881. Bath houses went up at the water's edge — plain wooden buildings with
+      changing rooms, floats and an attendant, free to use, separated by sex and
+      by hour, and busy enough to need the schedule.
+
+      ## The contradiction
+
+      What the city could not do was make the water clean. The same decades that
+      produced the bath house produced the factories whose outfalls ran straight
+      into the river, and the argument about which mattered more went on for
+      close to a century. Public baths eventually moved indoors and away from the
+      river; plumbing reached the tenements; and by 1970 the Mill River tested at
+      four times the legal limit for swimming.
+
+      Water quality here has improved a great deal since the industry left. It
+      still drops sharply after rain, when runoff from streets and lawns and
+      overflow from ageing sewers reaches the river, and bacteria counts stay
+      high for days.
+
+    es: |
+      Es fácil olvidar lo reciente que es que bañarse sea algo privado. En el New
+      Haven de la década de 1880, un piso obrero no tenía bañera, ni agua
+      caliente, y a menudo no tenía agua por encima de la planta baja. Lavarse
+      significaba una palangana, una olla y mucho acarreo, o significaba el río.
+
+      ## La ciudad que se bañaba
+
+      Durante el verano el río Mill se llenaba de gente. Los muchachos se
+      lanzaban desde las orillas y los estribos de los puentes; las familias
+      bajaban al atardecer, cuando las fábricas paraban. Esto era normal en
+      cualquier ciudad industrial estadounidense, y también lo era el hecho de
+      que el agua en la que se bañaban arrastraba los vertidos de todas las
+      fábricas de aguas arriba.
+
+      ## Un argumento de salud pública
+
+      A partir de 1880, reformadores de todo el país plantearon un argumento
+      nuevo: que la limpieza no era un defecto moral de los pobres, sino un
+      servicio que la ciudad debía a sus habitantes, y que una ciudad que no
+      ofrecía dónde lavarse no tenía autoridad para culpar a su gente de las
+      enfermedades que venían después. Nueva York, Boston, Chicago y Filadelfia
+      construyeron baños públicos gratuitos con ese razonamiento.
+
+      New Haven tuvo el mismo debate, y sus periódicos lo recogieron en 1880 y
+      1881. Se levantaron casetas de baño a la orilla del agua: edificios
+      sencillos de madera con vestuarios, plataformas y un encargado, de uso
+      gratuito, separados por sexo y por horario, y con bastante afluencia como
+      para necesitar ese horario.
+
+      ## La contradicción
+
+      Lo que la ciudad no podía hacer era limpiar el agua. Las mismas décadas que
+      produjeron la caseta de baños produjeron las fábricas cuyos desagües iban a
+      dar directamente al río, y la discusión sobre qué importaba más duró casi
+      un siglo. Los baños públicos acabaron trasladándose a locales cerrados y
+      lejos del río; las cañerías llegaron a las viviendas obreras; y en 1970 el
+      río Mill superaba en cuatro veces el límite legal para poder nadar.
+
+      La calidad del agua ha mejorado mucho desde que se fue la industria. Aun
+      así cae bruscamente después de la lluvia, cuando llega al río la
+      escorrentía de calles y jardines y el desborde de alcantarillas viejas, y
+      los niveles de bacterias siguen altos durante días.
+
+  gallery: []
+
+  sources:
+    - title: New Haven newspapers on the Beach Street bath house, 1880-81 — Chronicling America
+      url: https://chroniclingamerica.loc.gov/lccn/sn82015483/1880-05-25/ed-1/seq-2/
+    - title: Scenes from New York's public baths — Bowery Boys History
+      url: https://www.boweryboyshistory.com/2018/03/scenes-new-yorks-public-baths-tenement-dwellers-got-clean-cool-alienist.html
+    - title: Mill River Watershed Based Plan — Save the Sound
+      url: https://www.savethesound.org/wp-content/uploads/2018/08/Draft_MillRiver_WBP_-20180817_Compressed2.pdf

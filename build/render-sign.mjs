@@ -11,7 +11,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
-import YAML from 'yaml';
+import { loadSign, signFiles } from './load-signs.mjs';
 import QRCode from 'qrcode';
 import puppeteer from 'puppeteer';
 import sharp from 'sharp';
@@ -28,8 +28,7 @@ const filter = args.find((a) => !a.startsWith('--'));
 const wantProof = args.includes('--proof');
 
 async function renderSign(file) {
-  const raw = await fs.readFile(file, 'utf8');
-  const sign = YAML.parse(raw);
+  const sign = await loadSign(file);
   console.log(`\n▸ ${sign.id} — ${sign.title.en}  [${sign.status}]`);
 
   const qrOpts = { margin: 0, width: 600, errorCorrectionLevel: 'M',
@@ -169,7 +168,7 @@ async function renderSign(file) {
 
 const dir = path.join(ROOT, 'content');
 const files = (await fs.readdir(dir))
-  .filter((f) => f.endsWith('.yml'))
+  .filter((f) => f.endsWith('.yml') && !f.startsWith('_'))
   .filter((f) => !filter || f.includes(filter))
   .map((f) => path.join(dir, f));
 

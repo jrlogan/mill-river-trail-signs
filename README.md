@@ -125,6 +125,26 @@ corner of each map has to stay there.**
 To reframe a map, change `SPAN_LAT` at the top of `make-map.mjs` — it is how much
 ground the panel covers north to south, in degrees of latitude.
 
+## Species panels
+
+Each sign can carry three or four species boxes showing what someone standing
+there might actually notice, and whether it belongs:
+
+```yaml
+species:
+  - name: { en: Common Reed, es: Carrizo }
+    scientific: Phragmites australis
+    status: invasive        # native | invasive | introduced
+    file: TODO-phragmites.svg
+```
+
+The status prints as a bilingual badge — green for native, red for invasive.
+Without a `file` the box draws an illustration placeholder and keeps the name,
+so the content decision can be made and reviewed before the art exists.
+
+The stack is anchored to the bottom of the panel and grows upward, so three and
+four both sit correctly above the river-fact box.
+
 ## Drafting a sign before its artwork exists
 
 Signs can be written and laid out before their images are sourced. Point an

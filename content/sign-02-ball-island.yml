@@ -121,11 +121,6 @@ sign:
           directorio municipal de 1888. Cortesía de Colin M. Caplan.
 
   panel:
-    map: panel-map.svg
-
-    you_are_here:
-      en: You Are Here
-      es: Usted está aquí
 
     # No species boxes on this sign yet. The three illustrations drawn for the
     # submarine sign are upland species and would be wrong here; a marsh sign
@@ -134,9 +129,6 @@ sign:
     # species: []
 
     river_fact:
-      label:
-        en: River Fact
-        es: Hecho del Río
       # Ties the filled ground under the reader's feet to something they can act
       # on now, rather than leaving the marsh purely in the past tense.
       text:
@@ -149,28 +141,6 @@ sign:
           la calle. Las marismas que se rellenaron aquí hacían ese trabajo para
           New Haven.
 
-  dedication:
-    en: In honor of trail blazer Tom Holahan
-    es: En honor al pionero del sendero Tom Holahan
-
-  credits:
-    label:
-      en: Made Possible by
-      es: Hecho posible por
-    funders: >-
-      Mill River Watershed Association, Sustainable CT, Susan B. Holahan and
-      Family, City of New Haven, District New Haven, Bear's BBQ, Community
-      Foundation for Greater New Haven, Chatham Square Neighborhood Association,
-      Industrial Flow Solutions, Doug Hausladen, and other individual donors.
-    produced_label:
-      en: Produced by
-      es: Producido por
-    produced: >-
-      Colin M. Caplan, Design Monsters, Joe Kolodej, Nick McGhee, and J.R. Logan.
-
-  learn_more:
-    en: Learn More
-    es: Más en línea
 
 web:
   subtitle:

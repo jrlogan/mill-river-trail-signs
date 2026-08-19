@@ -40,7 +40,7 @@
   </g>
 
   <!-- scale -->
-  <g transform="translate(40 2167)">
+  <g transform="translate(40 2149)">
     <line x1="0" y1="0" x2="441.8" y2="0" stroke="#15191C" stroke-width="4"/>
     <line x1="0" y1="-7" x2="0" y2="7" stroke="#15191C" stroke-width="4"/>
     <line x1="441.8" y1="-7" x2="441.8" y2="7" stroke="#15191C" stroke-width="4"/>
@@ -48,8 +48,9 @@
           stroke="#FFFFFF" stroke-width="4" paint-order="stroke">400 m</text>
   </g>
 
-  <text x="986" y="2201" text-anchor="end"
-        font-family="Source Sans 3, sans-serif" font-size="15" fill="#3D464D" fill-opacity=".8">
-    © OpenStreetMap contributors
-  </text>
+  <!-- ODbL attribution. Bottom left, because the sign lays species boxes over
+       the bottom right of the map and this credit must stay visible. -->
+  <text x="40" y="2197" text-anchor="start"
+        font-family="Source Sans 3, sans-serif" font-size="16" fill="#2A3238"
+        stroke="#BAE5F5" stroke-width="4" paint-order="stroke">© OpenStreetMap contributors</text>
 </svg>

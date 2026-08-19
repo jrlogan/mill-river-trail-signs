@@ -17,7 +17,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import YAML from 'yaml';
+import { loadSign, signFiles } from './load-signs.mjs';
 import sharp from 'sharp';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -33,8 +33,8 @@ const stat = async (p) => { try { return await fs.stat(p); } catch { return null
 let made = 0, skipped = 0, missing = 0;
 
 const dir = path.join(ROOT, 'content');
-for (const f of (await fs.readdir(dir)).filter((f) => f.endsWith('.yml')).sort()) {
-  const sign = YAML.parse(await fs.readFile(path.join(dir, f), 'utf8'));
+for (const f of (await fs.readdir(dir)).filter((f) => f.endsWith('.yml') && !f.startsWith('_')).sort()) {
+  const sign = await loadSign(path.join(dir, f));
   const sub = sign.id.replace(/^sign-(\d+).*/, 'sign-$1');
   const src = path.join(ROOT, 'assets', 'images', sub);
   const dst = path.join(ROOT, 'assets', 'web', sub);

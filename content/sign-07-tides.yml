@@ -1,0 +1,245 @@
+# Sign 7: Tides and the Urban Oasis — DRAFT FOR REVIEW, artwork pending.
+id: sign-07-tides
+number: 7
+status: draft
+
+location:
+  name: Tides and Urban Oasis
+  place: The Mill River bank between the rail bridge and Grand Avenue
+  lat: 41.3106068
+  lon: -72.9072374
+
+urls:
+  en: signs.MillRiverTrail.com/tides
+  es: signs.MillRiverTrail.com/mareas
+  en_full: https://signs.millrivertrail.com/tides
+  es_full: https://signs.millrivertrail.com/mareas
+
+title:
+  en: Twice a Day, the Sea
+  es: Dos Veces al Día, el Mar
+
+sign:
+  lede:
+    en: >-
+      This is not really a river here. It is the sea, reaching six feet up into
+      the middle of a city and then withdrawing, twice every day. Come back in
+      six hours and the water you are looking at will be somewhere else, the mud
+      will be showing, and a different set of animals will be feeding on it.
+    es: >-
+      Esto aquí no es realmente un río. Es el mar, que sube seis pies hasta el
+      centro de una ciudad y se retira, dos veces al día. Vuelva dentro de seis
+      horas y el agua que está mirando estará en otra parte, el lodo quedará al
+      descubierto, y habrá otro grupo de animales alimentándose de él.
+
+  section:
+    heading:
+      en: Living on the Swing
+      es: Vivir en el vaivén
+    body:
+      en: >-
+        Nothing here can afford to specialise. A ribbed mussel is underwater for
+        half the day and baking in the air for the other half. Fiddler crabs dig
+        burrows that hold water while the tide is out, and the males wave one
+        oversized claw at the entrance. Mummichogs — small, tough, everywhere —
+        ride the flood tide up over the mud to feed and drop back with the ebb.
+        Egrets and herons work the edge of the falling water because that is when
+        everything is trapped and visible. It is a demanding place to live, and
+        that is exactly why it is so productive.
+      es: >-
+        Aquí nada puede permitirse especializarse. Un mejillón de marisma pasa
+        medio día bajo el agua y el otro medio al sol. Los cangrejos violinistas
+        cavan madrigueras que retienen agua durante la bajamar, y los machos
+        agitan una pinza descomunal en la entrada. Los fúndulos — pequeños, duros
+        y por todas partes — suben con la marea sobre el lodo para alimentarse y
+        bajan con el reflujo. Garcetas y garzas trabajan el borde del agua que se
+        retira, porque es cuando todo queda atrapado y a la vista. Es un sitio
+        exigente para vivir, y por eso es tan productivo.
+
+  images:
+    - key: Low Tide
+      file: TODO-low-tide.jpg
+      slot: center_top
+      source_note: >-
+        The Mill River at low tide, mud flats exposed. A new photograph would be
+        ideal; take it from the trail on a spring low tide.
+      caption:
+        en: The same stretch of river at low water.
+        es: El mismo tramo del río con la marea baja.
+
+    - key: Fiddler Crab
+      file: TODO-fiddler-crab.jpg
+      slot: left_bottom
+      source_note: >-
+        Atlantic marsh fiddler crab, male, claw raised. USFWS and NOAA hold
+        public domain images.
+      caption:
+        en: A male fiddler crab signalling at his burrow.
+        es: Un cangrejo violinista macho haciendo señales en su madriguera.
+
+    - key: Egret Feeding
+      file: TODO-egret.jpg
+      slot: center_bottom
+      source_note: >-
+        Great egret working a tidal edge. Public domain sources are plentiful.
+      caption:
+        en: Egrets work the edge of the falling tide.
+        es: Las garcetas trabajan el borde de la marea que baja.
+
+    - key: Tide Chart
+      file: TODO-tide-diagram.jpg
+      slot: right_bottom
+      source_note: >-
+        A simple diagram of the tidal cycle, or a New Haven Harbor tide chart.
+        This one could be drawn rather than sourced.
+      caption:
+        en: Two high tides and two low tides, roughly every twenty-five hours.
+        es: Dos pleamares y dos bajamares, aproximadamente cada veinticinco horas.
+
+  panel:
+    species:
+      - name: { en: Salt Marsh Cordgrass, es: Espartina }
+        scientific: Spartina alterniflora
+        status: native
+      - name: { en: Ribbed Mussel, es: Mejillón de marisma }
+        scientific: Geukensia demissa
+        status: native
+      - name: { en: Atlantic Marsh Fiddler Crab, es: Cangrejo violinista }
+        scientific: Minuca pugnax
+        status: native
+      - name: { en: Mute Swan, es: Cisne vulgar }
+        scientific: Cygnus olor
+        status: invasive
+
+    river_fact:
+      text:
+        en: >-
+          Ribbed mussels anchor the marsh. Their threads bind the mud around
+          cordgrass roots, and a bank with mussels in it erodes far more slowly
+          than one without.
+        es: >-
+          Los mejillones de marisma sujetan la marisma. Sus filamentos atan el
+          lodo alrededor de las raíces de la espartina, y una orilla con
+          mejillones se erosiona mucho más despacio que una sin ellos.
+
+web:
+  subtitle:
+    en: A tidal estuary in the middle of New Haven, and the animals that make a living on six hours' notice
+    es: Un estuario de marea en pleno New Haven, y los animales que se ganan la vida con seis horas de aviso
+
+  body:
+    en: |
+      The tide reaches about six feet here. Twice a day salt water comes up the
+      Mill River from New Haven Harbor, floods the channel and the mud either
+      side of it, and then drains back out. Everything that lives in this stretch
+      organises its life around that.
+
+      ## Why estuaries are worth so much
+
+      An estuary — where a river meets the sea — is among the most productive
+      habitat on earth, more productive per acre than farmland. Fresh water
+      arrives carrying nutrients from upstream, the tide stirs and redistributes
+      them, and the shallow water lets sunlight reach the bottom. Marsh grass
+      grows in it faster than almost anything else, dies back, and feeds
+      everything.
+
+      It is also a nursery. A great many fish that spend adult life offshore
+      spawn or grow up in estuaries, because the shallows are warm and the
+      predators are big enough to be excluded.
+
+      ## Making a living on the swing
+
+      The catch is that conditions here change completely every six hours. Salt,
+      temperature and whether you are underwater at all — all of it swings.
+      Nothing here can afford to be a specialist.
+
+      **Ribbed mussels** sit half-buried among the cordgrass roots, filtering
+      when the tide covers them and clamped shut when it does not. Their byssal
+      threads bind the mud together; a bank with mussels erodes far more slowly
+      than a bank without.
+
+      **Fiddler crabs** dig burrows that trap water at low tide. The males have
+      one hugely enlarged claw, useless for feeding and used for waving at
+      females and threatening other males.
+
+      **Mummichogs** are the small tough killifish of every Atlantic marsh. They
+      ride the flood up over the mud to feed and drop back on the ebb, and they
+      tolerate temperature, salinity and oxygen swings that would kill almost
+      anything else.
+
+      **Egrets, herons and osprey** show up because the falling tide concentrates
+      prey into shrinking pools. Low tide is feeding time.
+
+      ## What to watch for
+
+      Low tide is the interesting one — mud flats exposed, crab burrows visible,
+      birds working the edges. The tall feathery reed spreading along the banks
+      is Phragmites, and the very large white swans are mute swans: both
+      introduced, both aggressive, and both a problem for the native marsh.
+
+      Check a New Haven Harbor tide table before you come. The river is a
+      different place at each end of the cycle.
+
+    es: |
+      La marea sube aquí unos seis pies. Dos veces al día el agua salada entra
+      por el río Mill desde el puerto de New Haven, inunda el canal y el lodo a
+      ambos lados, y vuelve a salir. Todo lo que vive en este tramo organiza su
+      vida alrededor de eso.
+
+      ## Por qué valen tanto los estuarios
+
+      Un estuario — donde el río se encuentra con el mar — está entre los
+      hábitats más productivos de la Tierra, más que las tierras de cultivo. El
+      agua dulce llega cargada de nutrientes de aguas arriba, la marea los
+      remueve y los reparte, y el agua poco profunda deja que la luz llegue al
+      fondo. La hierba de marisma crece ahí más rápido que casi cualquier cosa,
+      muere y alimenta a todo lo demás.
+
+      También es una guardería. Muchísimos peces que pasan su vida adulta mar
+      adentro desovan o crecen en estuarios, porque las aguas someras son cálidas
+      y dejan fuera a los depredadores grandes.
+
+      ## Ganarse la vida en el vaivén
+
+      El problema es que aquí las condiciones cambian por completo cada seis
+      horas. La sal, la temperatura y hasta si uno está bajo el agua: todo oscila.
+      Nada aquí puede permitirse ser especialista.
+
+      Los **mejillones de marisma** viven medio enterrados entre las raíces de la
+      espartina, filtrando cuando la marea los cubre y cerrados cuando no. Sus
+      filamentos atan el lodo; una orilla con mejillones se erosiona mucho más
+      despacio que una sin ellos.
+
+      Los **cangrejos violinistas** cavan madrigueras que retienen agua en la
+      bajamar. Los machos tienen una pinza enormemente agrandada, inútil para
+      comer y usada para hacer señales a las hembras y amenazar a otros machos.
+
+      Los **fúndulos** son los pequeños y resistentes peces de toda marisma
+      atlántica. Suben con la marea sobre el lodo para alimentarse y bajan con el
+      reflujo, y toleran cambios de temperatura, salinidad y oxígeno que matarían
+      a casi cualquier otra cosa.
+
+      **Garcetas, garzas y águilas pescadoras** aparecen porque la marea que baja
+      concentra las presas en charcos cada vez menores. La bajamar es la hora de
+      comer.
+
+      ## Qué observar
+
+      La bajamar es la interesante: lodo al descubierto, madrigueras de cangrejo
+      a la vista, aves trabajando los bordes. El carrizo alto y plumoso que se
+      extiende por las orillas es Phragmites, y los cisnes blancos muy grandes
+      son cisnes vulgares: ambos introducidos, ambos agresivos y ambos un
+      problema para la marisma nativa.
+
+      Consulte una tabla de mareas del puerto de New Haven antes de venir. El río
+      es un lugar distinto en cada extremo del ciclo.
+
+  gallery: []
+
+  sources:
+    - title: Mill River Watershed Based Plan — Save the Sound
+      url: https://www.savethesound.org/wp-content/uploads/2018/08/Draft_MillRiver_WBP_-20180817_Compressed2.pdf
+    - title: NOAA Tides and Currents — New Haven Harbor
+      url: https://tidesandcurrents.noaa.gov/
+    - title: Connecticut DEEP — tidal wetlands
+      url: https://portal.ct.gov/DEEP

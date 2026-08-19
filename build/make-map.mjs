@@ -3,7 +3,8 @@
 //
 //   node build/make-map.mjs                # every sign missing a map
 //   node build/make-map.mjs sign-01        # one sign
-//   node build/make-map.mjs --force        # refetch even if a map exists
+//   node build/make-map.mjs --redraw       # restyle from cached data, no network
+//   node build/make-map.mjs --force        # refetch from Overpass
 //
 // Writes assets/images/sign-NN/panel-map.svg, drawn in the sign system's
 // palette and framed to the panel's aspect ratio. OSM data is cached under
@@ -16,9 +17,9 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import YAML from 'yaml';
+import { loadSign, signFiles } from './load-signs.mjs';
 import { COLOR, GRID } from './theme.mjs';
-import { LAYOUT } from './sign-template.mjs';
+import { LAYOUT, speciesTop } from './sign-template.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const CACHE = path.join(ROOT, '.cache', 'osm');
@@ -27,6 +28,10 @@ const OVERPASS = 'https://overpass-api.de/api/interpreter';
 const args = process.argv.slice(2);
 const filter = args.find((a) => !a.startsWith('--'));
 const force = args.includes('--force');
+// Redraw the SVGs from cached OSM data without touching the network. Use this
+// after a styling change — refetching would hammer a shared public service for
+// data that has not changed.
+const redraw = args.includes('--redraw');
 
 // Panel slot, in inches. Taken from the sign template so the map is always cut
 // to the shape of the hole it goes into.
@@ -83,8 +88,10 @@ out geom;`;
 async function fetchOSM(id, bbox) {
   await fs.mkdir(CACHE, { recursive: true });
   const file = path.join(CACHE, `${id}.json`);
-  if (!force) {
-    try { return JSON.parse(await fs.readFile(file, 'utf8')); } catch {}
+  if (!force || redraw) {
+    try { return JSON.parse(await fs.readFile(file, 'utf8')); } catch {
+      if (redraw) throw new Error(`no cached OSM data for ${id}; run without --redraw first`);
+    }
   }
   process.stdout.write(`  … querying Overpass for ${id} `);
 
@@ -215,7 +222,7 @@ function buildSVG(sign, data, bbox) {
     rect(P.logo.x, P.logo.y, P.logo.w, P.logo.h),
     // Only reserved when the sign actually shows species boxes.
     ...(speciesCount
-      ? [rect(P.species.x, P.species.y, P.species.w,
+      ? [rect(P.species.x, speciesTop(P, speciesCount), P.species.w,
               speciesCount * P.species.itemH + (speciesCount - 1) * P.species.gap)]
       : []),
   ];
@@ -290,7 +297,7 @@ function buildSVG(sign, data, bbox) {
   const metresPerDeg = 111320;
   const barDeg = 400 / metresPerDeg;
   const barPx = (barDeg / (bbox[2] - bbox[0])) * size.h;
-  const barY = size.h - 46;
+  const barY = size.h - 64;
 
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${size.w} ${size.h}"
      width="${PANEL.w}in" height="${PANEL.h}in" role="img"
@@ -340,10 +347,11 @@ function buildSVG(sign, data, bbox) {
           stroke="#FFFFFF" stroke-width="4" paint-order="stroke">400 m</text>
   </g>
 
-  <text x="${size.w - 14}" y="${size.h - 12}" text-anchor="end"
-        font-family="Source Sans 3, sans-serif" font-size="15" fill="#3D464D" fill-opacity=".8">
-    © OpenStreetMap contributors
-  </text>
+  <!-- ODbL attribution. Bottom left, because the sign lays species boxes over
+       the bottom right of the map and this credit must stay visible. -->
+  <text x="40" y="${size.h - 16}" text-anchor="start"
+        font-family="Source Sans 3, sans-serif" font-size="16" fill="#2A3238"
+        stroke="${COLOR.blueLight}" stroke-width="4" paint-order="stroke">© OpenStreetMap contributors</text>
 </svg>`;
 }
 
@@ -351,16 +359,16 @@ function buildSVG(sign, data, bbox) {
 
 const dir = path.join(ROOT, 'content');
 const files = (await fs.readdir(dir))
-  .filter((f) => f.endsWith('.yml'))
+  .filter((f) => f.endsWith('.yml') && !f.startsWith('_'))
   .filter((f) => !filter || f.includes(filter));
 
 for (const f of files) {
-  const sign = YAML.parse(await fs.readFile(path.join(dir, f), 'utf8'));
+  const sign = await loadSign(path.join(dir, f));
   const sub = sign.id.replace(/^sign-(\d+).*/, 'sign-$1');
   const out = path.join(ROOT, 'assets', 'images', sub, 'panel-map.svg');
 
-  if (!force) {
-    try { await fs.access(out); console.log(`▸ ${sign.id}: map exists, skipping (--force to redraw)`); continue; } catch {}
+  if (!force && !redraw) {
+    try { await fs.access(out); console.log(`▸ ${sign.id}: map exists, skipping (--redraw to restyle, --force to refetch)`); continue; } catch {}
   }
 
   console.log(`▸ ${sign.id} — ${sign.location.name}`);
