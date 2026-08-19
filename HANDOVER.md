@@ -118,17 +118,13 @@ Do this before it is urgent.
 
 ## Setting up public feedback
 
-1. Make a Google Form. Keep the story and the contact details in **separate
-   questions** — that matters for step 3.
-2. Put its URL in `content/_shared.yml` under `feedback: url:`. Push. Every page
-   grows the invitation.
-3. If you publish the responses sheet, **publish only the story columns.** Never
-   publish the column holding names, emails or phone numbers. People writing in
-   about their grandfather did not agree to have their address on the internet.
+The form's questions, settings and the rules for publishing responses are
+specified in **[docs/FEEDBACK-FORM.md](docs/FEEDBACK-FORM.md)**. Build the form
+to that spec, then put its URL in `content/_shared.yml` under `feedback: url:`
+and push. Every page grows the invitation.
 
-If the form has a prefilled field for which sign someone is writing about, put
-that field's entry id in `sign_param` and the link will arrive with the sign
-already filled in.
+The one rule not to break: **contact details are the last two questions, and
+they are never published.**
 
 ## If you are stuck
 
