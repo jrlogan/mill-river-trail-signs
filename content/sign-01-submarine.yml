@@ -410,11 +410,17 @@ web:
         es: El Fenian Ram expuesto en el Museo Paterson, hacia 1960.
 
   sources:
-    - title: Fenian Ram — Historic Naval Ships Association
+    - title: "Famous Stolen Submarine — Mill River Trail"
+      url: https://www.millrivertrail.com/learn/famous-stolen-submarine
+    - title: "Fenian Ram — Historic Naval Ships Association"
       url: https://archive.hnsa.org/ships/fenian.htm
-    - title: The Paterson Museum
-      url: https://www.patersonnj.gov/department/division.php?structureid=88
-    - title: John Philip Holland — Irish inventor of the submarine
+    - title: "Fenian Ram — Wikipedia"
+      url: https://en.wikipedia.org/wiki/Fenian_Ram
+    - title: "The Fenian Ram — Gas Engine Magazine"
+      url: https://www.gasenginemagazine.com/gas-engines/the-fenian-ram
+    - title: "John Philip Holland, Irish inventor of the submarine — IrishCentral"
       url: https://www.irishcentral.com/roots/history/john-philip-holland-irish-inventor-submarine
-    - title: Fenian Ram photographs, Submarine Force Museum
-      url: https://www.ussnautilus.org/
+    - title: "The Fenian Ram in the New Haven papers, 1885 — Chronicling America"
+      url: https://chroniclingamerica.loc.gov/lccn/sn82015483/1885-05-07/ed-1/seq-2/
+    - title: "Paterson's fleet honors sub inventor, 1973 — New York Times"
+      url: https://www.nytimes.com/1973/07/01/archives/patersons-fleet-honors-sub-inventor-a-watery-miscalculation.html

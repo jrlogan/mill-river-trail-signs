@@ -39,3 +39,20 @@ sign:
   learn_more:
     en: Learn More
     es: Más en línea
+
+# Rendered at the foot of every web page. The research behind these signs is
+# other people's work and should say so on the page, not only in a repo file.
+web:
+  acknowledgements:
+    en: >-
+      Historical research for the Mill River Trail signage was carried out by
+      Colin M. Caplan of Magrisso Forte, with contributions from Jason
+      Bischoff-Wurstle of the New Haven Museum and walk notes by Steve Hamm.
+      Images are credited individually. Locator maps are drawn from
+      OpenStreetMap, © OpenStreetMap contributors, ODbL.
+    es: >-
+      La investigación histórica para la señalización del Mill River Trail fue
+      realizada por Colin M. Caplan, de Magrisso Forte, con aportaciones de Jason
+      Bischoff-Wurstle del Museo de New Haven y notas de recorrido de Steve Hamm.
+      Las imágenes se acreditan individualmente. Los mapas de localización
+      proceden de OpenStreetMap, © OpenStreetMap contributors, ODbL.

@@ -343,11 +343,13 @@ web:
         es: Planos de construcción del mismo puente. Cortesía de Colin M. Caplan.
 
   sources:
-    - title: Engineering and Building Record, Volume 58 (November 1908)
+    - title: "Engineering and Building Record, Volume 58, November 1908"
       url: https://www.google.com/books/edition/_/NUHnAAAAMAAJ
-    - title: New Haven's industrial history — Yale-New Haven Teachers Institute
+    - title: "The old Chapel Street Bridge — Library of Congress"
+      url: https://www.loc.gov/item/ct0437/
+    - title: "New Haven's industrial history — Yale-New Haven Teachers Institute"
       url: https://teachersinstitute.yale.edu/curriculum/units/1979/3/79.03.02.x.html
-    - title: Mill River Watershed Based Plan — Save the Sound
+    - title: "Mill River history — Mill River Trail"
+      url: https://www.millrivertrail.com/home/mill-river-history
+    - title: "Mill River Watershed Based Plan — Save the Sound"
       url: https://www.savethesound.org/wp-content/uploads/2018/08/Draft_MillRiver_WBP_-20180817_Compressed2.pdf
-    - title: Mill River Trail Framework Plan
-      url: https://issuu.com/millrivertrail/docs/mrt_frameworkplan

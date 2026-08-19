@@ -264,9 +264,11 @@ web:
   gallery: []
 
   sources:
-    - title: Fair Haven and the oyster trade — Yale-New Haven Teachers Institute
+    - title: "Fair Haven, oystering and Clamtown — Yale-New Haven Teachers Institute"
       url: https://teachersinstitute.yale.edu/pubs/A5/gorman.html
-    - title: Connecticut Historical Collections on Dragon Point
+    - title: "Dragon Point — Connecticut Historical Collections"
       url: https://www.google.com/books/edition/Connecticut_Historical_Collections/zQwWAAAAYAAJ
-    - title: The Bed in Which They Lie — what happened to the oysters
+    - title: "What happened to the oysters — Yale-New Haven Teachers Institute"
       url: https://teachersinstitute.yale.edu/curriculum/units/1984/6/84.06.10.x.html
+    - title: "Mill River Watershed Based Plan — Save the Sound"
+      url: https://www.savethesound.org/wp-content/uploads/2018/08/Draft_MillRiver_WBP_-20180817_Compressed2.pdf

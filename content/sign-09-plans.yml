@@ -253,11 +253,13 @@ web:
   gallery: []
 
   sources:
-    - title: Report of the New Haven Civic Improvement Committee, 1910
-      url: https://www.google.com/books/edition/_/NUHnAAAAMAAJ
-    - title: Mill River District Plan, 2013
+    - title: "Report of the New Haven Civic Improvement Committee, 1910 — Gilbert and Olmsted"
+      url: https://books.google.com/books?id=NUHnAAAAMAAJ
+    - title: "Mill River District Plan, 2013"
       url: https://docs.google.com/file/d/0BzUrwcfp8hjRblBiNElKQXBIRDA/edit
-    - title: Mill River Trail Framework Plan
+    - title: "Mill River Trail Framework Plan"
       url: https://issuu.com/millrivertrail/docs/mrt_frameworkplan
-    - title: The East Rock Connector — kurumi.com Connecticut roads
+    - title: "The East Rock Connector — Connecticut roads"
       url: https://www.kurumi.com/roads/ct/eastrock.html
+    - title: "Mill River Watershed Based Plan — Save the Sound"
+      url: https://www.savethesound.org/wp-content/uploads/2018/08/Draft_MillRiver_WBP_-20180817_Compressed2.pdf

@@ -235,9 +235,11 @@ web:
   gallery: []
 
   sources:
-    - title: 29th Connecticut Infantry Regiment (Colored) — Wikipedia
+    - title: "29th Connecticut Infantry Regiment (Colored) — Wikipedia"
       url: https://en.wikipedia.org/wiki/29th_Connecticut_Infantry_Regiment_(Colored)
-    - title: Connecticut Civil War camps — North American Forts
+    - title: "Connecticut Civil War camps, including Camp at Grape Vine Point — North American Forts"
       url: https://www.northamericanforts.com/East/ct.html
-    - title: Fair Haven and the oyster trade — Yale-New Haven Teachers Institute
+    - title: "Fair Haven, oystering and Clamtown — Yale-New Haven Teachers Institute"
       url: https://teachersinstitute.yale.edu/pubs/A5/gorman.html
+    - title: "What happened to the oysters — Yale-New Haven Teachers Institute"
+      url: https://teachersinstitute.yale.edu/curriculum/units/1984/6/84.06.10.x.html

@@ -247,6 +247,73 @@ placeholder on the proof. The ones most worth chasing:
   fiddler crab, an egret, low tide. NOAA and USFWS hold public domain images,
   and several could simply be photographed on a good low tide.
 
+
+## Sources on every page
+
+Every sign's web page now carries a sourced reading list — 66 links across the
+thirteen signs — plus a credits block naming Colin M. Caplan, Jason
+Bischoff-Wurstle and Steve Hamm, and the OpenStreetMap attribution.
+
+Where a link goes to a scanned original it is the actual document: the New Haven
+newspapers on the Beach Street bath house from May 1880 and October 1881, the
+1888 Library of Congress maps showing the bath house, Mill River Island and the
+Whitney site, the 1910 Gilbert and Olmsted report, the 1934 aerial survey at the
+Connecticut State Library, and the Yale Teachers Institute PDF that carries
+Lanson's own words.
+
+Those URLs came out of the Google Doc. The `.docx` in the original handoff had
+the same text but the extraction stripped every hyperlink, so the live document
+was worth reading even though the prose matched.
+
+## The three learn pages already on millrivertrail.com
+
+`/learn/famous-stolen-submarine`, `/learn/ball-island` and `/learn/barnsville`
+are now linked as sources from the corresponding signs, so the two bodies of
+work point at each other rather than competing.
+
+**One discrepancy to settle.** The submarine page says the Fenian Ram sat in the
+shed for "approximately four decades." It was seized in November 1883 and hauled
+out in 1916 — **33 years**. The signs and the new pages say 33. Worth correcting
+on the Google Sites page so the two do not disagree in public.
+
+## Still needed from you
+
+### The two Google Photos albums
+
+The notes link two albums — scouting photographs of possible sign locations, and
+your documentation of the signage already on the trail. Neither can be read
+programmatically; Google Photos share links need a signed-in browser.
+
+**Download them to a folder** the way you did with the walk images and they can
+be used. The existing-signage album is the more useful of the two: it would show
+what the trail already says, so these signs do not repeat it or contradict it.
+
+### Indigenous history has no sign
+
+The notes' own overview opens with *"Indigenous peoples hunted and fished along
+the river for centuries before English colonists established the first mill in
+1642"* — and then there is no sign about it. Thirteen signs cover mills,
+factories, bridges, plans, a submarine and an oyster town, and the first several
+thousand years are a subordinate clause.
+
+The notes already point at native-land.ca for Quinnipiac and Wappinger
+territory, and link a separate Quinnipiac River overview document.
+
+This is not a sign to draft from web sources. It needs the Quinnipiac
+Dawnland Council or comparable, involved from the start and credited. Worth
+raising with the committee before the series is considered complete.
+
+### Research leads in the notes worth chasing
+
+- **The quarry scows to Trinity Church.** The notes ask about this directly, and
+  it connects to sign 13 — the same East Rock stone, the same river, the same
+  boats. If Lanson's crew supplied Trinity's stone that belongs on the sign.
+- **Talmadge Bros.** Steve Hamm's walk notes place the oyster company south of
+  English Station on the east bank, with shell piles and equipment still visible.
+  That is a concrete, findable thing for sign 12.
+- **The trolley turntable near the District**, the cardboard plant at 370 James,
+  the Lake Whitney ice house, the linseed oil mill, and the thirteen mills north.
+
 ## Sign inventory
 
 Thirteen signs. All twelve KMZ locations plus William Lanson. Signs 1-4 have

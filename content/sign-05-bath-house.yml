@@ -229,9 +229,15 @@ web:
   gallery: []
 
   sources:
-    - title: New Haven newspapers on the Beach Street bath house, 1880-81 — Chronicling America
+    - title: "The Beach Street bath house in the New Haven papers, May 1880 — Chronicling America"
       url: https://chroniclingamerica.loc.gov/lccn/sn82015483/1880-05-25/ed-1/seq-2/
-    - title: Scenes from New York's public baths — Bowery Boys History
+    - title: "The Beach Street bath house in the New Haven papers, October 1881 — Chronicling America"
+      url: https://chroniclingamerica.loc.gov/lccn/sn82015483/1881-10-04/ed-1/seq-2/
+    - title: "1888 map of the bath house area — Library of Congress"
+      url: https://www.loc.gov/resource/g3784nm.g3784nm_g01151188601/?sp=39
+    - title: "Scenes from New York's public baths — Bowery Boys History"
       url: https://www.boweryboyshistory.com/2018/03/scenes-new-yorks-public-baths-tenement-dwellers-got-clean-cool-alienist.html
-    - title: Mill River Watershed Based Plan — Save the Sound
-      url: https://www.savethesound.org/wp-content/uploads/2018/08/Draft_MillRiver_WBP_-20180817_Compressed2.pdf
+    - title: "Hygiene and swimming pools in New York City — Cities and Modernity"
+      url: https://citiesandmodernity.wordpress.com/rory-oconnor/sharing-the-same-water-hygiene-and-swimming-pools-in-new-york-city/
+    - title: "Mill River bacteria TMDL — Connecticut DEEP"
+      url: https://portal.ct.gov/DEEP

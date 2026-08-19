@@ -312,11 +312,15 @@ web:
   gallery: []
 
   sources:
-    - title: Eli Whitney Museum — the historic site
+    - title: "The Eli Whitney Museum — historic site"
       url: https://www.eliwhitney.org/7/museum/historic-site
-    - title: Eli Whitney Museum — arms production
+    - title: "The Eli Whitney Museum — arms production"
       url: https://www.eliwhitney.org/7/museum/eli-whitney/arms-production
-    - title: The Whitney Armory helps progress in Hamden — Connecticut History
+    - title: "The Whitney Armory helps progress in Hamden — Connecticut History"
       url: https://connecticuthistory.org/the-whitney-armory-helps-progress-in-hamden/
-    - title: Mill River Watershed Based Plan — Save the Sound
-      url: https://www.savethesound.org/wp-content/uploads/2018/08/Draft_MillRiver_WBP_-20180817_Compressed2.pdf
+    - title: "1888 map showing the Whitney site — Library of Congress"
+      url: https://www.loc.gov/resource/g3784nm.g3784nm_g01151188601/?sp=61
+    - title: "Christopher Todd's mill — Centenary of Hamden, Connecticut, 1886"
+      url: https://books.google.com/books?id=94g6AQAAIAAJ&pg=PA300
+    - title: "Mill River history — Mill River Trail"
+      url: https://www.millrivertrail.com/home/mill-river-history

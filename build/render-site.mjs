@@ -47,6 +47,7 @@ const T = {
     other: 'Español', otherLabel: 'Leer en español',
     galleryHead: 'Images',
     sourcesHead: 'Sources and further reading',
+    ackHead: 'Research and credits',
     locationHead: 'Where this sign stands',
     mapLink: 'Open in maps',
     backHome: 'All Mill River Trail signs',
@@ -62,6 +63,7 @@ const T = {
     other: 'English', otherLabel: 'Read in English',
     galleryHead: 'Imágenes',
     sourcesHead: 'Fuentes y lecturas adicionales',
+    ackHead: 'Investigación y créditos',
     locationHead: 'Dónde está este letrero',
     mapLink: 'Abrir en mapas',
     backHome: 'Todos los letreros del Mill River Trail',
@@ -147,6 +149,8 @@ ul.sources { list-style: none; padding: 0; margin: 0.5rem 0 0; }
 ul.sources li { padding: 0.5rem 0; border-bottom: 1px solid var(--rule); }
 ul.sources a { color: var(--blue); text-decoration: none; font-weight: 600; }
 ul.sources a:hover { text-decoration: underline; }
+.sources-note { font-size: 0.95rem; color: var(--muted); margin: 0.2rem 0 0.6rem; }
+.ack { font-size: 0.95rem; color: var(--muted); line-height: 1.6; }
 
 footer {
   border-top: 1px solid var(--rule); padding: 1.75rem 0 3rem;
@@ -234,9 +238,17 @@ ${hero ? `<meta property="og:image" content="${imgDir}/${encodeURIComponent(webF
     </div>
 
     ${sources ? `<h2>${esc(t.sourcesHead)}</h2>
+    <p class="sources-note">${esc(
+      lang === 'en'
+        ? 'Where a link goes to a scanned original — a newspaper page, a map, an engineering journal — it is the actual document, not a summary of it.'
+        : 'Cuando un enlace lleva a un original escaneado — una página de periódico, un mapa, una revista de ingeniería — es el documento en sí, no un resumen.'
+    )}</p>
     <ul class="sources">
         ${sources}
     </ul>` : ''}
+
+    ${w.acknowledgements ? `<h2>${esc(t.ackHead)}</h2>
+    <p class="ack">${esc(w.acknowledgements[lang])}</p>` : ''}
   </div>
 </main>
 

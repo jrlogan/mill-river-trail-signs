@@ -365,11 +365,19 @@ web:
         es: Su anuncio en el 521-525 de Grand Avenue, directorio municipal de 1888. Cortesía de Colin M. Caplan.
 
   sources:
-    - title: Mill River Watershed Based Plan — Save the Sound
-      url: https://www.savethesound.org/wp-content/uploads/2018/08/Draft_MillRiver_WBP_-20180817_Compressed2.pdf
-    - title: English Station — New Haven Building Archive, Yale
+    - title: "Ball Island — Mill River Trail"
+      url: https://www.millrivertrail.com/learn/ball-island
+    - title: "Barnsville — Mill River Trail"
+      url: https://www.millrivertrail.com/learn/barnsville
+    - title: "English Station — New Haven Building Archive, Yale"
       url: https://nhba.yale.edu/building?id=58e6b948adb817121752a5f4
-    - title: New Haven's industrial history — Yale-New Haven Teachers Institute
-      url: https://teachersinstitute.yale.edu/curriculum/units/1979/3/79.03.02.x.html
-    - title: Mill River Trail Framework Plan
-      url: https://issuu.com/millrivertrail/docs/mrt_frameworkplan
+    - title: "Energy infrastructure in New Haven — Yale"
+      url: https://campuspress.yale.edu/infrastructurenewhaven/energy/
+    - title: "1888 map showing Mill River Island — Library of Congress"
+      url: https://www.loc.gov/resource/g3784nm.g3784nm_g01151188601/?sp=44
+    - title: "1934 aerial survey of New Haven — Connecticut State Library"
+      url: https://cslib.contentdm.oclc.org/digital/collection/p4005coll10/id/8376
+    - title: "Eli Barnes and the Lafayette Hotel — In Memory of Alfred Smith Barnes"
+      url: https://www.google.com/books/edition/In_Memory_of_Alfred_Smith_Barnes/odMxAQAAMAAJ
+    - title: "Mill River Watershed Based Plan — Save the Sound"
+      url: https://www.savethesound.org/wp-content/uploads/2018/08/Draft_MillRiver_WBP_-20180817_Compressed2.pdf

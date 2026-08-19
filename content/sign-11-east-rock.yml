@@ -243,9 +243,11 @@ web:
   gallery: []
 
   sources:
-    - title: New Haven's Sentinels — the history of East Rock and West Rock
+    - title: "New Haven's Sentinels: the story of East Rock and West Rock"
       url: https://www.amazon.com/New-Havens-Sentinels-Driftless-Connecticut/dp/0819573744
-    - title: The East Rock Connector — kurumi.com Connecticut roads
+    - title: "The East Rock Connector — Connecticut roads"
       url: https://www.kurumi.com/roads/ct/eastrock.html
-    - title: Report of the New Haven Civic Improvement Committee, 1910
+    - title: "Report of the New Haven Civic Improvement Committee, 1910"
       url: https://www.google.com/books/edition/_/NUHnAAAAMAAJ
+    - title: "Mill River history — Mill River Trail"
+      url: https://www.millrivertrail.com/home/mill-river-history

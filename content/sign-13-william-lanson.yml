@@ -354,9 +354,13 @@ web:
   gallery: []
 
   sources:
-    - title: William Lanson revealed — New Haven Independent
-      url: https://www.newhavenindependent.org/index.php/archives/entry/willian_lanson_revealed/
-    - title: Amistad, Race and New Haven — Yale-New Haven Teachers Institute
+    - title: "William Lanson: New Haven's African King — Yale-New Haven Teachers Institute (source of the quotation)"
       url: https://teachersinstitute.yale.edu/curriculum/units/files/97.04.04.pdf
-    - title: Mill River Trail Framework Plan
-      url: https://issuu.com/millrivertrail/docs/mrt_frameworkplan
+    - title: "The successes and struggles of William Lanson — Connecticut History"
+      url: https://connecticuthistory.org/successes-and-struggles-of-new-haven-entrepreneur-william-lanson/
+    - title: "William Lanson shaped New Haven — National Endowment for the Humanities"
+      url: https://www.neh.gov/article/william-lanson-shaped-new-haven
+    - title: "William Lanson revealed — New Haven Independent"
+      url: https://www.newhavenindependent.org/index.php/archives/entry/willian_lanson_revealed/
+    - title: "William Lanson — Wikipedia"
+      url: https://en.wikipedia.org/wiki/William_Lanson

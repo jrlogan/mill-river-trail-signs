@@ -239,9 +239,11 @@ web:
   gallery: []
 
   sources:
-    - title: Mill River Watershed Based Plan — Save the Sound
+    - title: "Mill River Watershed Based Plan — Save the Sound"
       url: https://www.savethesound.org/wp-content/uploads/2018/08/Draft_MillRiver_WBP_-20180817_Compressed2.pdf
-    - title: NOAA Tides and Currents — New Haven Harbor
+    - title: "New Haven Harbor tide predictions — NOAA Tides and Currents"
       url: https://tidesandcurrents.noaa.gov/
-    - title: Connecticut DEEP — tidal wetlands
+    - title: "Tidal wetlands — Connecticut DEEP"
       url: https://portal.ct.gov/DEEP
+    - title: "River herring — NOAA Fisheries"
+      url: https://www.fisheries.noaa.gov/species/river-herring
