@@ -122,6 +122,18 @@ ground the panel covers north to south, in degrees of latitude.
    images are derived, both outputs build, and the links are checked.
 5. Commit `assets/web/sign-NN/`; pushing to `main` deploys the pages.
 
+## Deploying
+
+Pushing to `main` builds the site and publishes it to GitHub Pages. The workflow
+runs `check-links.mjs` first, so a sign whose printed URL has no page behind it
+fails the deploy instead of shipping.
+
+The site is served at **signs.millrivertrail.com** — the host comes from the
+sign content itself (`urls.en_full`), which is also what gets encoded into the
+QR codes, so the printed address and the deployed domain cannot disagree.
+
+See [docs/DECISIONS.md](docs/DECISIONS.md) for the DNS record this needs.
+
 ## Layout of the repo
 
 ```

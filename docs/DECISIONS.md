@@ -66,9 +66,43 @@ Signs print **`signs.MillRiverTrail.com/submarine`** and
 plain static files; host it on Netlify, GitHub Pages or Cloudflare Pages and
 point a CNAME at it. Google Sites keeps the main site untouched.
 
-**Still to do before fabrication:** create the DNS record and deploy
-`dist/site/`, then scan the printed proof with a phone. The build verifies the
-QR codes *encode* the right URL; it cannot verify the URL *resolves*.
+**Built and deployed.** The site is live, published by GitHub Actions on every
+push to `main`:
+
+- Repository: <https://github.com/jrlogan/mill-river-trail-signs>
+- Currently serving at <https://jrlogan.github.io/mill-river-trail-signs/>
+
+**One step left, and it is yours: the DNS record.** At Hover (which runs DNS for
+millrivertrail.com — the nameservers are `ns1.hover.com` / `ns2.hover.com`):
+
+| Field | Value |
+|---|---|
+| Type | `CNAME` |
+| Hostname | `signs` |
+| Target | `jrlogan.github.io` |
+| TTL | default is fine |
+
+This only creates `signs.millrivertrail.com`. It does not touch the `A` record
+for the apex or the `www` CNAME pointing at Google Sites, so the main site is
+unaffected.
+
+Once that record resolves, set the custom domain on the repo:
+
+```bash
+gh api -X PUT repos/jrlogan/mill-river-trail-signs/pages -f cname=signs.millrivertrail.com
+gh api -X POST repos/jrlogan/mill-river-trail-signs/pages -F https_enforced=true
+```
+
+GitHub then issues a Let's Encrypt certificate automatically, usually within
+about fifteen minutes.
+
+**Do not set the custom domain before the DNS record exists** — Pages will start
+redirecting the working `github.io` URL to a hostname that does not resolve, and
+the site goes dark until DNS catches up.
+
+**Then, before fabrication:** scan the printed proof with an actual phone. The
+build proves the QR codes encode the right URL and that the URL matches a page
+that was built. Only a phone proves the whole chain works.
 
 Because the subdomain is under your control, the destination can be redirected
 later without touching any sign already in the ground.
