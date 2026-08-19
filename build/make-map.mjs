@@ -171,7 +171,7 @@ function buildSVG(sign, data, bbox) {
     );
 
     const name = t(el).name;
-    if (name && (cls === 'roadMajor' || cls === 'waterLine')) {
+    if (name && (cls === 'roadMajor' || cls === 'waterLine' || cls === 'path')) {
       labels.push({ name, kind: cls, geom });
     }
   }
@@ -187,7 +187,10 @@ function buildSVG(sign, data, bbox) {
   // Fractions of the panel, matching LAYOUT.panel in sign-template.mjs.
   const RESERVED = [
     { x0: 0.60, y0: 0.00, x1: 1.00, y1: 0.19 },   // Mill River Trail roundel
-    { x0: 0.58, y0: 0.55, x1: 1.00, y1: 0.94 },   // species boxes
+    // Only reserved when the sign actually shows species boxes.
+    ...(sign.sign.panel.species?.length
+      ? [{ x0: 0.58, y0: 0.55, x1: 1.00, y1: 0.94 }]
+      : []),
   ];
   // Test the whole run of the label, not just its anchor — a centred string
   // clears the box at its midpoint and still slides underneath it.
@@ -213,8 +216,8 @@ function buildSVG(sign, data, bbox) {
     if (l.len < 140) continue;
     const mid = l.pts[Math.floor(l.pts.length / 2)];
     const a = l.pts[0], b = l.pts.at(-1);
-    if (Math.hypot(mid.x - me.x, mid.y - me.y) < 190) continue;         // keep clear of the marker
-    if (reserved(mid, l.name.length * (l.kind === 'waterLine' ? 24 : 19) * 0.29)) continue;
+    if (Math.hypot(mid.x - me.x, mid.y - me.y) < 125) continue;         // keep clear of the marker
+    if (reserved(mid, l.name.length * (l.kind === 'waterLine' ? 24 : 20) * 0.29)) continue;
     if (placed.some((q) => Math.hypot(q.x - mid.x, q.y - mid.y) < 210)) continue;
     placed.push(mid);
 
@@ -223,14 +226,20 @@ function buildSVG(sign, data, bbox) {
     if (deg < -90) deg += 180;
 
     const river = l.kind === 'waterLine';
+    const trail = l.kind === 'path';
+    // River names sit on the dark water fill, everything else on pale land, so
+    // each needs the halo that contrasts with what is behind it.
+    const style = river
+      ? { face: 'Archivo', weight: 800, size: 24, italic: true,  fill: '#FFFFFF', halo: '#0F5A8A' }
+      : trail
+      ? { face: 'Archivo', weight: 800, size: 20, italic: false, fill: '#6B5A12', halo: '#FFFFFF' }
+      : { face: 'Source Sans 3', weight: 600, size: 19, italic: false, fill: '#3D464D', halo: COLOR.blueLight };
     labelSVG.push(
       `<text transform="translate(${mid.x.toFixed(1)} ${mid.y.toFixed(1)}) rotate(${deg.toFixed(1)})" ` +
-      `text-anchor="middle" dy="-7" font-family="${river ? 'Archivo' : 'Source Sans 3'}, sans-serif" ` +
-      `font-weight="${river ? 800 : 600}" font-size="${river ? 24 : 19}" ` +
-      // River names sit on the dark water fill, street names on pale land, so
-      // each needs the opposite halo to stay legible.
-      `${river ? 'font-style="italic" ' : ''}fill="${river ? '#FFFFFF' : '#3D464D'}" ` +
-      `stroke="${river ? '#0F5A8A' : COLOR.blueLight}" stroke-width="5" paint-order="stroke">` +
+      `text-anchor="middle" dy="-7" font-family="${style.face}, sans-serif" ` +
+      `font-weight="${style.weight}" font-size="${style.size}" ` +
+      `${style.italic ? 'font-style="italic" ' : ''}fill="${style.fill}" ` +
+      `stroke="${style.halo}" stroke-width="5" paint-order="stroke">` +
       `${escXML(l.name)}</text>`
     );
   }

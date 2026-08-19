@@ -51,11 +51,8 @@ second pair of eyes before the sign is fabricated.
    - "El terrenoLa tierra que pisas" — an un-deleted edit at the top of sign 2.
    - Bird names left in English inside quotation marks in the nature fact.
 
-### To verify with the committee
-
-10. **"Doug Houslauden"** in the credit line. New Haven's transportation director
-    is Doug **Hausladen**. Currently set to Hausladen — confirm against the
-    donor list before printing.
+10. **"Doug Houslauden" → "Doug Hausladen"** in the credit line. Confirmed with
+    the project.
 
 ## Decisions made
 
@@ -138,16 +135,34 @@ no chase required.
 
 ## Decisions still open
 
-### Doug Hausladen's name
-
-The credit line is currently set to **Hausladen**. Confirm against the donor list
-before printing — see the corrections above.
-
 ### Image resolution on sign 2
 
-`Grand-MillRiver(1915c).jpg` is 1200 × 996, about 4 in wide at 300 dpi.
-Large-format signage is usually specified at 150 dpi at final size, so it is
-workable — just do not plan on running it large.
+`Grand-MillRiver(1915c).jpg` is 1200 × 996 — the lowest-resolution image in the
+set. It is placed in the smaller bottom-left slot at 5.26 in wide, which works
+out to about 228 dpi. Fine where it sits; do not promote it to the hero slot.
+
+### Marsh species artwork for sign 2
+
+Sign 2 has no species boxes. The chickadee, sumac and warbler drawn for the
+submarine sign are upland species and would be wrong beside a marsh sign, so the
+locator map takes the full panel instead — the template treats species as
+optional.
+
+A marsh sign wants **salt marsh cordgrass, ribbed mussel, fiddler crab, great
+egret**. Four illustrations in the same style would finish the panel. Note the
+Noun Project licence question above before commissioning or sourcing more.
+
+### Kickapoo Indian Medicine Company — how it is described
+
+The 2021 draft described the company's products as "specifically derived from a
+Texas band of the Kickapoo Nation." That repeats the company's own marketing as
+fact. Healy and Bigelow were white promoters out of the travelling-show
+business; the Kickapoo name and imagery were borrowed to sell bottled alcohol
+and vegetable extract. The sign copy now stays with what is documented, and the
+web page states plainly that the claim was marketing while recording that Native
+performers were employed and lived in the neighbourhood.
+
+Worth a read by someone from the project before this goes to print.
 
 ## Sign inventory
 

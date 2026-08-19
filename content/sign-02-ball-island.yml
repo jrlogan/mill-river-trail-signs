@@ -1,0 +1,388 @@
+# ---------------------------------------------------------------------------
+# Mill River Trail — Sign 2: Ball Island and the Marshes
+#
+# Single source of truth. See content/sign-01-submarine.yml for the pattern
+# and README.md for the build.
+# ---------------------------------------------------------------------------
+
+id: sign-02-ball-island
+number: 2
+status: draft            # draft | proof | approved | printed
+
+location:
+  name: Ball Island / English Station / Industrial History
+  place: Grand Avenue bridge at the Mill River
+  lat: 41.3086196
+  lon: -72.9062297
+
+urls:
+  en: signs.MillRiverTrail.com/ball-island
+  es: signs.MillRiverTrail.com/isla-ball
+  en_full: https://signs.millrivertrail.com/ball-island
+  es_full: https://signs.millrivertrail.com/isla-ball
+
+# Echoes the opening line of the sign, which is also the thing most people
+# standing here would never guess about the ground under them.
+title:
+  en: Marsh, Mud and Meadow
+  es: Marisma, Lodo y Pradera
+
+sign:
+
+  lede:
+    en: >-
+      The land you are standing on was once marshland, mud and meadow. It sits
+      above the high tide line only because fill was carted in and dumped here
+      over many years. The marshes that covered this area sheltered animals,
+      anchored plants, and filtered both the salt tides and the fresh water
+      floods. New Haven's English settlers, and the developers who followed
+      them, saw no value in keeping them.
+    # The draft translation opened "El terrenoLa tierra que pisas" — an
+    # un-deleted edit — and closed with a line of DeepL advertising. Rewritten.
+    es: >-
+      La tierra que pisa fue en su día marisma, lodo y pradera. Está por encima
+      de la marea alta solo porque durante muchos años se trajo y se vertió aquí
+      relleno. Las marismas que cubrían esta zona daban refugio a los animales,
+      sostenían las plantas y filtraban tanto las mareas saladas como las
+      crecidas de agua dulce. Los colonos ingleses de New Haven, y los
+      urbanizadores que vinieron después, no vieron valor en conservarlas.
+
+  section:
+    heading:
+      en: Ball Island and Barnesville
+      es: La isla Ball y Barnesville
+    body:
+      en: >-
+        The Mill River splits here to form Ball Island, named after 1641 for
+        Allen Ball, a farmer working for New Haven's founder John Davenport. The
+        land flooded constantly and was long considered worthless; by the 1830s
+        people were cutting salt hay from it. Around 1812 Eli Barnes built an inn
+        on Grand Avenue, the Lafayette Hotel, and the corner became known as
+        Barnesville. Barnes helped pay for the first bridge across the river here
+        in 1819. After the New Haven and Hartford Railroad opened in 1839,
+        industry took the riverbank.
+      es: >-
+        El río Mill se divide aquí y forma la isla Ball, llamada así desde 1641
+        por Allen Ball, un agricultor al servicio de John Davenport, fundador de
+        New Haven. La tierra se inundaba sin parar y durante mucho tiempo se
+        consideró inútil; hacia 1830 ya se segaba heno salado en ella. Cerca de
+        1812 Eli Barnes construyó una posada en Grand Avenue, el Hotel Lafayette,
+        y la esquina pasó a llamarse Barnesville. Barnes ayudó a pagar el primer
+        puente sobre el río en 1819. Tras la apertura del ferrocarril de New
+        Haven y Hartford en 1839, la industria se apoderó de la ribera.
+
+  images:
+    - key: harbor_from_east_rock
+      file: MillRiver-Haven(1890c)NewHavenMuseum.jpg
+      slot: center_top
+      focus: 50% 55%
+      caption:
+        en: >-
+          The Mill River and the harbour from the summit of East Rock, about
+          1890, when the marshes were still open water and grass. Courtesy of
+          the New Haven Museum.
+        es: >-
+          El río Mill y el puerto desde la cumbre de East Rock, hacia 1890,
+          cuando las marismas todavía eran agua abierta y hierba. Cortesía del
+          Museo de New Haven.
+
+    - key: river_north_1915
+      file: Grand-MillRiver(1915c).jpg
+      slot: left_bottom
+      focus: 50% 50%
+      caption:
+        en: >-
+          Looking north up the Mill River toward East Rock from Grand Avenue and
+          Ball Island, about 1915. Courtesy of Joseph Taylor.
+        es: >-
+          Vista hacia el norte del río Mill hacia East Rock desde Grand Avenue y
+          la isla Ball, hacia 1915. Cortesía de Joseph Taylor.
+
+    - key: industry_1910
+      file: MillRiver-Grand(1910c)NewHavenMuseum2.jpg
+      slot: center_bottom
+      caption:
+        en: >-
+          Factories crowding the filled riverbank near Grand Avenue, about 1910.
+          Courtesy of the New Haven Museum.
+        es: >-
+          Fábricas apiñadas sobre la ribera rellenada cerca de Grand Avenue,
+          hacia 1910. Cortesía del Museo de New Haven.
+
+    - key: kickapoo_ad
+      file: grand525(1888)CityDirectory.jpg
+      slot: right_bottom
+      caption:
+        en: >-
+          Kickapoo Indian Medicine Company, 521-525 Grand Avenue, in the 1888
+          city directory. Courtesy of Colin M. Caplan.
+        es: >-
+          Kickapoo Indian Medicine Company, 521-525 Grand Avenue, en el
+          directorio municipal de 1888. Cortesía de Colin M. Caplan.
+
+  panel:
+    map: panel-map.svg
+
+    you_are_here:
+      en: You Are Here
+      es: Usted está aquí
+
+    # No species boxes on this sign yet. The three illustrations drawn for the
+    # submarine sign are upland species and would be wrong here; a marsh sign
+    # wants salt marsh cordgrass, ribbed mussel, fiddler crab, great egret.
+    # Omitting them gives the locator map the full panel until that art exists.
+    # species: []
+
+    river_fact:
+      label:
+        en: River Fact
+        es: Hecho del Río
+      # Ties the filled ground under the reader's feet to something they can act
+      # on now, rather than leaving the marsh purely in the past tense.
+      text:
+        en: >-
+          A salt marsh soaks up storm surge and slows it down before it reaches
+          the street. The marshes that were filled here used to do that work for
+          New Haven.
+        es: >-
+          Una marisma salada absorbe la marejada y la frena antes de que llegue a
+          la calle. Las marismas que se rellenaron aquí hacían ese trabajo para
+          New Haven.
+
+  dedication:
+    en: In honor of trail blazer Tom Holahan
+    es: En honor al pionero del sendero Tom Holahan
+
+  credits:
+    label:
+      en: Made Possible by
+      es: Hecho posible por
+    funders: >-
+      Mill River Watershed Association, Sustainable CT, Susan B. Holahan and
+      Family, City of New Haven, District New Haven, Bear's BBQ, Community
+      Foundation for Greater New Haven, Chatham Square Neighborhood Association,
+      Industrial Flow Solutions, Doug Hausladen, and other individual donors.
+    produced_label:
+      en: Produced by
+      es: Producido por
+    produced: >-
+      Colin M. Caplan, Design Monsters, Joe Kolodej, Nick McGhee, and J.R. Logan.
+
+  learn_more:
+    en: Learn More
+    es: Más en línea
+
+web:
+  subtitle:
+    en: How a tidal marsh became an industrial riverbank, and what New Haven gave up when it did
+    es: Cómo una marisma de marea se convirtió en una ribera industrial, y qué perdió New Haven al hacerlo
+
+  body:
+    en: |
+      Stand on the Grand Avenue bridge and look down. Almost none of the ground
+      around you is original. The Mill River here ran through a wide tidal marsh
+      — mud, grass and shifting channels, flooded twice a day — and the solid
+      land you are standing on is fill, carted in and dumped over the course of a
+      century to raise the grade above the high tide mark.
+
+      ## What a marsh was for
+
+      A tidal marsh is not empty ground waiting to be improved, though that is
+      exactly how New Haven's English settlers and the developers who followed
+      them understood it. Marsh grass anchors sediment. The marsh shelters young
+      fish, shellfish and birds. Above all it absorbs water: it takes a storm
+      surge coming in off the harbour and slows it down before it reaches the
+      street, and it takes fresh water coming down the river in flood and spreads
+      it out. Filling a marsh removes that capacity permanently.
+
+      What the marsh did produce, colonists could see: salt hay. By the 1830s
+      people were cutting it off Ball Island for animal bedding and fodder.
+
+      ## Allen Ball's bad land
+
+      The river splits here, and the ground between the channels became Ball
+      Island. It takes its name from Allen Ball, a farmer working for John
+      Davenport, the minister who founded the New Haven Colony. Ball came into
+      the land around 1641 through a deed to his brother-in-law.
+
+      The island was considered bad land. It flooded constantly, it was muddy,
+      and for two centuries nobody could think of much to do with it. It drifted
+      into use as common ground. By the 1860s the lumber yard next door had taken
+      it over, and industry had arrived on the river for good.
+
+      ## Barnesville
+
+      The corner of Grand Avenue and East Street, running down to the river, was
+      once called Barnesville. It was named for Eli Barnes, a real estate
+      developer and oyster farmer who built an inn on Grand Avenue around 1812,
+      shortly after his marriage. He called it the Lafayette Hotel and hung a
+      swinging portrait of the General on the front.
+
+      There was almost nothing else here at the time. Getting to Fair Haven meant
+      going all the way up State Street to cross the Mill River. In 1819 Barnes
+      helped pay for a bridge at this spot, privately, and cut the journey short.
+      The bridge fell into disrepair quickly and the city spent the following
+      century replacing it.
+
+      When the New Haven and Hartford Railroad opened in 1839, the calculation
+      changed. Land next to a river and a rail line was worth filling.
+
+      ## The Kickapoo Indian Medicine Company
+
+      In 1887 two businessmen, Charles Bigelow and John E. Healy, moved their
+      patent medicine works into a large brick warehouse at 521-525 Grand Avenue,
+      across the river from Ball Island. They made and bottled Indian Sagwa,
+      Indian Oil, Indian Worm Killer, Kickapoo Salve and Kickapoo Cough Cure.
+
+      The company sold its products as authentic Native remedies, claiming a
+      connection to a Texas band of the Kickapoo Nation. That claim was
+      marketing. Healy and Bigelow were white promoters who had come out of the
+      travelling-show business, and the Kickapoo name and imagery were borrowed
+      to sell bottled alcohol and vegetable extract to white customers. The
+      company ran large touring troupes that performed staged "Indian medicine
+      shows" across the country, and it employed Native performers, a number of
+      whom lived in the neighbourhood around this warehouse.
+
+      It was one of the most successful patent medicine operations in the United
+      States. It moved to 441 Chapel Street in 1893.
+
+      ## What came next
+
+      In 1890 the New Haven Electric Light Company built a power plant on the
+      south side of Grand Avenue on Ball Island — one of the earliest electrical
+      generating stations in the country, burning coal delivered by ship. As
+      demand grew, the United Illuminating Company began work on its successor,
+      English Station, in 1927. That plant ran until 1992.
+
+      Both burned coal and oil beside a river that had already lost its marshes,
+      and the site is heavily contaminated with asbestos and PCBs. The 1890 plant
+      was demolished in 2021. English Station still stands, empty, in the middle
+      of the river, and the cleanup continues.
+
+      By 1970 the Mill River was measured at four times the legal limit for
+      swimming. It has been recovering since the industry left.
+
+    es: |
+      Párese en el puente de Grand Avenue y mire hacia abajo. Casi nada del
+      terreno que le rodea es original. Aquí el río Mill corría por una amplia
+      marisma de marea — lodo, hierba y canales cambiantes, inundada dos veces al
+      día — y la tierra firme sobre la que usted está es relleno, traído y
+      vertido a lo largo de un siglo para elevar el nivel por encima de la marca
+      de la marea alta.
+
+      ## Para qué servía una marisma
+
+      Una marisma de marea no es terreno vacío a la espera de mejoras, aunque así
+      es exactamente como la entendieron los colonos ingleses de New Haven y los
+      urbanizadores que vinieron después. La hierba de marisma fija el sedimento.
+      La marisma da refugio a peces jóvenes, mariscos y aves. Sobre todo, absorbe
+      agua: recibe la marejada que entra desde el puerto y la frena antes de que
+      llegue a la calle, y recibe el agua dulce que baja crecida por el río y la
+      reparte. Rellenar una marisma elimina esa capacidad para siempre.
+
+      Lo que la marisma sí producía, los colonos lo veían: heno salado. Hacia
+      1830 ya se segaba en la isla Ball para cama y forraje del ganado.
+
+      ## La mala tierra de Allen Ball
+
+      El río se divide aquí, y el terreno entre los canales pasó a ser la isla
+      Ball. Debe su nombre a Allen Ball, un agricultor al servicio de John
+      Davenport, el pastor que fundó la Colonia de New Haven. Ball adquirió estas
+      tierras hacia 1641 mediante una escritura a su cuñado.
+
+      La isla se consideraba mala tierra. Se inundaba constantemente, era
+      fangosa, y durante dos siglos nadie supo bien qué hacer con ella. Acabó
+      usándose como terreno comunal. Hacia 1860 el aserradero contiguo se había
+      apropiado de ella, y la industria había llegado al río para quedarse.
+
+      ## Barnesville
+
+      La esquina de Grand Avenue con East Street, bajando hacia el río, se llamó
+      en su día Barnesville. El nombre viene de Eli Barnes, promotor inmobiliario
+      y ostricultor que construyó una posada en Grand Avenue hacia 1812, poco
+      después de casarse. La llamó Hotel Lafayette y colgó en la fachada un
+      retrato basculante del General.
+
+      Por entonces casi no había nada más aquí. Para llegar a Fair Haven había
+      que subir hasta State Street y cruzar allí el río Mill. En 1819 Barnes
+      ayudó a pagar, de forma privada, un puente en este punto, y acortó el
+      trayecto. El puente se deterioró pronto y la ciudad pasó el siglo siguiente
+      reemplazándolo.
+
+      Cuando en 1839 se abrió el ferrocarril de New Haven y Hartford, las cuentas
+      cambiaron. Un terreno junto a un río y una vía férrea merecía rellenarse.
+
+      ## La Kickapoo Indian Medicine Company
+
+      En 1887 dos empresarios, Charles Bigelow y John E. Healy, trasladaron su
+      fábrica de medicinas de patente a un gran almacén de ladrillo en el 521-525
+      de Grand Avenue, al otro lado del río desde la isla Ball. Allí fabricaban y
+      embotellaban Indian Sagwa, Indian Oil, Indian Worm Killer, Kickapoo Salve y
+      Kickapoo Cough Cure.
+
+      La empresa vendía sus productos como remedios indígenas auténticos y
+      alegaba un vínculo con una banda de la Nación Kickapoo de Texas. Esa
+      afirmación era publicidad. Healy y Bigelow eran promotores blancos venidos
+      del mundo del espectáculo ambulante, y tomaron prestados el nombre y la
+      imaginería kickapoo para vender alcohol embotellado y extracto vegetal a
+      clientes blancos. La compañía mantenía grandes compañías de gira que
+      representaban "espectáculos de medicina india" por todo el país, y empleaba
+      a artistas indígenas, varios de los cuales vivían en el barrio que rodeaba
+      este almacén.
+
+      Fue una de las operaciones de medicina de patente con más éxito de Estados
+      Unidos. En 1893 se mudó al 441 de Chapel Street.
+
+      ## Lo que vino después
+
+      En 1890 la New Haven Electric Light Company construyó una central eléctrica
+      en el lado sur de Grand Avenue, en la isla Ball: una de las primeras
+      centrales generadoras del país, que quemaba carbón traído por barco. Al
+      crecer la demanda, la United Illuminating Company empezó en 1927 su
+      sucesora, English Station. Esa planta funcionó hasta 1992.
+
+      Ambas quemaron carbón y petróleo junto a un río que ya había perdido sus
+      marismas, y el terreno está muy contaminado con amianto y PCB. La planta de
+      1890 fue demolida en 2021. English Station sigue en pie, vacía, en medio
+      del río, y la limpieza continúa.
+
+      En 1970 se midió que el río Mill superaba en cuatro veces el límite legal
+      para poder nadar. Se ha ido recuperando desde que la industria se marchó.
+
+  gallery:
+    - file: Grand-MillRiver(1915c).jpg
+      caption:
+        en: Looking north up the Mill River from Grand Avenue and Ball Island, about 1915. Courtesy of Joseph Taylor.
+        es: Vista hacia el norte del río Mill desde Grand Avenue y la isla Ball, hacia 1915. Cortesía de Joseph Taylor.
+    - file: MillRiver-Haven(1890c)NewHavenMuseum.jpg
+      caption:
+        en: The Mill River and the harbour from East Rock, about 1890. Courtesy of the New Haven Museum.
+        es: El río Mill y el puerto desde East Rock, hacia 1890. Cortesía del Museo de New Haven.
+    - file: MillRiver-Grand(1910c)NewHavenMuseum2.jpg
+      caption:
+        en: Factories on the filled riverbank near Grand Avenue, about 1910. Courtesy of the New Haven Museum.
+        es: Fábricas sobre la ribera rellenada cerca de Grand Avenue, hacia 1910. Cortesía del Museo de New Haven.
+    - file: Kickapoo(1889c).jpg
+      caption:
+        en: >-
+          A Kickapoo Indian Medicine Company poster, about 1889. The company was
+          owned by two white promoters; the Kickapoo name and imagery were
+          borrowed to sell patent medicine.
+        es: >-
+          Cartel de la Kickapoo Indian Medicine Company, hacia 1889. La empresa
+          pertenecía a dos promotores blancos; el nombre y la imaginería kickapoo
+          se tomaron prestados para vender medicina de patente.
+    - file: grand525(1888)CityDirectory.jpg
+      caption:
+        en: The company's listing at 521-525 Grand Avenue, 1888 city directory. Courtesy of Colin M. Caplan.
+        es: Su anuncio en el 521-525 de Grand Avenue, directorio municipal de 1888. Cortesía de Colin M. Caplan.
+
+  sources:
+    - title: Mill River Watershed Based Plan — Save the Sound
+      url: https://www.savethesound.org/wp-content/uploads/2018/08/Draft_MillRiver_WBP_-20180817_Compressed2.pdf
+    - title: English Station — New Haven Building Archive, Yale
+      url: https://nhba.yale.edu/building?id=58e6b948adb817121752a5f4
+    - title: New Haven's industrial history — Yale-New Haven Teachers Institute
+      url: https://teachersinstitute.yale.edu/curriculum/units/1979/3/79.03.02.x.html
+    - title: Mill River Trail Framework Plan
+      url: https://issuu.com/millrivertrail/docs/mrt_frameworkplan

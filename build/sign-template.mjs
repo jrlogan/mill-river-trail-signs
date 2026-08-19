@@ -143,6 +143,15 @@ body {
   line-height: ${TYPE.capBox.leading}pt;
   font-weight: ${TYPE.capBox.weight};
 }
+.diagram-caption { overflow: hidden; text-align: center; }
+.diagram-caption p {
+  font-size: ${TYPE.capBox.size}pt;
+  line-height: ${TYPE.capBox.leading}pt;
+  font-weight: ${TYPE.capBox.weight};
+  color: ${COLOR.ink};
+}
+.diagram-caption p.es { font-style: italic; margin-top: 0.06in; }
+
 .capbox-blue  { background: ${COLOR.blue};  color: ${COLOR.white}; }
 .capbox-green { background: ${COLOR.green}; color: ${COLOR.ink};   }
 .capbox p + p { margin-top: 0.10in; font-style: italic; }
@@ -242,7 +251,9 @@ export function signHTML(sign, { qrEn, qrEs, assetBase = '../../assets' }) {
   const L = LAYOUT;
   const P = L.panel;
 
-  const speciesHTML = s.panel.species
+  // Species boxes are optional. Without them the map keeps the full panel and
+  // the locator can breathe — better than reusing the wrong sign's wildlife.
+  const speciesHTML = (s.panel.species || [])
     .map(
       (sp, i) => `
       <div class="abs species-item" style="${box({
@@ -323,12 +334,12 @@ export function signHTML(sign, { qrEn, qrEs, assetBase = '../../assets' }) {
        style="${box({ x: L.strip.wide.x, y: L.strip.y, w: L.strip.wide.w, h: L.strip.h })}" alt="">
 
   <img class="abs photo photo-contain" src="${img(diagram.file)}"
-       style="${box({ x: L.strip.diagram.x, y: L.strip.y, w: L.strip.diagram.w, h: L.strip.h - 0.52 })}" alt="">
-  <div class="abs" style="${box({
-    x: L.strip.diagram.x, y: L.strip.y + L.strip.h - 0.48, w: L.strip.diagram.w,
+       style="${box({ x: L.strip.diagram.x, y: L.strip.y, w: L.strip.diagram.w, h: L.strip.h - 1.05 })}" alt="">
+  <div class="abs diagram-caption" style="${box({
+    x: L.strip.diagram.x, y: L.strip.y + L.strip.h - 1.0, w: L.strip.diagram.w, h: 1.0,
   })}">
-    <p class="caption" style="text-align:center">${esc(pick(diagram.caption, 'en'))}</p>
-    <p class="caption caption-es" style="text-align:center;margin-top:0.02in">${esc(pick(diagram.caption, 'es'))}</p>
+    <p>${esc(pick(diagram.caption, 'en'))}</p>
+    <p class="es">${esc(pick(diagram.caption, 'es'))}</p>
   </div>
 
   <!-- SIDE PANEL -->

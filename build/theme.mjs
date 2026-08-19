@@ -76,7 +76,7 @@ export const TYPE = {
   panelLabel:   { size: 12,  leading: 14.5, weight: 700 },
   factHead:     { size: 20,  leading: 24,  weight: 800 },
   fact:         { size: 13,  leading: 16,  weight: 400 },
-  dedication:   { size: 27,  leading: 33,  weight: 800 },
+  dedication:   { size: 20,  leading: 25,  weight: 800 },
   credits:      { size: 13,  leading: 16.5, weight: 400 },
   learnMore:    { size: 26,  leading: 31,  weight: 800 },
   url:          { size: 15,  leading: 19,  weight: 500 },

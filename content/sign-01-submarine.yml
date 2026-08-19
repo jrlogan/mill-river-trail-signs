@@ -204,9 +204,8 @@ sign:
     label:
       en: Made Possible by
       es: Hecho posible por
-    # VERIFY BEFORE PRINT: the comp reads "Doug Houslauden". New Haven's
-    # transportation director is Doug Hausladen — confirm the intended spelling
-    # with the donor list.
+    # The comp read "Doug Houslauden". Confirmed with the project as
+    # Doug Hausladen.
     funders: >-
       Mill River Watershed Association, Sustainable CT, Susan B. Holahan and
       Family, City of New Haven, District New Haven, Bear's BBQ, Community
