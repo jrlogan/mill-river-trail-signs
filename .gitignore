@@ -24,3 +24,8 @@ assets/images/sign-*/*.tiff
 extracted-signs/
 Existing Mill River Signage*/
 Mill River Trail Images for Walks/
+
+# Full-resolution originals of the existing-signage photographs. The readable
+# 2000px copies in assets/web/existing/ ARE committed and are the record; the
+# originals live in Existing Mill River Signage-1-001.zip.
+assets/images/existing/

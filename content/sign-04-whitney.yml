@@ -46,31 +46,38 @@ sign:
       movía las máquinas.
 
   section:
+    # REVIEW — a real conflict to settle before print. The Eli Whitney Museum's
+    # own sign at the dam says 38 feet tall, 500 feet long, opened 1862, and
+    # expanded twice since. millrivertrail.com's history gives a different
+    # sequence: six feet raised to 27 in 1860, 31 in 1866, and 19 inches more in
+    # 1916. Both cannot be printed. The copy below follows the museum, on the
+    # grounds that it is their dam and their sign stands at it, and drops the
+    # intermediate heights rather than print a contested figure.
     heading:
-      en: Why the Dam Got Taller
-      es: Por qué creció la presa
+      en: One Dam, Two Problems
+      es: Una presa, dos problemas
     body:
       en: >-
-        By the mid-1800s New Haven was burning. Houses stood close together and
-        were lit and heated by oil lamps and open fires, so blazes ran through
-        whole blocks. Water for fighting them came from the Mill River and the
-        Farmington Canal — and when the canal became a railway, the city needed
-        another source. Eli Whitney Jr. led the founding of the New Haven Water
-        Company and raised his father's dam, which also gave his mills more
-        power. The wooden dam became masonry and grew from about six feet to
-        twenty-seven in 1860, thirty-one in 1866, and higher again in 1916. The
-        lake behind it supplied the city's water until 1991.
+        New Haven was burning and thirsty at once. Houses stood close together,
+        lit and heated by open flame, and fires ran through whole blocks; the
+        city nearly doubled in size between 1850 and 1860 and its wells became
+        unusable. Eli Whitney Jr. answered both with one stone dam — 38 feet tall
+        and 500 feet long, opened in 1862 — and eighteen miles of pipe. Its stone
+        was quarried in place, from Mill Rock and the northern ridge of East
+        Rock. The reservoir stretched two miles north. Three mills were
+        submerged, and oxen dragged the Town Bridge north to the crossing we now
+        call Davis Street.
       es: >-
-        A mediados del siglo XIX New Haven ardía. Las casas estaban pegadas unas
-        a otras y se alumbraban y calentaban con lámparas de aceite y fuegos
-        abiertos, así que los incendios arrasaban manzanas enteras. El agua para
-        apagarlos venía del río Mill y del canal de Farmington; cuando el canal
-        se convirtió en ferrocarril, la ciudad necesitó otra fuente. Eli Whitney
-        hijo impulsó la fundación de la New Haven Water Company y elevó la presa
-        de su padre, lo que además dio más fuerza a sus fábricas. La presa de
-        madera pasó a ser de mampostería y creció de unos seis pies a veintisiete
-        en 1860, treinta y uno en 1866, y más aún en 1916. El lago que formó
-        abasteció de agua a la ciudad hasta 1991.
+        New Haven ardía y tenía sed a la vez. Las casas estaban pegadas unas a
+        otras, se alumbraban y calentaban con fuego abierto y los incendios
+        arrasaban manzanas enteras; la ciudad casi duplicó su tamaño entre 1850 y
+        1860 y sus pozos quedaron inservibles. Eli Whitney hijo respondió a las
+        dos cosas con una sola presa de piedra — 38 pies de alto y 500 de largo,
+        inaugurada en 1862 — y dieciocho millas de tubería. La piedra se extrajo
+        allí mismo, de Mill Rock y de la cresta norte de East Rock. El embalse se
+        extendía dos millas al norte. Tres molinos quedaron sumergidos, y unos
+        bueyes arrastraron el Town Bridge hasta el cruce que hoy llamamos Davis
+        Street.
 
   # ---------------------------------------------------------------------------
   # ARTWORK NOT YET SOURCED. `source_note` is the brief for whoever chases it;
@@ -138,13 +145,14 @@ sign:
     river_fact:
       text:
         en: >-
-          The dam still blocks the river. Fish that once ran the whole length of
-          the Mill River to spawn now stop here, at the foot of the wall that
-          made the lake.
+          Lake Whitney supplied New Haven's drinking water from 1862 until 1991.
+          The dam still blocks the river: fish that once ran its whole length to
+          spawn now stop here, at the foot of the wall that made the lake.
         es: >-
-          La presa sigue cortando el río. Los peces que antes remontaban el Mill
-          entero para desovar ahora se detienen aquí, al pie del muro que formó
-          el lago.
+          El lago Whitney abasteció de agua potable a New Haven desde 1862 hasta
+          1991. La presa sigue cortando el río: los peces que antes remontaban el
+          Mill entero para desovar se detienen aquí, al pie del muro que formó el
+          lago.
 
 
 web:

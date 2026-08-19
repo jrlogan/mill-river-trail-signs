@@ -37,6 +37,7 @@ groups:
         armería, gestionada por el museo.
     signs:
       - title: The Coal Shed
+        photo: coal-shed.jpg
         lat: 41.33594
         lon: -72.91044
         note: >-
@@ -45,6 +46,7 @@ groups:
           1823 inventory recorded 5,075 bushels.
         extends: sign-04-whitney
       - title: The Barn
+        photo: the-barn.jpg
         lat: 41.33595
         lon: -72.91166
         note: >-
@@ -54,25 +56,43 @@ groups:
           Town with the stone for Trinity Church on the Green.
         extends: sign-04-whitney
       - title: The Dam
+        photo: the-dam.jpg
         lat: 41.33649
         lon: -72.91061
         note: >-
-          New Haven had nearly doubled in size, the public wells were
-          untenable and the factories had made fire a constant danger. Whitney
-          answered both with one dam. Eighteen miles of pipe carried the water
-          into the city.
+          The most useful sign on the river, and the one that corrects our own
+          numbers. See the transcript.
         extends: sign-04-whitney
+        transcript: >-
+          New Haven was thirsty. Between 1850 and 1860, New Haven had nearly
+          doubled in size. With no sanitation system, its public wells became
+          unusable. Proliferating factories increased the danger of fire.
+          Efforts to establish a modern water system had languished, deadlocked
+          by politics for a decade. Whitney solved the two challenges with one
+          stone dam. He marshalled public investment to finance the 38 foot
+          tall, 500 foot long dam that still supplies a portion of New Haven's
+          water. The dam's construction was just half the problem. Its stone was
+          quarried in place from Mill Rock to your left and from the northern
+          ridge of East Rock to your right. Eighteen miles of pipe distributed
+          water to New Haven. Lake Whitney, the new dam's reservoir, stretched
+          two miles to the north. Three mills were submerged. Three bridges and
+          20 other buildings had to be relocated. Oxen dragged the Town Bridge
+          north to the crossing we now call Davis Street. The original dam and
+          reservoir have been expanded twice since it opened in 1862.
       - title: The Turbine
+        photo: the-turbine.jpg
         lat: 41.33654
         lon: -72.91056
         note: Water power at the armory, and the vertical wheel that replaced it.
         extends: sign-04-whitney
       - title: The Second Armory
+        photo: second-armory.jpg
         lat: 41.33648
         lon: -72.91064
         note: Whitney's Improved Fire-Arms, and the armory's Civil War peak.
         extends: sign-04-whitney
       - title: The Boarding House
+        photo: boarding-house.jpg
         lat: 41.33595
         lon: -72.91166
         note: >-
@@ -80,12 +100,14 @@ groups:
           workers to the site. The boarding house is where they lived.
         extends: sign-04-whitney
       - title: Transition
+        photo: transition.jpg
         lat: 41.33594
         lon: -72.91044
         note: >-
           What came after the armory — the Acme Wire Company and the Sentinel
           Stove Company, and the industrial archaeology still in the ground.
       - title: The Town Bridge
+        photo: town-bridge.jpg
         lat: 41.33594
         lon: -72.91044
         note: >-
@@ -94,11 +116,13 @@ groups:
           from Eli Whitney Technical School built the replica in 1979.
         extends: sign-03-bridges
       - title: Historical Artifact — the pipe
+        photo: historical-artifact-pipe.jpg
         lat: 41.33596
         lon: -72.91183
         note: A section of the water main that carried Lake Whitney into the city.
         extends: sign-04-whitney
       - title: Eli Whitney 1765-1825 — bronze plaque
+        photo: eli-whitney-plaque.jpg
         lat: 41.33832
         lon: -72.91117
         note: >-
@@ -118,6 +142,7 @@ groups:
         deliberadamente duplicarlos.
     signs:
       - title: Geology of East Rock
+        photo: geology-of-east-rock.jpg
         lat: 41.32696
         lon: -72.91062
         note: >-
@@ -125,6 +150,7 @@ groups:
           geologic map of the ridge.
         extends: sign-11-east-rock
       - title: Mill River Watershed
+        photo: mill-river-watershed.jpg
         lat: 41.33510
         lon: -72.90992
         note: >-
@@ -132,12 +158,14 @@ groups:
           much of what a nature sign would otherwise say.
         extends: sign-07-tides
       - title: "Songbirds: Neotropical Migrants"
+        photo: songbirds.jpg
         lat: 41.33832
         lon: -72.91117
         note: >-
           Migration routes between here and South America. Worth knowing about
           before commissioning any more bird illustrations.
       - title: East Rock Park map
+        photo: east-rock-park-map.jpg
         lat: 41.33033
         lon: -72.90894
         note: Orientation map for the park and its trails.
@@ -147,6 +175,7 @@ groups:
       es: El parque Criscuolo y Fair Haven
     signs:
       - title: 29th Connecticut Volunteer Infantry (Colored) monument
+        photo: 29th-connecticut-monument.jpg
         lat: 41.30333
         lon: -72.90399
         note: >-
@@ -157,6 +186,7 @@ groups:
           sailed for Annapolis.
         extends: sign-08-grapevine-point
       - title: The Salt Marsh Wall
+        photo: salt-marsh-wall.jpg
         lat: 41.30410
         lon: -72.90247
         note: >-
@@ -164,6 +194,7 @@ groups:
           the species panels, and is the reason those pick different plants.
         extends: sign-07-tides
       - title: Fair Haven Walking Trails
+        photo: fair-haven-walking-trails.jpg
         lat: 41.30358
         lon: -72.90281
         note: >-
@@ -171,6 +202,7 @@ groups:
           Chatham Square Neighborhood Association, CARE at the Yale School of
           Public Health, and the City of New Haven.
       - title: Lea's Place
+        photo: leas-place.jpg
         lat: 41.30369
         lon: -72.90407
         note: >-

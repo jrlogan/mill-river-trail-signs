@@ -19,11 +19,12 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { loadSign, signFiles } from './load-signs.mjs';
 import { COLOR, GRID } from './theme.mjs';
+import {
+  bboxFor, fetchOSM, makeProjection, classify, geometriesOf, pathData, isClosed, t, escXML,
+} from './osm.mjs';
 import { LAYOUT, speciesTop } from './sign-template.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const CACHE = path.join(ROOT, '.cache', 'osm');
-const OVERPASS = 'https://overpass-api.de/api/interpreter';
 
 const args = process.argv.slice(2);
 const filter = args.find((a) => !a.startsWith('--'));
@@ -43,132 +44,9 @@ const ASPECT = PANEL.w / PANEL.h;
 // without losing the river to hairlines.
 const SPAN_LAT = 0.018;
 
-// --- geometry ---------------------------------------------------------------
-
-const merc = (lat) => Math.log(Math.tan(Math.PI / 4 + (lat * Math.PI) / 180 / 2));
-
-function makeProjection(bbox, size) {
-  const [s, w, n, e] = bbox;
-  const y0 = merc(n), y1 = merc(s);
-  return {
-    x: (lon) => ((lon - w) / (e - w)) * size.w,
-    y: (lat) => ((merc(lat) - y0) / (y1 - y0)) * size.h,
-  };
-}
-
-function bboxFor(lat, lon) {
-  const half = SPAN_LAT / 2;
-  // Longitude degrees shrink with latitude, so widen by 1/cos(lat) to keep the
-  // drawn map square-on rather than stretched.
-  const spanLon = (SPAN_LAT * ASPECT) / Math.cos((lat * Math.PI) / 180);
-  return [lat - half, lon - spanLon / 2, lat + half, lon + spanLon / 2];
-}
-
 // --- data -------------------------------------------------------------------
 
-function query(bbox) {
-  const b = bbox.join(',');
-  return `[out:json][timeout:90];
-(
-  way["natural"="water"](${b});
-  way["waterway"="riverbank"](${b});
-  relation["natural"="water"](${b});
-  way["waterway"~"^(river|stream|tidal_channel|canal)$"](${b});
-  way["natural"~"^(wetland|wood|scrub)$"](${b});
-  way["leisure"~"^(park|nature_reserve|pitch|garden)$"](${b});
-  way["landuse"~"^(grass|forest|recreation_ground|cemetery|meadow)$"](${b});
-  way["railway"~"^(rail|light_rail|disused|abandoned)$"](${b});
-  way["highway"~"^(motorway|motorway_link|trunk|trunk_link|primary|secondary|tertiary|residential|unclassified)$"](${b});
-  way["highway"~"^(path|cycleway)$"](${b});
-  way["highway"="footway"]["name"](${b});
-);
-out geom;`;
-}
-
-async function fetchOSM(id, bbox) {
-  await fs.mkdir(CACHE, { recursive: true });
-  const file = path.join(CACHE, `${id}.json`);
-  if (!force || redraw) {
-    try { return JSON.parse(await fs.readFile(file, 'utf8')); } catch {
-      if (redraw) throw new Error(`no cached OSM data for ${id}; run without --redraw first`);
-    }
-  }
-  process.stdout.write(`  … querying Overpass for ${id} `);
-
-  // Overpass is a shared public service and rate-limits or times out under
-  // load. Twelve signs is twelve chances to hit that, so back off and retry
-  // rather than failing the build on someone else's busy minute.
-  let json;
-  for (let attempt = 1; ; attempt++) {
-    try {
-      const res = await fetch(OVERPASS, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/x-www-form-urlencoded',
-          'User-Agent': 'mill-river-trail-signage/1.0 (interpretive signage build)',
-        },
-        body: new URLSearchParams({ data: query(bbox) }),
-      });
-      if (!res.ok) throw new Error(`Overpass ${res.status} ${res.statusText}`);
-      json = await res.json();
-      break;
-    } catch (e) {
-      if (attempt >= 4) throw e;
-      const wait = attempt * 5000;
-      process.stdout.write(`\n    ${e.message}; retrying in ${wait / 1000}s `);
-      await new Promise((r) => setTimeout(r, wait));
-    }
-  }
-  await fs.writeFile(file, JSON.stringify(json));
-  console.log(`(${json.elements.length} features)`);
-  return json;
-}
-
 // --- drawing ----------------------------------------------------------------
-
-const t = (e = {}) => e.tags || {};
-
-const escXML = (s = '') =>
-  String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-
-function classify(el) {
-  const g = t(el);
-  if (g.natural === 'water' || g.waterway === 'riverbank') return 'waterArea';
-  if (g.waterway) return 'waterLine';
-  if (g.natural === 'wetland') return 'wetland';
-  if (['wood', 'scrub'].includes(g.natural)) return 'green';
-  if (['park', 'nature_reserve', 'garden', 'pitch'].includes(g.leisure)) return 'green';
-  if (['grass', 'forest', 'recreation_ground', 'cemetery', 'meadow'].includes(g.landuse)) return 'green';
-  if (g.railway) return 'rail';
-  // Sidewalks are tagged footway too, and drawing them all buries the river.
-  // Keep cycleways, paths, and anything actually named as a trail.
-  if (g.highway === 'cycleway' || g.highway === 'path') return 'path';
-  if (g.highway === 'footway') return /trail|greenway|walk/i.test(g.name || '') ? 'path' : null;
-  if (g.highway) return ['motorway', 'trunk', 'primary', 'secondary'].includes(g.highway.replace('_link', ''))
-    ? 'roadMajor' : 'roadMinor';
-  return null;
-}
-
-const isClosed = (geom) =>
-  geom.length > 3 &&
-  geom[0].lat === geom.at(-1).lat &&
-  geom[0].lon === geom.at(-1).lon;
-
-// A relation's member ways are separate rings — outer boundaries and holes.
-// Concatenating them into one polyline draws a shape that never existed.
-function geometriesOf(el) {
-  if (el.geometry?.length) return [el.geometry];
-  return (el.members || []).map((m) => m.geometry).filter((g) => g?.length);
-}
-
-function pathData(geom, p, close) {
-  let d = '';
-  for (let i = 0; i < geom.length; i++) {
-    const g = geom[i];
-    d += `${i ? 'L' : 'M'}${p.x(g.lon).toFixed(1)} ${p.y(g.lat).toFixed(1)}`;
-  }
-  return close ? d + 'Z' : d;
-}
 
 function buildSVG(sign, data, bbox) {
   const size = { w: 1000, h: Math.round(1000 / ASPECT) };
@@ -372,8 +250,8 @@ for (const f of files) {
   }
 
   console.log(`▸ ${sign.id} — ${sign.location.name}`);
-  const bbox = bboxFor(sign.location.lat, sign.location.lon);
-  const data = await fetchOSM(sign.id, bbox);
+  const bbox = bboxFor(sign.location.lat, sign.location.lon, SPAN_LAT, ASPECT);
+  const data = await fetchOSM(sign.id, bbox, { force, redraw });
   await fs.mkdir(path.dirname(out), { recursive: true });
   await fs.writeFile(out, buildSVG(sign, data, bbox));
   console.log(`  ✓ ${path.relative(ROOT, out)}`);

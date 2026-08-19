@@ -323,6 +323,36 @@ positions are the camera's rather than an estimate. 18 signs are catalogued in
 `/en-el-sendero`, each linking to its coordinates and to the new sign that
 carries the story further.
 
+The page carries **a map of the whole trail** — every planned sign numbered,
+every existing sign a green dot — **a photograph of each existing sign**, and,
+where the text is worth keeping, **a transcript**.
+
+The photographs matter beyond illustration. Interpretive signs get removed,
+vandalised and replaced; a legible photograph with a coordinate and a date is a
+record that outlives the sign. The 2000px copies in `assets/web/existing/` are
+committed for that reason — the sign text is readable in them. The
+full-resolution originals stay out of the repository and live in the zip.
+
+### It corrected our own sign
+
+The Dam sign at the museum gives figures that **conflict with
+millrivertrail.com's history**, and the conflict has to be settled before print:
+
+| | Museum's sign at the dam | millrivertrail.com history |
+|---|---|---|
+| Dimensions | 38 ft tall, 500 ft long | raised 6 ft → 27 ft, then 31 ft |
+| Dates | opened 1862, expanded twice since | 1860, 1866, plus 19 in. in 1916 |
+
+Sign 4 now follows the museum, on the grounds that it is their dam and their
+sign stands at it, and drops the intermediate heights rather than print a
+contested number. **Someone should settle this properly.**
+
+It also supplied detail nothing else had: the dam's stone was quarried in place
+from Mill Rock and the northern ridge of East Rock; the reservoir stretched two
+miles north; three mills were submerged; three bridges and twenty other
+buildings were relocated, and oxen dragged the Town Bridge north to the crossing
+now called Davis Street.
+
 ### It answered a question in the notes
 
 The notes ask about *"the quarry scows that took the stone from here to

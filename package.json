@@ -6,12 +6,13 @@
   "description": "Mill River Trail interpretive signage — bilingual content, print artwork, and web pages generated from one source.",
   "scripts": {
     "map": "node build/make-map.mjs",
+    "overview": "node build/make-overview-map.mjs",
     "images": "node build/make-web-images.mjs",
     "check": "node build/check-links.mjs",
     "check:live": "node build/check-live.mjs",
     "sign": "node build/render-sign.mjs",
     "site": "node build/render-site.mjs",
-    "all": "node build/make-map.mjs && node build/make-web-images.mjs && node build/render-sign.mjs && node build/render-site.mjs && node build/check-links.mjs"
+    "all": "node build/make-map.mjs && node build/make-overview-map.mjs && node build/make-web-images.mjs && node build/render-sign.mjs && node build/render-site.mjs && node build/check-links.mjs"
   },
   "dependencies": {
     "jsqr": "^1.4.0",

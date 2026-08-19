@@ -54,6 +54,10 @@ const T = {
     existingTitle: 'Already on the Trail',
     existingLink: 'Signs already on the trail',
     extendsLabel: 'This project adds to it at',
+    mapHead: 'Where they are',
+    mapNote: 'Numbered markers are the signs this project is making. Green dots are signs already standing.',
+    transcriptHead: 'What it says',
+    photoNote: 'Photographed April 2021',
     footer: 'Mill River Trail — a community project in New Haven, Connecticut.',
     indexTitle: 'Mill River Trail — Historic Signs',
     indexLead:
@@ -73,6 +77,10 @@ const T = {
     existingTitle: 'Ya en el Sendero',
     existingLink: 'Letreros que ya están en el sendero',
     extendsLabel: 'Este proyecto lo amplía en',
+    mapHead: 'Dónde están',
+    mapNote: 'Los marcadores numerados son los letreros de este proyecto. Los puntos verdes son letreros que ya existen.',
+    transcriptHead: 'Lo que dice',
+    photoNote: 'Fotografiado en abril de 2021',
     footer: 'Mill River Trail — un proyecto comunitario en New Haven, Connecticut.',
     indexTitle: 'Mill River Trail — Letreros Históricos',
     indexLead:
@@ -168,6 +176,26 @@ li.existing p { margin: 0 0 0.45rem; font-size: 0.98rem; color: var(--muted); }
 li.existing .meta { font-size: 0.88rem; margin: 0; }
 li.existing .meta a { color: var(--blue); font-weight: 700; text-decoration: none; }
 li.existing .meta a:hover { text-decoration: underline; }
+figure.ex-photo { margin: 0 0 0.8rem; }
+figure.ex-photo img {
+  width: 100%; height: auto; display: block; border-radius: 5px;
+  background: var(--bg); border: 1px solid var(--rule);
+}
+figure.ex-photo figcaption { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; }
+details.transcript { margin: 0 0 0.6rem; }
+details.transcript summary {
+  cursor: pointer; font-weight: 700; font-size: 0.92rem; color: var(--blue);
+  padding: 0.2rem 0;
+}
+details.transcript p {
+  margin: 0.5rem 0 0; padding-left: 0.9rem; border-left: 3px solid var(--gold);
+  font-size: 0.95rem; color: var(--fg);
+}
+figure.overview {
+  margin: 1rem 0 2.5rem; background: var(--card); border: 1px solid var(--rule);
+  border-radius: 8px; padding: 10px;
+}
+figure.overview img { width: 100%; height: auto; display: block; border-radius: 4px; }
 .sources-note { font-size: 0.95rem; color: var(--muted); margin: 0.2rem 0 0.6rem; }
 .ack { font-size: 0.95rem; color: var(--muted); line-height: 1.6; }
 
@@ -335,8 +363,17 @@ function existingPage(lang, data, signs, otherHref) {
         : null;
       return `
         <li class="existing">
+          ${sn.photo ? `<figure class="ex-photo">
+            <img src="../images/existing/${encodeURIComponent(sn.photo)}"
+                 alt="${esc(sn.title)}, photographed on the trail" loading="lazy">
+            <figcaption>${esc(t.photoNote)}</figcaption>
+          </figure>` : ''}
           <h3>${esc(sn.title)}</h3>
           ${sn.note ? `<p>${esc(sn.note)}</p>` : ''}
+          ${sn.transcript ? `<details class="transcript">
+            <summary>${esc(t.transcriptHead)}</summary>
+            <p>${esc(sn.transcript)}</p>
+          </details>` : ''}
           <p class="meta">
             <a href="https://www.google.com/maps/search/?api=1&amp;query=${sn.lat},${sn.lon}"
                rel="noopener">${sn.lat.toFixed(5)}, ${sn.lon.toFixed(5)}</a>
@@ -376,6 +413,12 @@ function existingPage(lang, data, signs, otherHref) {
   </nav>
 </div></header>
 <main><div class="wrap">
+  <h2>${esc(t.mapHead)}</h2>
+  <p class="lede">${esc(t.mapNote)}</p>
+  <figure class="overview">
+    <img src="../images/overview-map.svg" alt="Map of the Mill River from Lake Whitney down to the harbour, with numbered markers for the thirteen planned signs and green dots for the eighteen already standing.">
+  </figure>
+
   ${groups}
   <p class="ack">${esc(lang === 'en'
     ? `${count} signs catalogued from photographs taken along the trail in April 2021. Positions come from the camera. If one has gone, or a new one has appeared, it should be corrected here.`
@@ -397,6 +440,19 @@ for (const f of (await fs.readdir(dir)).filter((f) => f.endsWith('.yml') && !f.s
 }
 
 await fs.writeFile(path.join(OUT, 'style.css'), css());
+
+// Shared imagery: the trail overview map and the existing-signage photographs.
+await fs.mkdir(path.join(OUT, 'images', 'existing'), { recursive: true });
+await fs.copyFile(
+  path.join(ROOT, 'assets', 'images', 'overview-map.svg'),
+  path.join(OUT, 'images', 'overview-map.svg')
+).catch(() => console.warn('  ⚠ no overview map — run: node build/make-overview-map.mjs'));
+for (const f of await fs.readdir(path.join(ROOT, 'assets', 'web', 'existing')).catch(() => [])) {
+  await fs.copyFile(
+    path.join(ROOT, 'assets', 'web', 'existing', f),
+    path.join(OUT, 'images', 'existing', f)
+  );
+}
 
 for (const sign of signs) {
   const slugEn = sign.urls.en.split('/').pop();
