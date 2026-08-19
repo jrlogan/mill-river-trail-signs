@@ -434,6 +434,56 @@ Not covered anywhere yet. The notes list Lake Whitney recreational use and the
 ice house among things to learn more about. This is a good candidate for a
 future sign.
 
+
+## Sign 5 is now sourced from the newspapers
+
+The Library of Congress blocks direct fetches of Chronicling America page
+images, but its item API exposes the underlying IIIF service and the ALTO OCR
+XML, which are not blocked. That gave both the text of the two bath house
+reports and coordinates precise enough to crop the clippings out of the page
+scans. Both are on the sign's page.
+
+**New Haven Morning Journal and Courier, 25 May 1880, "The Bath Houses":** the
+bath house committee had decided a deep water tank at the Beach Street bath
+house was impracticable that season — to build one they would have to "move the
+present bath house further out into the stream and then fill in Beach street out
+to it," and neither the appropriation nor the lateness of the season allowed it.
+A deep water tank at the West bridge bath house was still under consideration.
+"It is thought that both bath houses will be opened to the public on the first of
+June."
+
+**The same paper, 4 October 1881,** reporting the committee's account of the
+season: it recommended the Beach Street bath house be removed to Neck Bridge and
+made a floating tank, and "that a floating bath be built on the east side of
+Chapel street bridge on Mill river, or at such point thereabouts as will be
+found most suitable."
+
+So the following are now established rather than assumed: New Haven had **two**
+municipal bath houses by 1880, at Beach Street and the West bridge; a standing
+**committee on bath houses** managed them and reported each season; they opened
+to the public on **1 June**; and a **floating bath on the Mill River at the
+Chapel Street bridge** was formally recommended in the autumn of 1881.
+
+### Two things this raises
+
+- **The sign may be in the wrong place.** Its KMZ point is below Humphrey Street,
+  but the documented Mill River locations are the **Chapel Street bridge** and
+  **Neck Bridge** at State Street. The Chapel Street bridge is beside Criscuolo
+  Park, which is sign 8's ground. Worth deciding whether sign 5 moves, or whether
+  its copy simply describes both sites.
+- **Still open:** whether the Chapel Street floating bath was ever built, how
+  long any of them lasted, and whether they were free. The reports read as
+  though they were, but they do not say so.
+
+### The method is reusable
+
+`https://www.loc.gov/item/{lccn}/{date}/ed-1/?fo=json` returns, per page, the
+ALTO XML and the IIIF image base. Search the ALTO for a phrase, take the
+TextLine coordinates, scale by the ratio of the jp2 pixel size to the ALTO page
+size, and request that region from IIIF. That is how to get any other clipping
+this project wants — the Fenian Ram pages from 1881, 1885 and 1887 are all in
+the notes and all reachable this way.
+
 ## Sign inventory
 
 Thirteen signs. All twelve KMZ locations plus William Lanson. Signs 1-4 have
