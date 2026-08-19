@@ -72,37 +72,37 @@ push to `main`:
 - Repository: <https://github.com/jrlogan/mill-river-trail-signs>
 - Currently serving at <https://jrlogan.github.io/mill-river-trail-signs/>
 
-**One step left, and it is yours: the DNS record.** At Hover (which runs DNS for
-millrivertrail.com — the nameservers are `ns1.hover.com` / `ns2.hover.com`):
+**Live at <https://signs.millrivertrail.com/>.** The `signs` CNAME is in place at
+Hover pointing to `jrlogan.github.io`, the custom domain is set on the repo, and
+Let's Encrypt has issued a certificate (`CN = signs.millrivertrail.com`, valid to
+17 Nov 2026 and auto-renewing).
 
-| Field | Value |
-|---|---|
-| Type | `CNAME` |
-| Hostname | `signs` |
-| Target | `jrlogan.github.io` |
-| TTL | default is fine |
+The apex `A` record and the `www` CNAME to Google Sites were not touched — the
+main site is unaffected.
 
-This only creates `signs.millrivertrail.com`. It does not touch the `A` record
-for the apex or the `www` CNAME pointing at Google Sites, so the main site is
-unaffected.
+Verified end to end: the QR codes were scanned back out of the finished artwork
+and fetched over the network.
 
-Once that record resolves, set the custom domain on the repo:
-
-```bash
-gh api -X PUT repos/jrlogan/mill-river-trail-signs/pages -f cname=signs.millrivertrail.com
-gh api -X POST repos/jrlogan/mill-river-trail-signs/pages -F https_enforced=true
+```
+▸ sign-01-submarine — Famous Stolen Submarine
+  ✓ en  https://signs.millrivertrail.com/submarine
+      → HTTP 200  "Famous Stolen Submarine — Mill River Trail"  lang=en
+  ✓ es  https://signs.millrivertrail.com/submarino
+      → HTTP 200  "Famoso Submarino Robado — Mill River Trail"  lang=es
 ```
 
-GitHub then issues a Let's Encrypt certificate automatically, usually within
-about fifteen minutes.
+Re-run that any time with `npm run check:live`.
 
-**Do not set the custom domain before the DNS record exists** — Pages will start
-redirecting the working `github.io` URL to a hostname that does not resolve, and
-the site goes dark until DNS catches up.
+### Two small follow-ups
 
-**Then, before fabrication:** scan the printed proof with an actual phone. The
-build proves the QR codes encode the right URL and that the URL matches a page
-that was built. Only a phone proves the whole chain works.
+- **HTTP-to-HTTPS redirect.** `https_enforced` is set on the repo, but the Pages
+  edge is still answering plain `http://` with a 200 instead of redirecting.
+  This lag is normal and usually settles within a day. It is not a functional
+  problem — the QR codes encode `https://` explicitly, so a scan never touches
+  HTTP. Worth re-checking before fabrication.
+- **Scan the printed proof with an actual phone** anyway, once it comes back from
+  the fabricator. Everything above tests the digital chain; only a phone tests
+  ink on metal at the size and contrast it was actually printed.
 
 Because the subdomain is under your control, the destination can be redirected
 later without touching any sign already in the ground.

@@ -59,11 +59,23 @@ failure modes that actually bite:
   exits non-zero rather than shipping clipped text.
 - **QR targets.** After rendering, the build scans the QR codes back out of the
   finished artwork and checks each one encodes the URL printed beside it.
-- **Live destinations.** `build/check-links.mjs` then proves every printed URL
-  points at a page that actually got built, on the domain the site deploys to.
-  It runs in CI before publishing, and fails the deploy on any mismatch — this
-  is the check that would have caught `millrivertrail.com/submarine` being
-  printed on a comp while returning a 404.
+- **Built destinations.** `build/check-links.mjs` proves every printed URL points
+  at a page that actually got built, on the domain the site deploys to. It runs
+  in CI before publishing and fails the deploy on any mismatch — this is the
+  check that would have caught `millrivertrail.com/submarine` being printed on a
+  comp while returning a 404.
+- **Live destinations.** `npm run check:live` scans the QR codes out of the
+  finished artwork and fetches them over the network, the way a phone would,
+  then confirms each one serves the right page in the right language. Run it
+  before releasing artwork to the fabricator.
+
+Together:
+
+```
+render-sign    the QR encodes the URL printed beside it
+check-links    that URL matches a page the build produced
+check-live     that URL is served, over HTTPS, and serves the right page
+```
 
 Both appear in the build log:
 
