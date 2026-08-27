@@ -349,7 +349,7 @@ export function signHTML(sign, { qrEn, qrEs, diagramAspect = null, assetBase = '
 
   return `<!doctype html>
 <html lang="en"><head><meta charset="utf-8">
-<title>${esc(sign.title.en)} — Mill River Trail Sign ${sign.number}</title>
+<title>${esc(sign.title.en)} — Mill River Trail${sign.walk ? ` Sign ${sign.walk} of 10` : ''}</title>
 <style>${signCSS()}</style>
 </head><body>
 <div class="sign">

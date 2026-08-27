@@ -3,6 +3,7 @@ id: sign-06-tide-gate
 number: 6
 status: draft
 tier: primary
+walk: 4
 
 location:
   name: Tide Gate and Fish Migration

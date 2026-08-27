@@ -2655,3 +2655,70 @@ about this river?** It removed Lanson's stone from the Mill, it removed Dragon
 Point from the ten, and it is why Ingersoll's midnight race is captioned on sign
 12 as a Quinnipiac event. The trail is named after a river, and the discipline of
 holding to it has made every sign it touched more specific, not less interesting.
+
+
+## Numbering: what the numbers are for, and what they now are
+
+JR: *"The numbering is wrong. Do they need numbers?"*
+
+He was right that they were wrong — after the merge and the reshuffle the ten
+read 1, 2, 3, 4, 5, 6, 8, 10, 11, 13, with gaps where the alternates used to sit.
+The numbers were an artefact of the order the signs happened to be drafted in.
+
+### First, a useful fact: the number is not on the sign
+
+Checked every use before changing anything. The number appears in exactly three
+places, and **the face of the printed sign is not one of them**:
+
+1. the numbered markers on the **overview map**;
+2. the **kicker** on the website;
+3. the **document title** of the print file, which is metadata nobody sees.
+
+So the answer to "do they need numbers?" is: **only where a number helps someone
+find something.** In drafting order they were noise. Tied to the map, they are
+wayfinding.
+
+### What they are now
+
+The ten carry a **`walk`** number, **1 at the Whitney dam down to 10 at the mouth
+at Criscuolo Park**, in the order you meet them going downstream:
+
+| walk | sign | file |
+|---|---|---|
+| 1 | The Dam That Fought Fires | sign-04 |
+| 2 | A Boat on the Rock | sign-11 |
+| 3 | The Highway That Wasn't | sign-10 |
+| 4 | The Gate in the River | sign-06 |
+| 5 | Famous Stolen Submarine | sign-01 |
+| 6 | Where the City Bathed | sign-05 |
+| 7 | The Box Factory and the Bridge | sign-03 |
+| 8 | The Island and the Powerhouse | sign-02 |
+| 9 | King Lanson's River | sign-13 |
+| 10 | Camp at Grapevine Point | sign-08 |
+
+The sequence now means something: **it starts where the herring stop and ends
+where the two rivers meet.**
+
+### `walk` and `number` are deliberately different
+
+**`number` stays as it is** — it matches the filename and the asset directory
+(`sign-04-whitney.yml`, `assets/images/sign-04/`) and is the stable internal id.
+Renumbering the files would have meant moving the print masters on somebody's
+laptop, and those are the one thing this project cannot regenerate.
+
+**`walk` is the public number.** Signs held in reserve have none, so nothing has
+to be renumbered when the ten changes — take a sign out of the walk and the
+sequence closes up by itself.
+
+### Everything downstream follows automatically
+
+- **Web kicker:** *"Mill River Trail · Sign 7 of 10"*, or *"· Alternate"*, or
+  *"· Unwritten"* for sign 14, which is not an alternate and should not be
+  labelled as one.
+- **Overview map:** the ten get solid numbered markers; alternates get a smaller
+  hollow marker — visible, plainly not part of the sequence; existing signs stay
+  plain dots. Three categories the eye can separate at a glance.
+- **Index order within the ten is now walk order, not readiness order.** A
+  numbered list has to ascend or it reads as a bug. Readiness is still legible on
+  every card from the dot bar, and the tier groups still separate the ten from
+  the rest. **If the readiness sort matters more, it is a one-line change.**

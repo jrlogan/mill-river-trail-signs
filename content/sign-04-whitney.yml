@@ -10,6 +10,7 @@ id: sign-04-whitney
 number: 4
 status: proof            # draft | proof | approved | printed
 tier: primary
+walk: 1
 
 location:
   name: Eli Whitney Museum / Lake Whitney

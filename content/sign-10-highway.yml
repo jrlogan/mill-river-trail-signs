@@ -3,6 +3,7 @@ id: sign-10-highway
 number: 10
 status: draft
 tier: primary
+walk: 3
 
 location:
   name: Highway over River Plan / Fresh Water Tidal

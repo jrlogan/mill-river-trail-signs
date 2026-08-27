@@ -9,6 +9,7 @@ id: sign-02-ball-island
 number: 2
 status: proof            # draft | proof | approved | printed
 tier: primary
+walk: 8
 
 location:
   name: Ball Island / English Station / Industrial History

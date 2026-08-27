@@ -85,16 +85,24 @@ const group = (cls, attrs) =>
     ? `<g ${attrs}>${buckets[cls].map((d) => `<path d="${d}"/>`).join('')}</g>`
     : '';
 
-// Project markers are numbered; existing signs are plain dots, so the eye can
-// separate "what we are adding" from "what is already there" at a glance.
+// The ten get solid numbered markers, 1 at the dam down to 10 at the mouth, so
+// the map reads as a walk. Signs held in reserve get a smaller hollow marker —
+// visible, but plainly not part of the sequence. Existing signs are plain dots,
+// so the eye can separate all three at a glance.
 const projectMarkers = signs
   .map((s) => {
     const x = p.x(s.location.lon), y = p.y(s.location.lat);
+    if (!s.walk) {
+      return `
+  <g class="mk mk-alt" data-sign="${escXML(s.id)}">
+    <circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="10" fill="#fff" stroke="#E03127" stroke-width="3.5"/>
+  </g>`;
+    }
     return `
   <g class="mk" data-sign="${escXML(s.id)}">
     <circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="17" fill="#E03127" stroke="#fff" stroke-width="3.5"/>
     <text x="${x.toFixed(1)}" y="${(y + 6.5).toFixed(1)}" text-anchor="middle"
-          font-family="Archivo, sans-serif" font-weight="800" font-size="18" fill="#fff">${s.number}</text>
+          font-family="Archivo, sans-serif" font-weight="800" font-size="18" fill="#fff">${s.walk}</text>
   </g>`;
   })
   .join('');

@@ -80,7 +80,11 @@ function md(src = '', figures = []) {
 
 const T = {
   en: {
-    kicker: (n) => `Mill River Trail · Sign ${n}`,
+    // `walk` is the sign's place on the walk, 1-10 from the dam down to the
+    // mouth. The `number` in the filename is a stable internal id and does not
+    // match it. Signs held in reserve are not on the walk and get no number.
+    kicker: (n, placeholder) => (n ? `Mill River Trail · Sign ${n} of 10`
+      : placeholder ? 'Mill River Trail · Unwritten' : 'Mill River Trail · Alternate'),
     other: 'Español', otherLabel: 'Leer en español',
     galleryHead: 'Images',
     sourcesHead: 'Sources and further reading',
@@ -108,7 +112,7 @@ const T = {
     existingLink: 'Signs already on the trail',
     extendsLabel: 'This project adds to it at',
     mapHead: 'Where they are',
-    mapNote: 'Numbered markers are the signs this project is making. Green dots are signs already standing.',
+    mapNote: 'Numbered markers are the ten signs, counted from the dam down to the mouth. Hollow markers are written but held in reserve. Green dots are signs already standing.',
     transcriptHead: 'What it says',
     photoNote: 'Photographed April 2021',
     footer: 'Mill River Trail — a community project in New Haven, Connecticut.',
@@ -119,7 +123,8 @@ const T = {
       'Scan its QR code, or start here.',
   },
   es: {
-    kicker: (n) => `Mill River Trail · Letrero ${n}`,
+    kicker: (n, placeholder) => (n ? `Mill River Trail · Letrero ${n} de 10`
+      : placeholder ? 'Mill River Trail · Sin escribir' : 'Mill River Trail · Alternativo'),
     other: 'English', otherLabel: 'Read in English',
     galleryHead: 'Imágenes',
     sourcesHead: 'Fuentes y lecturas adicionales',
@@ -147,7 +152,7 @@ const T = {
     existingLink: 'Letreros que ya están en el sendero',
     extendsLabel: 'Este proyecto lo amplía en',
     mapHead: 'Dónde están',
-    mapNote: 'Los marcadores numerados son los letreros de este proyecto. Los puntos verdes son letreros que ya existen.',
+    mapNote: 'Los marcadores numerados son los diez letreros, contados desde la presa hasta la desembocadura. Los marcadores huecos están escritos pero en reserva. Los puntos verdes son letreros que ya existen.',
     transcriptHead: 'Lo que dice',
     photoNote: 'Fotografiado en abril de 2021',
     footer: 'Mill River Trail — un proyecto comunitario en New Haven, Connecticut.',
@@ -370,7 +375,7 @@ ${hero ? `<meta property="og:image" content="${imgDir}/${encodeURIComponent(hero
 
 <header class="top">
   <div class="wrap">
-    <p class="kicker">${esc(t.kicker(sign.number))}</p>
+    <p class="kicker">${esc(t.kicker(sign.walk, sign.status === 'placeholder'))}</p>
     <h1>${esc(sign.title[lang])}</h1>
     <p class="subtitle">${esc(w.subtitle[lang])}</p>
     <nav class="langbar">
@@ -485,7 +490,7 @@ function indexPage(lang, signs) {
   // Tier first — the ten we promised — then, inside each tier, how close to done.
   const tierRank = (s) => (s.tier === 'primary' ? 0 : s.tier === 'alternate' ? 1 : 2);
   const ordered = [...signs].sort((a, b) =>
-    tierRank(a) - tierRank(b) || a.rdy.missing - b.rdy.missing || a.number - b.number);
+    tierRank(a) - tierRank(b) || (a.walk || 99) - (b.walk || 99) || a.number - b.number);
 
   const tierHeads = [t.tierPrimary, t.tierAlternate, t.grpPlaceholder];
   const tierNotes = [t.tierPrimaryNote, t.tierAlternateNote, t.signPlaceholder];
@@ -504,7 +509,7 @@ function indexPage(lang, signs) {
          <span class="progresslabel">${esc(t.imgCount(s.rdy.have, s.rdy.need))}</span>`
       : '';
     return `${head}<li><a href="${slug}/">
-        <span class="n">${esc(t.kicker(s.number))}</span>
+        <span class="n">${esc(t.kicker(s.walk, s.status === 'placeholder'))}</span>
         <h2>${esc(s.title[lang])}</h2>
         <p>${esc(s.web.subtitle[lang])}</p>
         <p class="rdy">${bar}</p>

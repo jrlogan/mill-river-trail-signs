@@ -3,6 +3,7 @@ id: sign-08-grapevine-point
 number: 8
 status: draft
 tier: primary
+walk: 10
 
 location:
   name: Chapel Street Bridge / Criscuolo Park

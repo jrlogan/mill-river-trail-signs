@@ -8,6 +8,7 @@ id: sign-03-bridges
 number: 3
 status: proof            # draft | proof | approved | printed
 tier: primary
+walk: 7
 
 location:
   name: Railway Bridge
