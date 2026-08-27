@@ -9,6 +9,7 @@
 id: sign-01-submarine
 number: 1
 status: proof            # draft | proof | approved | printed
+tier: primary
 # When a plate goes up, set status: printed and add the date, so a future
 # reader can tell which text is on the metal and which is only online.
 # printed: 2026-09-14

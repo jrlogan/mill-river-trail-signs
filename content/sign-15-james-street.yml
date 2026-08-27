@@ -14,6 +14,7 @@
 id: sign-15-james-street
 number: 15
 status: draft
+tier: alternate
 
 location:
   name: 370 James Street

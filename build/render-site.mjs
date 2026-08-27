@@ -89,6 +89,10 @@ const T = {
     signHead: 'The sign at this spot',
     progressHead: 'How far along each sign is',
     progressNote: 'Sorted by how close each one is to being finished. The count is photographs sourced out of photographs needed — that is the only thing still holding most of these back.',
+    tierPrimary: 'The ten',
+    tierPrimaryNote: 'The commitment is ten signs. These are the ten, chosen for the strength of the story rather than for how finished they are.',
+    tierAlternate: 'Alternates',
+    tierAlternateNote: 'Written, and just as real — held in reserve, or for a later phase.',
     grpReady: 'Artwork complete — ready to proof',
     grpNearly: 'Nearly there',
     grpDrafting: 'Still gathering pictures',
@@ -124,6 +128,10 @@ const T = {
     signHead: 'El letrero en este punto',
     progressHead: 'Cómo va cada letrero',
     progressNote: 'Ordenados según lo cerca que están de estar terminados. La cuenta es de fotografías conseguidas sobre fotografías necesarias: es lo único que frena a casi todos.',
+    tierPrimary: 'Los diez',
+    tierPrimaryNote: 'El compromiso es de diez letreros. Estos son los diez, elegidos por la fuerza de la historia y no por lo terminados que estén.',
+    tierAlternate: 'Alternativos',
+    tierAlternateNote: 'Escritos, y igual de reales: en reserva, o para una fase posterior.',
     grpReady: 'Arte completo: listo para revisión',
     grpNearly: 'Casi listos',
     grpDrafting: 'Aún reuniendo imágenes',
@@ -294,6 +302,7 @@ footer a { color: var(--blue); font-weight: 600; }
 
 .progressnote{max-width:46rem;margin:0 0 2rem;opacity:.75;font-size:.95rem;line-height:1.5}
 .grouphead{list-style:none;margin:2.2rem 0 .6rem;padding:0;border:0;background:none}
+.groupnote{margin:.35rem 0 0;font-size:.9rem;line-height:1.5;opacity:.7;letter-spacing:0;text-transform:none;font-weight:400;max-width:44rem}
 .grouphead h3{margin:0;font-size:.82rem;letter-spacing:.09em;text-transform:uppercase;opacity:.6;font-weight:700}
 .grouphead:first-child{margin-top:0}
 .rdy{margin:.5rem 0 0;display:flex;gap:.6rem;align-items:baseline;flex-wrap:wrap}
@@ -473,17 +482,22 @@ function indexPage(lang, signs) {
   const t = T[lang];
   const footerHTML = footer(lang, t, signs[0]?.project);
 
+  // Tier first — the ten we promised — then, inside each tier, how close to done.
+  const tierRank = (s) => (s.tier === 'primary' ? 0 : s.tier === 'alternate' ? 1 : 2);
   const ordered = [...signs].sort((a, b) =>
-    a.rdy.group - b.rdy.group || a.rdy.missing - b.rdy.missing || a.number - b.number);
+    tierRank(a) - tierRank(b) || a.rdy.missing - b.rdy.missing || a.number - b.number);
 
-  const heads = [t.grpReady, t.grpNearly, t.grpDrafting, t.grpPlaceholder];
-  let lastGroup = null;
+  const tierHeads = [t.tierPrimary, t.tierAlternate, t.grpPlaceholder];
+  const tierNotes = [t.tierPrimaryNote, t.tierAlternateNote, t.signPlaceholder];
+  let lastTier = null;
   const items = ordered.map((s) => {
     const slug = lang === 'en' ? s.urls.en.split('/').pop() : s.urls.es.split('/').pop();
     let head = '';
-    if (s.rdy.group !== lastGroup) {
-      lastGroup = s.rdy.group;
-      head = `<li class="grouphead"><h3>${esc(heads[s.rdy.group])}</h3></li>\n      `;
+    const tr = tierRank(s);
+    if (tr !== lastTier) {
+      lastTier = tr;
+      head = `<li class="grouphead"><h3>${esc(tierHeads[tr])}</h3>`
+           + `<p class="groupnote">${esc(tierNotes[tr])}</p></li>\n      `;
     }
     const bar = s.rdy.need
       ? `<span class="progress" aria-hidden="true">${'●'.repeat(s.rdy.have)}${'○'.repeat(s.rdy.missing)}</span>
@@ -521,7 +535,6 @@ function indexPage(lang, signs) {
   </div>
 </header>
 <main><div class="wrap">
-  <p class="progressnote">${esc(t.progressNote)}</p>
   <ul class="signlist">
       ${items}
   </ul>

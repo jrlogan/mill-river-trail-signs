@@ -2379,3 +2379,109 @@ never fails the build.
 derived from what is in version control.** The repository is the only thing both
 environments share. This applies to any future status, progress or completeness
 indicator: if it reads the disk, it is telling you about one laptop.
+
+
+## Ten signs, and which ten
+
+The commitment JR made was **ten signs**. Fifteen are written. So the content
+files now carry a **`tier`** field — `primary`, `alternate` or `placeholder` —
+and the site groups by it: **The ten**, then **Alternates**, then the
+deliberately unwritten one. Within each group they still sort by how close to
+finished they are.
+
+Changing the ten is a one-word edit in one file. That is the point.
+
+### The ten, chosen for the story rather than for how finished it is
+
+| # | Sign | Why it is in |
+|---|---|---|
+| 1 | Fenian Ram | A stolen submarine in a shed on this river for 33 years. Nothing else is like it. |
+| 2 | The Island and the Powerhouse | Salt meadow to power station to a live contamination fight. See below. |
+| 4 | The Dam That Fought Fires | The 1642 mill that named the river, the armory, the water supply, and the herring that still stop here. |
+| 5 | Where the City Bathed | An elected office, ten deadlocked ballots, anonymous letters, and a keeper credited with fifteen lives. |
+| 6 | The Gate in the River | The 1917 Olmsted letter, and the place the state says the sea legally ends. |
+| 8 | Camp at Grapevine Point | The 29th Connecticut. The most consequential story in the series. |
+| 10 | The Highway That Wasn't | A neighbourhood fight that put a law in the statute book a year before the federal one. |
+| 11 | A Boat on the Rock | Milton Stewart building ocean-going oyster boats on a clifftop and sledging them down over snow. |
+| 12 | Dragon Point | Oysters, armed watch houses, and the outbreak that first proved oysters carry typhoid. |
+| 13 | King Lanson's River | The most consequential person on the trail. |
+
+### The five that are not
+
+- **3, Three Bridges North** — and this is the uncomfortable one, because **its
+  artwork is complete**. It is a competent sign about rail bridges and it is
+  finished, but the story is the thinnest in the set. Being done is not the same
+  as being best. If the ten needs a swap for a finished sign, this is the one to
+  promote.
+- **7, Twice a Day, the Sea** — JR's call, and right. The tidal material is
+  genuinely interesting but it is natural history without a human in it, and
+  signs 6 and 12 already carry the tide.
+- **9, A Century of Plans** — JR's call. It is the most abstract sign in the
+  series, and its best material (the connector, the built park) now lives on
+  signs 10 and 2 anyway.
+- **15, The Box and the Jacket** — the hard one to leave out, because it is the
+  most publicly magnetic story on the river. It stays an alternate only because
+  it is brand new and has no images yet. **If the images come through from the
+  New Haven Museum, this has a real claim on a place in the ten.**
+- **14, First People** — its own category. Never prints as it stands.
+
+## English Station is now the front of sign 2
+
+JR: *"I am surprised we don't have anything about English Station as such a
+notable landmark with modern controversy."* It was in sign 2 — as one sentence,
+near the end, under the title *Marsh, Mud and Meadow*, which signals nothing.
+
+Fixed by promotion, not addition:
+
+- **Retitled "The Island and the Powerhouse"** / *"La Isla y la Central."* The
+  URL is unchanged — still `/ball-island` — so nothing printed is affected.
+- **The printed panel now ends on the building the reader is looking at**, not on
+  Eli Barnes's inn: 1890 plant, 1929 English Station, ran to 1992, *"still
+  standing, empty, and still being argued over."*
+- **The web page gains a section, "The building that is still an argument."**
+
+### The controversy, dated on purpose
+
+Verified and sourced to CT Mirror and the New Haven Independent:
+
+- Cleaning up English Station was made **a condition of the merger** that folded
+  United Illuminating into **Avangrid**.
+- A **2016 partial consent order** gave UI three years to get PCBs inside the
+  building to 1 ppm.
+- It did not happen. **January 2024:** the Attorney General sued to enforce.
+- **August 2025:** a judge found the order ambiguous — the state reads it as
+  covering everything inside containing PCBs, the company as covering only where
+  PCBs were spilled — and sent it back to DEEP.
+- **Late 2025:** remediation restarting; the city weighing what the site becomes.
+
+Every step is dated, and the section closes by telling the reader outright that
+the sequence is current to the end of 2025 and has probably moved on. **That is
+the fix for the present-tense trap** the Exchange Street caption fell into: you
+cannot keep a live controversy current on metal, but you can date it honestly and
+say so.
+
+The connection worth keeping: this is the same argument the river has been having
+since the 1880s — where the line falls between what a company spilled and what a
+company owes.
+
+## Salt hay: JR's lead, and what the sign now says
+
+JR had heard livestock grazed the salt hay on Ball Island. The sign already said
+*"by the 1830s people were cutting salt hay from it"* and left it there, which
+undersold it — and left the word **Meadow** in the old title unexplained.
+
+The regional practice is very well documented: **salt meadows were a working
+agricultural asset, not waste ground.** *Spartina patens* was the preferred salt
+hay, cut by hand at low tide in late summer, and where it was not cut it was
+grazed. In New England towns the salt meadows were commonly **town-owned, with
+the rights to mow and carry away the hay auctioned off annually**. Cattle were
+sometimes finished on salt hay because it was held to improve the meat.
+
+Sign 2 now says the land *"was called worthless, which was never quite true: a
+salt meadow was a working asset, cut for hay and grazed."*
+
+**Not yet verified for Ball Island specifically** — the grazing, and whether New
+Haven auctioned mowing rights here. **This is a very good Whitney Library
+question**, and the New Haven town records that produced the 1642 mill case are
+the same series that would record salt meadow allotments. Worth asking Colin,
+who may simply know.

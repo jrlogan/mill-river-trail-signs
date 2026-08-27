@@ -8,6 +8,7 @@
 id: sign-02-ball-island
 number: 2
 status: proof            # draft | proof | approved | printed
+tier: primary
 
 location:
   name: Ball Island / English Station / Industrial History
@@ -24,8 +25,8 @@ urls:
 # Echoes the opening line of the sign, which is also the thing most people
 # standing here would never guess about the ground under them.
 title:
-  en: Marsh, Mud and Meadow
-  es: Marisma, Lodo y Pradera
+  en: The Island and the Powerhouse
+  es: La Isla y la Central
 
 sign:
 
@@ -55,21 +56,25 @@ sign:
       en: >-
         The Mill River splits here to form Ball Island, named after 1641 for
         Allen Ball, a farmer working for New Haven's founder John Davenport. The
-        land flooded constantly and was long considered worthless; by the 1830s
-        people were cutting salt hay from it. Around 1812 Eli Barnes built an inn
-        on Grand Avenue, the Lafayette Hotel, and the corner became known as
-        Barnesville. Barnes helped pay for the first bridge across the river here
-        in 1819. After the New Haven and Hartford Railroad opened in 1839,
-        industry took the riverbank.
+        land flooded constantly and was called worthless, which was never quite
+        true: a salt meadow was a working asset, cut for hay and grazed, and
+        people were taking salt hay off this ground into the 1830s. Then the
+        railroad came in 1839 and industry took the bank. In 1890 one of the
+        country's earliest generating stations was built on the island; in 1929
+        its successor, **English Station**, began burning coal and oil in the
+        middle of the river. It ran until 1992. It is still standing, empty, and
+        still being argued over.
       es: >-
         El río Mill se divide aquí y forma la isla Ball, llamada así desde 1641
-        por Allen Ball, un agricultor al servicio de John Davenport, fundador de
-        New Haven. La tierra se inundaba sin parar y durante mucho tiempo se
-        consideró inútil; hacia 1830 ya se segaba heno salado en ella. Cerca de
-        1812 Eli Barnes construyó una posada en Grand Avenue, el Hotel Lafayette,
-        y la esquina pasó a llamarse Barnesville. Barnes ayudó a pagar el primer
-        puente sobre el río en 1819. Tras la apertura del ferrocarril de New
-        Haven y Hartford en 1839, la industria se apoderó de la ribera.
+        por Allen Ball, agricultor al servicio de John Davenport, fundador de New
+        Haven. La tierra se inundaba sin parar y se la llamaba inútil, lo que
+        nunca fue del todo cierto: una pradera salada era un bien productivo, se
+        segaba para heno y se pastoreaba, y aquí se estuvo sacando heno salado
+        hasta la década de 1830. Luego llegó el ferrocarril en 1839 y la
+        industria se quedó la orilla. En 1890 se levantó en la isla una de las
+        primeras centrales eléctricas del país; en 1929 su sucesora, **English
+        Station**, empezó a quemar carbón y fuel en medio del río. Funcionó hasta
+        1992. Sigue en pie, vacía, y sigue siendo objeto de litigio.
 
   images:
     - key: harbor_from_east_rock
@@ -163,8 +168,8 @@ sign:
 
 web:
   subtitle:
-    en: How a tidal marsh became an industrial riverbank, and what New Haven gave up when it did
-    es: Cómo una marisma de marea se convirtió en una ribera industrial, y qué perdió New Haven al hacerlo
+    en: A salt meadow, then a power station, then a thirty-year argument about who cleans it up
+    es: Una pradera salada, luego una central eléctrica, y luego treinta años discutiendo quién la limpia
 
   body:
     en: |
@@ -241,15 +246,46 @@ web:
       south side of Grand Avenue on Ball Island — one of the earliest electrical
       generating stations in the country, burning coal delivered by ship. As
       demand grew, the United Illuminating Company began work on its successor,
-      English Station, in 1927. That plant ran until 1992.
-
-      Both burned coal and oil beside a river that had already lost its marshes,
-      and the site is heavily contaminated with asbestos and PCBs. The 1890 plant
-      was demolished in 2021. English Station still stands, empty, in the middle
-      of the river, and the cleanup continues.
+      **English Station**, in 1927. It began generating in 1929 and ran until
+      1992.
 
       By 1970 the Mill River was measured at four times the legal limit for
       swimming. It has been recovering since the industry left.
+
+      ## The building that is still an argument
+
+      Look at it. A brick and steel powerhouse on an island in a city river,
+      empty since 1992, roof open, windows gone. The 1890 plant beside it was
+      demolished in 2021; English Station was not.
+
+      It is not standing because anyone wants it. It is standing because of what
+      is inside it. The site is contaminated with **PCBs**, asbestos, petroleum
+      hydrocarbons and arsenic, and who pays to remove them has been in dispute
+      for most of this century.
+
+      The short version, and it is genuinely worth knowing, because it is the
+      same argument this whole river has been having since the 1880s:
+
+      - When the state approved the merger that folded United Illuminating into
+        **Avangrid**, cleaning up English Station was made a condition of the
+        deal.
+      - A **2016 partial consent order** required UI to get PCBs inside the
+        building down to one part per million, **within three years**.
+      - It did not happen. In **January 2024** the Connecticut Attorney General
+        sued UI to enforce the order.
+      - In **August 2025** a judge found the cleanup terms ambiguous — the state
+        reads them as covering everything inside the building that contains PCBs,
+        the company reads them as covering only where PCBs were spilled — and
+        sent the question back to the state.
+      - As of **late 2025**, remediation was restarting, and the city was
+        weighing what the site could become.
+
+      Thirty-odd years of an empty building, and the argument is still about
+      where the line falls between what a company spilled and what a company owes.
+
+      *(That sequence is current to the end of 2025. If you are reading this
+      years later, it has almost certainly moved on — and the fact that you have
+      to ask is itself part of the story.)*
 
     es: |
       Párese en el puente de Grand Avenue y mire hacia abajo. Casi nada del
@@ -328,15 +364,45 @@ web:
       en el lado sur de Grand Avenue, en la isla Ball: una de las primeras
       centrales generadoras del país, que quemaba carbón traído por barco. Al
       crecer la demanda, la United Illuminating Company empezó en 1927 su
-      sucesora, English Station. Esa planta funcionó hasta 1992.
-
-      Ambas quemaron carbón y petróleo junto a un río que ya había perdido sus
-      marismas, y el terreno está muy contaminado con amianto y PCB. La planta de
-      1890 fue demolida en 2021. English Station sigue en pie, vacía, en medio
-      del río, y la limpieza continúa.
+      sucesora, **English Station**. Empezó a generar en 1929 y funcionó hasta
+      1992.
 
       En 1970 se midió que el río Mill superaba en cuatro veces el límite legal
       para poder nadar. Se ha ido recuperando desde que la industria se marchó.
+
+      ## El edificio que todavía es una discusión
+
+      Mírela. Una central de ladrillo y acero en una isla dentro de un río
+      urbano, vacía desde 1992, sin tejado y sin ventanas. La planta de 1890 que
+      tenía al lado se demolió en 2021; English Station no.
+
+      No sigue en pie porque alguien la quiera. Sigue en pie por lo que tiene
+      dentro. El terreno está contaminado con **PCB**, amianto, hidrocarburos
+      derivados del petróleo y arsénico, y quién paga por retirarlos lleva en
+      disputa casi todo este siglo.
+
+      La versión corta, que merece conocerse porque es la misma discusión que
+      este río viene teniendo desde 1880:
+
+      - Cuando el estado aprobó la fusión que integró United Illuminating en
+        **Avangrid**, limpiar English Station se puso como condición del acuerdo.
+      - Una **orden de consentimiento parcial de 2016** obligaba a UI a bajar los
+        PCB del interior a una parte por millón, **en un plazo de tres años**.
+      - No ocurrió. En **enero de 2024** el fiscal general de Connecticut
+        demandó a UI para hacer cumplir la orden.
+      - En **agosto de 2025** un juez consideró ambiguos los términos de la
+        limpieza — el estado los lee como referidos a todo lo que dentro del
+        edificio contenga PCB, y la empresa como referidos solo a donde hubo
+        derrames — y devolvió la cuestión al estado.
+      - A **finales de 2025**, los trabajos de descontaminación se reanudaban y
+        la ciudad estudiaba en qué podría convertirse el terreno.
+
+      Treinta y tantos años de edificio vacío, y la discusión sigue siendo dónde
+      está la línea entre lo que una empresa derramó y lo que una empresa debe.
+
+      *(Esa secuencia está actualizada a finales de 2025. Si lee esto años
+      después, casi con seguridad habrá avanzado, y el hecho de que tenga que
+      preguntarlo forma parte de la historia.)*
 
   gallery:
     - file: Grand-MillRiver(1915c).jpg
@@ -371,6 +437,12 @@ web:
       url: https://www.millrivertrail.com/learn/ball-island
     - title: "Barnsville — Mill River Trail"
       url: https://www.millrivertrail.com/learn/barnsville
+    - title: "CT sues United Illuminating over the English Station cleanup — CT Mirror, January 2024"
+      url: https://ctmirror.org/2024/01/29/ct-united-illuminating-english-station-plant/
+    - title: "Judge sends the English Station cleanup dispute back to DEEP — CT Mirror, August 2025"
+      url: https://ctmirror.org/2025/08/01/english-station-power-plant-united-illuminating-new-haven/
+    - title: "English Station cleanup to resume — New Haven Independent, October 2025"
+      url: https://www.newhavenindependent.org/2025/10/01/english-station-cleanup-to-resume-elicker-defends-park-pool-plan/
     - title: "English Station — New Haven Building Archive, Yale"
       url: https://nhba.yale.edu/building?id=58e6b948adb817121752a5f4
     - title: "Energy infrastructure in New Haven — Yale"
