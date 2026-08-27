@@ -2258,3 +2258,61 @@ opposite ends.
   Arnold Guyot Dana scrapbooks, **Volume 96 (New Haven water supply and rivers)**,
   at the Whitney Library, said to hold albumen prints of the dam and lower river
   1860-1920. That last one is another reason to book the Whitney Library day.
+
+
+## The Exchange Street park is built, and the sign said "proposed"
+
+JR spotted this: sign 9's fourth image was captioned *"Proposed green
+infrastructure for the school grounds at Exchange Street and the Mill River
+Trail — the current version of the argument."* The pocket park has been there
+since 2022.
+
+The drawing itself is fine — it is **Figure 11 of Save the Sound's 2018 Mill
+River Watershed Based Plan**, and it genuinely is a proposal drawing. The fault
+was the caption's tense. *"The current version of the argument"* says the
+argument is still going. It is not; somebody won it.
+
+### Verified
+
+Save the Sound's own project page: built and open. Construction ran
+**January-May 2022**, opened in 2022 during the International Festival of Arts
+and Ideas, planted in June and September. Nearly **12,000 square feet of asphalt
+removed**, **300+ native plants**, bioretention gardens and swales to catch
+runoff before it reaches the river, a walkway joining the trail, interpretive
+signage about the bioretention, and a mural, *Born to Explore*, by the artist
+Frenemy. A collaboration between Save the Sound, the City, Biohabitats, Schumack
+Engineered Construction, the John S. Martinez School, Cold Spring School and
+Mill River Trail Advocates.
+
+### It made the sign better
+
+Sign 9 is a catalogue of plans that did not happen — Gilbert and Olmsted shelved,
+Rotival stopped, the connector killed in the statute book. It ended on a
+sentiment: *"It took until now to build it."*
+
+It now ends on a fact. There is a new section, **"One of them got built,"** which
+points at the drawing in the corner of the sign and says that one is real, and
+what was actually done, and closes:
+
+> A hundred and twelve years after Gilbert and Olmsted told the city to leave
+> the river some ground, somebody left it some ground.
+
+That is a far stronger ending than the one it replaces, and it is standing a few
+hundred yards from the sign where anyone can go and check it.
+
+### The general lesson: present tense ages
+
+**These signs are supposed to last twenty years outdoors.** Any sentence written
+in the present tense about a live process — "proposed", "the current version",
+"is planned", "coming soon" — is a dated claim that will quietly become false
+without anyone noticing, and it cannot be edited once it is in metal.
+
+I swept the other signs for the same fault. Every remaining use of "proposed"
+refers to something historical — the 1917 Mill River Dam, the 1881 floating bath,
+the 1960s connector, the 1910 plan — and is correctly past tense. Nothing else
+needs changing today.
+
+**The rule for future edits:** if a sentence would need rewriting when something
+finishes being built, either date it ("the 2018 plan") or say what happened. Do
+not leave a sign describing an argument that is still in progress, because it
+will not be for long, and the sign will be.

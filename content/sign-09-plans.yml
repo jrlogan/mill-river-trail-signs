@@ -112,11 +112,13 @@ sign:
       slot: right_bottom
       caption:
         en: >-
-          Proposed green infrastructure for the school grounds at Exchange
-          Street and the Mill River Trail — the current version of the argument.
+          The 2018 plan for the school grounds at Exchange Street. Unlike almost
+          everything else on this sign, it got built — it opened in 2022, and you
+          can walk into it.
         es: >-
-          Infraestructura verde propuesta para el recinto escolar de Exchange
-          Street y el Mill River Trail: la versión actual del mismo argumento.
+          El plan de 2018 para el recinto escolar de Exchange Street. A
+          diferencia de casi todo lo demás en este letrero, se construyó: abrió
+          en 2022 y se puede entrar en él.
 
   panel:
     species:
@@ -230,6 +232,26 @@ web:
       near water is worth reclaiming rather than expanding, and that people
       should be able to get to the water's edge.
 
+      ## One of them got built
+
+      Almost everything on this page is a plan that did not happen. Gilbert and
+      Olmsted's parkway was shelved. Rotival's arterial was stopped. The
+      connector died in the statute book.
+
+      So it is worth pointing at the drawing in the corner of this sign, because
+      that one is real now.
+
+      It is a 2018 proposal by Save the Sound and the City for the John S.
+      Martinez School grounds at Exchange Street — a plan to pull up a dead
+      stretch of roadway and let the ground absorb its own rainwater instead of
+      flushing it into the river. In 2022 it was built. Nearly twelve thousand
+      square feet of asphalt came out. Three hundred native plants went in, with
+      bioretention gardens and swales to catch the runoff, a walkway that joins
+      the trail, and a mural called *Born to Explore*.
+
+      A hundred and twelve years after Gilbert and Olmsted told the city to leave
+      the river some ground, somebody left it some ground.
+
       ## The thing they all agreed about
 
       Every one of these plans, across a century of otherwise incompatible
@@ -316,6 +338,26 @@ web:
       agua merece recuperarse en vez de ampliarse, y que la gente debería poder
       llegar a la orilla.
 
+      ## Uno de ellos sí se construyó
+
+      Casi todo lo que hay en esta página es un plan que no ocurrió. La avenida
+      de Gilbert y Olmsted se archivó. La vía arterial de Rotival se detuvo. La
+      conexión murió en el código legal.
+
+      Por eso vale la pena señalar el plano de la esquina de este letrero, porque
+      ese sí es real.
+
+      Es una propuesta de 2018 de Save the Sound y la ciudad para el recinto de
+      la escuela John S. Martinez, en Exchange Street: levantar un tramo muerto
+      de calzada y dejar que el suelo absorba su propia lluvia en lugar de
+      lanzarla al río. En 2022 se construyó. Salieron casi doce mil pies
+      cuadrados de asfalto. Entraron trescientas plantas nativas, con jardines de
+      biorretención y cunetas para recoger la escorrentía, un paseo que enlaza
+      con el sendero y un mural titulado *Born to Explore*.
+
+      Ciento doce años después de que Gilbert y Olmsted le dijeran a la ciudad
+      que dejara algo de terreno al río, alguien le dejó algo de terreno.
+
       ## Aquello en lo que todos coincidieron
 
       Todos estos planes, a lo largo de un siglo de supuestos por lo demás
@@ -327,6 +369,8 @@ web:
   gallery: []
 
   sources:
+    - title: "Mill River Trail Green Infrastructure Park — Save the Sound"
+      url: https://www.savethesound.org/mill-river-trail
     - title: "Report of the New Haven Civic Improvement Committee, 1910 — Gilbert and Olmsted"
       url: https://books.google.com/books?id=NUHnAAAAMAAJ
     - title: "Mill River District Plan, 2013"
