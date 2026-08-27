@@ -182,6 +182,39 @@ web:
       was the landmark returning sailors looked for, until a storm took a hundred
       feet off it in 1877.
 
+      ## The race at midnight
+
+      The public beds were closed all summer and the law came "off" at midnight
+      on the first of November. What happened then was a spectator sport.
+
+      Ernest Ingersoll wrote it down for the 1880 census, and it is worth having
+      in his words:
+
+      > On the day preceding, farmers flocked into Fair Haven from all the
+      > surrounding country, and brought with them boats and canoes of antique
+      > pattern and ruinous aspect. These rustics always met with a riotous
+      > welcome from the town-boys, who hated rural competition. They were very
+      > likely to find their boats, if not carefully watched, stolen and hidden
+      > before they had a chance to launch them, or even temporarily disabled…
+      >
+      > As midnight approached, men dressed in oilskin, and carrying oars,
+      > paddles, rakes, and tongs, collected all along the shore, where a crowd of
+      > women and children assembled to see the fun… There were sharpies,
+      > square-enders, skiffs, and canoes, and they lined the whole margin of the
+      > river and harbor on each side in thick array…
+      >
+      > No eye could see the great face of the church-clock on the hill, but
+      > lanterns glimmered upon a hundred watch-dials, and then were set down, as
+      > only a coveted minute remained. There was a hush in the merriment along
+      > the shore, an instant's calm, and then the great bell struck a deep-toned
+      > peal. **It was like an electric shock.** Backs bent to oars, and paddles
+      > churned the water. From opposite banks navies of boats leaped out and
+      > advanced toward one another through the darkness, as though bent upon
+      > mutual annihilation.
+
+      Ingersoll places this on the Quinnipiac at Fair Haven. He does not mention
+      the Mill.
+
       ## The watch houses
 
       An oyster bed cannot be fenced. Once the beds stopped being a common and
@@ -298,6 +331,40 @@ web:
       aguja de 237 pies era la referencia que buscaban los marineros al volver,
       hasta que una tormenta le quitó cien pies en 1877.
 
+      ## La carrera de medianoche
+
+      Los bancos públicos estaban cerrados todo el verano y la ley se levantaba a
+      medianoche del primero de noviembre. Lo que pasaba entonces era un
+      espectáculo.
+
+      Ernest Ingersoll lo dejó escrito para el censo de 1880, y vale la pena
+      leerlo con sus palabras:
+
+      > El día anterior, los granjeros acudían en tropel a Fair Haven desde todo
+      > el campo de alrededor, y traían botes y canoas de hechura antigua y
+      > aspecto ruinoso. Aquellos rústicos recibían siempre una bienvenida
+      > alborotada de los chicos del pueblo, que detestaban la competencia rural.
+      > Era muy probable que encontraran sus botes, si no los vigilaban bien,
+      > robados y escondidos antes de poder botarlos, o averiados sin más…
+      >
+      > Al acercarse la medianoche, hombres vestidos con hule, cargando remos,
+      > palas, rastrillos y tenazas, se juntaban por toda la orilla, donde una
+      > multitud de mujeres y niños se reunía a ver la fiesta… Había sharpies,
+      > botes de popa cuadrada, esquifes y canoas, y cubrían en apretada formación
+      > todo el margen del río y del puerto por ambos lados…
+      >
+      > Nadie alcanzaba a ver la gran esfera del reloj de la iglesia en la
+      > colina, pero las linternas brillaban sobre un centenar de esferas de
+      > reloj de bolsillo, y luego se dejaban en el suelo cuando solo quedaba un
+      > minuto codiciado. Hubo un silencio en el bullicio de la orilla, un
+      > instante de calma, y entonces la gran campana dio una campanada grave.
+      > **Fue como una descarga eléctrica.** Las espaldas se doblaron sobre los
+      > remos y las palas batieron el agua. Desde orillas opuestas, escuadras de
+      > botes salieron disparadas y avanzaron unas contra otras en la oscuridad,
+      > como si se propusieran aniquilarse mutuamente.
+
+      Ingersoll sitúa esto en el Quinnipiac, en Fair Haven. No menciona el Mill.
+
       ## Las casetas de vigilancia
 
       Un banco de ostras no se puede vallar. En cuanto los bancos dejaron de ser
@@ -389,6 +456,8 @@ web:
           casetas existían, estaban sobre el agua y estaban armadas.
 
   sources:
+    - title: "Ernest Ingersoll, The Oyster-Industry (Tenth Census, 1881) — the midnight race, p. 63-64"
+      url: https://archive.org/details/oysterindustry00inge
     - title: "The Oyster Point watch house robbery — Morning Journal and Courier, 9 September 1886"
       url: https://chroniclingamerica.loc.gov/lccn/sn82015483/1886-09-09/ed-1/seq-4/
     - title: "Herbert William Conn, who traced the 1894 Wesleyan typhoid outbreak to oysters"

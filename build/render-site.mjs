@@ -87,6 +87,13 @@ const T = {
     ackHead: 'Research and credits',
     updatedLabel: 'This page last changed',
     signHead: 'The sign at this spot',
+    progressHead: 'How far along each sign is',
+    progressNote: 'Sorted by how close each one is to being finished. The count is photographs sourced out of photographs needed — that is the only thing still holding most of these back.',
+    grpReady: 'Artwork complete — ready to proof',
+    grpNearly: 'Nearly there',
+    grpDrafting: 'Still gathering pictures',
+    grpPlaceholder: 'Deliberately unwritten',
+    imgCount: (h, n) => `${h} of ${n} photographs sourced`,
     signNote: 'The full sign, in English and Spanish. Zoom in to read it.',
     signDraft: 'This sign is still a draft. The hatched boxes are photographs that have not been sourced yet.',
     signPlaceholder: 'This sign is deliberately unwritten, and is not going to be printed as it stands. It is here so the gap is visible and can be answered.',
@@ -115,6 +122,13 @@ const T = {
     ackHead: 'Investigación y créditos',
     updatedLabel: 'Esta página cambió por última vez el',
     signHead: 'El letrero en este punto',
+    progressHead: 'Cómo va cada letrero',
+    progressNote: 'Ordenados según lo cerca que están de estar terminados. La cuenta es de fotografías conseguidas sobre fotografías necesarias: es lo único que frena a casi todos.',
+    grpReady: 'Arte completo: listo para revisión',
+    grpNearly: 'Casi listos',
+    grpDrafting: 'Aún reuniendo imágenes',
+    grpPlaceholder: 'Sin escribir a propósito',
+    imgCount: (h, n) => `${h} de ${n} fotografías conseguidas`,
     signNote: 'El letrero completo, en inglés y español. Amplíe para leerlo.',
     signDraft: 'Este letrero es todavía un borrador. Los recuadros rayados son fotografías que aún no se han conseguido.',
     signPlaceholder: 'Este letrero está sin escribir a propósito y no se va a imprimir tal como está. Existe para que la ausencia se vea y se pueda responder a ella.',
@@ -278,6 +292,13 @@ footer a { color: var(--blue); font-weight: 600; }
 .project-links { font-size: 0.9rem; margin-top: 0.5rem; }
 .project-links a { margin: 0 0.15rem; }
 
+.progressnote{max-width:46rem;margin:0 0 2rem;opacity:.75;font-size:.95rem;line-height:1.5}
+.grouphead{list-style:none;margin:2.2rem 0 .6rem;padding:0;border:0;background:none}
+.grouphead h3{margin:0;font-size:.82rem;letter-spacing:.09em;text-transform:uppercase;opacity:.6;font-weight:700}
+.grouphead:first-child{margin-top:0}
+.rdy{margin:.5rem 0 0;display:flex;gap:.6rem;align-items:baseline;flex-wrap:wrap}
+.progress{letter-spacing:.16em;font-size:.8rem;opacity:.85}
+.progresslabel{font-size:.78rem;opacity:.6}
 .signlist { list-style: none; padding: 0; margin: 2rem 0 0; display: grid; gap: 1rem; }
 .signlist a {
   display: block; text-decoration: none; color: inherit; background: var(--card);
@@ -410,15 +431,46 @@ ${footerHTML}
 </body></html>`;
 }
 
+// How close a sign is to being finished. Everything here is written; what is
+// missing is pictures. So readiness is simply: how many image slots are filled.
+// Computed at build time so the index cannot drift from the actual files.
+async function readiness(s) {
+  const sub = s.id.replace(/^sign-(\d+).*/, 'sign-$1');
+  let have = 0;
+  const need = s.sign.images.length;
+  for (const im of s.sign.images) {
+    try { await fs.access(path.join(ROOT, 'assets', 'images', sub, im.file)); have++; } catch {}
+  }
+  const missing = need - have;
+  const group = s.status === 'placeholder' ? 3 : missing === 0 ? 0 : missing <= 2 ? 1 : 2;
+  return { have, need, missing, group };
+}
+
 function indexPage(lang, signs) {
   const t = T[lang];
   const footerHTML = footer(lang, t, signs[0]?.project);
-  const items = signs.map((s) => {
+
+  const ordered = [...signs].sort((a, b) =>
+    a.rdy.group - b.rdy.group || a.rdy.missing - b.rdy.missing || a.number - b.number);
+
+  const heads = [t.grpReady, t.grpNearly, t.grpDrafting, t.grpPlaceholder];
+  let lastGroup = null;
+  const items = ordered.map((s) => {
     const slug = lang === 'en' ? s.urls.en.split('/').pop() : s.urls.es.split('/').pop();
-    return `<li><a href="${slug}/">
+    let head = '';
+    if (s.rdy.group !== lastGroup) {
+      lastGroup = s.rdy.group;
+      head = `<li class="grouphead"><h3>${esc(heads[s.rdy.group])}</h3></li>\n      `;
+    }
+    const bar = s.rdy.need
+      ? `<span class="progress" aria-hidden="true">${'●'.repeat(s.rdy.have)}${'○'.repeat(s.rdy.missing)}</span>
+         <span class="progresslabel">${esc(t.imgCount(s.rdy.have, s.rdy.need))}</span>`
+      : '';
+    return `${head}<li><a href="${slug}/">
         <span class="n">${esc(t.kicker(s.number))}</span>
         <h2>${esc(s.title[lang])}</h2>
         <p>${esc(s.web.subtitle[lang])}</p>
+        <p class="rdy">${bar}</p>
       </a></li>`;
   }).join('\n      ');
 
@@ -446,6 +498,7 @@ function indexPage(lang, signs) {
   </div>
 </header>
 <main><div class="wrap">
+  <p class="progressnote">${esc(t.progressNote)}</p>
   <ul class="signlist">
       ${items}
   </ul>
@@ -542,6 +595,7 @@ const signs = [];
 for (const f of (await fs.readdir(dir)).filter((f) => f.endsWith('.yml') && !f.startsWith('_')).sort()) {
   signs.push(await loadSign(path.join(dir, f)));
 }
+for (const sign of signs) sign.rdy = await readiness(sign);
 
 await fs.writeFile(path.join(OUT, 'style.css'), css());
 

@@ -8,7 +8,7 @@
 
 id: sign-04-whitney
 number: 4
-status: draft
+status: proof            # draft | proof | approved | printed
 
 location:
   name: Eli Whitney Museum / Lake Whitney

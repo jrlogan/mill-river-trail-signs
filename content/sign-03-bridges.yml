@@ -6,7 +6,7 @@
 
 id: sign-03-bridges
 number: 3
-status: draft            # draft | proof | approved | printed
+status: proof            # draft | proof | approved | printed
 
 location:
   name: Railway Bridge

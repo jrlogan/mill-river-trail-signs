@@ -311,12 +311,11 @@ Farm Museum in Guilford, which is a collection rather than a governing body.
 
 ### Research leads in the notes worth chasing
 
-- **The quarry scows to Trinity Church.** The notes ask about this directly, and
-  it connects to sign 13 — the same East Rock stone, the same river, the same
-  boats. If Lanson's crew supplied Trinity's stone that belongs on the sign.
-- **Talmadge Bros.** Steve Hamm's walk notes place the oyster company south of
-  English Station on the east bank, with shell piles and equipment still visible.
-  That is a concrete, findable thing for sign 12.
+- **The quarry scows to Trinity Church.** **Closed, and it was two stories, not
+  one** — see *Lanson did not quarry at East Rock* below. Trinity's stone was
+  Whitney's, from East Rock. Lanson's stone was his own, from East Haven.
+- **Talmadge Bros.** **REFUTED** — see *The last research round* below. There was
+  no Mill River shore plant. Do not put one on a sign.
 - **The trolley turntable near the District**, the cardboard plant at 370 James,
   the Lake Whitney ice house, the linseed oil mill, and the thirteen mills north.
 
@@ -1749,3 +1748,330 @@ so they are reproduced here in case they are wanted again:
 four together are under 1.2 MB — and unlike the museum masters there is no
 licensing reason to keep them out. That is a judgement call for whoever owns the
 repository, not something to change quietly.
+
+
+## Lanson did not quarry at East Rock, and sign 13 was wrong
+
+The fifth report claimed sign 13's central image — Lanson quarrying at East Rock
+and floating stone down the Mill River — is a modern conflation of two separate
+operations. **I checked, and it is right.** Sign 13 has been corrected.
+
+### The authority
+
+**Long Wharf Pier, National Register of Historic Places nomination, 2024**,
+prepared for the Connecticut SHPO and citing Harris and Hinks. 44 pages, free:
+<https://portal.ct.gov/-/media/decd/historic-preservation/06_about_shpo/state-review-board/2024-meetings/june-14/long-wharf-pier-nr.pdf>
+
+> "In 1810, William Lanson began the expansion of Long Wharf at the behest of the
+> Contractors. **Lanson owned a rock quarry in East Haven** where he and his crew
+> quarried the stone, consisting predominantly of reddish basalt from Blue
+> Mountain… The stones were loaded onto **specially-built scows — flat-bottomed
+> boats — that were capable of hauling 25-ton stones**, from a wharf designed by
+> Lanson to accommodate the load of the stones. **From East Haven, the stones for
+> the Long Wharf extension were carried by scow and unloaded in New Haven** where
+> they were set in place and backed by fill."
+
+East Haven. Across the harbour. Not down this river.
+
+*(One wrinkle: the nomination glosses Blue Mountain as "also called East Rock,"
+which is where the confusion probably starts. The operative facts — quarry in
+East Haven, stone carried by scow from East Haven to New Haven — are unambiguous
+either way.)*
+
+### What this does to Lanson's own quotation
+
+Sign 13 quotes Lanson on scow work: *"The tide in this river rises about six
+feet, and it is considered very dangerous going under the bridge. A scow must go
+up on the flood tide and come down on the ebb tide…"* It is a wonderful passage
+and there is no reason to doubt it.
+
+**But he says "this river" and does not name it, and we assumed he meant the
+Mill.** With the quarry in East Haven, the dangerous bridge is far more likely on
+the Quinnipiac side. The quotation stays on the sign, with a paragraph saying
+plainly that we got the river wrong and why.
+
+### The real Mill River story is better
+
+The nomination hands us a genuine and much stronger connection to this water:
+
+- **2 March 1807** — Lanson bought land on the **west bank of the Mill River**, on
+  the far edge of the New Township, now Wooster Square. It had belonged to **Mary
+  Wooster** and had been used for **ploughing contests**.
+- That ground became **New Guinea** and then **New Liberia** — the neighbourhood
+  across the water from the sign, with his boarding house in it, sheltering Black
+  workers and people moving north out of slavery.
+- Owning land **made him a voter**. Then in **1814 Connecticut disenfranchised
+  Black voters**, and Lanson petitioned the General Assembly with another Black
+  landowner, **Bias Stanley**: restore our vote, or stop taxing us. **The Assembly
+  granted neither.**
+
+He built the longest wharf in the United States and could not vote in the town it
+served. That is now the middle of sign 13.
+
+Also added from the nomination: **two contractors had already failed** at the
+Long Wharf job before him; he took it on, in his own words, to *"show what a
+black man was capable of doing"*; his son Isaiah credited him with the **East
+Haven bridge**; and the **1827 Farmington Canal basin** used the same Blue
+Mountain stone and the same methods.
+
+### Negative findings worth having
+
+- **No portrait, daguerreotype or silhouette of Lanson is known to exist.** Dana
+  King's 2020 bronze on the Farmington Canal Trail used West African models as
+  conjecture. If we ever photograph the statue for a sign it must be labelled as
+  a 21st-century commemoration, not a likeness — **and it is in copyright**,
+  permission required from the artist and the city.
+- **The stone scow image does not exist.** The report searched Ingersoll's *Oyster
+  Industry* (1881) plates and the New Haven chapter, and Goode's *Fisheries*
+  (1887) — the two sources this file told it to search — and reports both
+  entirely negative for stone scows or quarry lighters, as are Mystic Seaport,
+  the Whitney Library and the Library of Congress. **That closes a lead this
+  project has chased three times.** Any illustration will have to be a generic
+  period gundalow or a technical line drawing, honestly captioned.
+
+### Image leads that are real and free
+
+- **Amos Doolittle's 1824 plan of New Haven** — reproduced as Figure 4 in the
+  nomination itself, showing Long Wharf and the east side development. Public
+  domain, and the nomination's own scan is downloadable.
+- **The 1815 General Assembly petition** of Bias Stanley and William Lanson,
+  Connecticut State Library, RG 001 Early General Assembly Papers — **bearing
+  Lanson's signature**. Public domain state record. A man's own hand on the
+  document asking for his vote back would be the strongest image on this sign.
+  *(The report gives the citation as 2nd Ser., Vol. 17, pp. 544-546. Unverified.)*
+- **Book of Satisfaction Addressed to the Public** (1848), Lanson's own pamphlet,
+  Yale Law School's Lillian Goldman Law Library. Unverified, and worth a look —
+  it is his voice.
+
+### Fifth round
+
+The pattern held one more time, and this was the most valuable instance of it:
+the report's *conclusion* was correct and its grade was over-confident in the
+details (it attributed the East Haven quarry to Long Wharf as VERIFIED when
+Wikipedia attributes it to the canal, and only the National Register nomination
+actually ties it to Long Wharf). Chasing its citation found the document that
+settles it — and corrected a claim this project had been making on a sign about
+the most consequential person on the trail.
+
+
+### Postscript: the two rivers do meet, and it still is not enough
+
+JR pointed out that the Mill and the Quinnipiac join before the harbour, so
+Lanson's stone boats probably touched the mouth of the Mill — "but that is not
+as strong a story as going down it."
+
+Both halves of that are right, and the second half is the important one.
+
+The confluence is confirmed twice over: Wikipedia has the Mill River joining "the
+Quinnipiac River at the mouth of New Haven Harbor," and **this project's own sign
+8 already says it** — its location line reads "Criscuolo Park, where the Mill
+River meets the Quinnipiac," and its panel caption reads "Grapevine Point, where
+the two rivers meet."
+
+**One geographic caution before anyone leans on this.** A crossing from a loading
+wharf on the East Haven shore to the head of Long Wharf runs across the *lower*
+harbour. The Mill/Quinnipiac confluence is at the harbour's northern head, above
+that line. Whether a given scow passed the Mill's mouth depends on where in East
+Haven the quarry wharf stood, which the nomination does not say. So even
+"probably touched the mouth" is a little generous.
+
+Sign 13 now states it at exactly the strength the evidence supports: the scows
+and this river shared a harbour, the two rivers meet a mile downstream — **"but a
+boat that passes the mouth of a river has not worked its way up one, and we would
+rather say so than stretch a connection."**
+
+That sentence is the standard this project should hold to generally. The
+temptation on an interpretive sign is always to pull a good story onto your own
+patch of ground. The reason sign 13 is still worth its place on the Mill River
+Trail is the 1807 land purchase and New Liberia, which happened here — not the
+stone, which did not.
+
+
+## The last research round: one gem, two corrections, one disappointment
+
+### VERIFIED, verbatim, and now on sign 12 — the midnight race
+
+The "midnight oyster derby" is real, and I read it in the primary source.
+**Ernest Ingersoll, *The Oyster-Industry*, Tenth Census of the United States
+(1881)**, full text free at <https://archive.org/details/oysterindustry00inge>.
+
+The law came "off" on **1 November**. Ingersoll:
+
+> "On the day preceding, farmers flocked into Fair Haven from all the surrounding
+> country, and brought with them boats and canoes of antique pattern and ruinous
+> aspect. These rustics always met with a riotous welcome from the town-boys, who
+> hated rural competition. They were very likely to find their boats, if not
+> carefully watched, stolen and hidden before they had a chance to launch them,
+> or even temporarily disabled…
+>
+> As midnight approached, men dressed in oilskin, and carrying oars, paddles,
+> rakes, and tongs, collected all along the shore, where a crowd of women and
+> children assembled to see the fun… There were sharpies, square-enders, skiffs,
+> and canoes, and they lined the whole margin of the river and harbor on each
+> side in thick array…
+>
+> No eye could see the great face of the church-clock on the hill, but lanterns
+> glimmered upon a hundred watch-dials… There was a hush in the merriment along
+> the shore, an instant's calm, and then the great bell struck a deep-toned peal.
+> **It was like an electric shock.** Backs bent to oars, and paddles churned the
+> water. From opposite banks navies of boats leaped out and advanced toward one
+> another through the darkness, as though bent upon mutual annihilation."
+
+**Three corrections to the report, from the text itself:**
+- The passage is at **pp. 63-64**, not pp. 31-45.
+- The signal was **one bell** — the church clock on the hill — not "church bells,
+  town tower bells, or signal guns."
+- **Ingersoll places this on the Quinnipiac at Fair Haven and never mentions the
+  Mill River.** The report's finding table claims "Quinnipiac River estuary, Fair
+  Haven flats, **and lower Mill River tidal reach**" as VERIFIED. That last part
+  is not in the source. This is the same over-reach as the Lanson stone: pulling
+  a good story onto our own patch of ground.
+
+Sign 12 now carries the quotation at length and says explicitly that Ingersoll
+places it on the Quinnipiac and does not mention the Mill.
+
+### REFUTED, and it closes a lead we have carried since the start
+
+**Talmadge (properly Tallmadge) Brothers had no Mill River shore plant.** Founded
+Norwalk 1875; processing houses, boatyards and offices at **132 Water Street,
+East Norwalk**; secondary points at Port Norris NJ and Bridgeport. They did hold
+franchised beds in outer New Haven Harbor — that part stands — but the shucking
+and the wharves were in Norwalk. Sanborn sheets for River Street and the Mill
+River waterfront (1886, 1901, 1923, 1950) show heavy industry and no shellfish
+plant.
+
+Steve Hamm's walk note placing them south of English Station is a misattribution,
+almost certainly from the harbour leases. **Do not put a Talmadge plant on a
+sign.**
+
+### CORRECTED — it was a transfer table, not a turntable
+
+The trolley turntable this project has been chasing was a **transfer table** — a
+lateral traverse table in a transverse pit inside the **James Street car barn**,
+shifting cars sideways between parallel maintenance bays. Sanborn sheets show no
+circular streetcar turntable anywhere in the district.
+
+The real turntables were **steam locomotive** turntables, at **Belle Dock** and
+in the **Cedar Hill yards**. That is where the folk memory comes from.
+
+If this ever goes on a sign, the words are "electric transfer table."
+
+### The Dellfant painting is real, and the picture of it is not
+
+**"Austin's Boats, New Haven," Max Dellfant, 1912, oil on canvas, Yale University
+Art Gallery, accession 1945.355**, gift of George H. Langzettel. Verified via
+Wikidata and YUAG's own catalogue, which marks it **"No Copyright — United
+States," open access**, with an IIIF manifest.
+
+**But the largest image YUAG serves is 386 × 480 pixels**, and it is an old
+storage record shot: the canvas in its frame, propped in a rack, with the
+accession card visible at the bottom. Useless for a 36 × 24 inch panel and poor
+even on the web. I downloaded it, looked at it, and deleted it.
+
+**The lead is still good — the asset is not.** The move is to ask the Yale
+University Art Gallery for a proper reproduction; the object is open access, so
+there should be no rights obstacle, only a photography request. Dellfant kept a
+studio in the loft of the **Mansfield Oyster Company** on the Quinnipiac and
+painted this waterfront for thirty years. If YUAG or the New Haven Museum
+(**MSS #276, the Dellfant-Ross papers**, Boxes 1-2, reportedly no donor
+restrictions) can produce a good scan of a watch house or a working wharf, that
+is sign 12's hero image.
+
+### Also reported, not yet checked, and worth checking
+
+- **Yale rowing.** The Yale Boat Club (1843, the four-oared *Pioneer*) is said to
+  be the oldest collegiate athletic club in the United States, to have trained on
+  the sheltered lower Mill River when the harbour was rough, and to have used
+  **Lake Whitney** for spring trials and scratch regattas through the 1860s and
+  1870s. A boathouse near the mouth of the Mill River in 1875. **If this holds it
+  belongs on sign 4**, which is the Lake Whitney sign and currently says nothing
+  about anyone enjoying the reservoir.
+- **Milton Stewart, revised.** The report says the condemnation award was
+  **$13,000, not $40,000**; that he put it into twelve brick tenements on State
+  Street beside the Mill River known as **"Stewart's Dirty Dozen"**, with a
+  **tidal sewage system that used the rise and fall of the Mill River and
+  failed**, producing rent strikes and litigation; and that he died **27 July
+  1897, aged 74**, in a basement room on Warren Place. It also says Stewart
+  **publicly repudiated the ark story in 1883**, telling reporters he was
+  building a 100-passenger steamboat for travel to Europe.
+
+  If the Dirty Dozen holds up it is a genuine Mill River story and belongs on a
+  sign. **None of it is verified here** — a ChronAm search for Stewart's own
+  account died on a network error and was not retried. Sign 11 states no dollar
+  figure, so nothing on the metal is wrong; it simply does not yet have this.
+- **The counterfeiting vault** under the summit house is reported VERIFIED from
+  three 1884 papers, with the workings attributed to Elizur Hubbell's Mountain
+  House era (1843-48) rather than to Stewart. Also unchecked here.
+
+### And a lead formally closed
+
+**No photograph or engraving of Stewart's boat on the summit exists.** The report
+searched the Whitney Library, Yale Manuscripts and Archives, the Connecticut
+State Library and Chronicling America. This project has chased that picture three
+times. It is time to stop and let the placeholder brief stand as a description.
+
+
+## The site now sorts itself by readiness
+
+`/` and `/index.es.html` no longer list the signs by number. They list them by
+**how close each one is to finished**, in four groups — *Artwork complete, ready
+to proof* / *Nearly there* / *Still gathering pictures* / *Deliberately
+unwritten* — with a dot bar and a count on each card ("3 of 4 photographs
+sourced").
+
+**The readiness is computed at build time from the actual files on disk**
+(`readiness()` in `build/render-site.mjs`), so the index cannot drift from
+reality. Nobody has to remember to update a status list. Add the missing picture
+and the sign moves up the page by itself.
+
+This exists so the state of the project can be handed to someone in one link.
+
+### Where things stand, August 2026
+
+| | Sign | Photographs |
+|---|---|---|
+| ✅ | 1 Fenian Ram, 2 Ball Island, 3 Bridges, 4 Whitney, 5 Bath House | 4 of 4 |
+| 🟡 | 13 Lanson | 3 of 4 |
+| 🟡 | 9 Plans | 2 of 4 |
+| ⬜ | 6 Tide Gate, 10 Highway, 12 Dragon Point | 1 of 4 |
+| ⬜ | 7 Tides, 8 Grapevine Point, 11 East Rock, 15 James Street | 0 of 4 |
+| — | 14 First People | placeholder, never prints |
+
+**Signs 2, 3, 4 and 5 moved from `draft` to `proof`.** Their artwork is complete,
+so the "this sign is still a draft, the hatched boxes are photographs not yet
+sourced" note was actively wrong on them — there are no hatched boxes left. They
+now say what sign 1 says: ready for someone to proof. That is a review state, not
+an approval; nobody has signed them off.
+
+### Two images sourced this round
+
+- **Phragmites australis** — `assets/images/species/common-reed-phragmites-australis.jpg`,
+  from **USFWS Mountain-Prairie via Wikimedia Commons, public domain**, cropped
+  4:3 and resized to 1024 x 768 to match the other species plates. It was the
+  last gap on **sign 2**, which is now complete, and it also fills the slot on
+  **signs 6 and 7**. Note the source description makes exactly the sign's point:
+  it "can create monotypic (solid) stands that choke out" the natives.
+- **Sign 13's last slot is now a one-phone-call brief rather than a search.** See
+  below.
+
+### Sign 13's last image: ask the New Haven Preservation Trust
+
+The 2024 Long Wharf Pier National Register nomination contains, as **Figure 11**,
+a 2021 photograph captioned *"Long Wharf Pier structure, showing stone walls laid
+by Lanson,"* credited to the **New Haven Preservation Trust**. I pulled it out of
+the PDF to look at it: it is his dry-laid wall, still standing at low tide,
+mossed and barnacled, with the harbour behind.
+
+**For a man of whom no portrait exists, a photograph of the thing his hands built
+is the right picture.** It is in copyright. The Trust is a local nonprofit and
+this is a community trail sign — that is one email.
+
+The fallback is **Amos Doolittle's 1824 plan of New Haven**, Figure 4 of the same
+nomination, showing Long Wharf and the east side where New Liberia stood. Public
+domain — but the copy embedded in the PDF is only 899 x 697, too small to print.
+A full-resolution scan should come from the Yale Map Collection or the Whitney
+Library.
+
+Both are now written into the sign's `source_note`, with the rights status
+spelled out, along with a warning not to substitute a stone scow because no
+pre-1850 New Haven example survives anywhere.

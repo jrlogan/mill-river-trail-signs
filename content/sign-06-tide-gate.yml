@@ -121,6 +121,7 @@ sign:
       - name: { en: Common Reed, es: Carrizo }
         scientific: Phragmites australis
         status: invasive
+        file: species/common-reed-phragmites-australis.jpg
       - name: { en: Alewife, es: Alosa }
         scientific: Alosa pseudoharengus
         status: native

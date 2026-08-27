@@ -53,14 +53,22 @@ sign:
     heading:
       en: What He Built, and What It Cost Him
       es: Lo que construyó, y lo que le costó
-    # REVIEW: the quotation on the web page is from Lanson's own 1845 statement
-    # and should be checked against the printed source before this goes to print.
+    # CORRECTED Aug 2026. This sign used to say Lanson quarried at East Rock and
+    # floated the stone down the Mill River. The 2024 National Register
+    # nomination for Long Wharf Pier says he owned a quarry in EAST HAVEN and
+    # the stone crossed the harbour by scow. His real Mill River connection is
+    # land and neighbourhood, not stone. See docs/DECISIONS.md.
+    # The quotation on the web page is from Lanson's own statement and should
+    # still be checked against the printed source before this goes to print.
     body:
       en: >-
-        New Haven harbour was too shallow for loaded ships. William Lanson
-        quarried stone at East Rock and floated it down this river on scows
-        carrying twenty-five tons, and with it he pushed Long Wharf out to deep
-        water — 3,480 feet by 1812, the longest in the country. He built Steamboat
+        New Haven harbour was too shallow for loaded ships, and two contractors
+        had already failed at the job. William Lanson owned a quarry in East
+        Haven, had scows built that could carry twenty-five tons of stone, and
+        pushed Long Wharf out to deep water — 3,480 feet by 1812, the longest in
+        the country. He came to this river for a different reason: in 1807 he
+        bought land on its west bank, and owning land is what briefly gave him
+        the vote. He built Steamboat
         Wharf, Basin Wharf and the Tomlinson Bridge, and turned an old
         slaughterhouse into the Liberian Hotel. In 1831 it was raided: the white
         patrons were arrested, and the Black residents, one account says, "were
@@ -68,9 +76,12 @@ sign:
         property and spent some 450 days in jail, insisting he was innocent.
       es: >-
         El puerto de New Haven era demasiado poco profundo para los barcos
-        cargados. William Lanson extraía piedra en East Rock y la bajaba por este
-        río en chalanas de veinticinco toneladas, y con ella empujó Long Wharf
-        hasta aguas hondas: 3.480 pies en 1812, el más largo del país. Construyó
+        cargados, y dos contratistas ya habían fracasado en el intento. William
+        Lanson tenía una cantera en East Haven, mandó construir chalanas capaces
+        de cargar veinticinco toneladas de piedra y empujó Long Wharf hasta aguas
+        hondas: 3.480 pies en 1812, el más largo del país. A este río vino por
+        otra razón: en 1807 compró terreno en su orilla oeste, y ser propietario
+        es lo que por un tiempo le dio el voto. Construyó
         Steamboat Wharf, Basin Wharf y el puente Tomlinson, y convirtió un
         antiguo matadero en el Liberian Hotel. En 1831 hubo una redada: los
         clientes blancos fueron detenidos y a los residentes negros, según un
@@ -114,9 +125,22 @@ sign:
       file: TODO-east-rock-quarry-2.jpg
       slot: right_bottom
       source_note: >-
-        The Liberian Hotel or New Liberia itself, if any view survives —
-        otherwise the East Rock quarries, or a stone scow on the river. New
-        Haven Museum; Connecticut State Library; New Haven city directories.
+        LAST IMAGE NEEDED ON THIS SIGN. In priority order, and both are
+        identified precisely so this is one phone call, not a search.
+        (1) BEST: the photograph captioned "Long Wharf Pier structure, showing
+        stone walls laid by Lanson" — Figure 11 of the 2024 National Register
+        nomination for Long Wharf Pier, credited to the NEW HAVEN PRESERVATION
+        TRUST, 2021. It shows his dry-laid wall still standing at low tide,
+        mossed and barnacled. For a man with no known portrait, the thing his
+        hands built is the right picture. IT IS IN COPYRIGHT — ask the Trust;
+        they are a local nonprofit and this is a community trail sign.
+        (2) FALLBACK: Amos Doolittle's 1824 plan of New Haven, Figure 4 of the
+        same nomination, showing Long Wharf and the east-side development where
+        New Liberia stood. Public domain, but the copy embedded in the PDF is
+        only 899x697 — too small to print. A full-resolution scan should be
+        obtainable from the Yale Map Collection or the Whitney Library.
+        Do NOT use a stone scow: no pre-1850 New Haven example is known to
+        survive anywhere (see docs/DECISIONS.md).
       caption:
         en: >-
           The Liberian Hotel stood at the end of Greene Street, in the corner of
@@ -190,9 +214,14 @@ web:
       and the ordinary method of driving wooden piles would not hold in the soft
       harbour floor.
 
-      Lanson's answer was stone. He quarried at East Rock and moved it down this
-      river on flat-bottomed scows carrying about twenty-five tons a load. He
-      described the work himself:
+      Two contractors had already tried and given up. Lanson took it on, he
+      said, to "show what a black man was capable of doing."
+
+      His answer was stone. He owned a quarry in **East Haven**, on Blue
+      Mountain, and had flat-bottomed scows built that could carry
+      twenty-five-ton stones — loading them at a wharf he designed for the
+      purpose and taking them across the harbour to the pier head. He described
+      the work himself:
 
       > "The tide in this river rises about six feet, and it is considered very
       > dangerous going under the bridge. A scow must go up on the flood tide and
@@ -203,12 +232,50 @@ web:
 
       Read that with the tide in mind. A loaded scow moves one direction per
       tide. He was riding the flood up and the ebb down, in the dark, alone, on a
-      job that was reckoned to need three men and daylight — and getting four
-      extra loads a week out of the arrangement.
+      job that was reckoned to need three men and daylight.
+
+      **A note on which river.** Lanson says "this river" and does not name it,
+      and this project used to assume he meant the Mill. He probably did not. The
+      2024 National Register nomination for Long Wharf Pier places his quarry in
+      East Haven and has the stone crossing the harbour, which puts the dangerous
+      bridge on the Quinnipiac side rather than here.
+
+      It is fair to say his scows and this river shared water. The Mill joins the
+      Quinnipiac at Grapevine Point, a mile downstream of where you are standing,
+      and both empty into the same harbour he worked across. But a boat that
+      passes the mouth of a river has not worked its way up one, and we would
+      rather say so than stretch a connection. His link to *this* water is not
+      the stone. It is the land.
 
       By 1812 Long Wharf reached 3,480 feet into the harbour: the longest wharf
       in the United States. He went on to build Steamboat Wharf, Basin Wharf and
-      the Tomlinson Bridge, and to help develop Wooster Square.
+      the Tomlinson Bridge; his son Isaiah also credited him with the East Haven
+      bridge. In 1827 James Hillhouse hired him to build the Farmington Canal
+      basin, and he used the same Blue Mountain stone and the same methods.
+
+      ## What he did on this river
+
+      On **2 March 1807**, three or four years after arriving in New Haven,
+      Lanson bought land on the **west bank of the Mill River**, on the far edge
+      of what was then called the New Township and is now Wooster Square. It had
+      belonged to Mary Wooster, and had been used for ploughing contests.
+
+      That purchase mattered twice over. It was the ground on which he later
+      built **New Guinea** and then **New Liberia** — the Black neighbourhood
+      across the water from where you are standing, with his boarding house in
+      it, sheltering Black workers and people making their way north out of
+      slavery.
+
+      And it made him a property owner, which under Connecticut law of the time
+      meant he could vote.
+
+      **Then the law changed.** In 1814 Connecticut disenfranchised Black voters.
+      Lanson and another Black landowner, **Bias Stanley**, petitioned the
+      General Assembly: restore our vote, or stop taxing us. The Assembly granted
+      neither.
+
+      He had built the longest wharf in the United States, and he could not vote
+      in the town it served.
 
       ## The Liberian Hotel
 
@@ -248,8 +315,9 @@ web:
 
       New Liberia is gone — filled over, built on, and renamed. The Liberian
       Hotel is gone. What is not gone is the harbour edge: the stone Lanson
-      quarried at East Rock and floated down this water is still out there,
-      holding up Long Wharf.
+      quarried in East Haven and floated across the harbour is still out there,
+      holding up Long Wharf. What he made on *this* water was a neighbourhood,
+      and the city took that from him.
 
       A statue of him was raised on the Farmington Canal Trail in 2020, a hundred
       and sixty-nine years after he died.
@@ -286,9 +354,14 @@ web:
       muelle hasta aguas hondas, y el método habitual de clavar pilotes de madera
       no aguantaba en el fondo blando del puerto.
 
-      La respuesta de Lanson fue la piedra. Extraía en East Rock y la bajaba por
-      este río en chalanas de fondo plano que cargaban unas veinticinco toneladas.
-      Él mismo describió el trabajo:
+      Dos contratistas ya lo habían intentado y se habían rendido. Lanson aceptó
+      el encargo, dijo, para "demostrar de lo que era capaz un hombre negro".
+
+      Su respuesta fue la piedra. Tenía una cantera en **East Haven**, en Blue
+      Mountain, y mandó construir chalanas de fondo plano capaces de cargar
+      piedras de veinticinco toneladas, que embarcaba en un muelle diseñado por
+      él y llevaba por el puerto hasta la cabeza del espigón. Él mismo describió
+      el trabajo:
 
       > "La marea en este río sube unos seis pies, y se considera muy peligroso
       > pasar bajo el puente. Una chalana debe subir con la marea entrante y bajar
@@ -302,9 +375,46 @@ web:
       oscuras, solo, en un trabajo que se daba por hecho que requería tres
       hombres y luz de día, y así sacaba cuatro cargas más por semana.
 
+      **Una nota sobre qué río.** Lanson dice "este río" y no lo nombra, y este
+      proyecto daba por hecho que se refería al Mill. Probablemente no. La
+      propuesta de 2024 al Registro Nacional para Long Wharf Pier sitúa su
+      cantera en East Haven y lleva la piedra cruzando el puerto, lo que coloca
+      el puente peligroso del lado del Quinnipiac y no aquí.
+
+      Es justo decir que sus chalanas y este río compartían agua. El Mill se une
+      al Quinnipiac en Grapevine Point, una milla aguas abajo de donde está
+      usted, y ambos desembocan en el mismo puerto que él cruzaba. Pero una
+      embarcación que pasa por la desembocadura de un río no lo ha remontado, y
+      preferimos decirlo a estirar una conexión. Su vínculo con *estas* aguas no
+      es la piedra. Es la tierra.
+
       Para 1812 Long Wharf se adentraba 3.480 pies en el puerto: el muelle más
       largo de Estados Unidos. Después construyó Steamboat Wharf, Basin Wharf y
       el puente Tomlinson, y ayudó a desarrollar Wooster Square.
+
+      ## Lo que hizo en este río
+
+      El **2 de marzo de 1807**, tres o cuatro años después de llegar a New
+      Haven, Lanson compró terreno en la **orilla oeste del río Mill**, en el
+      extremo de lo que entonces se llamaba New Township y hoy es Wooster Square.
+      Había sido de Mary Wooster y se usaba para concursos de arado.
+
+      Aquella compra pesó por partida doble. Fue el suelo sobre el que después
+      levantó **New Guinea** y luego **New Liberia**, el barrio negro que queda
+      enfrente de donde está usted, con su casa de huéspedes dentro, que acogía a
+      trabajadores negros y a quienes subían hacia el norte huyendo de la
+      esclavitud.
+
+      Y lo convirtió en propietario, lo que según la ley de Connecticut de
+      entonces significaba que podía votar.
+
+      **Luego cambió la ley.** En 1814 Connecticut privó del voto a los
+      ciudadanos negros. Lanson y otro propietario negro, **Bias Stanley**,
+      pidieron a la Asamblea General que les devolviera el voto o dejara de
+      cobrarles impuestos. La Asamblea no concedió ninguna de las dos cosas.
+
+      Había construido el muelle más largo de Estados Unidos y no podía votar en
+      la ciudad a la que servía.
 
       ## El Liberian Hotel
 
@@ -345,7 +455,7 @@ web:
 
       New Liberia ya no existe: rellenada, edificada y rebautizada. El Liberian
       Hotel tampoco. Lo que sí queda es el borde del puerto: la piedra que Lanson
-      extrajo en East Rock y bajó por estas aguas sigue ahí fuera, sosteniendo
+      extrajo en East Haven y cruzó el puerto sigue ahí fuera, sosteniendo
       Long Wharf.
 
       En 2020 se levantó una estatua suya en el Farmington Canal Trail, ciento
@@ -354,6 +464,8 @@ web:
   gallery: []
 
   sources:
+    - title: "Long Wharf Pier — National Register of Historic Places nomination, 2024 (CT SHPO)"
+      url: https://portal.ct.gov/-/media/decd/historic-preservation/06_about_shpo/state-review-board/2024-meetings/june-14/long-wharf-pier-nr.pdf
     - title: "William Lanson: New Haven's African King — Yale-New Haven Teachers Institute (source of the quotation)"
       url: https://teachersinstitute.yale.edu/curriculum/units/files/97.04.04.pdf
     - title: "The successes and struggles of William Lanson — Connecticut History"

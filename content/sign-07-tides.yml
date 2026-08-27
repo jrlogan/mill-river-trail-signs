@@ -112,6 +112,7 @@ sign:
       - name: { en: Common Reed, es: Carrizo }
         scientific: Phragmites australis
         status: invasive
+        file: species/common-reed-phragmites-australis.jpg
 
     river_fact:
       text:

@@ -7,7 +7,7 @@
 
 id: sign-05-bath-house
 number: 5
-status: draft
+status: proof            # draft | proof | approved | printed
 
 location:
   name: Mill River Bath House

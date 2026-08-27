@@ -7,7 +7,7 @@
 
 id: sign-02-ball-island
 number: 2
-status: draft            # draft | proof | approved | printed
+status: proof            # draft | proof | approved | printed
 
 location:
   name: Ball Island / English Station / Industrial History
@@ -140,6 +140,7 @@ sign:
       - name: { en: Common Reed, es: Carrizo }
         scientific: Phragmites australis
         status: invasive
+        file: species/common-reed-phragmites-australis.jpg
       - name: { en: Rugosa Rose, es: Rosa rugosa }
         scientific: Rosa rugosa
         status: invasive
