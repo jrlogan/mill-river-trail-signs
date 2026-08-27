@@ -7,7 +7,7 @@
 id: sign-03-bridges
 number: 3
 status: proof            # draft | proof | approved | printed
-tier: alternate
+tier: primary
 
 location:
   name: Railway Bridge
@@ -24,8 +24,8 @@ urls:
 # What a reader standing here can actually see, which is the test a sign title
 # has to pass.
 title:
-  en: Three Bridges North
-  es: Tres Puentes al Norte
+  en: The Box Factory and the Bridge
+  es: La Fábrica de Cajas y el Puente
 
 sign:
 
@@ -50,28 +50,32 @@ sign:
 
   section:
     heading:
-      en: Bridging the Mill River
-      es: Cruzar el río Mill
+      en: The Rails That Went Indoors
+      es: Los raíles que entraban dentro
     body:
       en: >-
-        The first crossing, Neck Bridge, went up in 1641 along what is now State
-        Street. Look north from here and you will see three more. Farthest is the
-        Humphrey Street Bridge, built in 1952 to replace a 1909 crossing that
-        linked State Street to Fair Haven. The middle bridge carries trains, and
-        has since 1839, when the New Haven and Hartford Railroad — the city's
-        first rail line — laid red sandstone across the river here; its two
-        concrete arches went up in 1906-07. Nearest is an abandoned line, part of
-        the New Haven, New London and Stonington Railroad of 1852, which ran east
-        through Fair Haven and along the shore.
+        Look north and count the crossings: Humphrey Street, 1952; the working
+        rail arch of 1906-07, on a line laid in 1839; and nearest, an abandoned
+        shoreline railway of 1852. That nearest one is the interesting one. Before
+        the rails, industry here had to sit where the current was — a grist mill,
+        a wheel and axle shop, a **paper mill**. After them, a factory only had to
+        sit where the freight was, and the rails obliged by going indoors: a
+        **private siding** off the main line, across a yard, in through the wall.
+        Which is how, in 1905, the National Folding Box Company came to buy the
+        whole block upstream and build **the largest folding box plant in the
+        world** — paper again, on the same river, a century on.
       es: >-
-        El primer cruce, el Neck Bridge, se levantó en 1641 en lo que hoy es
-        State Street. Mire hacia el norte y verá tres más. El más lejano es el
-        puente de Humphrey Street, construido en 1952 para sustituir un cruce de
-        1909 que unía State Street con Fair Haven. El puente del medio lleva
-        trenes, y lo hace desde 1839, cuando el ferrocarril de New Haven y
-        Hartford — la primera línea de la ciudad — tendió piedra arenisca roja
-        sobre el río; sus dos arcos de hormigón se levantaron en 1906-07. El más
-        cercano es una línea abandonada del ferrocarril de New Haven, New London
+        Mire al norte y cuente los cruces: Humphrey Street, de 1952; el arco
+        ferroviario en servicio de 1906-07, sobre una línea tendida en 1839; y el
+        más cercano, un ferrocarril de costa abandonado de 1852. Ese último es el
+        interesante. Antes de los raíles, la industria tenía que estar donde
+        estaba la corriente: un molino de grano, un taller de ruedas y ejes, un
+        **molino de papel**. Después, a una fábrica le bastaba con estar donde
+        estaba la carga, y los raíles se ocuparon de entrar dentro: un
+        **apartadero privado** desde la vía principal, cruzando el patio, por la
+        pared. Así fue como en 1905 la National Folding Box Company compró la
+        manzana entera río arriba y levantó **la mayor fábrica de cajas plegables
+        del mundo**: papel otra vez, en el mismo río, un siglo después.
         y Stonington, de 1852, que iba al este por Fair Haven y la costa.
 
   images:
@@ -165,8 +169,8 @@ sign:
 
 web:
   subtitle:
-    en: The rail line that made the Mill River an industrial river, and the four crossings you can see from one spot
-    es: La línea férrea que convirtió el río Mill en un río industrial, y los cuatro cruces que se ven desde un mismo punto
+    en: Paper on this river before the rails and after them, and the private track that ran in through a factory wall
+    es: Papel en este río antes de los raíles y después, y la vía privada que entraba por la pared de una fábrica
 
   body:
     en: |
@@ -242,13 +246,60 @@ web:
       is why the factories sit where they sit: not near the river for the water,
       by the 1900s, but near the river because the rails were already there.
 
-      The clearest surviving example is a few hundred yards upstream. When the
-      **National Folding Box Company** chose New Haven in 1905 and bought an
-      entire block at James Street, it bought it for the barge landing and for
-      the rail spurs alongside — and the line those spurs came off is the one
-      whose bridge you are looking at. The largest folding box plant in the world
-      was fed by a private track running in off an abandoned shoreline railway.
-      *(Sign 15 tells that building's story.)*
+      The clearest surviving example is a few hundred yards upstream, and it is
+      worth the walk.
+
+      ## Paper, again
+
+      Before the railway, one of the works on this river was a **paper mill**,
+      turning by water like everything else. A century later paper came back, and
+      this time it came by rail.
+
+      The **National Folding Box Company** was assembled in New York in the early
+      1890s out of a group of smaller carton makers. In 1905 it chose New Haven as
+      its production centre and bought an entire block at James Street — for the
+      barge landing, for the spurs alongside, and for a workforce living within
+      walking distance in Fair Haven, Cedar Hill and Barnesville. The four-storey
+      plant went up in 1914.
+
+      By 1927 it was **the largest and most prestigious folding box company in the
+      world.**
+
+      That is easy to underrate, because a box is not a glamorous object. But the
+      whole twentieth-century idea of a branded product — something you recognise
+      on a shelf, sealed, printed, identical every time — depends on somebody
+      making the container. National printed for **Budweiser**, for **Hershey's**,
+      for **General Electric**, for the cigarette companies. And for Peter Paul:
+      it made the boxes for **Mounds and Almond Joy**, having helped start the
+      company in the first place, as an outside investment.
+
+      A private siding ran off the main line, across the yard and in through the
+      wall, so a boxcar could be filled where the boxes were made. **The largest
+      folding box plant in the world was fed by a track off the railway whose
+      bridge you are looking at.**
+
+      ## And then the jacket
+
+      Southern paperboard mills, sitting next to the timber, undercut New England
+      on price. Federal Paper Board bought National in 1953 and kept the plant
+      going until 1974, when it closed.
+
+      In 1976 a coach from Hamden Hall named **David Beckerman** moved his young
+      sportswear company into the empty box factory and, that same year, took a
+      licence from Major League Baseball. Before it, a replica team jacket was not
+      really a product you could buy. Afterwards it was an industry. By the late
+      1980s the satin jacket with the **S-and-star** on the sleeve was one of the
+      most recognisable objects in American popular culture — and it was designed
+      and shipped from a building on the Mill River.
+
+      Starter went public in 1993, was winded by the 1994 baseball strike, and
+      declared bankruptcy in 1999. The building still works: it houses ACES, the
+      United Way of Greater New Haven and Workforce Alliance, and ACES bought it
+      outright in May 2026.
+
+      A daylight factory built for folding cardboard in 1914 is now full of people
+      helping other people find work. That is a better ending than most New
+      England mill buildings get.
 
       Look at the near bridge again with that in mind. It is not a bridge that
       took people anywhere. It is a bridge that took freight to a door.
@@ -351,13 +402,60 @@ web:
       allí.
 
       El ejemplo más claro que se conserva queda unos cientos de metros aguas
-      arriba. Cuando la **National Folding Box Company** eligió New Haven en 1905
-      y compró una manzana entera en James Street, la compró por el atraque de
-      barcazas y por los apartaderos de al lado, y la línea de la que salían
-      aquellos apartaderos es esa cuyo puente está usted mirando. La mayor
-      fábrica de cajas plegables del mundo se alimentaba por una vía privada que
-      entraba desde un ferrocarril de costa hoy abandonado. *(El letrero 15
-      cuenta la historia de ese edificio.)*
+      arriba, y merece el paseo.
+
+      ## Papel, otra vez
+
+      Antes del ferrocarril, uno de los talleres de este río era un **molino de
+      papel**, movido por agua como todo lo demás. Un siglo después el papel
+      volvió, y esta vez llegó por raíl.
+
+      La **National Folding Box Company** se formó en Nueva York a principios de
+      la década de 1890 con la unión de varios fabricantes de cartón. En 1905
+      eligió New Haven como centro de producción y compró una manzana entera en
+      James Street: por el atraque de barcazas, por los apartaderos de al lado y
+      por una mano de obra que vivía a pie de fábrica en Fair Haven, Cedar Hill y
+      Barnesville. La planta de cuatro pisos se levantó en 1914.
+
+      En 1927 era **la fábrica de cajas plegables más grande y prestigiosa del
+      mundo.**
+
+      Es fácil restarle importancia, porque una caja no es un objeto glamuroso.
+      Pero toda la idea del producto de marca del siglo XX — algo que se reconoce
+      en un estante, sellado, impreso, idéntico siempre — depende de que alguien
+      fabrique el envase. National imprimía para **Budweiser**, **Hershey's**,
+      **General Electric** y las tabacaleras. Y para Peter Paul: hacía las cajas
+      de **Mounds y Almond Joy**, después de haber ayudado a poner en marcha la
+      empresa como inversión externa.
+
+      Un apartadero privado salía de la vía principal, cruzaba el patio y entraba
+      por la pared, para que un vagón se llenara donde se hacían las cajas. **La
+      mayor fábrica de cajas plegables del mundo se alimentaba por una vía del
+      ferrocarril cuyo puente está usted mirando.**
+
+      ## Y después, la chaqueta
+
+      Las fábricas de cartón del sur, junto a la madera, bajaron los precios por
+      debajo de lo que Nueva Inglaterra podía igualar. Federal Paper Board compró
+      National en 1953 y mantuvo la planta hasta 1974, cuando cerró.
+
+      En 1976 un entrenador del Hamden Hall llamado **David Beckerman** trasladó
+      su joven empresa de ropa deportiva a la fábrica de cajas vacía y, ese mismo
+      año, obtuvo una licencia de las Grandes Ligas de béisbol. Antes de eso, una
+      chaqueta de equipo no era realmente un producto que se pudiera comprar.
+      Después, era una industria. A finales de los ochenta, la chaqueta satinada
+      con la **S y la estrella** en la manga era uno de los objetos más
+      reconocibles de la cultura popular estadounidense, y se diseñaba y se
+      enviaba desde un edificio junto al río Mill.
+
+      Starter salió a bolsa en 1993, quedó sin aire con la huelga de béisbol de
+      1994 y se declaró en quiebra en 1999. El edificio sigue trabajando: alberga
+      ACES, United Way of Greater New Haven y Workforce Alliance, y ACES lo compró
+      en propiedad en mayo de 2026.
+
+      Una fábrica de luz natural construida en 1914 para plegar cartón está hoy
+      llena de gente que ayuda a otra gente a encontrar trabajo. Es mejor final
+      del que tienen la mayoría de las fábricas de Nueva Inglaterra.
 
       Vuelva a mirar el puente cercano con eso en la cabeza. No es un puente que
       llevara gente a ninguna parte. Es un puente que llevaba carga hasta una
@@ -410,6 +508,10 @@ web:
         es: Planos de construcción del mismo puente. Cortesía de Colin M. Caplan.
 
   sources:
+    - title: "370 James St. — Home of the National Box Company and Starter, Inc. (New Haven Museum)"
+      url: https://www.newhavenmuseum.org/museum-collections/online-exhibitions/micro-histories/370-james-st/
+    - title: "ACES buys Fair Haven office building for $14.6M — New Haven Independent, May 2026"
+      url: https://www.newhavenindependent.org/2026/05/05/aces-buys-fair-haven-office-building-for-14-6m/
     - title: "Engineering and Building Record, Volume 58, November 1908"
       url: https://www.google.com/books/edition/_/NUHnAAAAMAAJ
     - title: "The old Chapel Street Bridge — Library of Congress"

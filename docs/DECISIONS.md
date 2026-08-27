@@ -2561,3 +2561,97 @@ something rather than reading about it — the Exchange Street park was the firs
 Between them they caught a stale caption and a stale subtitle that four rounds of
 archival research did not. **Worth remembering when deciding how much more
 desk research to commission.**
+
+
+## The ten, revised: a merge, and a location test
+
+Two of JR's calls in one sitting, and together they change the shape of the series.
+
+### Signs 3 and 15 are now one sign
+
+**"The Box Factory and the Bridge"** — sign 3, retitled from *Three Bridges
+North*, absorbing sign 15.
+
+JR's connection is the reason: the private rail ran straight into the cardboard
+plant, and the paper mill that preceded the railway was the same trade on the
+same river a century earlier. Neither sign said that. Now one does, and the arc
+is complete:
+
+> water power (a grist mill, a wheel and axle shop, **a paper mill**) → the
+> railway of 1839 → the **private siding** that goes in through a factory wall →
+> the **largest folding box plant in the world**, printing Budweiser, Hershey's
+> and the Almond Joy wrapper → **Starter jackets** → ACES.
+
+It ends where it started: *"It is not a bridge that took people anywhere. It is a
+bridge that took freight to a door."*
+
+**Artwork: sign 3's existing four rail and bridge images stay on the printed
+panel**, so the merged sign is **4 of 4 and ready to proof today**. The box
+factory material lives in full on the web page, which has no image limit and can
+absorb the New Haven Museum photographs whenever they arrive. That was the whole
+argument for merging into 3 rather than into 15.
+
+`sign-15-james-street.yml` is **kept, not deleted** — marked superseded in its
+header, still an alternate, slugs still live. It is the fuller treatment standing
+at the building itself if a later phase wants it. Anyone reviving it must cut the
+overlap with sign 3 first.
+
+### Dragon Point is on the wrong river
+
+JR: *"dragons point is really mostly on the quinnipac river ... maybe does not
+make this list because of the location."*
+
+He is right, and it is the same discipline this file applied to Lanson's stone:
+**a sign on the Mill River Trail should be about the Mill River.** Sign 12 sits at
+41.3019, -72.8962 — Fair Haven, on the Quinnipiac. Its material is oysters, watch
+houses, the 1894 typhoid outbreak and the midnight race, and almost all of that
+is Quinnipiac and harbour history.
+
+**Demoted to alternate, and explicitly kept**, because JR expects a signage
+project on the Quinnipiac at some point and this is most of a sign for it
+already.
+
+### Which put Grapevine Point back in
+
+Demoting sign 12 opened a slot, and the location test that removed it is the same
+test that argues for **sign 8**: Criscuolo Park is the Mill River's **own mouth**,
+where it meets the Quinnipiac. It is as Mill River as the trail gets.
+
+Sign 8 had been demoted an hour earlier on the grounds that the 29th Connecticut
+already has black granite monoliths on that ground carrying the roster and the
+regiment's history. That worry is answered by making sign 8 do what the monument
+does not: it now also carries **the oyster ground it stands on** — the 1886 watch
+house robbery at Oyster Point, and Ingersoll's midnight race — with a pointer to
+sign 12 for the full oyster story.
+
+So sign 8 is no longer "the sign that repeats the monument." It is the sign at the
+mouth of the river: the camps, the regiment, the oyster beds, the armed watchmen
+and the bell at midnight.
+
+### The ten, as it stands
+
+| # | Sign | |
+|---|---|---|
+| 1 | Famous Stolen Submarine | 4/4 |
+| 2 | The Island and the Powerhouse | 4/4 |
+| 3 | The Box Factory and the Bridge | 4/4 |
+| 4 | The Dam That Fought Fires | 4/4 |
+| 5 | Where the City Bathed | 4/4 |
+| 6 | The Gate in the River | 1/4 |
+| 8 | Camp at Grapevine Point | 0/4 |
+| 10 | The Highway That Wasn't | 1/4 |
+| 11 | A Boat on the Rock | 0/4 |
+| 13 | King Lanson's River | 3/4 |
+
+**Five of the ten are artwork-complete and ready to proof.**
+
+Alternates: 7 Tides, 9 Plans, 12 Dragon Point, 15 James Street (superseded).
+14 First People remains the placeholder.
+
+### The principle worth keeping
+
+Three signs have now been reshaped by asking one question: **is this actually
+about this river?** It removed Lanson's stone from the Mill, it removed Dragon
+Point from the ten, and it is why Ingersoll's midnight race is captioned on sign
+12 as a Quinnipiac event. The trail is named after a river, and the discipline of
+holding to it has made every sign it touched more specific, not less interesting.
