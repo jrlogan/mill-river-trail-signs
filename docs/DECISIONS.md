@@ -2485,3 +2485,79 @@ Haven auctioned mowing rights here. **This is a very good Whitney Library
 question**, and the New Haven town records that produced the 1642 mill case are
 the same series that would record salt meadow allotments. Worth asking Colin,
 who may simply know.
+
+
+## The private sidings: JR's connection, and it links two signs
+
+JR: *"the paper mill and the old railway overbridge ... would be connected since
+the private rail went right into the cardboard plant and is an example of old
+private rails from that area."*
+
+He is right, and it is the missing idea in both signs.
+
+### What was missing
+
+Sign 3 described the bridges. Sign 15 said National Folding Box bought the block
+in 1905 "for the shipping, the rail spurs alongside." **Neither said what a spur
+actually was, or that the spurs on sign 15 came off the line on sign 3.**
+
+A main line is the part you notice. What made this an industrial river was the
+**private siding** — a spur off the main line, across a yard, and in through the
+wall of a specific building, so a boxcar could be loaded where the goods were
+made instead of carted to a station. It is why the factories sit where they sit:
+by the 1900s, not near the river for the water, but near the river because the
+rails were already there.
+
+Both signs now carry it, pointing at each other. Sign 3 gains **"The rails that
+went indoors"** and closes on: *"It is not a bridge that took people anywhere. It
+is a bridge that took freight to a door."* Sign 15 gains the same picture from
+the building's end: **"The largest folding box plant in the world was fed by a
+private track off a railway that no longer exists."**
+
+Sign 3's own body already listed **a paper mill** among the water-powered
+industries that preceded the railway, which is the other half of JR's point — the
+same trade on the same river, before the rails and after them.
+
+### The collapse — recorded, not yet confirmed
+
+JR reports the abandoned crossing has recently come down into the river. **I could
+not find this in any public source** — not the New Haven Independent, not local
+news, not anywhere. That is not evidence against it; a derelict rail bridge
+falling into an urban river may simply not have been reported.
+
+Two things were done about it:
+
+1. **Sign 3's subtitle asserted "the bridges that are still standing over it."**
+   That is now *"the four crossings you can see from one spot"* — safe whether the
+   bridge is up or down, and one less present-tense claim of the kind the Exchange
+   Street caption fell into.
+2. The web page carries a short note that the crossing has been coming apart for
+   years and is recorded as having recently fallen, ending: *"If you are reading
+   this on the trail and it looks different from what the sign shows, the sign is
+   older than the river."* **On the web page, which can be edited — not on the
+   metal.**
+
+**Before anything about the collapse is printed:** get a date and a photograph.
+A dated photograph of a nineteenth-century rail bridge lying in the Mill River
+would also be one of the strongest images available to this project, and it is
+one nobody needs permission for.
+
+### Also unconfirmed: which line, and into which wall
+
+That National Folding Box had rail spurs is from the New Haven Museum's own
+micro-history. **That the spurs came off the abandoned New Haven, New London and
+Stonington line specifically is JR's identification, and it is not verified.**
+
+It is very checkable, and the tool is already named elsewhere in this file:
+**Sanborn Fire Insurance Maps** for the James Street and River Street sheets,
+editions 1886, 1901, 1923 and 1950, show sidings, spurs and which buildings they
+enter. One afternoon with those sheets would confirm the line, the route of the
+spur, and probably the door it went through.
+
+### A note on where this came from
+
+This is the second correction in two days that came from somebody walking past
+something rather than reading about it — the Exchange Street park was the first.
+Between them they caught a stale caption and a stale subtitle that four rounds of
+archival research did not. **Worth remembering when deciding how much more
+desk research to commission.**
