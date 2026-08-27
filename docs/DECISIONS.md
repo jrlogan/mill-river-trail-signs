@@ -2316,3 +2316,66 @@ needs changing today.
 finishes being built, either date it ("the 2018 plan") or say what happened. Do
 not leave a sign describing an argument that is still in progress, because it
 will not be for long, and the sign will be.
+
+
+## The readiness counts were wrong on the live site
+
+JR: *"Seems like the photo source count is wrong on some."* It was, on every
+sign, and only in the place that matters.
+
+### What happened
+
+`readiness()` decided whether an image was sourced by **checking whether the file
+existed on disk**. That is correct on a machine that has the print-resolution
+masters. **GitHub Pages does not have them**, because `.gitignore` deliberately
+excludes `assets/images/sign-*/*.jpg` — they are the museums' masters and are not
+redistributed from a public repo.
+
+So the deployed index was computed against a checkout where, for example, all of
+`assets/images/sign-03/` is a single `panel-map.svg`. The result:
+
+| Sign | Shown live | Actually |
+|---|---|---|
+| 3 Three Bridges | 0 of 4 | **4 of 4** |
+| 13 Lanson | 0 of 4 | **3 of 4** |
+| 1 Fenian Ram | 2 of 4 | **4 of 4** |
+| 2 Ball Island | 1 of 4 | **4 of 4** |
+| 4 Whitney | 3 of 4 | **4 of 4** |
+
+Not just the numbers — **the ordering**, which is the entire point of the
+feature. Three finished signs were filed under "still gathering pictures."
+
+The irony is exact: the commit that introduced this said the count is *"computed
+at build time from the actual files on disk, so the index cannot drift from
+reality."* It drifted immediately, because the build environment and the authoring
+environment do not hold the same files. **A check against the filesystem is only
+as portable as the filesystem.**
+
+### The fix
+
+Readiness is now derived from the **`TODO-` filename prefix** in the content
+files. That is the project's own existing convention for "not sourced yet" —
+it is documented in HANDOVER.md, `render-sign.mjs` already prints those slots as
+labelled placeholders, and crucially **it lives in git**, so it is identical in
+every environment.
+
+Checked before switching: the `TODO-` convention and the filesystem agreed on
+**all fifteen signs**, so nothing was lost by moving to it.
+
+Verified by rebuilding the index from a tracked-files-only copy of the
+repository — a simulated fresh clone, with no masters present. It produces the
+correct counts and the correct order.
+
+### And a guard, so the convention cannot rot
+
+`warnIfReadinessDrifts()` runs at build time. On a machine that *does* have the
+masters, it warns if a slot is named as sourced but the file is missing. On a
+clean checkout it stays silent, because there is nothing to compare against. It
+never fails the build.
+
+### The general lesson
+
+**Anything the published site asserts about the project's own state must be
+derived from what is in version control.** The repository is the only thing both
+environments share. This applies to any future status, progress or completeness
+indicator: if it reads the disk, it is telling you about one laptop.

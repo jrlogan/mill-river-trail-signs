@@ -433,17 +433,40 @@ ${footerHTML}
 
 // How close a sign is to being finished. Everything here is written; what is
 // missing is pictures. So readiness is simply: how many image slots are filled.
-// Computed at build time so the index cannot drift from the actual files.
-async function readiness(s) {
-  const sub = s.id.replace(/^sign-(\d+).*/, 'sign-$1');
-  let have = 0;
+//
+// This MUST be derived from the content files, not from the filesystem. The
+// print-resolution images are gitignored (see .gitignore — they are the
+// museums' masters and are not redistributed), so on a clean checkout, which is
+// what GitHub Pages builds from, almost none of them exist. An earlier version
+// of this checked the disk and published nonsense: sign 3 showed 0 of 4 live
+// while showing 4 of 4 on the machine that had the masters.
+//
+// The `TODO-` filename prefix is the project's own convention for "not sourced
+// yet" (see HANDOVER.md), it lives in git, and it is therefore identical in
+// every environment.
+function readiness(s) {
   const need = s.sign.images.length;
-  for (const im of s.sign.images) {
-    try { await fs.access(path.join(ROOT, 'assets', 'images', sub, im.file)); have++; } catch {}
-  }
+  const have = s.sign.images.filter((im) => !im.file.startsWith('TODO-')).length;
   const missing = need - have;
   const group = s.status === 'placeholder' ? 3 : missing === 0 ? 0 : missing <= 2 ? 1 : 2;
   return { have, need, missing, group };
+}
+
+// Locally, where the masters do exist, check that the convention has not rotted
+// away from reality. Never fails the build — on a clean checkout there is
+// nothing to compare against.
+async function warnIfReadinessDrifts(sign) {
+  const sub = sign.id.replace(/^sign-(\d+).*/, 'sign-$1');
+  let present = 0, checked = 0;
+  for (const im of sign.sign.images) {
+    if (im.file.startsWith('TODO-')) continue;
+    checked++;
+    try { await fs.access(path.join(ROOT, 'assets', 'images', sub, im.file)); present++; } catch {}
+  }
+  if (checked && present === 0) return; // clean checkout: masters absent, nothing to say
+  if (present !== checked) {
+    console.warn(`  ⚠ ${sign.id}: ${checked - present} image(s) are named as sourced but missing from disk`);
+  }
 }
 
 function indexPage(lang, signs) {
@@ -595,7 +618,7 @@ const signs = [];
 for (const f of (await fs.readdir(dir)).filter((f) => f.endsWith('.yml') && !f.startsWith('_')).sort()) {
   signs.push(await loadSign(path.join(dir, f)));
 }
-for (const sign of signs) sign.rdy = await readiness(sign);
+for (const sign of signs) { sign.rdy = readiness(sign); await warnIfReadinessDrifts(sign); }
 
 await fs.writeFile(path.join(OUT, 'style.css'), css());
 
