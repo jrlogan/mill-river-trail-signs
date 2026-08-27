@@ -120,10 +120,12 @@ sign:
       - name: { en: Poison Ivy, es: Hiedra venenosa }
         scientific: Toxicodendron radicans
         status: native
+        recorded: 2024 bioblitz
         file: species/poison-ivy-toxicodendron-radicans.jpg
-      - name: { en: Thistles, es: Cardos }
-        scientific: Cirsium
+      - name: { en: Bull Thistle, es: Cardo borriquero }
+        scientific: Cirsium vulgare
         status: introduced
+        recorded: 2024 bioblitz
         file: species/thistles-genus-cirsium.jpg
 
     river_fact:

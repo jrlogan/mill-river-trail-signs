@@ -109,9 +109,10 @@ sign:
         scientific: Lepidium densiflorum
         status: native
         file: species/common-peppergrass-lepidium-densiflorum.jpg
-      - name: { en: Indian Blanket, es: Manta india }
+      - name: { en: Firewheel, es: Gallardía }
         scientific: Gaillardia pulchella
         status: introduced
+        recorded: 2024 bioblitz
         file: species/indian-blanket-gaillardia-pulchella.jpg
       - name: { en: Great Egret, es: Garceta grande }
         scientific: Ardea alba
@@ -143,6 +144,11 @@ web:
       Criscuolo Park sits on a point of land where the Mill River runs into the
       Quinnipiac. Before it was a park it was called Grapevine Point, and before
       that it was marsh and oyster ground at the edge of Fair Haven.
+
+      The grapes are still here. A survey of the trail in 2024 recorded
+      **riverbank grape** — *Vitis riparia* — growing along this water, twice.
+      Whatever else has been done to this place in four hundred years, the plant
+      it was named for is still climbing the banks.
 
       ## The camps
 

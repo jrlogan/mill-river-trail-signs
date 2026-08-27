@@ -144,6 +144,7 @@ sign:
       - name: { en: Rugosa Rose, es: Rosa rugosa }
         scientific: Rosa rugosa
         status: invasive
+        recorded: 2024 bioblitz
         file: species/rugosa-rose-rosa-rugosa.jpg
 
     river_fact:

@@ -109,10 +109,12 @@ sign:
       - name: { en: Common Toadflax, es: Linaria común }
         scientific: Linaria vulgaris
         status: introduced
+        recorded: 2024 bioblitz
         file: species/common-toadflax-linaria-vulgaris.jpg
       - name: { en: Rugosa Rose, es: Rosa rugosa }
         scientific: Rosa rugosa
         status: invasive
+        recorded: 2024 bioblitz
         file: species/rugosa-rose-rosa-rugosa.jpg
 
     river_fact:

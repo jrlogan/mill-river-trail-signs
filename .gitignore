@@ -29,3 +29,9 @@ Mill River Trail Images for Walks/
 # 2000px copies in assets/web/existing/ ARE committed and are the record; the
 # originals live in Existing Mill River Signage-1-001.zip.
 assets/images/existing/
+
+# Research material shared with the project but not ours to redistribute.
+# Sinye Tang's thesis is here because it is useful to read while writing signs,
+# not because it belongs to this repo. If anything from it ends up on a sign,
+# credit it and ask her first.
+docs/*.pdf

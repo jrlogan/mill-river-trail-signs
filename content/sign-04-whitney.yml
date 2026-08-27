@@ -136,10 +136,12 @@ sign:
       - name: { en: Black-eyed Susan, es: Rudbeckia }
         scientific: Rudbeckia hirta
         status: native
+        recorded: 2024 bioblitz
         file: species/blackeyed-susan-rudbeckia-hirta.jpg
       - name: { en: Common Evening-Primrose, es: Onagra }
         scientific: Oenothera biennis
         status: native
+        recorded: 2024 bioblitz
         file: species/common-eveningprimrose-oenothera-biennis.jpg
       - name: { en: Autumn Olive, es: Olivo de otoño }
         scientific: Elaeagnus umbellata

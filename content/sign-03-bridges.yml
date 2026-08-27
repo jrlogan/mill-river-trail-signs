@@ -137,14 +137,17 @@ sign:
       - name: { en: Common Toadflax, es: Linaria común }
         scientific: Linaria vulgaris
         status: introduced
+        recorded: 2024 bioblitz
         file: species/common-toadflax-linaria-vulgaris.jpg
-      - name: { en: Burdock, es: Bardana }
-        scientific: Arctium
+      - name: { en: Lesser Burdock, es: Bardana menor }
+        scientific: Arctium minus
         status: introduced
+        recorded: 2024 bioblitz
         file: species/burdocks-genus-arctium.jpg
       - name: { en: Poison Ivy, es: Hiedra venenosa }
         scientific: Toxicodendron radicans
         status: native
+        recorded: 2024 bioblitz
         file: species/poison-ivy-toxicodendron-radicans.jpg
 
     river_fact:

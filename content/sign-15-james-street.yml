@@ -126,15 +126,17 @@ sign:
       - name: { en: Great Mullein, es: Gordolobo }
         scientific: Verbascum thapsus
         status: introduced
+        recorded: 2024 bioblitz
         file: species/great-mullein-verbascum-thapsus.jpg
       - name: { en: Common Purslane, es: Verdolaga }
         scientific: Portulaca oleracea
         status: introduced
         file: species/common-purslane-portulaca-oleracea.jpg
-      - name: { en: Autumn Olive, es: Olivo de otoño }
-        scientific: Elaeagnus umbellata
+      - name: { en: Tree-of-Heaven, es: Ailanto }
+        scientific: Ailanthus altissima
         status: invasive
-        file: species/autumn-olive-elaeagnus-umbellata.jpg
+        recorded: 2024 bioblitz
+        file: species/tree-of-heaven-ailanthus-altissima.jpg
       - name: { en: Chimney Swift, es: Vencejo de chimenea }
         scientific: Chaetura pelagica
         status: native

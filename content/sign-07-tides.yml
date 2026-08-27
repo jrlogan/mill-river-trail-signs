@@ -98,10 +98,11 @@ sign:
 
   panel:
     species:
-      - name: { en: Carolina Sea Lavender, es: Lavanda de mar }
-        scientific: Limonium carolinianum
+      - name: { en: Swamp Rose Mallow, es: Malva rosa de pantano }
+        scientific: Hibiscus moscheutos
         status: native
-        file: species/carolina-sea-lavender-limonium-carolinianum.jpg
+        recorded: 2024 bioblitz
+        file: species/swamp-rose-mallow-hibiscus-moscheutos.jpg
       - name: { en: Northern Seaside Goldenrod, es: Vara de oro marítima }
         scientific: Solidago sempervirens
         status: native

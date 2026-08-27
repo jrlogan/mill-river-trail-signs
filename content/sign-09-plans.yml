@@ -123,14 +123,17 @@ sign:
       - name: { en: American Pokeweed, es: Hierba carmín }
         scientific: Phytolacca americana
         status: native
+        recorded: 2024 bioblitz
         file: species/american-pokeweed-phytolacca-americana.jpg
       - name: { en: Great Mullein, es: Gordolobo }
         scientific: Verbascum thapsus
         status: introduced
+        recorded: 2024 bioblitz
         file: species/great-mullein-verbascum-thapsus.jpg
       - name: { en: Black-eyed Susan, es: Rudbeckia }
         scientific: Rudbeckia hirta
         status: native
+        recorded: 2024 bioblitz
         file: species/blackeyed-susan-rudbeckia-hirta.jpg
 
     river_fact:

@@ -154,10 +154,12 @@ sign:
       - name: { en: American Pokeweed, es: Hierba carmín }
         scientific: Phytolacca americana
         status: native
+        recorded: 2024 bioblitz
         file: species/american-pokeweed-phytolacca-americana.jpg
       - name: { en: Common Evening-Primrose, es: Onagra }
         scientific: Oenothera biennis
         status: native
+        recorded: 2024 bioblitz
         file: species/common-eveningprimrose-oenothera-biennis.jpg
       - name: { en: Autumn Olive, es: Olivo de otoño }
         scientific: Elaeagnus umbellata

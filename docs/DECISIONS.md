@@ -531,9 +531,9 @@ NOAA, USFWS and the Smithsonian cover a surprising share of what is needed.
   documented; the specific opening date, operator and exact site of the Mill
   River bath house still need confirming from the 1880-81 newspaper coverage.
 - **Sign 8** should be read carefully by the project for tone and local detail.
-- **Species picks across signs 2-12 are educated guesses.** They are chosen to
-  be plausible for each location and to mix natives with invasives, since
-  knowing which is which is the useful part. Walk the sites and swap them.
+- **Species picks were educated guesses. They are not any more** — most of them
+  turned out to be right, and the rest have been swapped for species actually
+  recorded on the trail. See *The 2024 bioblitz* below.
 
 
 
@@ -2075,3 +2075,98 @@ Library.
 Both are now written into the sign's `source_note`, with the rights status
 spelled out, along with a warning not to substitute a stone scow because no
 pre-1850 New Haven example survives anywhere.
+
+
+## The 2024 bioblitz closes the oldest caveat in this file
+
+From the first draft, every species panel carried the same warning: the picks
+were plausible guesses made at a desk, and somebody should walk the sites and
+swap them. JR has now produced **the trail's own 2024 bioblitz** — 49 taxa
+recorded along the Mill River Trail.
+
+**Most of the guesses were right.** Eleven of the species already on the signs
+appear in the record:
+
+American Pokeweed · Great Mullein · Black-eyed Susan · Common Evening-Primrose ·
+Common Toadflax · Eastern Poison Ivy · Rugosa Rose · Firewheel *(Gaillardia
+pulchella)* · Bull Thistle · Lesser Burdock · Hedge Bindweed
+
+Each of those now carries **`recorded: 2024 bioblitz`** in its YAML entry. That
+field is not printed. It exists so that a future editor can tell at a glance
+which species are evidence and which are still inference — the distinction this
+file spent two years asking for.
+
+### Three genus-level entries became species
+
+The blitz identified to species what the signs had only to genus, so the signs
+now say what was actually found:
+
+| Was | Now |
+|---|---|
+| Thistles, *Cirsium* | **Bull Thistle**, *Cirsium vulgare* (2 obs) |
+| Burdock, *Arctium* | **Lesser Burdock**, *Arctium minus* |
+| American Bindweed, *C. sepium* ssp. *americana* | **Hedge Bindweed**, *Calystegia sepium* |
+| Indian Blanket | **Firewheel** — the name the recorders used |
+
+### Three swaps, one of which pays off a sign's own name
+
+- **Sign 8, Grapevine Point → Riverbank Grape, *Vitis riparia*, recorded twice.**
+  The park is named Grapevine Point. Nobody had checked whether the grapes were
+  still there. They are. The web page now says so: *"Whatever else has been done
+  to this place in four hundred years, the plant it was named for is still
+  climbing the banks."* Replaces Common Peppergrass, which was a guess and is not
+  in the record.
+- **Sign 7, Tides → Swamp Rose Mallow, *Hibiscus moscheutos*, recorded twice.** A
+  native tidal-marsh hibiscus, and a far better indicator for a sign about the
+  tidal reach than the Carolina sea lavender it replaces.
+- **Sign 15, 370 James Street → Tree-of-Heaven, *Ailanthus altissima*, recorded
+  twice.** The tree that grows out of factory walls, on the sign about a factory.
+  Replaces Autumn Olive, which is not in the record.
+
+Three new species plates were sourced for these, all **public domain**, cropped
+4:3 and sized 1024 x 768 to match the existing set:
+`riverbank-grape-vitis-riparia.jpg`, `swamp-rose-mallow-hibiscus-moscheutos.jpg`,
+`tree-of-heaven-ailanthus-altissima.jpg`.
+
+### An important limit on how this is used
+
+**A one-day blitz records what people photographed, not everything present.**
+Absence from the list is not evidence of absence — Phragmites is not in it, and
+Phragmites is unmistakably all over this river. So the rule applied here was:
+*prefer a recorded species where a swap is equally apt; do not delete a plausible
+unrecorded one just because nobody photographed it that day.* Seaside goldenrod,
+sea lavender and flatsedges stay on the genuinely salt and tidal signs on that
+basis, unmarked, which is the honest signal.
+
+### Still unused, and worth a second look
+
+The blitz recorded things no sign uses yet, several of them better than what is
+there:
+
+- **Buttonbush** *(Cephalanthus occidentalis)*, **Groundsel Tree** *(Baccharis
+  halimifolia)*, **Northern Bayberry** *(Morella pensylvanica)*, **Climbing
+  Hempvine** *(Mikania scandens)* — natives of exactly this kind of shoreline.
+- **Common Milkweed**, **Eastern Redcedar**, **Tall Goldenrod** *(Solidago
+  altissima* — note, not the seaside goldenrod the signs assume).
+- **Invasives** we do not name: Asian Bittersweet, Wineberry, Spotted Knapweed,
+  Purple Crownvetch, Orange Day-Lily, White Sweetclover.
+- **Animals**, and there are almost none on the signs: **Eastern Pondhawk**
+  (dragonfly), **Two-spotted Bumble Bee**, **Wild Indigo Duskywing** (butterfly),
+  and three *Catocala* underwing moths — Ilia, Ultronia and Connubial. A sign
+  panel with an underwing moth on it would be unlike anything else on the trail.
+
+### And a standing invitation
+
+The blitz is the single most useful thing anyone has handed this project, because
+it is the only body of evidence in the whole file that was gathered **on the
+trail itself** rather than out of an archive. **Do it again, and record the
+location of each observation**, and every species panel on the trail could be
+specific to the ground the sign stands on rather than to the river in general.
+
+## Sinye Tang's thesis
+
+`docs/*.pdf` is now gitignored. Sinye Tang's *The Bed In Which They Lie* was
+shared with the project to read while writing, not to redistribute — this
+repository is public, and NOTICE.md is careful about exactly this. It stays on
+the working copy, out of the commit. **If anything from it reaches a sign, credit
+it and ask her first.**
