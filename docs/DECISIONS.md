@@ -2170,3 +2170,91 @@ shared with the project to read while writing, not to redistribute — this
 repository is public, and NOTICE.md is careful about exactly this. It stays on
 the working copy, out of the commit. **If anything from it reaches a sign, credit
 it and ask her first.**
+
+
+## The ecology round: one live error caught, one sign improved
+
+The last research pass covered the corridor's ecology. Two things in it were
+worth acting on immediately.
+
+### CORRECTED — peregrines do not nest on East Rock
+
+Sign 11 said *"Peregrine falcons nest on the trap rock cliffs of the Connecticut
+ridges."* That sentence is literally true and **misleading where it stands**,
+because a reader at the foot of East Rock will take "the Connecticut ridges" to
+mean this one.
+
+Verified independently: the Connecticut cliff eyrie is on **West Rock**. **Steve
+Broker** found a pair holding territory there in **1999**, and in the 2000
+breeding season they produced **the first peregrine egg laid on a Connecticut
+cliff in sixty years** — after DDT had eliminated the species as a breeding bird
+east of the Rockies. Their descendants are still there.
+
+East Rock is foraging and roosting habitat: updraughts off the face, and a city
+full of pigeons underneath.
+
+Sign 11 now says exactly that, and the correction is a *better* fact than the
+claim it replaces — "if you see a falcon over East Rock, it very likely nests on
+the other rock" is more interesting than a vague statement about ridges. The
+species panel entry carries a YAML comment so nobody re-introduces the error.
+
+**This is the third time popular local lore has been found on one of our signs**
+after Stewart's ark, Lanson's stone and the Save Our Park Committee. The pattern
+is worth naming: the claims that fail are always the ones that sound like they
+were repeated rather than read.
+
+### Sign 4 gains the best "go and look" fact on the trail
+
+Sign 4 ended on the museum and the industrial landscape. It now ends on
+something a visitor can act on in April:
+
+River herring come in from the sea every spring — alewives from late March,
+bluebacks from May — up the Mill River, past the tide gates, through the city.
+**And then they stop, at this dam.** There is no fish ladder. The alewives gather
+in the plunge pool at the foot of the spillway behind the museum, and that is as
+far up their own river as they get; **Lake Whitney and roughly fourteen miles of
+watershed above it have been closed to them since 1860.**
+
+The birds know — cormorants, great blue herons, black-crowned night-herons and
+osprey collect below the dam for exactly this reason.
+
+And **river herring are under a statewide closure in Connecticut**, fresh and
+salt water alike, because the coastwide population collapsed. Watching is all
+that is permitted.
+
+This connects sign 4 to sign 6, which already carried the Whitney dam as the
+thing that closed the upper river in 1860. The two now tell one story from
+opposite ends.
+
+### Not acted on, but recorded
+
+- **Corridor zoning.** The report divides the river into four ecological reaches
+  — dam tailrace, floodplain, tidal reach below the State Street gates, and
+  harbour confluence — and proposes a four-species panel for each. That is a
+  sound structure and roughly what the signs already do by accident. If the
+  species panels are ever reworked wholesale, this is the framework.
+- **eBird hotspots**, named with IDs: East Rock Park (L207438, an Important Bird
+  Area with 200+ species and 25+ warbler species in May), Rice Field (L1091465),
+  Criscuolo Park (L872412). **These are the free, ongoing, location-specific
+  data this file asked for** when the bioblitz came in. Anyone reworking species
+  panels should start here.
+- **The invasive suite** the report names for specific reaches — Japanese
+  knotweed on the scoured banks, garlic mustard and Japanese barberry on the
+  East Rock talus, mugwort on the fill, Phragmites below the tide gates. Signs
+  11 and 6 already name most of these in the right places. The barberry-and-tick
+  connection is now on sign 11.
+- **More HAER images, all public domain**, found while checking: **CONN,5-HAM,3B--7**
+  ("Whitney Arms Company, East Rock in Background, c. 1870"), **CONN,5-HAM,3--12**
+  ("Mill River and Lake Whitney Dam, c. 1900"), **CONN,5-HAM,3--20** ("Mill River
+  and rear of the 1860 armory building, c. 1930"). Sign 4's artwork is already
+  complete, but these are free and better than nothing for signs still short.
+- **Ezra Stiles, "A Plan of New Haven and Harbour," 27 September 1775**, Yale
+  Manuscripts and Archives — public domain, and it shows the estuary *before*
+  the filling and the tide gates. That is a strong candidate for **sign 2 or
+  sign 7**, both of which are about what the marsh used to be.
+- **Unchecked claims** worth a look before use: that smooth and saltmeadow
+  cordgrass are "largely extirpated" from the upper tidal reach and survive only
+  near Criscuolo Park; the mummichog and common carp suggestions; and the
+  Arnold Guyot Dana scrapbooks, **Volume 96 (New Haven water supply and rivers)**,
+  at the Whitney Library, said to hold albumen prints of the dam and lower river
+  1860-1920. That last one is another reason to book the Whitney Library day.

@@ -128,6 +128,8 @@ sign:
         status: introduced
         recorded: 2024 bioblitz
         file: species/thistles-genus-cirsium.jpg
+      # Hunts and roosts on this face. Does NOT nest here — the Connecticut
+      # cliff eyrie is on West Rock (Broker, 1999). See the web page.
       - name: { en: Peregrine Falcon, es: Halcón peregrino }
         scientific: Falco peregrinus
         status: native
@@ -233,10 +235,20 @@ web:
 
       ## What is here now
 
-      Peregrine falcons nest on the trap rock cliffs of the Connecticut ridges,
-      and the updraughts off the face make this good raptor country. In the
-      woods, watch for garlic mustard and Japanese barberry — both introduced,
-      both aggressive, and both changing what can grow underneath.
+      Peregrine falcons hunt and roost along this face — the updraughts off the
+      trap rock make it good raptor country, and the city below supplies the
+      pigeons. **They do not nest here, and it is worth knowing where they do.**
+      In 1999 Steve Broker found a pair holding territory on the cliffs of West
+      Rock, across the city; the following spring they produced **the first
+      peregrine egg laid on a Connecticut cliff in sixty years**, after DDT had
+      wiped the species out as a breeding bird east of the Rockies. Their
+      descendants are still there. If you see a falcon over East Rock, it very
+      likely nests on the other rock.
+
+      In the woods, watch for garlic mustard and Japanese barberry — both
+      introduced, both aggressive, and both changing what can grow underneath.
+      The barberry does something less obvious too: it holds humidity at ankle
+      height, and the ticks like that.
 
     es: |
       East Rock es lo más evidente de New Haven y lo más fácil de dar por
@@ -322,11 +334,20 @@ web:
 
       ## Qué hay ahora
 
-      Los halcones peregrinos anidan en los acantilados de roca trapeana de las
-      crestas de Connecticut, y las corrientes ascendentes de la pared hacen de
-      esto buen territorio de rapaces. En el bosque, fíjese en la aliaria y el
-      agracejo japonés: ambos introducidos, ambos agresivos y ambos cambiando lo
-      que puede crecer debajo.
+      Los halcones peregrinos cazan y se posan en esta pared: las corrientes
+      ascendentes de la roca trapeana hacen de esto buen territorio de rapaces, y
+      la ciudad de abajo pone las palomas. **Pero no anidan aquí, y conviene
+      saber dónde sí.** En 1999 Steve Broker encontró una pareja asentada en los
+      acantilados de West Rock, al otro lado de la ciudad; la primavera siguiente
+      pusieron **el primer huevo de peregrino en un acantilado de Connecticut en
+      sesenta años**, después de que el DDT arrasara la especie como ave
+      nidificante al este de las Rocosas. Sus descendientes siguen allí. Si ve
+      un halcón sobre East Rock, es muy probable que anide en la otra roca.
+
+      En el bosque, fíjese en la aliaria y el agracejo japonés: ambos
+      introducidos, ambos agresivos y ambos cambiando lo que puede crecer debajo.
+      El agracejo hace además algo menos evidente: retiene la humedad a la altura
+      del tobillo, y a las garrapatas eso les gusta.
 
   gallery:
     - file: clipping-1887.jpg
