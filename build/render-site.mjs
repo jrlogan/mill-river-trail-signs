@@ -89,6 +89,7 @@ const T = {
     signHead: 'The sign at this spot',
     signNote: 'The full sign, in English and Spanish. Zoom in to read it.',
     signDraft: 'This sign is still a draft. The hatched boxes are photographs that have not been sourced yet.',
+    signPlaceholder: 'This sign is deliberately unwritten, and is not going to be printed as it stands. It is here so the gap is visible and can be answered.',
     locationHead: 'Where this sign stands',
     mapLink: 'Open in maps',
     backHome: 'All Mill River Trail signs',
@@ -116,6 +117,7 @@ const T = {
     signHead: 'El letrero en este punto',
     signNote: 'El letrero completo, en inglés y español. Amplíe para leerlo.',
     signDraft: 'Este letrero es todavía un borrador. Los recuadros rayados son fotografías que aún no se han conseguido.',
+    signPlaceholder: 'Este letrero está sin escribir a propósito y no se va a imprimir tal como está. Existe para que la ausencia se vea y se pueda responder a ella.',
     locationHead: 'Dónde está este letrero',
     mapLink: 'Abrir en mapas',
     backHome: 'Todos los letreros del Mill River Trail',
@@ -376,6 +378,7 @@ ${hero ? `<meta property="og:image" content="${imgDir}/${encodeURIComponent(hero
     <h2>${esc(t.signHead)}</h2>
     <p class="lede">${esc(t.signNote)}</p>
     ${sign.status === 'draft' ? `<p class="draft-note">${esc(t.signDraft)}</p>` : ''}
+    ${sign.status === 'placeholder' ? `<p class="draft-note">${esc(t.signPlaceholder)}</p>` : ''}
     <figure class="signart">
       <a href="../signs/${esc(sign.id)}.jpg">
         <img src="../signs/${esc(sign.id)}.jpg"
@@ -517,7 +520,7 @@ function existingPage(lang, data, signs, otherHref) {
   <h2>${esc(t.mapHead)}</h2>
   <p class="lede">${esc(t.mapNote)}</p>
   <figure class="overview">
-    <img src="../images/overview-map.svg" alt="Map of the Mill River from Lake Whitney down to the harbour, with numbered markers for the thirteen planned signs and green dots for the eighteen already standing.">
+    <img src="../images/overview-map.svg" alt="Map of the Mill River from Lake Whitney down to the harbour, with numbered markers for the fourteen planned signs and green dots for the eighteen already standing.">
   </figure>
 
   ${groups}

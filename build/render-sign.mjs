@@ -58,7 +58,9 @@ async function renderSign(file) {
 
   if (missingArt) {
     console.log(`  ◻ ${missingArt} image(s) not sourced yet — drawn as placeholders`);
-    if (sign.status !== 'draft') {
+    // "placeholder" is a sign that is deliberately unwritten — see sign 14. It
+    // is never printed, so incomplete artwork is the point rather than a fault.
+    if (sign.status !== 'draft' && sign.status !== 'placeholder') {
       console.error(`  ✗ status is "${sign.status}" but artwork is incomplete; keep it at "draft"`);
       process.exitCode = 1;
     }

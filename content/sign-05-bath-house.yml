@@ -30,46 +30,47 @@ sign:
     en: >-
       For most of the 19th century a bath was a luxury. New Haven's tenements
       were built without plumbing, and families who wanted to wash carried water
-      or went to the river. So the city ran bath houses. By 1880 there were two,
-      at Beach Street and the West bridge, managed by a standing city committee
-      and opened to the public each year on the first of June.
+      or came to the river. So the city ran bath houses — one of them here, at
+      Beach Street on the Mill — and the man who minded it was not hired. He was
+      elected, by ballot, in the Court of Common Council, and men campaigned for
+      the job.
     es: >-
       Durante casi todo el siglo XIX bañarse era un lujo. Las viviendas obreras
       de New Haven se construyeron sin cañerías, y las familias que querían
-      lavarse acarreaban agua o iban al río. Por eso la ciudad tenía casetas de
-      baño. Hacia 1880 había dos, en Beach Street y en el West bridge,
-      gestionadas por un comité municipal permanente y abiertas al público cada
-      año el primero de junio.
+      lavarse acarreaban agua o venían al río. Por eso la ciudad tenía casetas de
+      baño — una de ellas aquí, en Beach Street sobre el Mill — y al encargado no
+      se le contrataba. Se le elegía, por votación, en el Ayuntamiento, y había
+      hombres que hacían campaña por el puesto.
 
   section:
     heading:
-      en: A Floating Bath on the Mill
-      es: Un baño flotante en el Mill
-    # REVIEW: the national bath movement and the absence of plumbing in New
-    # Haven tenements are well documented. The specific opening date, operator
-    # and exact site of the Mill River bath house still need confirming from the
-    # 1880-81 New Haven newspaper coverage in the research notes.
+      en: The Most Contested Job in New Haven
+      es: El puesto más disputado de New Haven
+    # The council record is now the spine of this sign. Every figure below is
+    # from the Morning Journal and Courier, sourced in docs/DECISIONS.md.
     body:
       en: >-
-        In October 1881 the committee on bath houses made its report for the
-        season. It recommended that the Beach Street bath house be removed to
-        Neck Bridge and made a floating tank, and "that a floating bath be built
-        on the east side of Chapel street bridge on Mill river, or at such point
-        thereabouts as will be found most suitable." A bath house was a plain
-        thing — a walkway, changing rooms, an enclosure in the water and an
-        attendant — free to use and separated by sex and by hour. It also put
-        the city in the odd position of inviting people to bathe in a river it
-        was steadily poisoning.
+        A bath house was a plain thing — a walkway, changing rooms, an enclosure
+        in the water and a keeper. The keeper was paid $2.50 a day out of an
+        appropriation of $500, which in June 1881 the committee had to reconsider
+        because it would not last the hot season. And yet men queued to be
+        appointed. The council balloted for it, with tellers counting; in May
+        1883 the West bridge election deadlocked four to four through ten
+        straight ballots and had to be sent back. In May 1887 committee members
+        received anonymous letters, "disgraceful in the extreme," smearing a
+        candidate. The writer was never found. It was a job minding people in
+        the water, and it was fought over like a seat.
       es: >-
-        En octubre de 1881 el comité de casetas de baño presentó su informe de
-        temporada. Recomendaba trasladar la caseta de Beach Street a Neck Bridge
-        y convertirla en un tanque flotante, y "que se construya un baño flotante
-        en el lado este del puente de Chapel Street sobre el río Mill, o en el
-        punto cercano que resulte más adecuado". Una caseta de baños era algo
-        sencillo: una pasarela, vestuarios, un recinto en el agua y un encargado,
-        de uso gratuito y separado por sexo y por horario. También dejaba a la
-        ciudad en la rara posición de invitar a bañarse en un río que ella misma
-        envenenaba.
+        Una caseta de baños era algo sencillo: una pasarela, vestuarios, un
+        recinto en el agua y un encargado. Al encargado se le pagaban 2,50
+        dólares al día con cargo a una partida de 500, que en junio de 1881 el
+        comité tuvo que revisar porque no llegaría al final del calor. Y aun así
+        había cola para el puesto. El Ayuntamiento lo votaba, con escrutadores
+        contando; en mayo de 1883 la elección del West bridge quedó empatada a
+        cuatro durante diez votaciones seguidas y hubo que devolverla. En mayo de
+        1887 los miembros del comité recibieron cartas anónimas, "vergonzosas en
+        grado extremo", contra un candidato. Nunca se supo quién las escribió.
+        Era un empleo cuidando gente en el agua, y se peleaba como un escaño.
 
   images:
     - key: The Bath House
@@ -97,15 +98,16 @@ sign:
         en: A municipal bath in use. They were free, and they were crowded.
         es: Un baño municipal en uso. Eran gratuitos, y estaban llenos.
 
-    - key: Newspaper Notice
-      file: TODO-bath-house-clipping.jpg
+    - key: The Ballot
+      file: clipping-ballot-1882.jpg
       slot: right_bottom
-      source_note: >-
-        A New Haven newspaper notice about the bath house, 1880-81. Chronicling
-        America, Library of Congress — links are in the research notes.
       caption:
-        en: New Haven newspapers argued over public baths through 1880 and 1881.
-        es: Los periódicos de New Haven discutieron sobre los baños públicos en 1880 y 1881.
+        en: >-
+          The council elects a bath house keeper, 2 May 1882. Beach Street:
+          Crowley 18, Mitchell 2.
+        es: >-
+          El Ayuntamiento elige encargado de la caseta de baños, 2 de mayo de
+          1882. Beach Street: Crowley 18, Mitchell 2.
 
   panel:
     # Early-draft guesses at what a visitor would actually notice on this bank.
@@ -207,13 +209,79 @@ web:
       That is the Mill River bath house, in the city's own words: a floating
       bath, on this river, proposed in the autumn of 1881.
 
+      There were more than two. The council record turns up bath houses and bath
+      house proposals at **Beach Street**, at the **West bridge** on the West
+      River, at the **foot of English Street** in Fair Haven — remonstrated
+      against by the neighbours and referred back to committee for three years
+      running — at **the Cedars**, and by 1892 at the foot of **Blatchley Avenue**
+      and the south end of **Hamilton Street**. By April 1889 the council was
+      handling petitions for a "keeper of bath house on Mill river" and a keeper
+      "on Beach street" as two separate posts.
+
+      ## The job
+
+      Here is the part nobody expects.
+
+      The keeper of a bath house was not hired by a foreman. He was **elected**,
+      by the Court of Common Council, by ballot, with tellers appointed to count.
+
+      On **2 May 1882** Alderman O'Keefe moved to proceed to an election for
+      Beach Street bath house keeper. Aldermen Mix and Tiesing were appointed
+      tellers. Whole number of votes, 20: **Timothy Crowley 18, Walter Mitchell
+      2.** Alderman Benton then moved to elect a keeper for the West bridge:
+      **Daniel Lovejoy 12, Patrick McDermott 6, Bernard Oberkehr 2.** That
+      clipping is on this sign.
+
+      A year later, on **2 May 1883**, the West bridge went to **ten consecutive
+      ballots**, deadlocked four to four between Owen Kelly and Patrick
+      McDermott, and had to be reported back to the council unresolved.
+
+      In **May 1887** the thing turned nasty. Members of the committee received
+      **anonymous letters**, described in the paper as "disgraceful in the
+      extreme," intended to put the candidate Reynolds in an unpleasant light.
+      The aldermen appointed him anyway; the council voted to recommit. The
+      letter-writer was never discovered.
+
+      The pay was **$2.50 a day**. In June 1881 the committee met to reconsider
+      even that, because the whole appropriation was **$500** and at that rate it
+      would be exhausted before the hot season closed.
+
+      Petitions to be made keeper run through the minutes for a decade: Lovejoy,
+      Crowley, Michael Keys, Stephen Blakeslee, Edward Ward, James Noonan,
+      Bernard Oberker, William Cummings, James Tiernan, Peter Sweeney, L. F.
+      Cone. It was patronage, and it was a job, and in a city of tenements a
+      steady summer wage was worth writing a letter to an alderman for.
+
+      ## The keepers were the lifeguards
+
+      Which is the other half of it, and the reason the job mattered.
+
+      In **May 1883** a boy playing in a lumber yard near the Grand Street bridge
+      fell in and was found drowned by **Timothy Crowley, the bath house keeper**.
+      In **July 1886** another boy went into the Mill River — slipped, or was
+      pushed by playmates — and Crowley recovered his body with grappling hooks
+      half an hour later. A doctor worked over him for an hour with a battery.
+      He did not come back.
+
+      In **August 1882** two sons of Margaret English, a widow of Wallace Street,
+      drowned in the Mill River near the Beach Street bath house. A neighbour
+      looking out of a window on Mill River Street saw clothes on the bank and
+      sent her daughter down to see whether anyone was in the water.
+
+      In **March 1889** the paper described a "well known Mill river bath house
+      keeper" who "has probably saved about fifteen lives during his services as
+      bath house keeper."
+
+      Fifteen. For $2.50 a day, on a contested ballot.
+
       ## What we still do not know
 
-      The 1880 and 1881 reports establish the committee, the two houses, the
-      opening day and the Mill River proposal. They do not tell us whether the
-      floating bath at Chapel Street was actually built, how long any of them
-      lasted, or what they cost to use — the reports read as though they were
-      free, but they do not say so.
+      Whether the floating bath at Chapel Street was ever built. How long any of
+      them lasted. And whether they were free — the reports read as though they
+      were, and the keepers were paid from a city appropriation rather than out
+      of takings, but in **October 1892** the committee was still advertising a
+      meeting at which "the matter of establishing **free** public bath houses
+      will be considered," so something was changing.
 
       The 1888 city map shows a building at the corner of Mill River Street and
       Beach Street, which is the picture on this sign. Whether that is the bath
@@ -230,6 +298,63 @@ web:
       century. Public baths eventually moved indoors and away from the river,
       plumbing reached the tenements, and by 1970 the Mill River tested at four
       times the legal limit for swimming.
+
+      ## The river was legally allowed to be dirty
+
+      This is the part people find hardest to believe, and it is true.
+
+      For most of the twentieth century American water law did not set one
+      standard for all rivers. It **classified** them by the use they were meant
+      to serve, and then applied the standard for that class. A river assigned a
+      high class had to be clean enough to swim in and take shellfish from. A
+      river assigned a low class did not. The dissolved oxygen minimum was a
+      different number. The bacteria limit was a different number. Being dirty
+      was not a violation if you were dirty in the class you had been given.
+
+      In April 1971 the federal government held a conference in New Haven on the
+      pollution of Long Island Sound and its tributaries. The transcript lists
+      Connecticut's classes and what each was for. Class SA meant all sea water
+      uses, including shellfish for eating and bathing. Class SB meant bathing
+      and shellfish after purification.
+
+      **The Mill River was Class SC** — *"suitable fish, shellfish and wildlife
+      habitat; suitable for recreational boating and industrial cooling."*
+
+      Read that again. Boating and industrial cooling. **Not bathing.** On the
+      river where the city had run a bath house.
+
+      Below SC there was one more step down, and the rule attached to it is
+      revealing: Class D "will be assigned only where a higher water use Class
+      cannot be attained after all appropriate waste treatment methods are
+      utilized." A class for water that had been given up on.
+
+      How far this went is written into federal law by its absence. The rules
+      that govern water quality standards today contain this sentence:
+
+      > **In no case shall a State adopt waste transport or waste assimilation as
+      > a designated use for any waters of the United States.**
+
+      Nobody writes a rule like that unless it was being done.
+
+      ## What a witness said in 1971
+
+      The same New Haven conference heard this, about this river:
+
+      > The New Haven Harbor is the terminal for three rivers: the West River,
+      > the Mill River and the Quinnipiac River. All of these streams are
+      > polluted in varying degrees and **the Mill River is the classic example
+      > of our stream pollution problem. Its putrid grey green waters can only be
+      > appreciated by sight and smell.** … The law is being compromised for
+      > jobs and **our public waters have become their private sewer**.
+
+      Ninety years after the bath house committee argued about where to put a
+      floating tank, the river it argued over was being described to a federal
+      hearing as somebody's private sewer.
+
+      It is not that any more. That took the Connecticut Clean Water Act of 1967,
+      the federal Clean Water Act of 1972, and fifty years of work — and the
+      switch from asking what a river was *for* to asking what came out of the
+      pipe.
 
       Water quality here has improved a great deal since the industry left. It
       still drops sharply after rain, when runoff from streets and lawns and
@@ -306,11 +431,12 @@ web:
 
       ## Lo que aún no sabemos
 
-      Los informes de 1880 y 1881 establecen el comité, las dos casetas, el día
-      de apertura y la propuesta del río Mill. No nos dicen si el baño flotante
-      de Chapel Street llegó a construirse, cuánto duró ninguno de ellos, ni qué
-      costaba usarlos: los informes suenan a que eran gratuitos, pero no lo
-      dicen.
+      Si el baño flotante de Chapel Street llegó a construirse. Cuánto duró
+      ninguno de ellos. Y si eran gratuitos: los informes suenan a que sí, y a
+      los encargados se les pagaba de una partida municipal y no de la
+      recaudación, pero en **octubre de 1892** el comité seguía anunciando una
+      reunión en la que se estudiaría "el asunto de establecer casetas de baños
+      públicas **gratuitas**", así que algo estaba cambiando.
 
       El mapa municipal de 1888 muestra un edificio en la esquina de Mill River
       Street con Beach Street, que es la imagen de este letrero. Si ese edificio
@@ -327,6 +453,67 @@ web:
       públicos acabaron trasladándose a locales cerrados y lejos del río, las
       cañerías llegaron a las viviendas obreras, y en 1970 el río Mill superaba
       en cuatro veces el límite legal para poder nadar.
+
+      ## El río tenía permiso legal para estar sucio
+
+      Esta es la parte que más cuesta creer, y es cierta.
+
+      Durante casi todo el siglo XX el derecho de aguas estadounidense no fijaba
+      un único estándar para todos los ríos. Los **clasificaba** según el uso al
+      que debían servir y luego les aplicaba el estándar de esa clase. Un río de
+      clase alta tenía que estar lo bastante limpio para bañarse y recoger
+      marisco. Uno de clase baja, no. El mínimo de oxígeno disuelto era otra
+      cifra. El límite de bacterias era otra cifra. Estar sucio no era una
+      infracción si se estaba sucio dentro de la clase asignada.
+
+      En abril de 1971 el gobierno federal celebró en New Haven una conferencia
+      sobre la contaminación de Long Island Sound y sus afluentes. La
+      transcripción recoge las clases de Connecticut y para qué servía cada una.
+      La clase SA significaba todos los usos marinos, incluidos el marisqueo para
+      consumo y el baño. La clase SB, baño y marisco tras depuración.
+
+      **El río Mill era clase SC**: *"hábitat adecuado para peces, marisco y
+      fauna; adecuado para la navegación recreativa y la refrigeración
+      industrial"*.
+
+      Léalo otra vez. Navegación y refrigeración industrial. **No baño.** En el
+      río donde la ciudad había tenido una caseta de baños.
+
+      Por debajo de SC quedaba un escalón más, y la regla que lo acompañaba lo
+      dice todo: la clase D "se asignará solo cuando no pueda alcanzarse una
+      clase de uso superior tras aplicar todos los métodos de tratamiento
+      adecuados". Una clase para el agua a la que se había renunciado.
+
+      Hasta dónde llegó esto está escrito en la ley federal por omisión. Las
+      normas que hoy rigen los estándares de calidad del agua contienen esta
+      frase:
+
+      > **En ningún caso adoptará un estado el transporte de residuos o la
+      > asimilación de residuos como uso designado de aguas de los Estados
+      > Unidos.**
+
+      Nadie escribe una regla así si no se estaba haciendo.
+
+      ## Lo que declaró un testigo en 1971
+
+      Esa misma conferencia de New Haven escuchó esto, sobre este río:
+
+      > El puerto de New Haven es el desagüe de tres ríos: el West River, el Mill
+      > River y el Quinnipiac. Todos están contaminados en distinto grado y **el
+      > Mill River es el ejemplo clásico de nuestro problema de contaminación
+      > fluvial. Sus aguas pútridas de color gris verdoso solo pueden apreciarse
+      > por la vista y el olfato.** … Se está transigiendo con la ley por los
+      > puestos de trabajo, y **nuestras aguas públicas se han convertido en su
+      > alcantarilla privada**.
+
+      Noventa años después de que el comité de casetas de baño discutiera dónde
+      poner un tanque flotante, el río que discutían era descrito en una
+      audiencia federal como la alcantarilla privada de alguien.
+
+      Ya no lo es. Hicieron falta la Ley de Aguas Limpias de Connecticut de 1967,
+      la Ley federal de Aguas Limpias de 1972 y cincuenta años de trabajo, y el
+      cambio de preguntar para qué *servía* un río a preguntar qué salía por la
+      tubería.
 
       La calidad del agua ha mejorado mucho desde que se fue la industria. Aun
       así cae bruscamente después de la lluvia, cuando llega al río la escorrentía
@@ -361,6 +548,20 @@ web:
           Mill.
 
   sources:
+    - title: "Conference on pollution of Long Island Sound, New Haven, 13-14 April 1971 — transcript (US EPA)"
+      url: https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=94004HGY.txt
+    - title: "40 CFR 131.10 — Designation of uses (\"In no case shall a State adopt waste transport or waste assimilation as a designated use\")"
+      url: https://www.law.cornell.edu/cfr/text/40/131.10
+    - title: "Connecticut Water Quality Standards — CT DEEP"
+      url: https://portal.ct.gov/-/media/DEEP/water/water_quality_standards/wqspdf.pdf
+    - title: "The council elects bath house keepers — Morning Journal and Courier, 2 May 1882"
+      url: https://chroniclingamerica.loc.gov/lccn/sn82015483/1882-05-02/ed-1/seq-3/
+    - title: "Ten ballots for the West bridge keeper — Morning Journal and Courier, 2 May 1883"
+      url: https://chroniclingamerica.loc.gov/lccn/sn82015483/1883-05-02/ed-1/seq-2/
+    - title: "Anonymous letters against a candidate — Morning Journal and Courier, 10 May 1887"
+      url: https://chroniclingamerica.loc.gov/lccn/sn82015483/1887-05-10/ed-1/seq-3/
+    - title: "\"About fifteen lives\" — Morning Journal and Courier, 13 March 1889"
+      url: https://chroniclingamerica.loc.gov/lccn/sn82015483/1889-03-13/ed-1/seq-2/
     - title: "The Beach Street bath house in the New Haven papers, May 1880 — Chronicling America"
       url: https://chroniclingamerica.loc.gov/lccn/sn82015483/1880-05-25/ed-1/seq-2/
     - title: "The Beach Street bath house in the New Haven papers, October 1881 — Chronicling America"

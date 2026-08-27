@@ -299,9 +299,15 @@ thousand years are a subordinate clause.
 The notes already point at native-land.ca for Quinnipiac and Wappinger
 territory, and link a separate Quinnipiac River overview document.
 
-This is not a sign to draft from web sources. It needs the Quinnipiac
-Dawnland Council or comparable, involved from the start and credited. Worth
-raising with the committee before the series is considered complete.
+This is not a sign to draft from web sources. **But it is a sign to draft
+something for**, because a gap nobody can see is a gap nobody answers. Sign 14
+now exists as a deliberate placeholder — see *Sign 14 is a blank panel on
+purpose* below.
+
+**Correction to these notes:** they name a "Quinnipiac Dawnland Council" as the
+body to consult. No such council appears to exist. The name in circulation
+belongs to the **Quinnipiac Dawnland Museum/Collection**, now held at the Dudley
+Farm Museum in Guilford, which is a collection rather than a governing body.
 
 ### Research leads in the notes worth chasing
 
@@ -343,9 +349,9 @@ millrivertrail.com's history**, and the conflict has to be settled before print:
 | Dimensions | 38 ft tall, 500 ft long | raised 6 ft → 27 ft, then 31 ft |
 | Dates | opened 1862, expanded twice since | 1860, 1866, plus 19 in. in 1916 |
 
-Sign 4 now follows the museum, on the grounds that it is their dam and their
-sign stands at it, and drops the intermediate heights rather than print a
-contested number. **Someone should settle this properly.**
+Sign 4 follows the museum. **The conflict is probably not a conflict at all** —
+see *The dam figures reconcile* below. And the survey that would prove it exists:
+**HAER CT-186-C**.
 
 It also supplied detail nothing else had: the dam's stone was quarried in place
 from Mill Rock and the northern ridge of East Rock; the reservoir stretched two
@@ -402,24 +408,17 @@ That is a sign in itself, and it connects the industrial story to the oyster one
 
 ### The oyster stories — partly confirmed
 
-- **Watch houses are real.** By the mid-18th century small huts were put up on
-  the shoreline so men could guard the beds at night, backed by Oyster Laws that
-  banned raking from May to August on a penalty of twenty shillings a bushel.
-  **The "on stilts" detail is not confirmed** in what I could find.
-- **The burning is not confirmed.** What is documented is the 1924-25 typhoid
-  epidemic: about 1,500 sickened and roughly 150 dead across Chicago, New York
-  and Washington, traced to raw oysters, which produced the National Shellfish
-  Sanitation Program. The oysters in that outbreak were traced to **West
-  Sayville, Long Island**, not New Haven. The collapse of the Connecticut
-  industry is real and the typhoid scare is part of it, but a government burning
-  of New Haven oyster houses needs a source before it goes on a sign.
+- **Watch houses are real, and now proven from the newspapers.** See *The
+  oyster questions are closed* below. The **"on stilts"** detail is half right
+  and now on sign 12 with the correction.
+- **The burning did not happen, and there is a far better story underneath it.**
+  See *The oyster questions are closed* below. Sign 12 now carries both.
 
-### The Fair Haven steamboat — not yet found
+### The Fair Haven steamboat — found, and it was never a paddlewheeler
 
-Connecticut's steamboat era ran roughly 1820 to 1940, and sidewheel steamers
-worked the New York-New Haven route. Fair Haven grew around a ferry crossing at
-what is now the Grand Avenue bridge. But nothing specific about a paddlewheel
-steamer at the end of Fair Haven surfaced. Needs a name or a date to chase.
+**Closed.** See *The Fair Haven steamboat was an oyster dredge* below. The reason
+nothing surfaced is that the search was for the wrong kind of vessel, and the
+photographs that do turn up under "steamer at Fair Haven" are **New Jersey**.
 
 ### The tide gate deserves more than it has
 
@@ -505,6 +504,8 @@ maps, species panels and live web pages.
 | 11 | East Rock Park | A Boat on the Rock | ✅ | ✅ | ⬜ 4 | draft | ✅ |
 | 12 | Dragon Point | Dragon Point | ✅ | ✅ | ⬜ 3 | draft | ✅ |
 | 13 | William Lanson | King Lanson's River | ✅ | ✅ | ⬜ 1 | draft | ✅ |
+| 14 | First People | The Sign Not Yet Written | ✅ | ✅ | ⬜ 4 | **placeholder** | ✅ |
+| 15 | 370 James St | The Box and the Jacket | ✅ | ✅ | ⬜ 4 | draft | ✅ |
 
 **26 images to source.** Every one carries a written brief in its sign's YAML,
 which also prints inside the placeholder on the proof. A great many of them are
@@ -513,9 +514,10 @@ NOAA, USFWS and the Smithsonian cover a surprising share of what is needed.
 
 ### The ones most worth chasing
 
-- **Sign 11: the boat on East Rock.** A showman built a full-size wooden boat on
-  the summit and charged admission. If a photograph or engraving exists, it is
-  the best single image on the trail.
+- **Sign 11: Stewart's boat on East Rock.** Not a showman and not an ark — see
+  *The East Rock boat is real, and better than the version we had* below.
+  "Many hundreds of people" saw it up there, so a photograph or engraving may
+  well exist. Still the best single image on the trail if it turns up.
 - **Sign 8: the 29th Connecticut.** The regiment trained on the ground that is
   now Criscuolo Park. This is the most consequential story in the series and
   deserves the strongest picture available.
@@ -534,3 +536,1216 @@ NOAA, USFWS and the Smithsonian cover a surprising share of what is needed.
   be plausible for each location and to mix natives with invasives, since
   knowing which is which is the useful part. Walk the sites and swap them.
 
+
+
+## Research, 26 August 2026
+
+Five questions were put to the archives: the East Rock boat, the bath house
+clippings, the tide gate, the Indigenous gap, and an image of the scows. Four
+came back with something. Here is all of it.
+
+### The East Rock boat is real, and better than the version we had
+
+Sign 11 said a showman built a boat on the summit, called it Noah's Ark, and
+charged admission. **All three of those details are wrong**, and the true story
+is stronger.
+
+The top of East Rock belonged to **Milton J. Stewart**, a former sailor who
+lived up there in a stone house he built himself. He built **eight-to-ten-ton
+oyster boats on the summit** — real working craft, fitted with a five or six
+horse-power steam boiler once they reached the water — and got them down by
+waiting for heavy snow, loading the hull on an ox-sled with bolsters under it,
+and walking a pair of horses down the old Rock road to tide water at Neck
+Bridge. He did it at least twice, about twenty years apart. One boat was sold to
+a Bridgeport firm and was still working oyster beds there in 1887.
+
+The source is **"An Oyster Craft — Mr. Stewart's Shipbuilding on Top of East
+Rock," Morning Journal and Courier, 22 February 1887, page 4**, and *the project
+already had the clipping*. It was pulled for sign 1, because the same article
+ends by placing the Fenian Ram in a shed near Neck Bridge, in use as a chicken
+coop. Nobody noticed that the front two-thirds of it was sign 11's missing
+story. The clipping is now on both signs.
+
+A second Journal and Courier piece — an East Rock Park guide printed **8 July
+1884, page 2** — corroborates Stewart's ownership from another direction,
+routing visitors past "the old Stewart road" near the quarry sites.
+
+**Leads found but not yet verified**, all via a compilation on the Roger Sherman
+House blog, which cites papers that are not in Chronicling America and so could
+not be checked directly:
+
+- A 35-foot schooner Stewart began on the summit, which could not be got down
+  and was broken up for firewood (*Boston Sunday Globe*, 12 June 1887).
+- Counterfeiters' workings found under the Stewart house when the park
+  commissioners demolished it (*Boston Daily Globe*, 11 October 1884).
+- Stewart's refusal to vacate, the condemnation, roughly $40,000 paid, the
+  houses he then built at the foot of Mill Rock, and his death a pauper
+  (*Hartford Daily Courant*, 20 November 1886; *Daily Standard Union*, Brooklyn,
+  4 September 1899).
+- **The flood prophecy.** The 1899 Brooklyn account is the only source for the
+  story that Stewart predicted Long Island Sound would drown Connecticut and
+  built the boat as an ark. It is twelve years after the fact and a long way
+  from New Haven. The sign now carries it explicitly labelled as folklore. If
+  somebody finds it in a New Haven paper, it can be promoted.
+
+That blog is worth reading in full: <https://rogershermanhouse.com/2019/09/05/new-havens-great-park/>
+
+### The bath houses: an elected office, ten ballots, and an anonymous smear
+
+The recollection was right on every count. New Haven's Court of Common Council
+**balloted for the office of bath house keeper**, and it was contested.
+
+- **1882, 2 May.** Beach street: Timothy Crowley 18, Walter Mitchell 2. West
+  bridge: Daniel Lovejoy 12, Patrick McDermott 6, Bernard Oberkehr 2.
+- **1883, 2 May.** West bridge deadlocked 4-4 for Owen Kelly and Patrick
+  McDermott through **ten consecutive ballots** and had to be reported back.
+- **1886, 13 April.** A motion to substitute Richard Ward's name for Daniel F.
+  Brennan's, for the West river house, was lost.
+- **1887, 10 May.** Committee members received **anonymous letters**,
+  "disgraceful in the extreme," smearing the candidate Reynolds. The aldermen
+  appointed him anyway; the council voted to recommit. The letter-writer was
+  never found.
+
+Petitions to be appointed keeper run through the council minutes for a decade —
+Lovejoy, Crowley, Michael Keys, Stephen Blakeslee, Edward Ward, James Noonan,
+Bernard Oberker, William Cummings, James Tiernan, Peter Sweeney, L. F. Cone.
+The pay was **$2.50 a day**, and in June 1881 the committee had to reconsider
+even that, because the whole appropriation was **$500** and would have run out
+before the hot season closed.
+
+**The tub is real too.** It was called a *tank*. Sealed proposals were advertised
+on **24 June 1880** for "constructing a floating bath house at West Bridge," and
+on **4 August 1881** the paper reported that "the new floating bath tank at West
+bridge will be in readiness for use to-day." The 1880 report already discussed a
+**deep water tank** at Beach street and rejected it as impracticable that season.
+
+**Two Mill River locations — and more than two bath houses.** The city ran a
+network: Beach street, West bridge (later called the West river house), a
+proposal at the foot of English street in Fair Haven (referred back repeatedly
+from 1883 to 1886, and remonstrated against by neighbours), one at the Cedars,
+and by 1892 proposals at the foot of Blatchley avenue and the south end of
+Hamilton street. In **April 1889** the council handled petitions for a "keeper of
+bath house on **Mill river**" and a keeper "on Beach street" as two separate
+posts. In **August 1882** two sons of Margaret English drowned "in Mill river,
+near the Beach street bath house."
+
+**Were they free?** Not settled, but there is now a strong hint: on **24 October
+1892** the Committee on Bath Houses advertised a meeting at which "the matter of
+establishing **free** public bath houses will be considered." Which suggests the
+1880s houses were not.
+
+**The keepers were lifeguards.** Timothy Crowley recovered a drowned boy near
+the Grand street bridge in May 1883 and another at Mill river in July 1886, the
+second with grappling hooks. In **March 1889** the paper described a "well known
+Mill river bath house keeper" who "has probably saved about fifteen lives during
+his services."
+
+**One more, for sign 2.** On **20 July 1892**, under the headline "Need of a Bath
+House," two boys from Haven street drowned at the common bathing place behind
+the Adamant Plaster company's shop **at Barnesville bridge**.
+
+None of this is on sign 5 yet. It is more than enough to rewrite it, and it
+changes the sign from a public-health essay into a story about a city arguing
+over a $2.50-a-day job on a river people kept drowning in.
+
+**The method:** `node work/chrongrep.mjs '<query>' sn82015483 <y1> <y2> <rows>`.
+It searches Chronicling America and prints the matched snippet from LoC's
+word-coordinates service, which is far cheaper than downloading page OCR. Left
+in `work/` deliberately.
+
+### The tide gate: still not pinned down
+
+The honest answer is that **nobody has produced the document**. What is now
+established:
+
+- The **1910 Gilbert and Olmsted plan** recommended a tide gate. Already on the
+  sign.
+- **Mosquitoes, not just floods.** In the 1910s New Haven ran a marsh campaign —
+  ditching, oiling standing water and, in the words of the account of the 1912
+  season, "looking after the tide gates" (*The New Haven Union*, 30 June 1912,
+  page 18, LCCN sn92051126).
+- The **West River** gates went in **1919**, explicitly for mosquito control, and
+  the city fitted three self-regulating gates there in **2012**. **This is a
+  different river** — an early search conflated the two, and it should not
+  happen again on a sign.
+- The **Mill River** gates are at the **Interstate 91 crossing**, near State
+  Street. Save the Sound's watershed plan lists them among the barriers to fish
+  passage. Yale's water-management summary says "installed in the 1930s" without
+  a citation.
+
+Sign 6 now says "early in the last century," gives the mosquito motive, and
+states on the web page that the year is unresolved and invites anyone who knows
+where the paper is. **Where to look next:** New Haven Board of Public Works and
+City Engineer annual reports, and the Court of Common Council journals, which
+recorded exactly this kind of contract — the same series that produced the bath
+house record above.
+
+A usable photograph exists: *The tide gates on the Mill River seen at slack
+tide*, Wikimedia Commons, 2018, by Envchemprof, **CC BY-SA 4.0**. Share-alike on
+a printed plate is worth a thought; shooting our own at slack tide is simpler.
+
+### Sign 14 is a blank panel on purpose
+
+`content/sign-14-first-people.yml`, status `placeholder`. Title: **The Sign Not
+Yet Written**. It says there are thirteen other signs covering four hundred
+years, that people were here for thousands before that, that this project has
+not earned the right to describe it, and that the panel is therefore an
+invitation. The four image slots are not image briefs — they carry the three
+open questions (who should write it, where it goes, what it even is) and one
+slot reserved for whoever does.
+
+It renders, it has a locator map, and its QR codes resolve to
+`/first-people` and `/primeros-pueblos`, slugs chosen to survive the sign being
+properly written later.
+
+**The uncomfortable finding.** The obvious step — ask the tribe — is not
+available in the usual form:
+
+- The Quinnipiac hold **neither federal nor state recognition**. Connecticut
+  recognises five tribes — Mohegan, Mashantucket Pequot, Eastern Pequot,
+  Schaghticoke and Golden Hill Paugussett — and none of them is Quinnipiac.
+- The organisation that carries the Quinnipiac name most visibly online, the
+  **Algonquian Confederacy of the Quinnipiac Tribal Council**, is an
+  unrecognised heritage nonprofit headquartered in **Indiana**. Its founder,
+  Iron Thunderhorse, has been imprisoned in Texas since 1977 for rape, kidnapping
+  and robbery, and its registered agent was never able to establish descent from
+  the historic Quinnipiac. **Do not put that name on a sign.**
+- The "Quinnipiac Dawnland Council" in our own notes does not appear to exist.
+
+The routes that are real:
+
+- **CT Humanities, "Working with Indigenous Communities"** —
+  <https://cthumanities.org/indigenous/> — a published protocol for precisely
+  this situation. Start here.
+- The state's **Indian Affairs Council**, the **Native American Heritage Advisory
+  Council**, and the **State Archaeologist**.
+- The **Native Northeast Research Collaborative**, formerly the Yale Indian
+  Papers Project — <https://www.thenativenortheast.org/> — two decades of
+  primary sources digitised, transcribed and reviewed with the relevant
+  communities, a mile from this river. Its Quinnipiac page notes that the 1638
+  New Haven settlement reserved a bounded tract, described as the first Indian
+  reservation in the country.
+
+This is a decision for the committee, not for the build. The placeholder exists
+so the committee has to make it.
+
+### The scows: no period image found
+
+Nothing was found showing a scow on the Mill River, or a New Haven stone or
+charcoal scow of any date. What is available, all public domain:
+
+- *Planting Oyster Shells in Long Island Sound in Order to Catch Set* — US
+  Bureau of Fisheries, 1919. Scow loads of shell under tow, in this water. Right
+  region, right craft, wrong cargo. **Only 580 × 476 on Commons**; the original
+  report scan would give print resolution.
+- *"The Creek" at Keyport, N.J., with oyster-boats, skiffs, and scows* — Goode,
+  *Fisheries and Fishery Industries of the United States*, 1887.
+- Goode (1887) and Ingersoll's *The Oyster Industry* (1881) both have New Haven
+  chapters and plates and have not been searched properly. That is the next
+  place to look.
+
+Also surfaced and worth someone's afternoon: *Historical Sketch of Old Fair
+Haven*, on Internet Archive via Commons.
+
+### Sign 8 and the 29th Connecticut
+
+Noted as project direction: the regiment already has its monument at Criscuolo,
+so sign 8 is not being rewritten to duplicate it. The image brief still stands.
+
+### Sign inventory is now fourteen
+
+Sign 14 is a placeholder and will never carry a `printed` status in its current
+form. The build learned a new status word for it: `placeholder` is accepted by
+`render-sign.mjs` alongside `draft` for signs whose artwork is incomplete, and
+`render-site.mjs` prints a different note for it — that the sign is deliberately
+unwritten rather than merely unfinished.
+
+
+## The oyster questions are closed
+
+Both of the oyster questions this file has been carrying since the start are now
+answered. The prompt was a Gemini deep-research report supplied by JR; the
+answers below are the parts of it that survived independent checking, plus what
+the newspapers added.
+
+**Read the caution at the end of this section before trusting the report for
+anything else.**
+
+### There was no government burning — and the real story is world-class
+
+No health authority burned New Haven's oyster houses. There is no record of it,
+and the epidemic usually attached to the story (1924-25, about 1,500 sick and
+roughly 150 dead) traces to **West Sayville, Long Island**, as this file already
+noted.
+
+What actually connects New Haven to oyster typhoid is **October 1894**, and it
+is much more important than the legend.
+
+Typhoid broke out at **Wesleyan University** in Middletown, and it struck only
+the fraternities that had served **raw oysters at their initiation banquets**.
+**Herbert W. Conn**, a Wesleyan biologist, traced the supply back to a **Fair
+Haven dealer**. The oysters had been dredged from clean deep water, but — as the
+trade routinely did — they had been shifted to **floats in the brackish river to
+fatten** before packing, and the floats sat downstream of a sewer outlet from a
+house where somebody was convalescing from typhoid.
+
+The case tightened on a detail worth keeping: two students from non-oyster
+fraternities also fell ill, and it emerged that they had gone along to the fish
+house and been given oysters on the half shell by the obliging owner.
+
+**This was the first clear demonstration in the United States that oysters
+transmit typhoid.** The state began condemning beds near New Haven. Independent
+confirmation is in the public-health literature, not just the report; Charles J.
+Foote at Yale ran supporting bacteriology at the request of C. A. Lindsley,
+Secretary of the Connecticut State Board of Health, which is a second New Haven
+thread worth pulling.
+
+Sign 12's generic "overfishing and pollution" collapse section is now rewritten
+around this, plus the 1924-25 aftermath and the 1925 National Shellfish
+Sanitation Program.
+
+**Where the fire in the legend probably comes from:** City Point oystermen
+remembered condemned shipments being **pulled off freight trains at the rail
+yards and burned in the barrel**, so they could not be resold. This comes from
+Tim Visel's oral histories with George McNeil, son of J. P. McNeil of the McNeil
+Oyster Company. **I could not verify the barrel-burning passage in the two Visel
+papers I checked**, so sign 12 attributes it to what the oystermen remembered
+rather than stating it as fact. Somebody with access to the full Visel corpus at
+sound.school should nail it down.
+
+### The watch houses were real, were on the water, and were armed
+
+Three primary hits in the *Morning Journal and Courier*, all new:
+
+- **9 September 1886.** Three boys aged twelve to seventeen stole a rowboat and
+  **rowed out to the watch house at Oyster Point**, where **J. B. Ludington** was
+  employed as watchman, and stole **a double barrelled shotgun, a revolver and a
+  jack-knife**. Ludington was away and returned just as they rowed off. Clipping
+  pulled to `assets/images/sign-12/clipping-watch-house-1886.jpg` and now in
+  sign 12's gallery.
+- **23 May 1885.** "Watchman Bradley of the watch house on the east side of the
+  harbor recently caught sixty-five pounds of eels in one day."
+- **11 May 1881.** A want-ad: "Apply at the **WATCH HOUSE, Long Wharf**,
+  immediately." They were fixed, known addresses.
+
+**On the stilts question.** The open-water cabin on driven pilings, standing
+miles offshore, is a **Chesapeake and Virginia Eastern Shore** type — roughly 150
+of them once stood over the bars down there. Long Island Sound ice and wave
+action would have sheared those off. New Haven's watch houses sat on wharf
+heads, on low barrier spits such as Sandy Point, and on pilings close inshore.
+Close enough that you had to row to them, which the 1886 robbery proves. Sign 12
+now says exactly this, including the correction, because the wrong picture is
+already in circulation.
+
+Caution when searching: **"watch house" in 17th and 18th century New Haven
+records means the town's civic and militia watch house on the Green**, built in
+the 1640s. Different thing entirely, a century earlier.
+
+### New leads worth an afternoon
+
+- **"Plan of ye lotts in the oyster shell field so called," 1750.** Verified in
+  the New Haven Museum's Whitney Library map guide — **Map G3784.N4P527 1750g**,
+  from the Town of New Haven Proprietors records, v.2, 1749-1771. Colonial New
+  Haven had a district officially called the **Oyster Shell Field**, on the
+  ground between the nine squares and the Mill River, named for the sheer depth
+  of shell in the soil — Indigenous middens and colonial dumping together. That
+  is a Mill River story with a **surviving 1750 map to print**, and nothing in
+  this project uses it yet. Best single new lead here.
+- **Max Dellfant (1867-1943)**, German-born maritime painter, lived on
+  Quinnipiac Avenue with a studio in the loft of the **Mansfield Oyster
+  Company**. Painted the working waterfront — schooners, steam dredges,
+  processing lofts and **watch houses**. The New Haven Museum holds **MSS #276,
+  the Dellfant-Ross correspondence**. If a Dellfant watch house painting exists,
+  it is sign 12's hero image.
+- **Doris B. Townshend, *Fair Haven: A Journey Through Time* (1976)** — said to
+  document the watch houses and reproduce 19th-century paintings of them.
+- **Shell lime-kilns.** Oyster shell was burned on the shoreline at Dragon and
+  Fair Haven to make lime for masonry mortar. New Haven's early buildings were
+  literally held together with the river. Unverified, and a good sign paragraph
+  if it holds.
+- **The midnight oyster derby** — hundreds of skiffs lined up on the flats,
+  racing out when the church bells struck twelve on opening night. **Unverified**
+  and it has the shape of something embellished. `work/chrongrep.mjs` on the
+  September issues would settle it either way.
+- **Yale crews trained on the Mill River tidal reach and Lake Whitney** in the
+  mid-1800s. Unverified here, but the Fair Haven news columns mention the Yale
+  crew and its launch repeatedly in 1892, so the newspapers will confirm or kill
+  it quickly.
+
+### A caution about the report itself
+
+Most of it held up, and the 1894 lead alone was worth the exercise. But it is an
+AI research report, and it has the failure modes of one:
+
+- **Its bibliography is not tied to its claims.** Forty-odd links at the bottom,
+  none footnoted to a sentence. Everything load-bearing has to be re-verified,
+  which is what happened above.
+- **At least one citation is a name collision.** It cites Smithsonian Archives of
+  American Art oral histories with "George McNeil" — that George McNeil is an
+  **abstract expressionist painter**, not the City Point oysterman.
+- **It repeats our own unsourced claims back to us.** It gives the tide gates as
+  "around 1930," which is the number this project already could not source, so
+  it is not independent confirmation of anything.
+
+Treat it the way the newspaper clippings get treated: as a very good list of
+places to look.
+
+
+## Second research set, 26 August 2026 — industry, transit and the waterfront
+
+A second Gemini report, on the leads this file listed as worth chasing: Talmadge
+Bros, the Fair Haven steamboat, the trolley turntable, 370 James Street, the
+linseed oil mill and the thirteen mills north. Verified below, with the same
+caution as before — check before you print.
+
+### 370 James Street is the best untold story on this river
+
+**Verified against the New Haven Museum's own micro-history**, which is about as
+local and as citable as it gets: <https://www.newhavenmuseum.org/museum-collections/online-exhibitions/micro-histories/370-james-st/>
+
+One building on the Mill River, two world-beating industries.
+
+**National Folding Box Company.** Formed in New York in the early 1890s from a
+group of smaller carton makers; chose **New Haven as its production centre in
+1905** and bought a whole block on the Mill River for the shipping and the rail
+spurs. The four-storey plant went up in **1914**. By **1927 it was the largest
+and most prestigious folding box company in the world**. It printed the cartons
+for **Budweiser, Hershey's, General Electric** and the cigarette brands — and it
+made the boxes for **Mounds and Almond Joy**, having **helped start Peter Paul
+as an outside investment**. Southern paper mills undercut it; Federal Paper Board
+bought it in **1953**; the plant closed in **1974**.
+
+**Starter.** Founded **1971** by **David Beckerman**, a Hamden Hall coach — named
+for being on the starting team rather than the bench. Moved into the vacated
+plant in **1976** and took its **first Major League Baseball licence the same
+year**, inventing the modern licensed sports apparel business. The satin jackets
+and the **"S" logo became a defining status symbol of the late 1980s and early
+1990s**. Public in **1993**. Then the **1994 MLB players' strike**, high costs,
+and press coverage of people being robbed for the jackets. Bankrupt **1999**.
+
+**Now:** offices for ACES, United Way of Greater New Haven and Workforce
+Alliance. The *New Haven Independent* reported in **May 2026** that ACES bought
+the building for **$14.6 million**.
+
+**The images are already within reach.** The museum's four photographs on that
+page are credited to **Jason Bischoff-Wurstle, Director of Photo-Archives** —
+who is already acknowledged as a contributor to this project. That is one email.
+
+### The Fair Haven steamboat was an oyster dredge
+
+The question in the notes assumed a passenger paddlewheeler. There wasn't one at
+Fair Haven. Two things were being conflated:
+
+**1. The wrong Fair Haven.** The steamers photographed and postcarded at "Fair
+Haven" — the **Albertina** (1882, Lawrence & Foulks) and the **Seabird** — ran the
+**Navesink River in New Jersey**, on the New York run, 1850-1926. They are all
+over the ephemera market catalogued next to New Haven items. **Do not put either
+on a sign.**
+
+**2. Fair Haven's own "steamboats" were the steam oyster dredges**, and one of
+them is fully documented with a photograph in the public domain.
+
+**The *F. Mansfield and Sons Co.*** — verified in detail:
+
+- Built by **William G. Abbott Shipbuilding, Milford, Delaware**; launched
+  **12 October 1912**; entered service at **Fair Haven, 21 January 1913**.
+- **107 feet** overall, 29-foot beam, **214 gross tons**, single vertical
+  compound steam engine of **250 ihp**, coal-fired, 9.5 knots.
+- **Harvested 5,000 bushels of oysters in a single trip in 1913.**
+- Taken by the **US Navy on 25 May 1917** as **SP-691** and used as a
+  **minesweeper** through 1919.
+- Transferred to the **US Lighthouse Service** on 28 October 1919, renamed
+  **USLHT *Shrub***, and spent the rest of her life tending buoys out of Chelsea,
+  Massachusetts.
+- **Photograph: "USLHT *Shrub*, November 1929," National Archives RG 26** — US
+  government work, public domain, and print resolution should be obtainable.
+
+A Fair Haven oyster boat that went to war and then spent thirty years keeping the
+New England coast lit is a sign in its own right, and it solves an image slot.
+
+Also: **H. C. Rowe & Co.** pioneered large steam dredges from the 1880s;
+*Charles Hoyt* (1880s), *Isaac E. Brown* (c. 1901) and *Amanda Lincroft* (1908)
+are named as local steam workboats. Not independently checked, but the *Journal
+and Courier* Fair Haven columns mention the *C. W. Hoyt* and B. N. Rowe
+repeatedly, so `work/chrongrep.mjs` will confirm them quickly.
+
+### Talmadge Bros — still not placed on the Mill River
+
+The report puts Talmadge Bros in Norwalk and New Haven generally and does not
+substantiate Steve Hamm's walk-note placing them **south of English Station on
+the east bank**, with shell piles and equipment still visible. The New Haven
+Museum's own River Street micro-history names **Bigelow Boilers (1869), National
+Pipe Bending (1883), the Dutee Wilcox Flint Ford plant (1920), an A&P warehouse
+(1925) and the Quinnipiac Brewery (1872-1920)** — and **no oyster firm by name**,
+though it does say River Street was "built on the abandoned oyster fields of Fair
+Haven's first industrial boom," which corroborates what this file already had for
+Bigelow. **Talmadge on the Mill River remains unverified.** Ask Steve Hamm where
+he got it.
+
+### Trolleys: the buildings are real, the turntable is not yet
+
+- **Fair Haven and Westville Railroad**, chartered 1860, horse cars on Grand
+  Avenue from **July 1861**; electrified and consolidated in the 1890s; absorbed
+  into **The Connecticut Company**, the NYNH&H's traction arm; streetcars
+  retired **1948-50**.
+- **James Street Car Barn**, State and James, built **c. 1920** — the Connecticut
+  Company's largest in New Haven, reported as holding 138 cars on two levels.
+  Confirmed independently via Walk New Haven.
+- **Power Station A, 458 Grand Avenue** (c. 1901, engine room addition 1924) and
+  a **Grand Avenue repair barn (1925)**. Walk New Haven confirms the trolley
+  company's power plant and maintenance shops sat at the midpoint of Grand
+  Avenue; the specific names and addresses come from youraudiotour.com and were
+  **not independently verified**.
+- **The turntable is still unverified.** The report only offers a generic account
+  of small "Armstrong" turntables at stub-end terminals. Nothing New Haven
+  specific. The lead in the notes — a turntable near the District — has not been
+  confirmed and should not go on metal yet.
+
+### The mills, and why they matter less to this trail
+
+- **The 1642 town grist mill named the river.** New Haven Colony authorised a
+  communal water-powered corn mill at the lower falls at the base of East Rock —
+  the site that became the Whitney armory and is now the Eli Whitney Museum. In
+  the town records it was simply "the Mill," and the water became "the Mill
+  River." **This belongs on sign 4** and is a one-line addition.
+- **The 1718 linseed oil mill.** The Connecticut General Assembly is said to have
+  granted a twenty-year monopoly for a water-powered linseed oil mill in New
+  Haven County, built at the middle falls in what is now Hamden, dormant by the
+  time Whitney arrived in 1798. Plausible and checkable in the Assembly records
+  and in *The History of Hamden, Connecticut, 1786-1959* (Internet Archive).
+  **Not verified here.**
+- **"Thirteen mills north"** resolves to the chain of mill seats up the river's
+  17.4 miles through Hamden to Cheshire. Real, but **off this trail** — the
+  named seats are Whitneyville, Hamden Middle Falls, Centerville/Augur, Mount
+  Carmel Gorge and the Cheshire headwaters. Worth a sentence on sign 4, not a
+  sign.
+
+### Ball Island: the report agrees with sign 2
+
+English Station built **1924-29** on the eight-acre Ball Island footprint for the
+New Haven Electric Light Company, later United Illuminating; coal and oil; the
+thermal and chemical discharge finished off the surrounding oyster grounds. Sign
+2 already carries this. The oyster-to-power-station sequence is a good framing
+and is worth strengthening there.
+
+### Second report, same caution
+
+Better sourced than the first, and the 370 James and Mansfield findings are
+excellent. But the same pattern holds: the bibliography is a pile of links, not
+footnotes; several load-bearing citations are to a single audio-tour website; and
+the Talmadge claim dissolves on contact. The two things it got most valuably
+right were both **negative** findings — there is no Fair Haven paddlewheeler, and
+the Albertina is in New Jersey. Negative findings are worth as much as positive
+ones here, because they stop us printing something wrong.
+
+
+## What this all means for priorities
+
+Two rounds of research have changed what the strongest signs are. This section is
+the argument for reordering the work. It is a recommendation, not a decision.
+
+### The bottleneck is images, not words
+
+Every sign is written in both languages. **Twenty-six image slots are empty**,
+and that is the only thing standing between this series and print. So the useful
+question is not "what else should we write" but "what unlocks pictures."
+
+### One appointment unlocks most of it
+
+Nearly everything found in these two rounds points at the same building. **The
+New Haven Museum's Whitney Library** holds, or is the obvious first stop for:
+
+- The four **370 James Street** photographs, credited to **Jason
+  Bischoff-Wurstle** — who is already acknowledged as a contributor to this
+  project.
+- **"Plan of ye lotts in the oyster shell field so called," 1750**, Map
+  G3784.N4P527 1750g.
+- **MSS #276, the Dellfant-Ross correspondence**, and any **Max Dellfant**
+  painting of a waterfront watch house.
+- The **Milton J. Stewart / East Rock summit boat** photograph, if one exists —
+  the museum's photograph collection is the first place to ask.
+- The **quarry, Rice Field and Soldiers and Sailors** views for sign 11.
+
+**One scheduled session with a written shopping list is worth more than another
+month of drafting.** That is the single highest-leverage action available.
+
+### Free, immediate, no permission needed
+
+- **USLHT *Shrub* / *F. Mansfield and Sons Co.*** — National Archives RG 26, US
+  government work, public domain. Download it.
+- **Oyster scow and fishery plates** — Goode 1887 and Ingersoll 1881, both public
+  domain, both with New Haven chapters not yet searched.
+- **A camera and one afternoon** — the tide gate at slack tide, and any site
+  photographs the species panels need. Free, and better than licensing somebody
+  else's picture.
+
+### Cheapest content wins, in order
+
+1. **Sign 5, the bath house.** Text only. Both clippings are already in the
+   repository, and the council record now gives it ten contested ballots, an
+   anonymous smear campaign, a $2.50-a-day job, a floating tank and a keeper who
+   saved fifteen lives. **Biggest improvement per hour of work in the whole
+   series.**
+2. **Sign 4, Whitney.** Three one-line additions already established: the 1642
+   town mill that gave the river its name, the Trinity Church stone, and the
+   charcoal scows coming up the river.
+3. **Sign 2, Ball Island.** Sharpen the oyster-grounds-to-power-station sequence.
+4. **Sign 12** is now in good shape and has a verified clipping plus a free
+   public-domain photograph available. It is the closest of the unfinished signs
+   to proof.
+
+### The case for a 370 James Street sign
+
+There is no sign for it, and it may be the most publicly magnetic story on the
+river. One building, on the Mill River, that was **the largest folding box plant
+in the world in 1927** — printing Budweiser, Hershey's and the Almond Joy
+wrapper — and then **the birthplace of the licensed sports apparel industry**,
+where Starter jackets were designed and shipped.
+
+It is the only story in the series that a fourteen-year-old will stop and read,
+and the photographs are the easiest to obtain of anything outstanding. It sits
+in the James/Humphrey/State stretch, which now also carries the tide gate and
+possibly the bath house — a cluster worth planning as a group rather than
+one at a time.
+
+**If something has to give way**, signs **9 (A Century of Plans)** and **10 (The
+Highway That Wasn't)** are the candidates to defer. They are the most abstract in
+the series, they carry **five empty image slots between them**, and no leads have
+surfaced for any of those five in two rounds of research. Deferring one of them
+does not weaken the trail the way leaving 370 James out would.
+
+### Where the trail's centre of gravity has moved
+
+Reading the two rounds together, the material that came back strongest is not the
+planning and infrastructure history. It is **people doing specific things on this
+water**: a sailor building oyster boats on a clifftop and sledging them down over
+snow; a city balloting ten times over who gets to mind the bathers; a watchman
+robbed of his shotgun by three boys in a stolen rowboat; a dealer's fattening
+floats parked below a sewer that changed public health worldwide; a coach in a
+disused box factory inventing the replica jersey.
+
+That is the register the strongest signs are already in — sign 1 is at proof
+because the Fenian Ram is a story about people. Worth keeping in mind when
+choosing what to chase next.
+
+
+## Two signs written, 26 August 2026
+
+**Sign 5 is now artwork-complete.** The council record replaced the review notes.
+Its lede is no longer the national bath movement — it is that the keeper of a
+bath house was **elected by ballot in the Court of Common Council**, and men
+campaigned for the job. The panel section is the contest: $2.50 a day out of a
+$500 appropriation, ten deadlocked ballots for the West bridge in May 1883,
+anonymous letters "disgraceful in the extreme" in May 1887. The web page adds
+the other half — the keepers were the lifeguards, and one of them was credited
+with about fifteen lives saved.
+
+The fourth image slot is filled by a new clipping, **`clipping-ballot-1882.jpg`**
+— the actual tally from 2 May 1882, tellers and all: Crowley 18, Mitchell 2;
+Lovejoy 12, McDermott 6, Oberkehr 2. **Sign 5 now has zero TODO images and is a
+candidate to move to `proof`.**
+
+Two corrections went in with it. The old text called the baths free; that is
+softened, because in October 1892 the committee was still advertising a meeting
+on "establishing **free** public bath houses." And the site question is settled
+in passing — the sign's own 1888 map puts the Beach Street bath house at **Mill
+River Street and Beach Street**, so Beach Street *is* the Mill River location and
+the sign is in roughly the right place after all.
+
+**Sign 15, `content/sign-15-james-street.yml`** — *The Box and the Jacket*, at
+370 James Street in Barnesville, 41.3132619 / -72.9042581. The National Folding
+Box Company and Starter, as set out above. Slugs `/james-street` and
+`/calle-james`. Four image slots, all with briefs pointing at the New Haven
+Museum.
+
+**On not adding a sixteenth.** The *F. Mansfield and Sons Co.* is a wonderful
+story with a free National Archives photograph, and it was tempting. But it is a
+**Quinnipiac** firm and a Quinnipiac vessel, and sign 12 is already the trail's
+one Fair Haven sign. Adding a sign adds four more empty slots to a series that
+is already short twenty-six pictures. **The Mansfield belongs in sign 12 as a
+paragraph and a photograph, not as sign 16.** That work is not done yet.
+
+
+## "Clean rivers and dirty rivers" — true, and we have the paperwork
+
+JR was told that regulators used to designate some rivers clean and some dirty,
+and that dirty ones were allowed more pollution. **It is true**, and the Mill
+River is a documented case. This is now on sign 5.
+
+### How it worked
+
+For most of the twentieth century American water law did not set one standard
+for every river. It **classified** waters by the use they were meant to serve and
+applied the criteria for that class. The numbers were literally different: the
+dissolved-oxygen minimum, the coliform limit, the allowable temperature rise.
+A river in a low class was not in violation for being dirty. It was dirty as
+designated.
+
+### The Mill River was Class SC
+
+From the transcript of the federal **Conference in the Matter of Pollution of the
+Interstate Waters of Long Island Sound and its Tributaries**, held in **New
+Haven, 13-14 April 1971** — a primary source, 419 pages, free from EPA's NEPIS:
+<https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=94004HGY.txt>
+
+Connecticut's coastal classes as printed in that transcript:
+
+| Class | Suitable for |
+|---|---|
+| **SA** | all sea water uses including shellfish for direct human consumption, bathing, water contact sports |
+| **SB** | bathing, recreation, industrial cooling, shellfish after depuration; excellent fish and wildlife habitat |
+| **SC** | fish, shellfish and wildlife habitat; recreational boating and industrial cooling; good aesthetic value |
+
+And the classification table in the same document:
+
+> New Haven Harbor **SC, SB** — **Mill River SC** — Quinnipiac River **SC**
+
+**Class SC does not include bathing.** The river on which the city ran a bath
+house had been formally designated for boating and industrial cooling.
+
+The freshwater notes add the bottom rung: *"Class D waters will be assigned only
+where a higher water use Class cannot be attained after all appropriate waste
+treatment methods are utilized."* A class for water that had been given up on.
+
+### The rule that proves the practice
+
+The clinching evidence is a sentence in the current federal regulations,
+40 CFR 131.10(a):
+
+> **"In no case shall a State adopt waste transport or waste assimilation as a
+> designated use for any waters of the United States."**
+
+Nobody writes that unless it was being done. Verified at
+<https://www.law.cornell.edu/cfr/text/40/131.10>
+
+### The quote of the project
+
+Also from the 1971 New Haven transcript, testimony about this river:
+
+> "The New Haven Harbor is the terminal for three rivers: the West River, the
+> Mill River and the Quinnipiac River. All of these streams are polluted in
+> varying degrees and **the Mill River is the classic example of our stream
+> pollution problem. Its putrid grey green waters can only be appreciated by
+> sight and smell.** Pulp plants are the major contributors to this pollution and
+> action by many local groups to correct the flagrant violation of pollution
+> laws and common sense is defeated by political expediency and a negative
+> attitude on the part of enforcement officials. **The law is being compromised
+> for jobs and our public waters have become their private sewer.**"
+
+Sign 5 now carries this, and the classification, at the foot of the web page —
+which is the right home, because the sign is about a city that once invited
+people to swim here.
+
+### Two more things in the same document, for other signs
+
+- **Table B-3, industrial waste sources.** One entry is *"New Haven Board &
+  Carton, New Haven, 500 employees, Folding Boxboard, receiving waters: **Mill
+  River**"*, on a federally approved abatement schedule running 7/68 to 3/70.
+  A folding boxboard plant discharging into this river. **Sign 15 is about the
+  folding box industry on this river and does not mention this.** Note the care
+  needed: New Haven Board & Carton is a different company from National Folding
+  Box, and the sign must not merge them. But the industry that gave sign 15 its
+  first half was also on the 1971 federal list of polluters, and an honest sign
+  should probably say so.
+- **Table A-1, steam electric plants on Long Island Sound**, lists *"United
+  Illuminating Company, **English, Mill River**, New Haven."* English Station,
+  named in a federal inventory of thermal dischargers. **Sign 2** could use that.
+
+### This document deserves a proper read
+
+419 pages of sworn testimony, tables of every industrial discharger on the Sound
+with employee counts and abatement deadlines, and the state's own water quality
+criteria reprinted in full. It was found by accident while checking something
+else. **Somebody should read all of it.** Vol. 1 is the link above; there is at
+least one more volume.
+
+
+## The tide gate report — one real answer, one number that did not hold
+
+JR ran the tide-gate prompt. The report came back in the shape the preamble
+asked for — graded findings, negative findings, disambiguation, and archival
+access protocols — which is a marked improvement on the first two rounds. Its
+headline claim is that the permanent structure was built in **1935** by WPA and
+CAES crews for mosquito control, graded VERIFIED.
+
+**I could not verify 1935, and the citation offered for it does not hold up.**
+But two other things in the report are excellent, and one of them is now the
+hardest fact on sign 6.
+
+### VERIFIED — the gates are where the sea legally ends
+
+**Conn. Agencies Regs. § 26-108-1**, "Inland waters and marine district
+defined." Checked directly:
+
+> **Mill River, New Haven** — marine district: *up to and including below tide
+> gates at State Street Bridge*. Inland district: *all waters above.*
+
+Connecticut divides its waters stream by stream into a marine district and an
+inland district, and on this river **the line is drawn at these gates**. Which
+fish you may take, in what season, under what licence, changes at this
+structure. An engineering decision made for mosquitoes became a boundary in
+state law.
+
+Compare the neighbouring entry, which is also the trap this project already fell
+into once: **West River, West Haven** — marine district *below the tide gates at
+Orange Avenue Bridge (sometimes called Congress Avenue Bridge)*. Different river,
+different gates, different bridge.
+
+This also **settles the location**. Sign 6 said "upstream of Humphrey Street";
+it now says "at the State Street bridge," which is what the regulation names and
+what Save the Sound and Wikipedia both independently describe.
+
+### VERIFIED — the era and the reason
+
+Through the 1930s, federal work-relief crews ditched and diked salt marshes the
+length of the Connecticut shore; by the 1940s nearly every marsh in the state
+had been cut about, and tidal flow at many sites was restricted with tide gates,
+causeways and dikes for flood protection and mosquito control. That is
+independently attested in the tidal-wetlands restoration literature. The
+mechanism, the motive and the decade are solid.
+
+### NOT VERIFIED — the year 1935
+
+The report grades 1935 as VERIFIED and cites "CIRCA / UConn Infrastructure
+Inventory (Appendix D)." I could not locate any such inventory. Worse, the
+regional literature says the opposite of what that citation implies: **"a
+comprehensive, regional inventory and assessment of tide gates has not been
+conducted"** in New England. A document that does not appear to exist cannot
+carry a VERIFIED grade.
+
+**1935 is not going on the sign.** Sign 6 now states the decade, the relief-work
+context and the mosquito motive as established, names 1935 as a reported figure,
+and says plainly that we could not confirm it.
+
+### Also unverified, and worth knowing before anyone repeats them
+
+- **Olmsted Brothers Job #05313**, a plan titled *"East Rock Pk. / Mill River Dam
+  / With Tide Gate, Sluices and High Level Spillway."* If this exists it is a
+  **public-domain drawing of a tide gate designed for our river**, and it would
+  be a superb image for sign 6. I could not find it, and the report's own table
+  is internally inconsistent about the number — one row gives Job #05313, the
+  next gives "Job #03352 / Plan #05313." **Olmsted Online is a real, searchable
+  archive and somebody should search it properly.** This is the highest-value
+  unchecked lead in the report.
+- **"Fourteen individual timber and metal flap gates."** Very specific,
+  unsourced, and checkable by walking down there with a camera.
+- **A "State Board of Mosquito Control."** Named as an authorising body. Not
+  confirmed to have existed under that name.
+- The **1970-75 flap gate modernisation** is graded REPORTED in the report
+  itself, sourced to a consultant's historical survey. Treat accordingly.
+
+### The genuinely useful part: where to go in person
+
+The report's access protocols are the best thing in it after the regulation, and
+they are worth keeping whether or not 1935 survives:
+
+**Whitney Library, New Haven Museum**, 114 Whitney Avenue — ask the reading room
+desk for the **City Year Book for the City of New Haven, fiscal years 1933-1938**
+(these carry the annual reports of the City Engineer and the Department of Public
+Works), the **New Haven Board of Health annual reports 1912-1936**, and the Dana
+Collection volumes filed under *Rivers, Waterways and Bridges — Mill River*.
+
+**Manuscripts and Archives, Sterling Memorial Library, Yale** — **MS 1373**, New
+Haven Civic Improvement Commission Records, for the Gilbert/Olmsted
+correspondence about estuarine tide gates; **MS 604**, New Haven Park Commission
+Records, for the lower East Rock Park boundary.
+
+**Connecticut State Library and State Archives**, Hartford — **RG 099**,
+Connecticut Agricultural Experiment Station Records, **Series 3: Mosquito Control
+and Marsh Reclamation Files, 1915-1945**, and specifically the New Haven and
+Hamden town inspection folders and ditching ledger maps. **RG 089**, Highway
+Department layout records, for the I-91 channel relocation plans, 1958-1968.
+
+If 1935 is right, RG 099 Series 3 is where it will be written down. That is one
+day in Hartford.
+
+### The preamble worked
+
+Worth recording, because it changes how to use these tools: the third report
+graded its own findings, stated negative findings, disambiguated the rivers we
+keep confusing, and told us which desk to stand at. It still overclaimed on its
+single most important number. **The grades are a claim, not a guarantee** — but
+having them made the overclaim findable in twenty minutes instead of being
+buried in confident prose.
+
+
+## The Olmsted file — the tide gate question is half solved, from primary sources
+
+The follow-up report was mostly a search plan rather than findings, and it
+**re-graded 1935 as VERIFIED on the same unlocatable citation** ("state
+infrastructure inventories and CIRCA engineering audits"). That is circular and
+should not be treated as confirmation.
+
+But it gave one checkable identifier, and that identifier was right, and chasing
+it produced the best primary evidence this project has found on the gates.
+
+### Job 5313 is real, and it is digitised
+
+**Olmsted Associates Records, Job Files, 1863-1971; File 5313; East Rock Park;
+New Haven, Conn.** — Library of Congress, Manuscript Division. Three units, all
+scanned at high resolution, free, no login:
+
+| Unit | Dates | Pages | Item |
+|---|---|---|---|
+| 1 | 1914 Jan - 1916 Feb | 109 | <https://www.loc.gov/item/mss5257103166/> |
+| 2 | 1916 Mar - Dec | 126 | <https://www.loc.gov/item/mss5257103167/> |
+| 3 | 1917 - 1931 | 116 | <https://www.loc.gov/item/mss5257103168/> |
+
+**351 pages of correspondence about East Rock Park and the Mill River, and
+nobody on this project had looked at it.** There is no OCR — it has to be read
+page by page — but the scans are clean and mostly typescript.
+
+### What two pages already proved
+
+Sampling the third unit, essentially at random:
+
+**3 January 1917.** Olmsted Brothers to **Mr. F. L. Ford, City Hall, New Haven**:
+
+> "We acknowledge the receipt of your plans for the **proposed Mill River Dam**,
+> and they seem to us to be satisfactory. We have the following suggestions for
+> minor changes.
+> 1. **The platform leading over the gates**, from one side of the river to the
+> other, we would suggest should be kept closed to the public by means of gates
+> at either end… a lighter protecting railing on either side would be quite
+> sufficient… This will make the railing much lighter and less obtrusive in the
+> landscape.
+> 2. The fence on **the spillway** we believe would be adequate if made three
+> feet instead of six feet high. A similar fence… should also be built on top of
+> **the river walls**."
+
+**13 March 1917.** Olmsted Brothers to **Mr. Frederick L. Ford, Room 18, City
+Hall**, asking for the original drawing of the Mill River section of East Rock
+Park, and noting they had received a blueprint of it on **2 November 1915**.
+
+### What that establishes
+
+- **The designer was the City of New Haven**, in the person of city engineer
+  **Frederick L. Ford** — not the Olmsted firm, who were reviewing, and not a
+  state agency.
+- **A dam with gates, a spillway and river walls was fully designed by January
+  1917**, to the level of railing materials and fence heights, with a blueprint
+  in circulation since November 1915.
+- The report's plan title — *"East Rock Pk. / Mill River Dam / With Tide Gate,
+  Sluices and High Level Spillway"* — is **consistent with this correspondence**
+  and is now credible, though the drawing itself is at Fairsted (NPS) and still
+  unseen. Note the report gave two conflicting job numbers for it; **5313 is the
+  correct one**, confirmed against the LoC catalogue.
+
+### What it does not establish
+
+**When the concrete was poured.** The design finished in 1917; the city put
+gates across the West River in 1919; the report says the Mill River structure is
+1935. Those can all be true — designed 1917, built later, or built twice — but
+somebody has to find the contract. Sign 6 now lays the question out in exactly
+those terms rather than picking a year.
+
+### The letter is now on the sign
+
+`assets/images/sign-06/clipping-olmsted-1917.jpg` — the 3 January 1917 letter,
+cropped from the LoC scan, public domain. It replaces the TODO placeholder that
+was going to be the 1910 Gilbert-Olmsted plan. **Sign 6 is down to three empty
+image slots**, and the one it filled is far better than what was planned: not a
+generic city plan, but the actual page on which somebody agreed to build this
+thing and asked for a lighter railing.
+
+Sign 6's web page now carries the quotation, names Ford, and states plainly what
+is still unknown.
+
+### The lesson, again
+
+The report's VERIFIED grade on 1935 was wrong twice in a row. Its **identifiers**
+were right. That is the useful pattern: treat these reports as a supply of
+catalogue numbers and finding aids, chase them yourself, and never take the
+grade. One job number was worth 351 pages of primary source.
+
+### Next, and it is a big one
+
+**Somebody should read job file 5313 end to end** — 351 pages, free, from a
+laptop. It will contain the correspondence around the design of the dam, the
+Mill River section of the park, and very possibly the construction. It may also
+answer the Rice Field question for sign 11 and the Olmsted riverside plan for
+sign 10. This is the single richest unread source the project has.
+
+
+## The Whitney dam and the mills — one great verification, one plausible fix
+
+Third report run against prompt 2. Two of its claims were checked directly and
+one of those is a gift.
+
+### VERIFIED, verbatim — the 1642 mill case
+
+The report quoted a 1642 New Haven General Court entry about shoddy work at the
+town mill. **I downloaded Hoadly's *Records of the Colony and Plantation of New
+Haven, from 1638 to 1649* from the Internet Archive and found it.** The
+transcription is accurate:
+
+> "Richard Beach for nott perfor[m]ing covenant in the worke w[hi]ch he
+> undertooke to doe att the mill, w[hi]ch he was to doe strongly and
+> substantially, butt did itt **weakely and sleightly** as was proved by the
+> testimony of **John Wakefield the miller**, himselfe allso nott denying itt;
+> Itt was ordered that he should make good the damage, butt because the damage
+> is not justly known what itt is, **Mr. Goodyeare and Mr. Gregson** are to
+> [v]eiw the worke, and consider off and sett downe the damage by his [defec]tive
+> workmanship."
+
+Full text: <https://archive.org/details/recordsofcolonyp00newh>
+
+A contractor who cut corners, the miller who testified against him, a contractor
+who did not deny it, and two men sent out to price the damage. **It is the
+earliest human voice we have from this spot, and it is a building dispute.**
+It is now on sign 4, in both languages, alongside the point that the colony
+records call the place simply "the mill," which is where the river's name comes
+from.
+
+### VERIFIED — HAER CT-186-C exists, with the exact call number given
+
+**Lake Whitney Water Filtration Plant, Lake Whitney Dam**, Historic American
+Engineering Record, Library of Congress Prints and Photographs Division.
+<https://www.loc.gov/pictures/item/ct0684/>
+
+Eight large-format photographs, **public domain** as US government work:
+
+| Call number | Subject |
+|---|---|
+| CT-186-C-1 | View west from East Rock of the dam; spillway at right, abutment centre |
+| CT-186-C-2, -3 | Spillway and abutment |
+| CT-186-C-4 | The dam, with the shed housing the 1932 turbine |
+| CT-186-C-5 | The 1932 turbine shed and power transmission shafting |
+| CT-186-C-6, -7, -8 | The treatment house / Whitney Water Center |
+
+And from the adjacent Eli Whitney Armory survey, **HAER CONN,5-HAM,3--22:
+"Lake Whitney Dam, 1895,"** photocopied from an original photograph at the New
+Haven Colony Historical Society — a **historic view**, not a modern one.
+
+Sign 4's artwork is already complete, so these are not needed to unblock it. But
+they are free, print-resolution and public domain, and the 1895 view is a
+candidate for the sign's gallery. Correction to the report: the survey is dated
+**1998**, not 1985-87.
+
+### REPORTED, and probably right — the dam figures reconcile
+
+The report's explanation for the museum-versus-trail contradiction is that the
+two sets of numbers measure **different things**:
+
+- **38 feet tall by 500 feet long** = the masonry structure, foundation bedrock
+  to the top of the non-overflow crest, across the full span including abutments
+  and gatehouse. That is the museum's figure.
+- **27 ft (1860) → 31.4 ft (1866) → +19 inches to 33 ft (1916-17)** = the
+  elevation of the **overflow spillway weir crest**, which was raised repeatedly
+  as the city's water demand grew. That is millrivertrail.com's sequence.
+
+Both can be true of the same dam. **This is the right shape of explanation and I
+believe it, but it is not proven** — the report grades two of the three spillway
+elevations REPORTED itself, and I have not seen a document stating that 38 ft is
+foundation-to-crest. **HAER CT-186-C includes a written historical narrative and
+measured drawings. That is what will settle it, and it is free.**
+
+Sign 4 now keeps the museum's structural figures, adds that the spillway was
+raised more than once and last in 1916, and no longer attaches contested numbers
+to the raisings. The REVIEW comment in the file has been rewritten accordingly.
+
+Also named and worth chasing: **Orson H. Marchant**, "Raising and Lengthening of
+the Spillway of Lake Whitney Dam and the Drainage of Pine Swamp," *Papers and
+Transactions of the Connecticut Society of Civil Engineers*, 1916. Unchecked.
+And **New Haven Water Company Records, MS 585**, Manuscripts and Archives, Yale.
+
+### UNVERIFIED — the thirteen mills, and a good warning
+
+The report's most interesting negative finding: **"thirteen mills north" may not
+be about our river at all.** It says colonial deeds record exactly thirteen mills
+built between 1676 and 1740 on the **Far Mill River**, which runs between Shelton
+and Stratford into the Housatonic — and that the Konkapot/Mill River in Berkshire
+County, Massachusetts, also had thirteen mill privileges. On our Mill River it
+says the number is a retrospective tally by later local historians (Blake 1888,
+Hartley 1943/1959).
+
+**Unchecked, but it is exactly the kind of collision that has already caught this
+project twice.** Its thirteen-seat table for Hamden and Cheshire grades six of
+thirteen entries REPORTED, and all of it is upstream and off this trail. Sign 4
+now says the spillway was raised more than once and leaves the mill chain alone.
+
+### Pattern, third time
+
+Same as before: **the identifiers are good, the grades are not.** HAER CT-186-C
+was exactly right. The Hoadly citation was exactly right and the transcription
+was faithful. The reconciliation graded VERIFIED is the part still resting on
+nothing I can see. Chase the numbers; ignore the confidence.
+
+
+## Signs 9 and 10 are no longer the weakest signs
+
+Fourth report, run against prompt 3. This one earned its keep: it produced a
+**hard legal fact that I verified in the statute book**, and an honest negative
+finding that corrects something this project has been printing.
+
+### VERIFIED in the statute book — the law the fight produced
+
+Sign 10 used to end on a sentiment: people organised, they won, I-91 took ten
+acres anyway. It now ends on a law.
+
+**Conn. Gen. Stat. § 7-131j, "Taking of land by state or public service
+company."** Fetched and read directly from the General Assembly's own site. Where
+the state wants municipal land held for conservation or recreation and means to
+put a highway on it, the statute requires comparable replacement land or payment,
+an **extra public hearing beyond the one already required**, at which the state
+must state its *"reasons for the proposed taking of the open space land rather
+than other land"* — and then this:
+
+> "the state shall not take, for highway or other purposes, any such land unless
+> the governing body of the municipality in which the land is located has, **by
+> majority vote of all its members, approved the proposed taking**."
+
+A town could say no. New Haven's Board of Aldermen did.
+
+Two independent sources — the report, and kurumi.com, which this project already
+cited — agree it was passed by the **1965** General Assembly in response to the
+East Rock fight. I read the operative text; I have not seen the enactment
+parenthetical, so **1965 rests on those two sources rather than on the statute
+book**. The substance is beyond doubt.
+
+**The federal Section 4(f) parkland protections came in 1966.** Connecticut got
+there a year earlier, and a neighbourhood argument about this river bank is why.
+That is now the spine of sign 10 in both languages.
+
+*Note on an early false lead:* a search summary reported § 7-131j as being about
+public art in municipal buildings. It is not — that is a different section.
+Always read the statute, not the summary of it.
+
+### VERIFIED — what the road would actually have done to the river
+
+The detail that makes the sign land, and it was in the report:
+
+Four lanes, a little over a mile, from **I-91 Exit 6 (Willow Street / Blatchley
+Avenue)** north to **Whitney Avenue at Armory Street** in Hamden. Connecticut
+Highway Department sponsor, federal Bureau of Public Roads paying half. **$5
+million in 1964, about $10 million by 1968.**
+
+And the design: to save right-of-way, the two carriageways were to run on
+**opposite banks of the Mill River**, with the river between them **straightened,
+narrowed and encased in a concrete channel to serve as the highway's median.**
+
+The river was not an obstacle to be bridged. It was to be the gap between the
+lanes. Corroborated by kurumi.com.
+
+Also now on the sign: **State Representative Lawrence O'Brien** leading the
+legislative opposition in 1964; the *New Haven Register* opposing this road while
+supporting highways generally; and the **ramp stubs still standing at Exit 6** —
+oversized structures and viaducts built to feed a road that was never built, the
+clearest physical evidence on the trail of something that did not happen.
+
+### NEGATIVE FINDING — and we were printing it wrong
+
+The report searched Yale Manuscripts and Archives, the Whitney Library and the
+Connecticut State Archives and found **no archival collection for a "Save Our
+Park Committee."** It concludes the name is a moniker later applied to the
+loose citizen coalitions, ward leaders and conservation groups active 1961-65,
+and that the actual documentation sits in:
+
+- the **Richard C. Lee Papers, Yale MS 318**
+- the **New Haven Board of Aldermen records**, New Haven City Archives
+- the microfilmed **New Haven Register**
+
+**Signs 10 and 11 both asserted that residents "formed a Save Our Park
+Committee."** Both have been corrected to say residents organised, and to name
+the mechanism that actually stopped it. If the committee turns out to be a real
+named body, it can go back in — but not on the strength of a moniker.
+
+### Sign 9 — material gathered, not yet written
+
+The planning sequence is now clear enough to rewrite sign 9 around, though I have
+not done it:
+
+- **1910, Gilbert and Olmsted** — reclaim the Mill River banks, dredge, and run
+  continuous public open space from East Rock to the harbour. Shelved by **Mayor
+  Frank J. Rice**, who preferred paving and sewers. *(The report says Rice Field
+  is named after that same mayor. Unverified, and a very tidy irony if true.)*
+- **1941-42 and 1951-55, Maurice Rotival** — Yale architecture professor,
+  "organic planning." Reclassified the Mill River lowlands from parkway buffer to
+  **industry, freight rail and limited-access highway**, and was first to propose
+  a high-speed arterial down the valley at the foot of East Rock. His papers are
+  **Yale MS 898** — but note, in copyright, permission needed.
+- **1954-69, Richard C. Lee and Edward Logue** — built Rotival's theory. The Mill
+  River Redevelopment Area cleared 19th-century blocks in the Wooster Square and
+  Fair Haven borderlands for single-storey plants and truck distribution.
+
+The through-line for sign 9 is a good one: **the same river valley read three
+ways in fifty years** — as a park buffer, as a freight corridor, and as
+clearance. Sign 10 is what happened when the third reading met the people who
+lived there.
+
+### Image leads for both signs, with rights
+
+- **1910 Civic Improvement report** — public domain, and already digitised on
+  **HathiTrust**. Its general plan drawing is the obvious sign 9 image and costs
+  nothing.
+- **Olmsted job 5313** at the Library of Congress — already in hand, see above.
+- **I-91 construction photographs**, Connecticut State Library **RG 089**,
+  photographic files of highway construction, box: Interstate 91 New Haven,
+  c. 1963-65 — **state government work, public domain**, some via the Connecticut
+  Digital Archive.
+- **East Rock Connector alignment maps**, RG 089, and ConnDOT's own engineering
+  records at Newington via a public records request.
+- **Rotival drawings**, Yale MS 898 — **in copyright**, permission required.
+- **New Haven Register protest photographs** — **in copyright, Hearst**. Licensing
+  required. Do not assume.
+
+The two free, public-domain sources — HathiTrust for 1910 and RG 089 for the
+I-91 construction photographs — could between them fill most of the five empty
+slots that made these the candidates for deferral.
+
+### Fourth round, same verdict
+
+Identifiers good, grades unreliable, negative findings genuinely useful. This one
+was the strongest of the four, and the reason is that the prompt asked for
+specific things — a route, a sponsoring agency, who the opponents were — instead
+of asking for a story.
+
+
+## Regenerating the newspaper and archive clippings
+
+The clippings added in August 2026 are **not in the repository**. Like the museum
+scans, `assets/images/sign-*/*.jpg` is gitignored, so the print-resolution files
+live only on whoever's laptop made them. Unlike the museum scans, **these are
+public domain and fully reproducible from the internet in about a minute**, so
+nothing is lost. The commands are:
+
+```bash
+# Sign 5 — the Court of Common Council elects bath house keepers, 2 May 1882
+node build/get-clipping.mjs sn82015483 1882-05-02 3 "bath house keeper" sign-05 ballot-1882
+
+# Sign 11 — "An Oyster Craft," Stewart's boats on East Rock, 22 February 1887
+#   (the same article already lives on sign 1 as clipping-1887.jpg;
+#    sign 11's copy was made by copying that file across)
+node build/get-clipping.mjs sn82015483 1887-02-22 4 "OYSTER CRAET" sign-11 1887
+
+# Sign 12 — the Oyster Point watch house robbery, 9 September 1886
+node build/get-clipping.mjs sn82015483 1886-09-09 4 "the watch house at Oyster Point" sign-12 watch-house-1886
+```
+
+Note the OCR spellings in the search phrases — "OYSTER CRAET" is what the
+scanner made of "OYSTER CRAFT," and the tool matches the OCR, not the ink.
+
+**Sign 6's Olmsted letter** is not from Chronicling America and needs a different
+route. It is page 0243 of Library of Congress item `mss5257103168`:
+
+```bash
+curl "https://tile.loc.gov/image-services/iiif/service:mss:mss52571:mss52571-02-250:0243/full/pct:100/0/default.jpg" \
+  -o /tmp/olm.jpg
+# then crop the left leaf (the 3 January 1917 letter) and convert to greyscale:
+#   left 2%, top 2%, right 50%, bottom 99% of the full 5037 x 3295 scan
+#   → assets/images/sign-06/clipping-olmsted-1917.jpg
+```
+
+Two helper scripts used to find these live in `work/`, which is also gitignored,
+so they are reproduced here in case they are wanted again:
+
+- `work/chrongrep.mjs` — searches Chronicling America and prints the matched
+  snippet from LoC's word-coordinates service. Much cheaper than downloading
+  page OCR. Usage: `node work/chrongrep.mjs '<query>' <lccn|-> <y1> <y2> <rows>`.
+- `work/findpage.mjs` / `work/dumplines.mjs` — find which page of an issue holds
+  a phrase, and dump ALTO line coordinates so a crop can be aimed by hand.
+
+**If somebody decides these should be committed after all**, they are small — the
+four together are under 1.2 MB — and unlike the museum masters there is no
+licensing reason to keep them out. That is a judgement call for whoever owns the
+repository, not something to change quietly.

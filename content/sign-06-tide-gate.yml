@@ -5,7 +5,7 @@ status: draft
 
 location:
   name: Tide Gate and Fish Migration
-  place: The Mill River tide gate, upstream of Humphrey Street
+  place: The Mill River tide gates at the State Street bridge
   lat: 41.3171646
   lon: -72.9047382
 
@@ -25,15 +25,19 @@ sign:
       Everything below this point is tidal. Salt water pushes up from the harbour
       twice a day and slides back out, and the plants and animals that live down
       there are built for the swing. Above it the water is fresh. The line
-      between the two is not natural — it is a gate, put across the river around
-      1930 to stop the tide going any further inland.
+      between the two is not natural — it is a gate, put across the river early
+      in the last century to hold the tide back, and to dry out the salt marsh
+      that was breeding mosquitoes. Connecticut still draws its legal boundary
+      here: in state regulation, the sea officially ends at these gates.
     es: >-
       Todo lo que hay por debajo de este punto es de marea. El agua salada sube
       desde el puerto dos veces al día y vuelve a salir, y las plantas y animales
       que viven ahí abajo están hechos para ese vaivén. Por encima, el agua es
       dulce. La línea que separa a las dos no es natural: es una compuerta,
-      atravesada en el río hacia 1930 para impedir que la marea siguiera
-      entrando tierra adentro.
+      atravesada en el río a principios del siglo pasado para contener la marea y
+      secar la marisma salada donde criaban los mosquitos. Connecticut sigue
+      trazando aquí su frontera legal: en la normativa estatal, el mar termina
+      oficialmente en estas compuertas.
 
   section:
     heading:
@@ -65,8 +69,12 @@ sign:
       file: TODO-tide-gate.jpg
       slot: center_top
       source_note: >-
-        The Mill River tide gate. A good modern photograph would serve here;
-        historic construction views would be better if any exist.
+        The Mill River tide gate. Best to shoot our own — the gates are at the
+        I-91 crossing and photograph well at slack tide. A usable CC BY-SA image
+        exists on Wikimedia Commons ("The tide gates on the Mill River seen at
+        slack tide", 2018, by Envchemprof) if we would rather not wait, but
+        share-alike on a printed plate is worth a thought first. Historic
+        construction views would be better than either, if any survive.
       caption:
         en: The tide gate holds the salt water back.
         es: La compuerta contiene el agua salada.
@@ -91,15 +99,18 @@ sign:
         en: A fishway lets migrating fish climb past a barrier.
         es: Una escala permite a los peces migratorios superar una barrera.
 
-    - key: The Olmsted Plan
-      file: TODO-olmsted-plan.jpg
+    - key: Approving the Gates
+      file: clipping-olmsted-1917.jpg
       slot: right_bottom
-      source_note: >-
-        The 1910 Gilbert and Olmsted plan for New Haven, which recommended a
-        tide gate. Google Books has the full report.
       caption:
-        en: A tide gate was recommended in the city's 1910 plan.
-        es: El plan municipal de 1910 ya recomendaba una compuerta.
+        en: >-
+          Olmsted Brothers to New Haven's city engineer, 3 January 1917,
+          approving his plans for "the proposed Mill River Dam" and asking for a
+          lighter railing over the gates.
+        es: >-
+          Olmsted Brothers al ingeniero municipal de New Haven, 3 de enero de
+          1917, aprobando sus planos para "la presa propuesta del río Mill" y
+          pidiendo una barandilla más ligera sobre las compuertas.
 
   panel:
     species:
@@ -148,10 +159,73 @@ web:
 
       New Haven had been told this. The 1910 city plan by Cass Gilbert and
       Frederick Law Olmsted recommended a tide gate, along with a protective
-      buffer of open land along the river rather than the vertical walls the
-      city would eventually build. A gate duly appeared around 1930.
+      buffer of open land along the river rather than the vertical walls the city
+      would eventually build.
+
+      Flooding was not the only argument. Salt marsh breeds salt-marsh
+      mosquitoes, and in the 1910s New Haven ran a serious campaign against them
+      — ditching the meadows, spreading oil on standing water, and, as a
+      newspaper account of the 1912 season put it, "looking after the tide
+      gates." The city put gates across the West River in 1919 for exactly that
+      reason. Gates went across the Mill River in the same era, at what is now
+      the Interstate 91 crossing.
+
+      ## Who designed it, and when
+
+      For years this project could not say when the gates were built. It can now
+      say when they were **drawn**, because the correspondence survives.
+
+      The designer was **Frederick L. Ford, New Haven's city engineer**, working
+      from Room 18 of City Hall. He sent his plans to the Olmsted Brothers, the
+      landscape firm advising the city on East Rock Park, and on **3 January
+      1917** they wrote back:
+
+      > We acknowledge the receipt of your plans for the proposed **Mill River
+      > Dam**, and they seem to us to be satisfactory. We have the following
+      > suggestions for minor changes.
+      >
+      > 1. **The platform leading over the gates**, from one side of the river to
+      > the other, we would suggest should be kept closed to the public… a
+      > lighter protecting railing on either side would be quite sufficient… This
+      > will make the railing much lighter and less obtrusive in the landscape.
+      >
+      > 2. The fence on **the spillway** we believe would be adequate if made
+      > three feet instead of six feet high. A similar fence… should also be
+      > built on top of **the river walls**.
+
+      That is the structure you are looking at, being argued over at the level of
+      railing heights, in January 1917. A blueprint of the Mill River section had
+      gone to the Olmsted office as early as **November 1915**.
+
+      The letter is on this sign. It sits in the Olmsted Associates Records at
+      the Library of Congress, job file 5313 — East Rock Park, New Haven — along
+      with three hundred and fifty other pages nobody on this project had read.
+
+      **What we still cannot say is when the concrete was poured.** One recent
+      research summary gives **1935**, built with New Deal relief labour under
+      the state's mosquito programme, and the 1930s were certainly when federal
+      crews ditched and diked salt marshes the length of this shore. But the
+      design was finished eighteen years earlier, and the city put gates across
+      the West River in 1919. Whether the Mill River gates went in with them, or
+      waited for the Depression, or were built twice, is the question. If you
+      know where the contract is, the trail would like to hear from you.
 
       It does the job it was built for. It also changed the river permanently.
+
+      ## Where the sea legally ends
+
+      One thing about the gates is fixed beyond argument, because it is written
+      into Connecticut regulation. The state divides its waters into a **marine
+      district** and an **inland district**, and it draws the line stream by
+      stream. For this river the rule reads:
+
+      > **Mill River, New Haven** — marine district: up to and including below
+      > tide gates at State Street Bridge. Inland district: all waters above.
+
+      Which fish you may take, in what season, under which licence, changes at
+      this structure. A hundred years ago somebody built a barrier to keep salt
+      water off the marsh; the state has since accepted it as the place where the
+      sea ends. An engineering decision became a boundary on a map.
 
       ## The spring run
 
@@ -198,11 +272,83 @@ web:
       A New Haven ya se lo habían advertido. El plan urbano de 1910 de Cass
       Gilbert y Frederick Law Olmsted recomendaba una compuerta de marea, junto
       con una franja protectora de terreno abierto a lo largo del río en lugar de
-      los muros verticales que la ciudad acabaría levantando. La compuerta
-      apareció hacia 1930.
+      los muros verticales que la ciudad acabaría levantando.
+
+      Las inundaciones no eran el único argumento. La marisma salada cría
+      mosquitos de marisma, y en la década de 1910 New Haven emprendió una
+      campaña seria contra ellos: zanjar los prados, esparcir aceite sobre el agua
+      estancada y, como decía la crónica de la temporada de 1912, "ocuparse de las
+      compuertas de marea". La ciudad instaló compuertas en el West River en 1919
+      exactamente por ese motivo. En el Mill River se colocaron en la misma época,
+      en lo que hoy es el cruce de la interestatal 91.
+
+      **Cuándo exactamente sigue siendo una pregunta abierta.** Las fuentes dicen
+      "los años treinta"; el proyecto aún no ha encontrado la orden, el contrato o
+      el informe del ingeniero que fijaría el año. Si sabe dónde está ese papel,
+      al sendero le gustaría saberlo.
+
+      ## Quién la diseñó, y cuándo
+
+      Durante años este proyecto no pudo decir cuándo se construyeron las
+      compuertas. Ahora puede decir cuándo se **dibujaron**, porque se conserva
+      la correspondencia.
+
+      El autor fue **Frederick L. Ford, ingeniero municipal de New Haven**, desde
+      el despacho 18 del Ayuntamiento. Envió sus planos a los Olmsted Brothers,
+      la firma paisajista que asesoraba a la ciudad sobre East Rock Park, y el
+      **3 de enero de 1917** le contestaron:
+
+      > Acusamos recibo de sus planos para la **presa propuesta del río Mill**, y
+      > nos parecen satisfactorios. Tenemos las siguientes sugerencias de cambios
+      > menores.
+      >
+      > 1. **La pasarela que cruza por encima de las compuertas**, de una orilla a
+      > otra, sugerimos que se mantenga cerrada al público… una barandilla de
+      > protección más ligera a cada lado sería suficiente… Así la barandilla
+      > resultará mucho más ligera y menos intrusiva en el paisaje.
+      >
+      > 2. La valla del **aliviadero** creemos que bastaría con tres pies en lugar
+      > de seis. Una valla similar… debería colocarse también sobre **los muros
+      > del río**.
+
+      Esa es la estructura que usted está mirando, discutida a la altura de las
+      barandillas, en enero de 1917. Un plano heliográfico de la sección del río
+      Mill había llegado a la oficina de Olmsted ya en **noviembre de 1915**.
+
+      La carta está en este letrero. Se conserva en los Olmsted Associates
+      Records de la Biblioteca del Congreso, expediente 5313 — East Rock Park,
+      New Haven — junto a otras trescientas cincuenta páginas que nadie en este
+      proyecto había leído.
+
+      **Lo que seguimos sin poder decir es cuándo se echó el hormigón.** Un
+      resumen reciente de investigación da **1935**, con mano de obra de ayuda del
+      New Deal dentro del programa estatal contra los mosquitos, y los años
+      treinta fueron desde luego cuando las cuadrillas federales zanjaron y
+      diquearon las marismas de toda esta costa. Pero el diseño estaba terminado
+      dieciocho años antes, y la ciudad puso compuertas en el West River en 1919.
+      Si las del Mill se instalaron con aquellas, o esperaron a la Depresión, o se
+      construyeron dos veces, es la pregunta. Si sabe dónde está el contrato, al
+      sendero le gustaría saberlo.
 
       Cumple la función para la que se construyó. También cambió el río para
       siempre.
+
+      ## Donde termina legalmente el mar
+
+      Hay algo de las compuertas que está fijado sin discusión, porque está
+      escrito en la normativa de Connecticut. El estado divide sus aguas en un
+      **distrito marino** y un **distrito interior**, y traza la línea río por
+      río. Para este la norma dice:
+
+      > **Mill River, New Haven** — distrito marino: hasta e incluyendo por
+      > debajo de las compuertas de marea del puente de State Street. Distrito
+      > interior: todas las aguas por encima.
+
+      Qué peces puede usted sacar, en qué temporada y con qué licencia cambia en
+      esta estructura. Hace cien años alguien levantó una barrera para apartar el
+      agua salada de la marisma; desde entonces el estado la ha aceptado como el
+      punto donde termina el mar. Una decisión de ingeniería se convirtió en una
+      frontera en el mapa.
 
       ## La subida de primavera
 
@@ -238,6 +384,16 @@ web:
   sources:
     - title: "Report of the New Haven Civic Improvement Committee, 1910 — Gilbert and Olmsted"
       url: https://www.google.com/books/edition/_/NUHnAAAAMAAJ
+    - title: "Olmsted Associates Records, job file 5313 — East Rock Park, New Haven, 1917-1931 (Library of Congress)"
+      url: https://www.loc.gov/item/mss5257103168/
+    - title: "Olmsted Associates Records, job file 5313 — East Rock Park, New Haven, 1914-1916"
+      url: https://www.loc.gov/item/mss5257103166/
+    - title: "Conn. Agencies Regs. \u00a7 26-108-1 — inland waters and marine district defined"
+      url: https://www.law.cornell.edu/regulations/connecticut/Regs-Conn-State-Agencies-SS-26-108-1
+    - title: "Mosquito work of the 1912 season — The New Haven Union, 30 June 1912"
+      url: https://chroniclingamerica.loc.gov/lccn/sn92051126/1912-06-30/ed-1/seq-18/
+    - title: "New Haven's Mill River: a brief history — Yale Water Management"
+      url: https://watermanagement.yale.edu/new-havens-mill-river-a-brief-history/
     - title: "River herring — NOAA Fisheries"
       url: https://www.fisheries.noaa.gov/species/river-herring
     - title: "Mill River Watershed Based Plan — Save the Sound"

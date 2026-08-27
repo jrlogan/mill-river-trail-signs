@@ -46,13 +46,13 @@ sign:
       movía las máquinas.
 
   section:
-    # REVIEW — a real conflict to settle before print. The Eli Whitney Museum's
-    # own sign at the dam says 38 feet tall, 500 feet long, opened 1862, and
-    # expanded twice since. millrivertrail.com's history gives a different
-    # sequence: six feet raised to 27 in 1860, 31 in 1866, and 19 inches more in
-    # 1916. Both cannot be printed. The copy below follows the museum, on the
-    # grounds that it is their dam and their sign stands at it, and drops the
-    # intermediate heights rather than print a contested figure.
+    # The old conflict is probably not a conflict. The museum's 38 ft x 500 ft
+    # describes the masonry structure; millrivertrail.com's 27 / 31 / +19 inches
+    # tracks the spillway weir crest, which was raised repeatedly. Both can be
+    # true of the same dam. That reconciliation is reported, not proven — HAER
+    # CT-186-C is the survey that would settle it. See docs/DECISIONS.md.
+    # The copy below states the structure and describes the raisings without
+    # attaching contested numbers to them.
     heading:
       en: One Dam, Two Problems
       es: Una presa, dos problemas
@@ -66,7 +66,9 @@ sign:
         was quarried in place, from Mill Rock and the northern ridge of East
         Rock. The reservoir stretched two miles north. Three mills were
         submerged, and oxen dragged the Town Bridge north to the crossing we now
-        call Davis Street.
+        call Davis Street. The spillway was raised more than once afterwards, the
+        last time in 1916, because a growing city always wants a little more
+        water than it has.
       es: >-
         New Haven ardía y tenía sed a la vez. Las casas estaban pegadas unas a
         otras, se alumbraban y calentaban con fuego abierto y los incendios
@@ -77,7 +79,9 @@ sign:
         allí mismo, de Mill Rock y de la cresta norte de East Rock. El embalse se
         extendía dos millas al norte. Tres molinos quedaron sumergidos, y unos
         bueyes arrastraron el Town Bridge hasta el cruce que hoy llamamos Davis
-        Street.
+        Street. El aliviadero se recreció más de una vez después, la última en
+        1916, porque una ciudad que crece siempre quiere un poco más de agua de
+        la que tiene.
 
   # ---------------------------------------------------------------------------
   # ARTWORK NOT YET SOURCED. `source_note` is the brief for whoever chases it;
@@ -168,6 +172,34 @@ web:
       spot from 1642. By 1780 there were eight mills on the river. Farmers rented
       time at them to grind their grain.
 
+      ## The mill that named the river
+
+      Before any of this there was one mill, and it is the reason the water has
+      the name it has.
+
+      Around 1640 the New Haven Colony put up a communal, water-powered corn mill
+      at the lower falls, on the ground where the armory and then the dam would
+      later stand. In the colony's records it is not given a name. It is just
+      "the mill" — and the water running past it became the Mill River, which is
+      what everyone has called it for nearly four hundred years.
+
+      We also know it was badly built, because somebody was taken to court over
+      it. From the General Court of New Haven in 1642:
+
+      > **Richard Beach** for nott performing covenant in the worke w[hi]ch he
+      > undertooke to doe att the mill, w[hi]ch he was to doe strongly and
+      > substantially, butt did itt **weakely and sleightly** as was proved by the
+      > testimony of **John Wakefield the miller**, himselfe allso nott denying
+      > itt; Itt was ordered that he should make good the damage, butt because
+      > the damage is not justly known what itt is, Mr. Goodyeare and Mr. Gregson
+      > are to [v]eiw the worke, and consider off and sett downe the damage by
+      > his [defec]tive workmanship.
+
+      A contractor who cut corners, a miller who testified against him, a
+      contractor who did not even bother to deny it, and two men sent out to
+      price the damage. That is the earliest human voice we have from this spot,
+      and it is a building dispute.
+
       ## 1798
 
       In 1798 Eli Whitney bought Todd's mill and the ground around it, and built
@@ -243,6 +275,62 @@ web:
       ellos — el molino de grano de Christopher Todd, que molía el maíz de la
       colonia — estuvo en este punto desde 1642. Hacia 1780 había ocho molinos en
       el río. Los agricultores alquilaban tiempo en ellos para moler su grano.
+
+      ## The mill that named the river
+
+      Before any of this there was one mill, and it is the reason the water has
+      the name it has.
+
+      Around 1640 the New Haven Colony put up a communal, water-powered corn mill
+      at the lower falls, on the ground where the armory and then the dam would
+      later stand. In the colony's records it is not given a name. It is just
+      "the mill" — and the water running past it became the Mill River, which is
+      what everyone has called it for nearly four hundred years.
+
+      We also know it was badly built, because somebody was taken to court over
+      it. From the General Court of New Haven in 1642:
+
+      > **Richard Beach** for nott performing covenant in the worke w[hi]ch he
+      > undertooke to doe att the mill, w[hi]ch he was to doe strongly and
+      > substantially, butt did itt **weakely and sleightly** as was proved by the
+      > testimony of **John Wakefield the miller**, himselfe allso nott denying
+      > itt; Itt was ordered that he should make good the damage, butt because
+      > the damage is not justly known what itt is, Mr. Goodyeare and Mr. Gregson
+      > are to [v]eiw the worke, and consider off and sett downe the damage by
+      > his [defec]tive workmanship.
+
+      A contractor who cut corners, a miller who testified against him, a
+      contractor who did not even bother to deny it, and two men sent out to
+      price the damage. That is the earliest human voice we have from this spot,
+      and it is a building dispute.
+
+      ## El molino que dio nombre al río
+
+      Antes de todo esto hubo un molino, y es la razón de que el agua se llame
+      como se llama.
+
+      Hacia 1640 la Colonia de New Haven levantó un molino comunal de maíz
+      movido por agua en los saltos de abajo, en el terreno donde después
+      estarían la armería y luego la presa. En las actas de la colonia no se le
+      da nombre: es simplemente "el molino" — y el agua que pasaba a su lado
+      pasó a ser el río del Molino, el Mill River, que es como se ha llamado
+      desde hace casi cuatrocientos años.
+
+      También sabemos que estuvo mal construido, porque alguien acabó en el
+      tribunal por ello. Del Tribunal General de New Haven, 1642:
+
+      > **Richard Beach**, por no cumplir lo pactado en la obra que se
+      > comprometió a hacer en el molino, que debía ejecutar con solidez y
+      > firmeza, y la hizo **floja y descuidadamente**, según probó el testimonio
+      > de **John Wakefield, el molinero**, sin negarlo él mismo tampoco; se
+      > ordenó que reparara el daño, pero como no se sabe con exactitud cuál es,
+      > el señor Goodyeare y el señor Gregson han de examinar la obra y fijar el
+      > perjuicio causado por su trabajo defectuoso.
+
+      Un contratista que escatimó, un molinero que declaró contra él, un
+      contratista que ni se molestó en negarlo y dos hombres enviados a tasar el
+      destrozo. Es la voz humana más antigua que tenemos de este lugar, y es una
+      disputa de obras.
 
       ## 1798
 
@@ -320,6 +408,10 @@ web:
   gallery: []
 
   sources:
+    - title: "Records of the Colony and Plantation of New Haven, 1638-1649, ed. Hoadly — the 1642 mill case"
+      url: https://archive.org/details/recordsofcolonyp00newh
+    - title: "Lake Whitney Dam — Historic American Engineering Record, HAER CT-186-C (Library of Congress)"
+      url: https://www.loc.gov/pictures/item/ct0684/
     - title: "The Eli Whitney Museum — historic site"
       url: https://www.eliwhitney.org/7/museum/historic-site
     - title: "The Eli Whitney Museum — arms production"

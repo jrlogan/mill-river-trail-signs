@@ -24,16 +24,18 @@ sign:
     en: >-
       East Rock is a 365-foot wall of basalt, the edge of a lava sheet that
       cooled underground and was later exposed by ice. For most of the 1800s it
-      was not a park. It was cut up into private parcels, quarried for stone, and
-      for a while it carried a large wooden boat that a showman had built on the
-      summit and called Noah's Ark, charging admission to see it.
+      was not a park. It was cut into private parcels and quarried for stone, and
+      the top of it belonged to Milton J. Stewart, an old sailor who lived up
+      there and built ocean-going oyster boats on the summit — then waited for
+      snow and dragged them down the rock on an ox-sled.
     es: >-
       East Rock es un muro de basalto de 365 pies, el borde de una capa de lava
       que se enfrió bajo tierra y que el hielo dejó luego al descubierto. Durante
       casi todo el siglo XIX no fue un parque. Estaba dividido en parcelas
-      privadas, se explotaba como cantera y, durante un tiempo, sostuvo un gran
-      barco de madera que un empresario construyó en la cima y llamó el Arca de
-      Noé, cobrando entrada por verlo.
+      privadas y se explotaba como cantera, y la cima pertenecía a Milton J.
+      Stewart, un viejo marino que vivía allí arriba y construía en la cumbre
+      barcos ostreros de altura; luego esperaba a que nevara y los bajaba por la
+      roca en un trineo de bueyes.
 
   section:
     heading:
@@ -59,15 +61,23 @@ sign:
         protege acaba siendo una cantera.
 
   images:
-    - key: Noah's Ark
-      file: TODO-noahs-ark.jpg
+    - key: Stewart's Boat
+      file: TODO-stewart-boat.jpg
       slot: center_top
       source_note: >-
-        The boat built on the summit of East Rock, 19th century. New Haven
-        Museum; Connecticut State Library. This is the picture worth chasing.
+        Milton J. Stewart's boat on the summit of East Rock, or the old Stewart
+        stone house that stood beside it, 1860s-1880s. "Many hundreds of people"
+        saw the boat up there, so a photograph or engraving may well exist. Try
+        the New Haven Museum photograph collection, the Connecticut State
+        Library, and Yale's Manuscripts and Archives. This is the best single
+        picture on the trail if it turns up.
       caption:
-        en: The boat a showman built on the summit and charged admission to see.
-        es: El barco que un empresario construyó en la cima y por el que cobraba entrada.
+        en: >-
+          Stewart built ocean-going oyster boats on the summit and hauled them
+          down on an ox-sled.
+        es: >-
+          Stewart construía barcos ostreros de altura en la cima y los bajaba en
+          un trineo de bueyes.
 
     - key: The Quarry
       file: TODO-east-rock-quarry.jpg
@@ -150,12 +160,49 @@ web:
       Through the middle of the 1800s the land that is now East Rock Park was
       divided among several private owners, and they used it the way you would
       expect people to use a large exposed mass of good building stone: they
-      quarried it.
+      quarried it. A guide to the park printed in 1884 still routes visitors past
+      "the old Stewart road" near the quarry sites.
 
-      One owner had a different idea. A local showman built a large boat on top
-      of the rock, called it Noah's Ark, and charged people to come up and look
-      at it — a piece of nineteenth-century roadside attraction logic, two
-      centuries before anyone called it that.
+      ## The man who built boats on top of a cliff
+
+      The top of the rock belonged to Milton J. Stewart. He had followed the sea
+      once, and he lived up there in the stone house he had built, with dogs,
+      cats, cows and a bad-tempered black horse, three hundred feet above New
+      Haven.
+
+      And he built boats. Not model boats — eight-to-ten-ton oyster craft, the
+      kind that went out on the Sound under a small steam boiler. He built them
+      on the summit, in full view of a city that assumed he had lost his mind.
+
+      > Out of the many hundreds of people who saw Milton Stewart's boat lying on
+      > top of East Rock, where it was built by him, probably nine-tenths
+      > concluded that the boat would never be worth anything except for kindling
+      > wood.
+
+      They were wrong twice over. His method was to wait for a heavy snow, load
+      the hull onto an ox-sled with bolsters under it to take the jolting, and
+      walk a pair of horses down the old Rock road — "which is as bad as the
+      rocky road to Dublin" — to tide water near Neck Bridge. He did it at least
+      twice, roughly twenty years apart. One of the two boats was sold to a
+      Bridgeport firm and was still working the oyster beds there when the
+      *Journal and Courier* wrote the story up in February 1887.
+
+      Not everything he started came down. He also began a 35-foot schooner and
+      told the neighbours that eighteen or twenty yoke of oxen would fetch it to
+      the water. That one had to be pulled apart on the summit and burned as
+      firewood.
+
+      He did not go quietly, either. The city wanted the rock; Stewart said he
+      owned it and meant to die on top of it, and it took condemnation
+      proceedings to move him.
+
+      There is one more story, and it should be labelled as a story: a Brooklyn
+      paper claimed in 1899 that Stewart had once walked into New Haven
+      prophesying that Long Island Sound would rise and drown Connecticut, that
+      hundreds believed him, and that the boat on the summit was his ark. It is a
+      good tale, told twelve years after the fact by a newspaper a long way away,
+      and nobody has yet found it in a New Haven paper. Treat it as folklore
+      until somebody does.
 
       ## Making a park
 
@@ -174,8 +221,9 @@ web:
       ## And nearly lost again
 
       In the 1960s the state proposed running a highway connector along the Mill
-      River and through the park. Residents formed a Save Our Park Committee and
-      stopped it, though Interstate 91 still took about ten acres.
+      River and through the park. Residents organised against it and stopped it —
+      a 1965 state law let the city's aldermen refuse the taking — though
+      Interstate 91 still took about ten acres.
 
       A park is not a natural feature. It is a decision that has to keep being
       made.
@@ -201,12 +249,48 @@ web:
       A mediados del siglo XIX el terreno que hoy es el parque de East Rock
       estaba repartido entre varios propietarios privados, que lo usaban como
       cabía esperar que se usara una gran masa expuesta de buena piedra de
-      construcción: como cantera.
+      construcción: como cantera. Una guía del parque impresa en 1884 todavía
+      lleva al visitante junto al "viejo camino de Stewart", cerca de las
+      canteras.
 
-      Un propietario tuvo otra idea. Un empresario local construyó un gran barco
-      en lo alto de la roca, lo llamó el Arca de Noé y cobraba por subir a verlo:
-      lógica de atracción de carretera decimonónica, dos siglos antes de que
-      nadie la llamara así.
+      ## El hombre que construía barcos en lo alto de un acantilado
+
+      La cima de la roca era de Milton J. Stewart. Había sido marino, y vivía
+      allí arriba en la casa de piedra que se había levantado, con perros, gatos,
+      vacas y un caballo negro de mal genio, a trescientos pies sobre New Haven.
+
+      Y construía barcos. No maquetas: barcos ostreros de ocho a diez toneladas,
+      de los que salían al Sound con una pequeña caldera de vapor. Los construía
+      en la cima, a la vista de una ciudad convencida de que había perdido el
+      juicio.
+
+      > De los muchos centenares de personas que vieron el barco de Milton
+      > Stewart en lo alto de East Rock, donde él mismo lo construyó, unas nueve
+      > décimas partes concluyeron que aquel barco no serviría más que para leña.
+
+      Se equivocaban por partida doble. Su método era esperar una buena nevada,
+      cargar el casco en un trineo de bueyes con travesaños debajo para amortiguar
+      los tumbos y bajar con un par de caballos por el viejo camino de la Roca
+      — "tan malo como el pedregoso camino de Dublín" — hasta el agua de marea,
+      cerca de Neck Bridge. Lo hizo al menos dos veces, con unos veinte años de
+      diferencia. Uno de los dos barcos se vendió a una empresa de Bridgeport y
+      seguía trabajando allí los bancos de ostras cuando el *Journal and Courier*
+      contó la historia en febrero de 1887.
+
+      No todo lo que empezó llegó abajo. También comenzó una goleta de 35 pies y
+      aseguró a los vecinos que dieciocho o veinte yuntas de bueyes la llevarían
+      al agua. Aquella hubo que desmontarla en la cima y quemarla como leña.
+
+      Tampoco se marchó sin más. La ciudad quería la roca; Stewart decía que era
+      suya y que pensaba morir en lo alto, y hubo que expropiarla para moverlo.
+
+      Queda una historia más, y conviene etiquetarla como tal: un periódico de
+      Brooklyn afirmó en 1899 que Stewart había bajado una vez a New Haven
+      profetizando que Long Island Sound se alzaría y anegaría Connecticut, que
+      cientos le creyeron y que el barco de la cima era su arca. Es un buen
+      relato, contado doce años después por un diario muy lejano, y nadie lo ha
+      encontrado todavía en la prensa de New Haven. Trátese como folclore hasta
+      que alguien lo haga.
 
       ## Hacer un parque
 
@@ -225,9 +309,10 @@ web:
       ## Y casi se pierde otra vez
 
       En los años sesenta el estado propuso llevar una conexión de autopista
-      junto al río Mill y a través del parque. Los vecinos formaron el comité
-      Save Our Park y lo detuvieron, aunque la interestatal 91 se llevó igualmente
-      unos diez acres.
+      junto al río Mill y a través del parque. Los vecinos se organizaron
+      contra él y lo detuvieron: una ley estatal de 1965 permitió a los concejales
+      rechazar la expropiación. Aun así, la interestatal 91 se llevó unos diez
+      acres.
 
       Un parque no es un accidente natural. Es una decisión que hay que seguir
       tomando.
@@ -240,9 +325,27 @@ web:
       agracejo japonés: ambos introducidos, ambos agresivos y ambos cambiando lo
       que puede crecer debajo.
 
-  gallery: []
+  gallery:
+    - file: clipping-1887.jpg
+      caption:
+        en: >-
+          "An Oyster Craft — Mr. Stewart's Shipbuilding on Top of East Rock."
+          The New Haven Morning Journal and Courier, 22 February 1887. The whole
+          account of how the boats were built on the summit and got down, ending
+          with the Fenian Ram in a shed near Neck Bridge, being used as a chicken
+          coop.
+        es: >-
+          "An Oyster Craft — La construcción naval del señor Stewart en lo alto
+          de East Rock". Morning Journal and Courier de New Haven, 22 de febrero
+          de 1887. El relato completo de cómo se construían los barcos en la cima
+          y cómo se bajaban, y termina con el Fenian Ram en un cobertizo cerca de
+          Neck Bridge, usado como gallinero.
 
   sources:
+    - title: "\"An Oyster Craft\" — Morning Journal and Courier, 22 February 1887"
+      url: https://chroniclingamerica.loc.gov/lccn/sn82015483/1887-02-22/ed-1/seq-4/
+    - title: "\"East Rock Park\" guide extract — Morning Journal and Courier, 8 July 1884"
+      url: https://chroniclingamerica.loc.gov/lccn/sn82015483/1884-07-08/ed-1/seq-2/
     - title: "New Haven's Sentinels: the story of East Rock and West Rock"
       url: https://www.amazon.com/New-Havens-Sentinels-Driftless-Connecticut/dp/0819573744
     - title: "The East Rock Connector — Connecticut roads"

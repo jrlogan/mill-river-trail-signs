@@ -1,0 +1,342 @@
+# Sign 14: First People — PLACEHOLDER. Deliberately unwritten.
+#
+# This sign exists so that the gap is visible and answerable. Thirteen signs
+# cover mills, factories, bridges, plans, a submarine and an oyster town, and
+# the first several thousand years appear only as a subordinate clause in the
+# project's own overview. A missing sign is easy to postpone. A sign that says
+# it is missing is not.
+#
+# It must not be written from web sources. NOTE for whoever takes this on: the
+# project notes name a "Quinnipiac Dawnland Council" as the body to consult. No
+# such council appears to exist. There is no state- or federally recognised
+# Quinnipiac nation; Connecticut recognises five tribes, none of them Quinnipiac.
+# The group that carries the name in public — the Algonquian Confederacy of the
+# Quinnipiac Tribal Council — is an unrecognised heritage nonprofit based in
+# Indiana whose founder is a convicted rapist serving time in Texas and whose
+# registered agent could not establish descent. Do not put that name on a sign.
+# The real routes are in `sources` below. Until this is settled the text here is
+# the invitation, not the content, and `status` stays `placeholder` so it cannot
+# be mistaken for something ready to print.
+#
+# LOCATION IS PROVISIONAL. The coordinates below put it on the tidal reach below
+# East Rock for the sake of the locator map. Where it actually belongs is one of
+# the things to be decided by the people who write it.
+id: sign-14-first-people
+number: 14
+status: placeholder
+
+location:
+  name: First People (site to be decided)
+  place: Mill River, provisional — the tidal reach below East Rock
+  lat: 41.3208
+  lon: -72.9063
+
+urls:
+  en: signs.MillRiverTrail.com/first-people
+  es: signs.MillRiverTrail.com/primeros-pueblos
+  en_full: https://signs.millrivertrail.com/first-people
+  es_full: https://signs.millrivertrail.com/primeros-pueblos
+
+title:
+  en: The Sign Not Yet Written
+  es: El Letrero Aún No Escrito
+
+sign:
+  lede:
+    en: >-
+      There are thirteen other signs on this trail. They cover a dam, a
+      submarine, a bath house, an oyster town, a highway that was never built
+      and a man who moved a wharf. Between them they describe about four hundred
+      years. People lived on this river for thousands of years before any of
+      that, and this project has not yet earned the right to describe it. So
+      this panel is empty on purpose, and it is an invitation.
+    es: >-
+      Hay otros trece letreros en este sendero. Hablan de una presa, un
+      submarino, una caseta de baños, un pueblo ostrero, una autopista que nunca
+      se construyó y un hombre que movió un muelle. Entre todos cubren unos
+      cuatrocientos años. Hubo gente viviendo en este río miles de años antes de
+      todo eso, y este proyecto todavía no se ha ganado el derecho a contarlo.
+      Por eso este panel está vacío a propósito, y es una invitación.
+
+  section:
+    heading:
+      en: Why It Is Blank
+      es: Por qué está en blanco
+    body:
+      en: >-
+        This is Quinnipiac territory. The river was fished, the meadows were
+        burned and hunted, and the tidal flats were worked long before a mill
+        was put across the water in 1642. That much the record supports. What it
+        does not support is a stranger writing the rest of it from a library and
+        a search engine — which is how most interpretive signs about Native
+        history in this country got written, and why so many of them are wrong,
+        past-tense, or both. And the obvious remedy — ask the tribe — is not
+        simple here: the Quinnipiac hold neither federal nor state recognition,
+        and Connecticut's five recognised tribes are other peoples. Getting this
+        right means doing the work of finding out who should speak, and asking
+        them properly. Until that happens this panel stays as it is.
+      es: >-
+        Este es territorio quinnipiac. Se pescaba en el río, se quemaban y se
+        cazaban los prados y se trabajaban las llanuras de marea mucho antes de
+        que en 1642 se atravesara el agua con un molino. Hasta ahí llega lo que
+        el registro sostiene. Lo que no sostiene es que un forastero escriba el
+        resto desde una biblioteca y un buscador, que es como se escribieron la
+        mayoría de los letreros sobre historia indígena en este país, y por eso
+        tantos están equivocados, en pasado, o las dos cosas. Y el remedio obvio
+        — preguntar a la tribu — aquí no es sencillo: los quinnipiac no tienen
+        reconocimiento federal ni estatal, y las cinco tribus reconocidas de
+        Connecticut son otros pueblos. Hacerlo bien exige averiguar quién debe
+        hablar y preguntárselo como es debido. Hasta que eso ocurra, este panel
+        se queda como está.
+
+  images:
+    - key: To Be Chosen
+      file: TODO-first-people-hero.jpg
+      slot: center_top
+      source_note: >-
+        Deliberately unassigned. The main image on this sign is not for this
+        project to pick. Whoever the sign is eventually written with chooses it,
+        including the choice to use nothing at all.
+      caption:
+        en: >-
+          The image for this sign has not been chosen, and it is not ours to
+          choose.
+        es: >-
+          La imagen de este letrero no se ha elegido, y no nos corresponde
+          elegirla.
+
+    - key: Who Speaks
+      file: TODO-first-people-who.jpg
+      slot: left_bottom
+      source_note: >-
+        Open question, not an image brief: who has the standing to write this
+        panel, and how does the trail reach them? Route through the state's
+        Indian Affairs Council, the Native American Heritage Advisory Council and
+        the State Archaeologist. See docs/DECISIONS.md.
+      caption:
+        en: "Open question: who should write this, and how do we ask them properly?"
+        es: "Pregunta abierta: ¿quién debe escribirlo, y cómo se lo pedimos como es debido?"
+
+    - key: Where It Goes
+      file: TODO-first-people-where.jpg
+      slot: center_bottom
+      source_note: >-
+        Open question, not an image brief: where does this sign belong? The
+        coordinates in this file are provisional, chosen so the locator map has
+        something to draw.
+      caption:
+        en: "Open question: where on this river does this sign belong?"
+        es: "Pregunta abierta: ¿en qué punto de este río corresponde este letrero?"
+
+    - key: What It Is
+      file: TODO-first-people-what.jpg
+      slot: right_bottom
+      source_note: >-
+        Open question, not an image brief: is this one sign, several, or
+        something that is not a sign at all? Not ours to settle.
+      caption:
+        en: "Open question: is this one sign, several, or something else entirely?"
+        es: "Pregunta abierta: ¿es un letrero, varios, o algo distinto por completo?"
+
+  panel:
+    species:
+      - name: { en: American Pokeweed, es: Hierba carmín }
+        scientific: Phytolacca americana
+        status: native
+        file: species/american-pokeweed-phytolacca-americana.jpg
+      - name: { en: Common Evening-primrose, es: Onagra }
+        scientific: Oenothera biennis
+        status: native
+        file: species/common-eveningprimrose-oenothera-biennis.jpg
+      - name: { en: Seaside Goldenrod, es: Vara de oro marina }
+        scientific: Solidago sempervirens
+        status: native
+        file: species/northern-seaside-goldenrod-solidago-sempervirens.jpg
+      - name: { en: Alewife, es: Alosa }
+        scientific: Alosa pseudoharengus
+        status: native
+
+    river_fact:
+      text:
+        en: >-
+          Every spring, river herring came up out of the sea in numbers hard to
+          imagine now. A run like that is a reason to be somewhere in April, year
+          after year, for as long as people have been here. The dam and the tide
+          gate ended it. That is one sentence about ten thousand years, and it is
+          not enough.
+        es: >-
+          Cada primavera, los arenques de río subían del mar en cantidades hoy
+          difíciles de imaginar. Una subida así es una razón para estar en un
+          sitio en abril, año tras año, durante todo el tiempo que aquí ha habido
+          gente. La presa y la compuerta acabaron con ella. Eso es una frase
+          sobre diez mil años, y no basta.
+
+web:
+  subtitle:
+    en: A blank panel, on purpose, and what it would take to fill it
+    es: Un panel en blanco, a propósito, y lo que haría falta para llenarlo
+
+  body:
+    en: |
+      This page is a placeholder. So is the sign it belongs to. Both will stay
+      that way until the right people write them.
+
+      ## What happened
+
+      The Mill River Trail signage project produced thirteen interpretive signs.
+      They are good signs. They cover the Whitney dam, the Fenian Ram, the city
+      bath houses, the tide gate, Grapevine Point and the 29th Connecticut,
+      Dragon Point and the oyster fleet, the highway that residents stopped, and
+      William Lanson, who built the wharf that made New Haven a port.
+
+      The project's own research overview opens with a sentence about Indigenous
+      people hunting and fishing along this river for centuries before English
+      colonists put up the first mill in 1642 — and then does not come back to
+      it. Thirteen signs, four hundred years, and the several thousand years
+      before that get a subordinate clause.
+
+      That is not unusual. It is close to standard. Which is the problem.
+
+      ## Why we did not just write it
+
+      We could have. The sources exist in the sense that books exist: colonial
+      deeds, a 1638 agreement, place-name etymologies of varying reliability,
+      archaeological summaries. Assembled by us, at this distance, they would
+      have produced a competent-sounding panel about people described entirely
+      in the past tense, written by people with no standing to describe them, and
+      it would have been bolted to a post in metal.
+
+      Interpretive signs are unusually good at making a version of the past feel
+      settled. That is exactly why the first draft of this one should not come
+      from us.
+
+      ## What this sign needs
+
+      - **Someone with the standing to write it, found honestly.** This is the
+        hard part, and it is worth saying plainly why. The Quinnipiac are not a
+        federally or state-recognised nation. Connecticut recognises five tribes
+        — Mohegan, Mashantucket Pequot, Eastern Pequot, Schaghticoke and Golden
+        Hill Paugussett — and none of them is Quinnipiac. The organisation that
+        uses the Quinnipiac name most visibly online is an unrecognised heritage
+        nonprofit headquartered in Indiana, and its history does not survive
+        checking. Our own project notes named a "Quinnipiac Dawnland Council"
+        that does not appear to exist. So the first task is not writing. It is
+        asking, through the state's Indian Affairs Council, the Native American
+        Heritage Advisory Council and the State Archaeologist, and following the
+        protocol CT Humanities publishes for exactly this situation.
+      - **Primary sources, community-reviewed.** The Native Northeast Research
+        Collaborative — the former Yale Indian Papers Project, a mile from this
+        river — has spent two decades digitising and annotating the documentary
+        record with the relevant communities. Anything written here should start
+        there rather than with a summary of a summary.
+      - **A decision about where it goes.** The coordinates behind this page are
+        a placeholder on the tidal reach below East Rock, chosen so the locator
+        map has something to draw. The right location is part of what needs
+        deciding.
+      - **A decision about what it is.** Whether it is one sign, several, or a
+        different kind of thing entirely is not ours to settle.
+      - **Present tense.** The Quinnipiac are not a closed chapter, and a sign
+        that reads like an obituary would be worse than no sign.
+
+      ## The rest of the trail is revisable too
+
+      Every sign on this trail is a text file that can be edited and a plate that
+      can be reprinted. Nothing here is fixed. If the story of this river needs
+      to be told differently — on this panel or on any of the others — that is a
+      change to a paragraph, not a campaign.
+
+      If you can help, or if you think this framing is itself wrong, the trail
+      wants to hear it.
+
+    es: |
+      Esta página es un marcador de posición. También lo es el letrero al que
+      pertenece. Ambos seguirán así hasta que los escriban las personas
+      adecuadas.
+
+      ## Qué pasó
+
+      El proyecto de señalización del Mill River Trail produjo trece letreros
+      interpretativos. Son buenos letreros. Hablan de la presa de Whitney, el
+      Fenian Ram, las casetas de baños municipales, la compuerta de marea,
+      Grapevine Point y el 29.º de Connecticut, Dragon Point y la flota ostrera,
+      la autopista que los vecinos detuvieron y William Lanson, que construyó el
+      muelle que hizo de New Haven un puerto.
+
+      El resumen de investigación del propio proyecto empieza con una frase sobre
+      los pueblos indígenas que cazaron y pescaron en este río durante siglos
+      antes de que los colonos ingleses levantaran el primer molino en 1642, y
+      después no vuelve sobre ello. Trece letreros, cuatrocientos años, y los
+      varios miles de años anteriores reducidos a una oración subordinada.
+
+      No es raro. Es casi la norma. Que es justamente el problema.
+
+      ## Por qué no lo escribimos sin más
+
+      Podríamos haberlo hecho. Las fuentes existen en el sentido en que existen
+      los libros: escrituras coloniales, un acuerdo de 1638, etimologías de
+      topónimos de fiabilidad variable, resúmenes arqueológicos. Reunidos por
+      nosotros, a esta distancia, habrían dado un panel de sonido competente
+      sobre unas personas descritas por completo en pasado, escrito por gente sin
+      autoridad para describirlas, y habría quedado atornillado a un poste en
+      metal.
+
+      Los letreros interpretativos son extraordinariamente buenos haciendo que
+      una versión del pasado parezca zanjada. Precisamente por eso el primer
+      borrador de este no debe salir de nosotros.
+
+      ## Qué necesita este letrero
+
+      - **Alguien con autoridad para escribirlo, encontrado con honestidad.**
+        Esta es la parte difícil, y conviene decir por qué. Los quinnipiac no son
+        una nación reconocida por el gobierno federal ni por el estado.
+        Connecticut reconoce cinco tribus — mohegan, mashantucket pequot, eastern
+        pequot, schaghticoke y golden hill paugussett — y ninguna es quinnipiac.
+        La organización que usa el nombre quinnipiac de forma más visible en
+        internet es una entidad patrimonial no reconocida con sede en Indiana, y
+        su historia no resiste la comprobación. Nuestras propias notas nombraban
+        un "Quinnipiac Dawnland Council" que no parece existir. Así que la
+        primera tarea no es escribir. Es preguntar, a través del Indian Affairs
+        Council del estado, el Native American Heritage Advisory Council y el
+        arqueólogo estatal, siguiendo el protocolo que CT Humanities publica
+        precisamente para esto.
+      - **Fuentes primarias, revisadas por las comunidades.** El Native Northeast
+        Research Collaborative — el antiguo Yale Indian Papers Project, a una
+        milla de este río — lleva dos décadas digitalizando y anotando el
+        registro documental junto con las comunidades implicadas. Lo que se
+        escriba aquí debería empezar ahí y no en el resumen de un resumen.
+      - **Una decisión sobre dónde va.** Las coordenadas detrás de esta página
+        son provisionales, en el tramo de marea bajo East Rock, elegidas para que
+        el mapa de localización tenga algo que dibujar. La ubicación correcta
+        forma parte de lo que hay que decidir.
+      - **Una decisión sobre qué es.** Si es un letrero, varios o algo de otra
+        naturaleza no nos corresponde resolverlo.
+      - **Presente.** Los quinnipiac no son un capítulo cerrado, y un letrero que
+        se leyera como una esquela sería peor que ningún letrero.
+
+      ## El resto del sendero también es revisable
+
+      Cada letrero de este sendero es un archivo de texto que se puede editar y
+      una placa que se puede reimprimir. Aquí nada es definitivo. Si la historia
+      de este río debe contarse de otra manera — en este panel o en cualquier
+      otro — eso es cambiar un párrafo, no emprender una campaña.
+
+      Si puede ayudar, o si cree que este planteamiento es en sí mismo erróneo,
+      el sendero quiere saberlo.
+
+  gallery: []
+
+  sources:
+    - title: "Working with Indigenous Communities — CT Humanities"
+      url: https://cthumanities.org/indigenous/
+    - title: "Native Northeast Portal — Quinnipiac"
+      url: https://www.nativenortheastportal.com/bio-tribes/quinnipiac
+    - title: "Native Northeast Research Collaborative (formerly the Yale Indian Papers Project)"
+      url: https://www.thenativenortheast.org/
+    - title: "Connecticut law on Indian tribes — Office of Legislative Research"
+      url: https://www.cga.ct.gov/2007/rpt/2007-r-0475.htm
+    - title: "Tribal Affairs — Connecticut DEEP"
+      url: https://portal.ct.gov/deep/environmental-justice/tribal-affairs
+    - title: "Quinnipiac: The People of Long Water Land — Connecticut History"
+      url: https://connecticuthistory.org/the-people-of-the-long-water/
+    - title: "Mill River history — Mill River Trail"
+      url: https://www.millrivertrail.com/home/mill-river-history

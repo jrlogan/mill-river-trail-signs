@@ -43,20 +43,25 @@ sign:
       en: >-
         The 1910 report asked for an inner circuit of parks and parkways linked
         by paths that never crossed a highway, and warned that pollution was
-        already bad at low tide. In 1942 Maurice Rotival's plan reimagined the
-        city around the motor car, and by the 1950s an arterial road along the
-        Mill River and through East Rock was on the table. Residents formed a
-        Save Our Park Committee and stopped it, though Interstate 91 still took
-        ten acres. The 1987 Mill River Municipal Development Plan and the 2013
-        Mill River District Plan both turned back toward the water. This trail is
-        the current answer.
+        already bad at low tide. The mayor shelved it for paving and sewers.
+        Thirty years later Maurice Rotival, a French planner teaching at Yale,
+        looked at the same valley and saw the opposite: not a green buffer but a
+        corridor for heavy industry, freight rail and a high-speed road. His
+        successors built it. Residents stopped the road through the park in 1965,
+        but Interstate 91 still took ten acres. The 1987 Mill River Municipal
+        Development Plan and the 2013 Mill River District Plan both turned back
+        toward the water. This trail is the current answer.
       es: >-
         El informe de 1910 pedía un circuito interior de parques y avenidas
         unidos por senderos que nunca cruzaran una carretera, y advertía de que
         la contaminación ya era grave con la marea baja. En 1942 el plan de
         Maurice Rotival reimaginó la ciudad en torno al automóvil, y hacia 1950
         se planteó una vía arterial junto al río Mill y a través de East Rock.
-        Los vecinos formaron un comité, Save Our Park, y lo detuvieron, aunque la
+        Treinta años después de 1910, Rotival, un planificador francés que
+        enseñaba en Yale, miró el mismo valle y vio lo contrario: no una franja
+        verde, sino un corredor para industria pesada, ferrocarril de mercancías
+        y una vía rápida.
+        Los vecinos detuvieron la carretera del parque en 1965, aunque la
         interestatal 91 se llevó igualmente diez acres. El Plan Municipal de
         Desarrollo del Mill River de 1987 y el Plan del Distrito Mill River de
         2013 volvieron a mirar hacia el agua. Este sendero es la respuesta
@@ -79,7 +84,12 @@ sign:
       file: TODO-rotival-plan.jpg
       slot: left_bottom
       source_note: >-
-        Maurice Rotival's 1942 plan for New Haven. New Haven Museum; Yale.
+        Rotival's plan for New Haven, 1941-42 or the 1951-55 "Equilibrium Plan".
+        Maurice E. H. Rotival Papers, Yale Manuscripts and Archives, MS 898.
+        WARNING: in copyright — permission required, do not assume. A cheaper
+        alternative is the general plan drawing from the 1910 Gilbert and Olmsted
+        Civic Improvement Report, which is public domain and already scanned on
+        HathiTrust.
       caption:
         en: Rotival's 1942 plan rebuilt the city around the car.
         es: El plan de Rotival de 1942 rehízo la ciudad en torno al coche.
@@ -88,8 +98,11 @@ sign:
       file: TODO-i91-construction.jpg
       slot: center_bottom
       source_note: >-
-        Interstate 91 under construction along the Mill River, 1960s. New Haven
-        Museum; Connecticut State Library.
+        Interstate 91 under construction along the Mill River, c. 1963-65.
+        Connecticut State Library, State Archives, Record Group 089, photographic
+        files of highway construction, box: Interstate 91, New Haven. State
+        government work, public domain. Some scans are on the Connecticut Digital
+        Archive; the rest at the State Archives reading room in Hartford.
       caption:
         en: Interstate 91 took ten acres of park along the river.
         es: La interestatal 91 se llevó diez acres de parque junto al río.
@@ -159,22 +172,52 @@ web:
 
       The city built the walls.
 
-      ## 1942: Rotival
+      ## 1941: Rotival reads the same valley backwards
 
-      Maurice E. H. Rotival prepared a new comprehensive plan in 1942, and it
-      belonged to a different century of thinking: the city reorganised around
-      the automobile, with arterial roads cut through where they were needed.
+      **Maurice E. H. Rotival** was a French planner teaching at the Yale School
+      of Architecture when the City Plan Commission hired him in 1941. He thought
+      about cities as organisms — flows of freight, industry and traffic — and
+      when he looked at the Mill River he saw the exact inverse of what Gilbert
+      and Olmsted had seen.
+
+      Where they had wanted a green buffer between the neighbourhoods and the
+      factories, Rotival zoned the river lowlands, Cedar Hill and the harbour
+      shore **for heavy industry, freight rail and limited-access highways**. He
+      was the first to identify the valley as a natural north-south transit
+      spine, and the first to propose a high-speed road running down it at the
+      foot of East Rock.
+
+      He came back in 1951 with an "Equilibrium Plan" that said it again:
+      residential on the high ground to the west, logistics and motor traffic in
+      the river valley.
+
+      Nothing about the river had changed. The way of looking at it had.
+
+      ## 1954: the plan becomes bulldozers
+
+      Under **Mayor Richard C. Lee** and redevelopment director **Edward Logue**,
+      New Haven became the country's most famous test case for federal urban
+      renewal money — and Rotival's diagrams became contracts. The Mill River
+      Redevelopment Area cleared blocks of nineteenth-century housing, shops and
+      small works in the Wooster Square and Fair Haven borderlands, and replaced
+      them with single-storey plants and truck distribution yards.
 
       ## The road that wasn't built
 
-      In 1942 city planners first floated an arterial road running over the Mill
-      River and through East Rock. It was reconsidered on and off into the 1950s.
-      By 1959 and 1960 the parties involved broadly agreed on the route.
+      The arterial down the valley was the last piece, and the one that failed.
 
-      Then it became a fight. Residents and park groups called it a waste of good
-      parkland; the state highway department called it an integral part of the
-      system. A Save Our Park Committee formed and the East Rock Connector was
-      stopped. Interstate 91 still went through and took about ten acres.
+      By 1959 and 1960 the city, the state and the highway engineers broadly
+      agreed on the route. Then the drawings circulated, and people saw that the
+      Mill River itself was to be straightened into a concrete channel and used
+      as the median between the two carriageways.
+
+      The fight ran from 1961 to 1965 and ended in the statute book: a state law
+      that stopped the highway department taking municipal parkland without the
+      city's own aldermen approving it by majority vote. New Haven's aldermen
+      refused. The East Rock Connector was never built.
+
+      Interstate 91 still went through, and took about ten acres. **Sign 10, at
+      the foot of the rock, tells that story properly.**
 
       ## 1987 and 2013
 
@@ -215,24 +258,52 @@ web:
 
       La ciudad construyó los muros.
 
-      ## 1942: Rotival
+      ## 1941: Rotival lee el mismo valle al revés
 
-      Maurice E. H. Rotival preparó un nuevo plan general en 1942, y pertenecía a
-      otro siglo de pensamiento: la ciudad reorganizada en torno al automóvil,
-      con vías arteriales abiertas donde hicieran falta.
+      **Maurice E. H. Rotival** era un planificador francés que enseñaba en la
+      Escuela de Arquitectura de Yale cuando la Comisión de Planeamiento lo
+      contrató en 1941. Pensaba las ciudades como organismos — flujos de
+      mercancías, industria y tráfico — y cuando miró el río Mill vio justo lo
+      contrario que Gilbert y Olmsted.
+
+      Donde ellos habían querido una franja verde entre los barrios y las
+      fábricas, Rotival calificó las tierras bajas del río, Cedar Hill y la
+      orilla del puerto **para industria pesada, ferrocarril de mercancías y
+      autopistas de acceso limitado**. Fue el primero en ver el valle como un eje
+      natural de transporte norte-sur y el primero en proponer una vía rápida por
+      él, al pie de East Rock.
+
+      Volvió en 1951 con un "Plan de Equilibrio" que lo repetía: residencial en
+      las tierras altas del oeste, logística y automóvil en el valle del río.
+
+      Nada del río había cambiado. Había cambiado la manera de mirarlo.
+
+      ## 1954: el plan se convierte en excavadoras
+
+      Con el alcalde **Richard C. Lee** y el director de renovación urbana
+      **Edward Logue**, New Haven se convirtió en el caso de prueba más famoso del
+      país para el dinero federal de renovación urbana, y los diagramas de
+      Rotival se convirtieron en contratos. El Área de Renovación del Río Mill
+      arrasó manzanas de viviendas, comercios y talleres del siglo XIX en la
+      frontera entre Wooster Square y Fair Haven, y las sustituyó por naves de una
+      planta y patios de distribución por camión.
 
       ## La carretera que no se construyó
 
-      En 1942 los planificadores municipales plantearon por primera vez una vía
-      arterial sobre el río Mill y a través de East Rock. Se retomó de forma
-      intermitente hasta los años cincuenta. Hacia 1959 y 1960 las partes
-      implicadas coincidían a grandes rasgos en el trazado.
+      La vía arterial del valle era la última pieza, y la que falló.
 
-      Entonces se convirtió en una pelea. Vecinos y grupos de parques lo llamaron
-      un desperdicio de buen terreno de parque; el departamento estatal de
-      carreteras lo llamó parte integral del sistema. Se formó un comité, Save
-      Our Park, y el East Rock Connector se detuvo. La interestatal 91 se
-      construyó igualmente y se llevó unos diez acres.
+      Hacia 1959 y 1960 la ciudad, el estado y los ingenieros coincidían a
+      grandes rasgos en el trazado. Entonces circularon los planos y la gente vio
+      que el propio río Mill iba a ser enderezado en un canal de hormigón y usado
+      como mediana entre las dos calzadas.
+
+      La pelea duró de 1961 a 1965 y acabó en el código legal: una ley estatal que
+      impedía al departamento de carreteras tomar terreno municipal de parque sin
+      que los concejales de la propia ciudad lo aprobaran por mayoría. Los de New
+      Haven se negaron. El East Rock Connector nunca se construyó.
+
+      La interestatal 91 se hizo igualmente y se llevó unos diez acres. **El
+      letrero 10, al pie de la roca, cuenta esa historia como es debido.**
 
       ## 1987 y 2013
 

@@ -4,8 +4,9 @@ For whoever runs this next. You do not need to be a programmer to keep it going.
 
 ## What this is
 
-Thirteen interpretive signs for the Mill River Trail. Each one lives in a single
-text file under `content/`. Everything else — the printed artwork, the two web
+Fourteen interpretive signs for the Mill River Trail — thirteen written, and one
+(`sign-14-first-people.yml`) deliberately left blank, which is explained in
+`docs/DECISIONS.md`. Each one lives in a single text file under `content/`. Everything else — the printed artwork, the two web
 pages, the locator map, the QR codes — is generated from that file. You edit the
 text; a robot does the layout.
 
@@ -131,3 +132,5 @@ they are never published.**
 `README.md` explains the build. `docs/DECISIONS.md` explains why the content is
 the way it is, what is still unresolved, and which claims still need a source.
 Read that one before changing any historical text.
+`docs/RESEARCH-PROMPTS.md` holds ready-made prompts for the questions that are
+still open, with the ground rules that stop a research tool inventing citations.

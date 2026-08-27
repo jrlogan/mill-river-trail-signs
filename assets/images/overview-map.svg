@@ -113,6 +113,16 @@
     <text x="395.6" y="1669.9" text-anchor="middle"
           font-family="Archivo, sans-serif" font-weight="800" font-size="18" fill="#fff">13</text>
   </g>
+  <g class="mk" data-sign="sign-14-first-people">
+    <circle cx="417.3" cy="1037.1" r="17" fill="#E03127" stroke="#fff" stroke-width="3.5"/>
+    <text x="417.3" y="1043.6" text-anchor="middle"
+          font-family="Archivo, sans-serif" font-weight="800" font-size="18" fill="#fff">14</text>
+  </g>
+  <g class="mk" data-sign="sign-15-james-street">
+    <circle cx="491.2" cy="1400.3" r="17" fill="#E03127" stroke="#fff" stroke-width="3.5"/>
+    <text x="491.2" y="1406.8" text-anchor="middle"
+          font-family="Archivo, sans-serif" font-weight="800" font-size="18" fill="#fff">15</text>
+  </g>
 
   <g transform="translate(34 2088)">
     <line x1="0" y1="0" x2="216.4" y2="0" stroke="#15191C" stroke-width="3.5"/>

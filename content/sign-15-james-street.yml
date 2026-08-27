@@ -1,0 +1,317 @@
+# Sign 15: 370 James Street — DRAFT FOR REVIEW, artwork pending.
+#
+# Everything factual here is from the New Haven Museum's own micro-history of the
+# building, which is as local and as citable as this project gets:
+# https://www.newhavenmuseum.org/museum-collections/online-exhibitions/micro-histories/370-james-st/
+#
+# The four photographs on that page are credited to Jason Bischoff-Wurstle,
+# Director of Photo-Archives, who is already acknowledged as a contributor to
+# this project. The image briefs below assume that is the route. See
+# docs/DECISIONS.md.
+#
+# NOTE: the frequently quoted "240,000 square feet" is NOT from the museum and
+# is not used here. Do not add it without a source.
+id: sign-15-james-street
+number: 15
+status: draft
+
+location:
+  name: 370 James Street
+  place: Barnesville, at James and Humphrey Streets on the Mill River
+  lat: 41.3132619
+  lon: -72.9042581
+
+urls:
+  en: signs.MillRiverTrail.com/james-street
+  es: signs.MillRiverTrail.com/calle-james
+  en_full: https://signs.millrivertrail.com/james-street
+  es_full: https://signs.millrivertrail.com/calle-james
+
+title:
+  en: The Box and the Jacket
+  es: La Caja y la Chaqueta
+
+sign:
+  lede:
+    en: >-
+      The long brick building across the water spent seventy years making the
+      boxes that famous things came in — the Almond Joy wrapper, the Budweiser
+      carton, the Hershey's box — and then it spent twenty more making something
+      famous itself. If you owned a satin baseball jacket in 1990, it was
+      designed and shipped from here.
+    es: >-
+      El largo edificio de ladrillo al otro lado del agua pasó setenta años
+      fabricando las cajas en las que venían las cosas famosas — el envoltorio
+      del Almond Joy, la caja de Budweiser, la de Hershey's — y luego pasó veinte
+      más fabricando algo famoso él mismo. Si en 1990 tenía usted una chaqueta
+      satinada de béisbol, se diseñó y se envió desde aquí.
+
+  section:
+    heading:
+      en: Why Here
+      es: Por qué aquí
+    body:
+      en: >-
+        The National Folding Box Company came out of a merger of smaller carton
+        makers in New York, and in 1905 it chose New Haven as its production
+        centre and bought this entire block. The reason was the water and the
+        rails: barges below, spurs alongside, and a neighbourhood of people to
+        work the lines. The four-storey plant went up in 1914, and by 1927 this
+        was the largest and most prestigious folding box company in the world.
+        The river you are standing beside is the reason a global industry chose
+        this corner of Barnesville.
+      es: >-
+        La National Folding Box Company nació de la fusión de varios fabricantes
+        de cartón en Nueva York y en 1905 eligió New Haven como centro de
+        producción y compró esta manzana entera. La razón era el agua y el
+        ferrocarril: barcazas abajo, ramales al lado y un barrio entero de gente
+        para atender las líneas. La planta de cuatro pisos se levantó en 1914 y
+        en 1927 esta era la fábrica de cajas plegables más grande y prestigiosa
+        del mundo. El río junto al que está usted es la razón por la que una
+        industria mundial eligió este rincón de Barnesville.
+
+  images:
+    - key: The Plant
+      file: TODO-national-folding-box.jpg
+      slot: center_top
+      source_note: >-
+        The National Folding Box plant on James Street, 1914-1950s — exterior
+        from the river if possible, so the water and the building read together.
+        New Haven Museum photograph archives; four images are already published
+        on the museum's 370 James St. micro-history page, credited to Jason
+        Bischoff-Wurstle.
+      caption:
+        en: The plant that made the boxes, on the block it bought in 1905.
+        es: La fábrica que hacía las cajas, en la manzana que compró en 1905.
+
+    - key: The Line
+      file: TODO-box-workers.jpg
+      slot: left_bottom
+      source_note: >-
+        Workers on the folding-box lines. New Haven Museum. The point of this
+        slot is the labour — this was a neighbourhood's employer, not just a
+        famous address.
+      caption:
+        en: Thousands of people from these streets worked the lines.
+        es: Miles de personas de estas calles trabajaban en las líneas.
+
+    - key: Almond Joy
+      file: TODO-peter-paul-carton.jpg
+      slot: center_bottom
+      source_note: >-
+        A Peter Paul Mounds or Almond Joy wrapper or carton, or a National
+        Folding Box sample box for one of its named clients. Period packaging
+        turns up in collections and in the trade press; check the museum first.
+      caption:
+        en: >-
+          National made the Mounds and Almond Joy boxes — and helped start Peter
+          Paul in the first place.
+        es: >-
+          National hacía las cajas de Mounds y Almond Joy, y además ayudó a poner
+          en marcha Peter Paul.
+
+    - key: The Jacket
+      file: TODO-starter-jacket.jpg
+      slot: right_bottom
+      source_note: >-
+        A Starter satin jacket with the S-and-star logo, early 1990s, or the
+        Starter operation at 370 James Street. Photograph of an actual jacket is
+        fine and may be easiest to clear. Avoid current brand marketing imagery.
+      caption:
+        en: The jacket, designed and shipped from this building.
+        es: La chaqueta, diseñada y enviada desde este edificio.
+
+  panel:
+    species:
+      - name: { en: Great Mullein, es: Gordolobo }
+        scientific: Verbascum thapsus
+        status: introduced
+        file: species/great-mullein-verbascum-thapsus.jpg
+      - name: { en: Common Purslane, es: Verdolaga }
+        scientific: Portulaca oleracea
+        status: introduced
+        file: species/common-purslane-portulaca-oleracea.jpg
+      - name: { en: Autumn Olive, es: Olivo de otoño }
+        scientific: Elaeagnus umbellata
+        status: invasive
+        file: species/autumn-olive-elaeagnus-umbellata.jpg
+      - name: { en: Chimney Swift, es: Vencejo de chimenea }
+        scientific: Chaetura pelagica
+        status: native
+
+    river_fact:
+      text:
+        en: >-
+          Chimney swifts once nested in hollow trees. When the old forest went
+          and the mill chimneys went up, the birds moved in — they cannot perch,
+          only cling, and a factory flue suits them exactly. Watch the sky over
+          these roofs at dusk in late summer.
+        es: >-
+          Los vencejos de chimenea anidaban antes en árboles huecos. Cuando
+          desapareció el bosque viejo y se alzaron las chimeneas de las fábricas,
+          las aves se mudaron: no pueden posarse, solo agarrarse, y un tiro de
+          fábrica les viene exacto. Mire el cielo sobre estos tejados al
+          atardecer, a finales de verano.
+
+web:
+  subtitle:
+    en: The world's biggest box factory, and then the jacket everybody wanted
+    es: La mayor fábrica de cajas del mundo, y después la chaqueta que todos querían
+
+  body:
+    en: |
+      Most buildings get one story. This one got two, and both of them went
+      around the world.
+
+      ## The box
+
+      The National Folding Box Company was assembled in New York in the early
+      1890s out of a group of smaller carton makers. In 1905 it picked New Haven
+      as its production centre and bought this entire block on the Mill River —
+      for the shipping, the rail spurs alongside, and the workforce living within
+      walking distance in Fair Haven, Cedar Hill and Barnesville. The four-storey
+      plant went up in 1914.
+
+      By 1927 it was the largest and most prestigious folding box company in the
+      world.
+
+      This is easy to underrate, because a box is not a glamorous object. But the
+      whole twentieth-century idea of a branded product — something you recognise
+      on a shelf, sealed, printed, identical every time — depends on somebody
+      making the container. National printed for **Budweiser**, for **Hershey's**,
+      for **General Electric**, for the cigarette companies.
+
+      And for Peter Paul. National made the boxes for **Mounds and Almond Joy** —
+      and had helped start Peter Paul in the first place, as an outside
+      investment. A New Haven box company put money into a Connecticut candy
+      company and then printed its wrappers.
+
+      Then the paperboard mills of the American South, sitting next to the
+      timber, undercut New England on price. Federal Paper Board bought National
+      in 1953 and kept the plant running until 1974, when it closed.
+
+      ## The jacket
+
+      In 1971 a coach at Hamden Hall named **David Beckerman** started a company
+      and called it Starter — for being on the starting team rather than the
+      bench. In 1976 he moved it into the empty box factory on James Street, and
+      in that same year took a licence from Major League Baseball.
+
+      That licence is the hinge. Before it, a replica team jacket was not really
+      a product you could buy; afterwards it was an industry. Starter added the
+      NFL, the NBA, the NHL and the college programmes, and by the late 1980s the
+      satin jacket with the **S-and-star** on the sleeve was one of the most
+      recognisable objects in American popular culture — on the street, in
+      videos, in every school corridor in the country.
+
+      It was designed, licensed and shipped from a building on the Mill River.
+
+      The end came fast. Starter went public in 1993. The **1994 Major League
+      Baseball players' strike** took the wind out of the market at exactly the
+      wrong moment; the jackets were expensive to make; and there was ugly press
+      about people being robbed for them, which is a real part of this story and
+      not a footnote. The company declared bankruptcy in 1999.
+
+      ## Now
+
+      The building is still working. It houses ACES, the United Way of Greater
+      New Haven and Workforce Alliance — education, social services and job
+      training — and in May 2026 ACES bought it outright.
+
+      A daylight factory built for folding cardboard in 1914 is now full of
+      people helping other people find work. That is a better ending than most
+      New England mill buildings get.
+
+      ## Where you are
+
+      This stretch of the Mill River is Barnesville, and it has been the edge
+      between the city and its industry for two centuries. The tide gate is just
+      upstream. The bridge where two boys drowned in 1892, prompting a newspaper
+      headline reading "Need of a Bath House," was a few hundred feet from here.
+
+    es: |
+      Casi todos los edificios tienen una historia. Este tuvo dos, y las dos
+      dieron la vuelta al mundo.
+
+      ## La caja
+
+      La National Folding Box Company se formó en Nueva York a principios de la
+      década de 1890 con la unión de varios fabricantes de cartón. En 1905 eligió
+      New Haven como centro de producción y compró esta manzana entera junto al
+      río Mill: por el transporte fluvial, por los ramales de ferrocarril al lado
+      y por la mano de obra que vivía a pie de fábrica en Fair Haven, Cedar Hill
+      y Barnesville. La planta de cuatro pisos se levantó en 1914.
+
+      En 1927 era la fábrica de cajas plegables más grande y prestigiosa del
+      mundo.
+
+      Es fácil restarle importancia, porque una caja no es un objeto glamuroso.
+      Pero toda la idea del producto de marca del siglo XX — algo que se reconoce
+      en un estante, sellado, impreso, idéntico siempre — depende de que alguien
+      fabrique el envase. National imprimía para **Budweiser**, para
+      **Hershey's**, para **General Electric** y para las tabacaleras.
+
+      Y para Peter Paul. National hacía las cajas de **Mounds y Almond Joy**, y
+      además había ayudado a poner en marcha Peter Paul como inversión externa.
+      Una fábrica de cajas de New Haven puso dinero en una empresa de golosinas
+      de Connecticut y después imprimió sus envoltorios.
+
+      Luego las fábricas de cartón del sur de Estados Unidos, junto a la madera,
+      bajaron los precios por debajo de lo que Nueva Inglaterra podía igualar.
+      Federal Paper Board compró National en 1953 y mantuvo la planta en marcha
+      hasta 1974, cuando cerró.
+
+      ## La chaqueta
+
+      En 1971 un entrenador del Hamden Hall llamado **David Beckerman** fundó una
+      empresa y la llamó Starter, por estar en el equipo titular y no en el
+      banquillo. En 1976 la trasladó a la fábrica de cajas vacía de James Street
+      y ese mismo año consiguió una licencia de las Grandes Ligas de béisbol.
+
+      Esa licencia es la bisagra. Antes, una chaqueta de equipo no era realmente
+      un producto que se pudiera comprar; después, era una industria. Starter
+      sumó la NFL, la NBA, la NHL y los programas universitarios, y a finales de
+      los ochenta la chaqueta satinada con la **S y la estrella** en la manga era
+      uno de los objetos más reconocibles de la cultura popular estadounidense:
+      en la calle, en los vídeos, en los pasillos de todos los institutos del
+      país.
+
+      Se diseñaba, se licenciaba y se enviaba desde un edificio junto al río
+      Mill.
+
+      El final llegó rápido. Starter salió a bolsa en 1993. La **huelga de
+      jugadores de las Grandes Ligas de 1994** dejó al mercado sin aire en el peor
+      momento posible; las chaquetas eran caras de fabricar; y hubo una cobertura
+      de prensa desagradable sobre gente a la que robaban para quitárselas, que
+      es una parte real de esta historia y no una nota al pie. La empresa se
+      declaró en quiebra en 1999.
+
+      ## Ahora
+
+      El edificio sigue trabajando. Alberga ACES, United Way of Greater New Haven
+      y Workforce Alliance — educación, servicios sociales y formación laboral — y
+      en mayo de 2026 ACES lo compró en propiedad.
+
+      Una fábrica de luz natural construida en 1914 para plegar cartón está hoy
+      llena de gente que ayuda a otra gente a encontrar trabajo. Es mejor final
+      del que tienen la mayoría de las fábricas de Nueva Inglaterra.
+
+      ## Dónde está usted
+
+      Este tramo del río Mill es Barnesville, y lleva dos siglos siendo el borde
+      entre la ciudad y su industria. La compuerta de marea queda justo aguas
+      arriba. El puente donde se ahogaron dos niños en 1892, y que llevó a un
+      periódico a titular "Hace falta una caseta de baños", estaba a unos cientos
+      de pies de aquí.
+
+  gallery: []
+
+  sources:
+    - title: "370 James St. — Home of the National Box Company and Starter, Inc. (New Haven Museum)"
+      url: https://www.newhavenmuseum.org/museum-collections/online-exhibitions/micro-histories/370-james-st/
+    - title: "River St. — New Haven Museum micro-history"
+      url: https://www.newhavenmuseum.org/museum-collections/online-exhibitions/micro-histories/river-st/
+    - title: "ACES buys Fair Haven office building for $14.6M — New Haven Independent, May 2026"
+      url: https://www.newhavenindependent.org/2026/05/05/aces-buys-fair-haven-office-building-for-14-6m/
+    - title: "River Street Historic District, New Haven"
+      url: https://en.wikipedia.org/wiki/River_Street_Historic_District_(New_Haven,_Connecticut)
