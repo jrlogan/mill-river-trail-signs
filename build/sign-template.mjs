@@ -49,10 +49,14 @@ export const speciesTop = (P, n) =>
 const esc = (s = '') =>
   String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
+// Body copy uses **bold** the way render-site.mjs does for the web pages; the
+// print side has to honour the same mark, or the asterisks end up on the metal.
+const rich = (s = '') => esc(s).replace(/\*\*([^*]+)\*\*/g, '<b>$1</b>');
+
 // Wrap the first letter of a paragraph in a drop cap, as the comp does.
 const dropCap = (text) => {
   const t = String(text).trim();
-  return `<span class="dropcap">${esc(t[0])}</span>${esc(t.slice(1))}`;
+  return `<span class="dropcap">${esc(t[0])}</span>${rich(t.slice(1))}`;
 };
 
 // Drawn in place of art that has not been sourced yet, so a draft sign can be
@@ -370,7 +374,7 @@ export function signHTML(sign, { qrEn, qrEs, diagramAspect = null, assetBase = '
     <p class="body-text">${dropCap(s.lede.en)}</p>
     <div class="col-rule"></div>
     <h2 class="section-head">${esc(s.section.heading.en)}</h2>
-    <p class="body-text">${esc(s.section.body.en)}</p>
+    <p class="body-text">${rich(s.section.body.en)}</p>
   </div></div>
 
   <!-- CENTRE COLUMN -->
@@ -385,7 +389,7 @@ export function signHTML(sign, { qrEn, qrEs, diagramAspect = null, assetBase = '
     <p class="body-text">${dropCap(s.lede.es)}</p>
     <div class="col-rule"></div>
     <h2 class="section-head">${esc(s.section.heading.es)}</h2>
-    <p class="body-text">${esc(s.section.body.es)}</p>
+    <p class="body-text">${rich(s.section.body.es)}</p>
   </div></div>
 
   <!-- HERO IMAGE + CAPTIONS -->
